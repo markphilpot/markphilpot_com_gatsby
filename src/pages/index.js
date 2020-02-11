@@ -1,16 +1,24 @@
 import React from 'react';
-import { Link, graphql } from 'gatsby';
+import { Link, graphql, useStaticQuery } from 'gatsby';
+import { useColorMode } from 'theme-ui'
 
 import { Heading, Text } from 'theme-ui';
 
 import Layout from '../components/layout';
+import Hero from '../components/Hero';
+import NavBar from '../components/NavBar';
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title;
   const posts = data.allMdx.edges;
+  const { heroLight, heroDark } = data;
+
+  const [colorMode] = useColorMode();
 
   return (
     <Layout location={location} title={siteTitle}>
+      <Hero hero={colorMode === 'default' ? heroLight : heroDark}/>
+      <NavBar/>
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug;
         return (
@@ -50,6 +58,12 @@ export const pageQuery = graphql`
       siteMetadata {
         title
       }
+    }
+    heroLight: file(absolutePath: { regex: "/gg_bridge_light.jpg/" }) {
+      publicURL
+    }
+    heroDark: file(absolutePath: { regex: "/gg_bridge_dark.jpg/" }) {
+      publicURL
     }
     allMdx(sort: { fields: [frontmatter___date], order: DESC }) {
       edges {

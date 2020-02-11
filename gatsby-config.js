@@ -17,12 +17,28 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/assets`,
+        name: `assets`,
+      },
+    },
+    {
       resolve: `gatsby-plugin-mdx`,
       options: {
         extensions: [`.mdx`, `.md`],
         gatsbyRemarkPlugins: [
           {
             resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 1920,
+              wrapperStyle: (img) => {
+                if(img.presentationWidth === 1920) {
+                  return 'margin-left: calc((100vw - 660px) / -2); max-width: 100vw; width: 100vw;'
+                }
+                return '';
+              }
+            }
           },
           {
             resolve: `gatsby-remark-responsive-iframe`,
