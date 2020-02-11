@@ -1,5 +1,5 @@
 const path = require(`path`);
-const { DateTime } = require("luxon");
+const { DateTime } = require('luxon');
 const { createFilePath } = require(`gatsby-source-filesystem`);
 
 exports.createPages = async ({ graphql, actions }) => {

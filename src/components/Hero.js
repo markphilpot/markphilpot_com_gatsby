@@ -1,20 +1,23 @@
 import React from 'react';
 import { Box } from 'theme-ui';
 
-const Hero = (props) => {
+const Hero = props => {
   const { hero } = props;
 
-  if(hero == null) {
+  if (hero == null) {
     return null;
   }
 
   return (
-    <Box css={{
-      height: '250px',
-      backgroundPosition: 'center center',
-      backgroundImage: `url(${hero.publicURL})`,
-    }}/>
-  )
-}
+    <Box
+      css={{
+        height: '250px',
+        backgroundPosition: 'center center',
+        backgroundImage: `url(${hero.publicURL})`,
+        backgroundSize: 'cover',
+      }}
+    />
+  );
+};
 
 export default Hero;

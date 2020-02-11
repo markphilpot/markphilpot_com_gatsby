@@ -23,10 +23,12 @@ const BlogIndex = ({ data, location }) => {
               </Heading>
               <small>{node.frontmatter.date}</small>
             </header>
-            <section style={{
-              margin: '0 auto',
-              maxWidth: '33rem',
-            }}>
+            <section
+              style={{
+                margin: '0 auto',
+                maxWidth: '33rem',
+              }}
+            >
               <p
                 dangerouslySetInnerHTML={{
                   __html: node.excerpt,

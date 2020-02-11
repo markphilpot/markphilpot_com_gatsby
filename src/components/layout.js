@@ -1,6 +1,20 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import Footer from "./Footer";
+import { Box } from 'theme-ui';
+import Footer from './Footer';
+
+export const CenterColumn = ({ children }) => {
+  return (
+    <Box
+      css={{
+        margin: '0 auto',
+        maxWidth: '660px',
+      }}
+    >
+      {children}
+    </Box>
+  );
+};
 
 const Layout = ({ location, title, children }) => {
   // const rootPath = `${__PATH_PREFIX__}/`;
@@ -54,7 +68,7 @@ const Layout = ({ location, title, children }) => {
     >
       <main>{children}</main>
       {/*<footer>© {new Date().getFullYear()}</footer>*/}
-      <Footer/>
+      <Footer />
     </div>
   );
 };

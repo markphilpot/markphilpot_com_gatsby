@@ -1,11 +1,12 @@
 import React from 'react';
 import { Link, graphql } from 'gatsby';
-import { MDXRenderer } from "gatsby-plugin-mdx"
+import { MDXRenderer } from 'gatsby-plugin-mdx';
 
 import { Text, Heading } from 'theme-ui';
 
 import Layout from '../components/layout';
-import Hero from "../components/Hero";
+import Hero from '../components/Hero';
+import NavBar from '../components/NavBar';
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.mdx;
@@ -14,18 +15,29 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <Hero hero={post.frontmatter.hero}/>
-      <article style={{
-        margin: '0 auto',
-        maxWidth: '660px',
-      }}>
+      <Hero hero={post.frontmatter.hero} />
+      <NavBar />
+      <article
+        style={{
+          margin: '0 auto',
+          maxWidth: '660px',
+        }}
+      >
         <header>
-          <Text sx={{ fontSize: 0, fontWeight: 'bold', color: 'accent' }} variant={'caps'}>{post.frontmatter.date}</Text>
-          <Heading as='h1' sx={{
-            mb: 10,
-            mt: 6,
-            fontSize: 6,
-          }} css={{ textAlign: 'center'}}>{post.frontmatter.title}</Heading>
+          <Text sx={{ fontSize: 0, fontWeight: 'bold', color: 'accent' }} variant={'caps'}>
+            {post.frontmatter.date}
+          </Text>
+          <Heading
+            as="h1"
+            sx={{
+              mb: 10,
+              mt: 6,
+              fontSize: 6,
+            }}
+            css={{ textAlign: 'center' }}
+          >
+            {post.frontmatter.title}
+          </Heading>
         </header>
         <section>
           <MDXRenderer>{post.body}</MDXRenderer>
