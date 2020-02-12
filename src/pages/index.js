@@ -1,10 +1,10 @@
 import React from 'react';
-import { Link, graphql, useStaticQuery } from 'gatsby';
-import { useColorMode } from 'theme-ui'
+import { Link, graphql } from 'gatsby';
+import { useColorMode, Box, Flex, Heading, Text } from 'theme-ui';
+import { DateTime } from 'luxon';
+import Image from 'gatsby-image';
 
-import { Heading, Text } from 'theme-ui';
-
-import Layout from '../components/layout';
+import Layout, { CenterColumn } from '../components/layout';
 import Hero from '../components/Hero';
 import NavBar from '../components/NavBar';
 
@@ -17,35 +17,91 @@ const BlogIndex = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <Hero hero={colorMode === 'default' ? heroLight : heroDark}/>
-      <NavBar/>
-      {posts.map(({ node }) => {
-        const title = node.frontmatter.title || node.fields.slug;
-        return (
-          <article key={node.fields.slug}>
-            <header>
-              <Heading as={'h3'}>
-                <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-                  {title}
-                </Link>
-              </Heading>
-              <small>{node.frontmatter.date}</small>
-            </header>
-            <section
-              style={{
-                margin: '0 auto',
-                maxWidth: '33rem',
-              }}
-            >
-              <p
-                dangerouslySetInnerHTML={{
-                  __html: node.excerpt,
+      <Hero hero={colorMode === 'default' ? heroLight : heroDark} />
+      <NavBar />
+      <CenterColumn>
+        {posts.map(({ node }, index, p) => {
+          const currentYear = DateTime.fromSQL(node.frontmatter.date).year;
+          const prevYear = index > 0 ? DateTime.fromSQL(p[index].node.frontmatter.date).year : null;
+
+          let year = null;
+          if (currentYear !== prevYear) {
+            year = (
+              <Box
+                css={{
+                  position: 'absolute',
+                  width: '150px',
+                  left: '-190px',
+                  textAlign: 'right',
                 }}
-              />
-            </section>
-          </article>
-        );
-      })}
+              >
+                <Heading>{currentYear}</Heading>
+              </Box>
+            );
+          }
+
+          const title = node.frontmatter.title || node.fields.slug;
+          return (
+            <article style={{ position: 'relative' }} key={node.fields.slug}>
+              {year}
+              <Link style={{ textDecoration: 'none' }} to={node.fields.slug}>
+                <Box
+                  css={{
+                    position: 'relative',
+                  }}
+                >
+                  <Image style={{ borderRadius: 4 }} fluid={node.frontmatter.featured_image.childImageSharp.fluid} />
+                  <Flex
+                    sx={{
+                      alignItems: 'center',
+                      justifyContent: 'space-between',
+                      position: 'absolute',
+                      bottom: 0,
+                      width: '100%',
+                      px: 2,
+                      backgroundColor: 'rgba(255, 255, 255, 0.75)',
+                    }}
+                  >
+                    <Text
+                      sx={{
+                        color: '#2E3440',
+                        fontSize: 4,
+                      }}
+                    >
+                      {title}
+                    </Text>
+                    <Flex
+                      sx={{
+                        flexDirection: 'column',
+                        alignItems: 'flex-end',
+                      }}
+                    >
+                      <Text
+                        sx={{
+                          variant: 'text.caps',
+                          fontSize: 0,
+                          fontWeight: 'bold',
+                          color: '#2E3440',
+                        }}
+                      >
+                        {DateTime.fromSQL(node.frontmatter.date).toFormat('LLLL d, yyyy')}
+                      </Text>
+                      <Text
+                        sx={{
+                          fontSize: 0,
+                          color: '#2E3440',
+                        }}
+                      >
+                        {node.frontmatter.tags.join(', ')}
+                      </Text>
+                    </Flex>
+                  </Flex>
+                </Box>
+              </Link>
+            </article>
+          );
+        })}
+      </CenterColumn>
     </Layout>
   );
 };
@@ -73,8 +129,16 @@ export const pageQuery = graphql`
             slug
           }
           frontmatter {
-            date(formatString: "MMMM DD, YYYY")
+            date
             title
+            tags
+            featured_image {
+              childImageSharp {
+                fluid {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
           }
         }
       }

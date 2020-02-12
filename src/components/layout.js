@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'gatsby';
 import { Box } from 'theme-ui';
 import Footer from './Footer';
 

@@ -1,6 +1,6 @@
 import React from 'react';
 // import { Link } from 'gatsby';
-import { Box, Flex } from 'theme-ui';
+import { Flex } from 'theme-ui';
 import { CenterColumn } from './layout';
 import Link from './Link';
 
