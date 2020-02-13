@@ -22,13 +22,18 @@ export default {
     text: '#000000',
     background: '#ECEFF4',
     accent: '#5f7782',
+    microBg: 'rgba(216,222,233,0.6)',
     modes: {
       dark: {
         text: '#BEBEBE',
         background: '#1A1A1A',
         accent: '#5f7782',
+        microBg: 'rgba(46,52,64,0.4)'
       },
     },
+  },
+  shadows: {
+    microBg: '0px 0px 8px 12px',
   },
   text: {
     caps: {
@@ -103,7 +108,10 @@ export default {
     },
     code: {
       fontFamily: 'monospace',
-      fontSize: 'inherit',
+      fontSize: 3,
+      bg: 'accent',
+      px: 2,
+      borderRadius: 2,
     },
     table: {
       width: '100%',

@@ -57,10 +57,16 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     const fullSlug = `/posts/${d.year}/${d.toFormat('LL')}/${d.toFormat('dd')}/${slug}`;
 
     // const value = createFilePath({ node, getNode });
+    const fileNode = getNode(node.parent);
     createNodeField({
       name: `slug`,
       node,
       value: fullSlug,
+    });
+    createNodeField({
+      node,
+      name: 'sourceName',
+      value: fileNode.sourceInstanceName,
     });
   }
 };

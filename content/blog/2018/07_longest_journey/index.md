@@ -13,7 +13,7 @@ In the summer of 2000 I stumbled upon a review of this new point-&-click adventu
 
 By way of stage setting, King's Quest VI came out in the fall of 1992. Space Quest V came out in the spring of 1993. Full Throttle arrived in the spring of 1995. The late 80's/early 90's was the golden age of adventure gaming -- right smack center of my gaming adolescence. But the late 90's saw this all dry up. The gaming landscape had pivoted to 3D and FPS. It was clear, even by 1999 that story-driven adventure games were all but dead, at least from main stream gaming. So when I heard of this ambitious new project, The Longest Journey appeared from nowhere, I was A) shocked and B) like a dehydrated man stumbling upon an oasis, eager to consume as much as I could.
 
-![The Longest Journey](tlj_title.jpg?ew1920 'The Longest Journey')
+![The Longest Journey](tlj_title.jpg 'The Longest Journey')
 
 I'm not sure what I appreciate most: the world building, mythos, characters, dialog, OST... There is so much to like about this ambitious undertaking written and designed by Ragnar Tørnquist. That being said, let me direct my first shot of praise on the lead protagonist -- April Ryan.
 

@@ -108,6 +108,8 @@ const BlogIndex = ({ data, location }) => {
 
 export default BlogIndex;
 
+//filter: { sourceInstanceName: { eq: "blog" } },
+
 export const pageQuery = graphql`
   query {
     site {
@@ -121,7 +123,7 @@ export const pageQuery = graphql`
     heroDark: file(absolutePath: { regex: "/gg_bridge_dark.jpg/" }) {
       publicURL
     }
-    allMdx(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMdx(filter: {fields: {sourceName: {eq: "blog"}}}, sort: { fields: [frontmatter___date], order: DESC }) {
       edges {
         node {
           excerpt
