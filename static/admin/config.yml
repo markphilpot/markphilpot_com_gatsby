@@ -1,0 +1,58 @@
+backend:
+  name: github
+  repo: markphilpot/markphilpot_com_gatsby
+  branch: master # Branch to update (optional; defaults to master)
+  accept_roles: #optional - accepts all users if left out
+    - admin
+publish_mode: editorial_workflow
+media_folder: "content/uploads" # Media files will be stored in the repo under images/uploads
+public_folder: "/uploads" # The src attribute for uploaded media will begin with /images/uploads
+
+collections:
+  - name: "posts"
+    label: "Posts"
+    label_singular: 'Post'
+    folder: "content/blog"
+    format: "yaml-frontmatter"
+    extension: "md"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    path: '{{year}}/{{slug}}/index'
+    media_folder: ''
+    public_folder: ''
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss"}
+      - {label: "Category", name: "category", widget: "hidden", default: "blog"}
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        default:
+          - anime
+          - retrospective
+          - first impressions
+          - mac
+      - {label: "Slug", name: "slug", widget: "string"}
+      - {label: "Summary", name: "summary", widget: "string"}
+      - {label: "hero", name: "Hero", widget: "string", default: ""}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "micro"
+    label: "Micro"
+    folder: "content/micro"
+    format: "yaml-frontmatter"
+    extension: "md"
+    create: true
+    slug: "{{year}}{{month}}{{day}}-{{hour}}{{minute}}{{second}}"
+    identifier_field: slug
+    path: '{{slug}}/index'
+    media_folder: ''
+    public_folder: ''
+    fields: # The fields for each document, usually in front matter
+      - {label: "Category", name: "category", widget: "hidden", default: "micro"}
+      - {label: "Title", name: "title", widget: "hidden", default: ""}
+      - {label: "Label", name: "label", widget: "string", hint: "CMS Title"}
+      - {label: "Path", name: "path", widget: "hidden", default: "used_for_slug" }
+      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss" }
+      - {label: "Slug", name: "slug", widget: "datetime", format: "YYYY-MM-DDTHH:mm:ss"}
+      - {label: "Featured Image", name: "featured_image", widget: "string", hint: "/images/micro/X.jpg or /images/uploads/X.jpg"}
+      - {label: "Body", name: "body", widget: "markdown"}
