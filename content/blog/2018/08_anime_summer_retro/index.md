@@ -9,8 +9,6 @@ hero: "cards/hero.jpg"
 featured_image: "cards/hero.jpg"
 ---
 
-[TOC]
-
 A pattern is being established. Watch the first 6 or so episodes of a series then hold off watching anymore until it's complete then binge the rest. Shows where I have a casual interest or aren't setup to have a last arc build up I'll follow throughout the shows run, but I definitely prefer to watch episodes 10, 11 and 12 of a show back to back rather than wait three weeks.
 
 
