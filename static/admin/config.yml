@@ -2,6 +2,7 @@ backend:
   name: github
   repo: markphilpot/markphilpot_com_gatsby
   branch: master # Branch to update (optional; defaults to master)
+  squash_merges: true
   accept_roles: #optional - accepts all users if left out
     - admin
 publish_mode: editorial_workflow
