@@ -2,6 +2,8 @@ import React from 'react';
 import { Box } from 'theme-ui';
 import Footer from './Footer';
 
+import './layout.css';
+
 export const CenterColumn = ({ children }) => {
   return (
     <Box

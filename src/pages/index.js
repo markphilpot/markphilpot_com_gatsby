@@ -46,8 +46,9 @@ const BlogIndex = ({ data, location }) => {
               {year}
               <Link style={{ textDecoration: 'none' }} to={node.fields.slug}>
                 <Box
-                  css={{
+                  sx={{
                     position: 'relative',
+                    mb: 10,
                   }}
                 >
                   <Image style={{ borderRadius: 4 }} fluid={node.frontmatter.featured_image.childImageSharp.fluid} />

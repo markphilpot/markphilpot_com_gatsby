@@ -1,12 +1,13 @@
 import React from 'react';
-import { Link, graphql } from 'gatsby';
+import { graphql } from 'gatsby';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
 
-import { Text, Heading } from 'theme-ui';
+import { Flex, Text, Heading } from 'theme-ui';
 
-import Layout from '../components/layout';
+import Layout, { CenterColumn } from '../components/layout';
 import Hero from '../components/Hero';
 import NavBar from '../components/NavBar';
+import Link from '../components/Link';
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.mdx;
@@ -43,35 +44,22 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
           <MDXRenderer>{post.body}</MDXRenderer>
         </section>
         <hr />
-        <footer>{/*<Bio />*/}</footer>
       </article>
 
-      <nav>
-        <ul
-          style={{
-            display: `flex`,
-            flexWrap: `wrap`,
-            justifyContent: `space-between`,
-            listStyle: `none`,
-            padding: 0,
-          }}
-        >
-          <li>
-            {previous && (
-              <Link to={previous.fields.slug} rel="prev">
-                ← {previous.frontmatter.title}
-              </Link>
-            )}
-          </li>
-          <li>
-            {next && (
-              <Link to={next.fields.slug} rel="next">
-                {next.frontmatter.title} →
-              </Link>
-            )}
-          </li>
-        </ul>
-      </nav>
+      <CenterColumn>
+        <nav>
+        <Flex sx={{
+          justifyContent: 'space-between'
+        }}>
+          <Link sx={{ variant: 'styles.navlink', fontSize: 3 }} to={previous.fields.slug} rel="prev">
+            {previous.frontmatter.title}
+          </Link>
+          <Link sx={{ variant: 'styles.navlink', fontSize: 3 }} to={next.fields.slug} rel="next">
+            {next.frontmatter.title}
+          </Link>
+        </Flex>
+        </nav>
+      </CenterColumn>
     </Layout>
   );
 };

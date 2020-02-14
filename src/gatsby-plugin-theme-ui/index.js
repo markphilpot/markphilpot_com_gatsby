@@ -22,12 +22,14 @@ export default {
     text: '#000000',
     background: '#ECEFF4',
     accent: '#5f7782',
+    muted: 'rgba(0, 0, 0, 0.6)',
     microBg: 'rgba(216,222,233,0.6)',
     modes: {
       dark: {
         text: '#BEBEBE',
         background: '#1A1A1A',
         accent: '#5f7782',
+        muted: 'rgba(255, 255, 255, 0.6)',
         microBg: 'rgba(46,52,64,0.4)'
       },
     },
@@ -109,7 +111,7 @@ export default {
     code: {
       fontFamily: 'monospace',
       fontSize: 3,
-      bg: 'accent',
+      bg: 'microBg',
       px: 2,
       borderRadius: 2,
     },

@@ -28,13 +28,18 @@ const Hero = props => {
     >
       <IconButton aria-label={'Toggle Dark Mode'} sx={{
         position: 'absolute',
-        bottom: 8,
-        right: 8,
+        bottom: 6,
+        right: 6,
         cursor: 'pointer',
         '&:focus': {
           outline: 'none',
         },
-        fontSize: 3
+        '&:hover': {
+          opacity: 1
+        },
+        fontSize: 3,
+        bg: 'accent',
+        opacity: 0.6,
       }} onClick={handleThemeChange}>
         <FontAwesomeIcon icon={colorMode === 'default' ? faMoon : faSun} />
       </IconButton>
