@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link, graphql } from 'gatsby';
-import { useColorMode, Box, Flex, Heading, Text } from 'theme-ui';
+import { useColorMode, Box, Flex, Text } from 'theme-ui';
 import { DateTime } from 'luxon';
 import Image from 'gatsby-image';
 
 import Layout, { CenterColumn } from '../components/layout';
 import Hero from '../components/Hero';
 import NavBar from '../components/NavBar';
+import { Year } from '../components/typography';
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title;
@@ -26,18 +27,7 @@ const BlogIndex = ({ data, location }) => {
 
           let year = null;
           if (currentYear !== prevYear) {
-            year = (
-              <Box
-                css={{
-                  position: 'absolute',
-                  width: '150px',
-                  left: '-190px',
-                  textAlign: 'right',
-                }}
-              >
-                <Heading>{currentYear}</Heading>
-              </Box>
-            );
+            year = <Year>{currentYear}</Year>;
           }
 
           const title = node.frontmatter.title || node.fields.slug;
@@ -124,7 +114,7 @@ export const pageQuery = graphql`
     heroDark: file(absolutePath: { regex: "/gg_bridge_dark.jpg/" }) {
       publicURL
     }
-    allMdx(filter: {fields: {sourceName: {eq: "blog"}}}, sort: { fields: [frontmatter___date], order: DESC }) {
+    allMdx(filter: { fields: { sourceName: { eq: "blog" } } }, sort: { fields: [frontmatter___date], order: DESC }) {
       edges {
         node {
           excerpt

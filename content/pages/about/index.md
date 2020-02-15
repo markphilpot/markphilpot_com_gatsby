@@ -1,6 +1,6 @@
 ---
 title: About
-date: "2016-03-02 22:23:00"
+date: '2016-03-02 22:23:00'
 slug: about
 summary: About Mark Philpot
 ---

@@ -46,7 +46,7 @@ module.exports = {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 1920,
-              wrapperStyle: (img) => {
+              wrapperStyle: img => {
                 // console.log( img;
                 if (img.presentationWidth === 1920 && img.aspectRatio > 3) {
                   return 'margin-left: calc((100vw - 660px) / -2); max-width: 100vw; width: 100vw;';

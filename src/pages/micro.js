@@ -1,13 +1,13 @@
 import React from 'react';
-import { Link, graphql } from 'gatsby';
-import { useColorMode, Box, Flex, Heading, Text } from 'theme-ui';
+import { graphql } from 'gatsby';
+import { useColorMode, Box, Text } from 'theme-ui';
 import { DateTime } from 'luxon';
-import Image from 'gatsby-image';
 
 import Layout, { CenterColumn } from '../components/layout';
 import Hero from '../components/Hero';
 import NavBar from '../components/NavBar';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
+import { Year } from '../components/typography';
 
 const MicroIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title;
@@ -23,22 +23,11 @@ const MicroIndex = ({ data, location }) => {
       <CenterColumn>
         {posts.map(({ node }, index, p) => {
           const currentYear = DateTime.fromSQL(node.frontmatter.date).year;
-          const prevYear = index > 0 ? DateTime.fromSQL(p[index-1].node.frontmatter.date).year : null;
+          const prevYear = index > 0 ? DateTime.fromSQL(p[index - 1].node.frontmatter.date).year : null;
 
           let year = null;
           if (currentYear !== prevYear) {
-            year = (
-              <Box
-                css={{
-                  position: 'absolute',
-                  width: '150px',
-                  left: '-190px',
-                  textAlign: 'right',
-                }}
-              >
-                <Heading>{currentYear}</Heading>
-              </Box>
-            );
+            year = <Year>{currentYear}</Year>;
           }
           return (
             <article style={{ position: 'relative' }} key={node.fields.slug}>
@@ -91,7 +80,7 @@ export const pageQuery = graphql`
     heroDark: file(absolutePath: { regex: "/gg_bridge_dark.jpg/" }) {
       publicURL
     }
-    allMdx(filter: {fields: {sourceName: {eq: "micro"}}}, sort: { fields: [frontmatter___date], order: DESC }) {
+    allMdx(filter: { fields: { sourceName: { eq: "micro" } } }, sort: { fields: [frontmatter___date], order: DESC }) {
       edges {
         node {
           body

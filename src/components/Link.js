@@ -10,8 +10,12 @@ export default props => (
     sx={{
       color: 'inherit',
       '&.active': {
-        color: 'primary',
+        color: 'linkHover',
       },
+      '&:hover': {
+        color: 'linkHover',
+      },
+      transition: 'color 0.2s ease',
       ..._.get(props, 'sx', {}),
     }}
   />

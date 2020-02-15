@@ -48,16 +48,18 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
 
       <CenterColumn>
         <nav>
-        <Flex sx={{
-          justifyContent: 'space-between'
-        }}>
-          <Link sx={{ variant: 'styles.navlink', fontSize: 3 }} to={previous.fields.slug} rel="prev">
-            {previous.frontmatter.title}
-          </Link>
-          <Link sx={{ variant: 'styles.navlink', fontSize: 3 }} to={next.fields.slug} rel="next">
-            {next.frontmatter.title}
-          </Link>
-        </Flex>
+          <Flex
+            sx={{
+              justifyContent: 'space-between',
+            }}
+          >
+            <Link sx={{ variant: 'styles.navlink', fontSize: 3 }} to={previous.fields.slug} rel="prev">
+              {previous.frontmatter.title}
+            </Link>
+            <Link sx={{ variant: 'styles.navlink', fontSize: 3 }} to={next.fields.slug} rel="next">
+              {next.frontmatter.title}
+            </Link>
+          </Flex>
         </nav>
       </CenterColumn>
     </Layout>
