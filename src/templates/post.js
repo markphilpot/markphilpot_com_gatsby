@@ -2,7 +2,7 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
 
-import { Flex, Text, Heading } from 'theme-ui';
+import { Box, Flex, Text, Heading } from 'theme-ui';
 
 import Layout, { CenterColumn } from '../components/layout';
 import Hero from '../components/Hero';
@@ -53,12 +53,12 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
               justifyContent: 'space-between',
             }}
           >
-            <Link sx={{ variant: 'styles.navlink', fontSize: 3 }} to={previous.fields.slug} rel="prev">
+            {previous != null ? (<Link sx={{ variant: 'styles.navlink', fontSize: 3 }} to={previous.fields.slug} rel="prev">
               {previous.frontmatter.title}
-            </Link>
-            <Link sx={{ variant: 'styles.navlink', fontSize: 3 }} to={next.fields.slug} rel="next">
+            </Link>) : <Box/>}
+            {next != null ? (<Link sx={{ variant: 'styles.navlink', fontSize: 3 }} to={next.fields.slug} rel="next">
               {next.frontmatter.title}
-            </Link>
+            </Link>) : <Box/>}
           </Flex>
         </nav>
       </CenterColumn>

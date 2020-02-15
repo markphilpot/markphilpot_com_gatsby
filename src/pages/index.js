@@ -21,9 +21,16 @@ const BlogIndex = ({ data, location }) => {
       <Hero hero={colorMode === 'default' ? heroLight : heroDark} />
       <NavBar />
       <CenterColumn>
-        {posts.map(({ node }, index, p) => {
+        {posts
+          .filter(({ node }) => {
+            if(process.env.NODE_ENV !== 'development') {
+              return node.frontmatter.status !== 'draft'
+            }
+            return true;
+          })
+          .map(({ node }, index, p) => {
           const currentYear = DateTime.fromSQL(node.frontmatter.date).year;
-          const prevYear = index > 0 ? DateTime.fromSQL(p[index].node.frontmatter.date).year : null;
+          const prevYear = index > 0 ? DateTime.fromSQL(p[index-1].node.frontmatter.date).year : null;
 
           let year = null;
           if (currentYear !== prevYear) {
@@ -31,6 +38,7 @@ const BlogIndex = ({ data, location }) => {
           }
 
           const title = node.frontmatter.title || node.fields.slug;
+          const isDraft = node.frontmatter.status === 'draft';
           return (
             <article style={{ position: 'relative' }} key={node.fields.slug}>
               {year}
@@ -42,6 +50,18 @@ const BlogIndex = ({ data, location }) => {
                   }}
                 >
                   <Image style={{ borderRadius: 4 }} fluid={node.frontmatter.featured_image.childImageSharp.fluid} />
+                  {isDraft ? (
+                    <Text sx={{
+                      variant: 'text.caps',
+                      position: 'absolute',
+                      top: '50%',
+                      left: '50%',
+                      transform: 'translate(-50%, -50%) rotate(-10deg)',
+                      fontSize: '120px',
+                      color: 'red',
+                      opacity: '0.8',
+                    }}>draft</Text>
+                  ) : null}
                   <Flex
                     sx={{
                       alignItems: 'center',
@@ -125,6 +145,7 @@ export const pageQuery = graphql`
             date
             title
             tags
+            status
             featured_image {
               childImageSharp {
                 fluid {
