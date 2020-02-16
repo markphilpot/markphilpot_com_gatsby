@@ -7,12 +7,64 @@ slug: anime_2015_carousel
 summary: Carousel of all the anime I watched this year
 ---
 
-<link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css" rel="stylesheet" property="stylesheet"/>
+![Death Parade (Winter)](02_death_parade.jpg "ew1920")
 
-<a href="02_death_parade.jpg" data-lightbox="carousel" data-title="Death Parade (Winter)"><img src="02_death_parade.jpg" class="ew1000"/></a>
+![Assassination Classroom (Winter)](01_assassination.jpg "ew1920")
 
-<a href="01_assassination.jpg" data-lightbox="carousel" data-title="Assassination Classroom (Winter)"></a> <a href="03_snafu.jpg" data-lightbox="carousel" data-title="My Teen Romantic Comedy SNAFU Too (Spring)"></a> <a href="04_danna.jpg" data-lightbox="carousel" data-title="Danna go Nani wo Itteiru ka Wakaranai Ken 2 Sure-me (Spring)"></a> <a href="05_dungeon.jpg" data-lightbox="carousel" data-title="Dungeon ni Demi wo Motomeru no wa Machigatteiru no Darou ka? (Spring)"></a> <a href="06_nagato.jpg" data-lightbox="carousel" data-title="Nagano Yuki-chan no Shoushitsu (Spring)"></a> <a href="07_kenpa.jpg" data-lightbox="carousel" data-title="Kenpa Kyoushi (Spring)"></a> <a href="08_seraph.jpg" data-lightbox="carousel" data-title="Omari no Seraph (Spring)"></a> <a href="09_fate.jpg" data-lightbox="carousel" data-title="Fate/stay night: Unlimited Blade Works (Spring)"></a> <a href="10_plastic.jpg" data-lightbox="carousel" data-title="Plastic Memories (Spring)"></a> <a href="11_kekkai.jpg" data-lightbox="carousel" data-title="Kekkai Sensen (Spring)"></a> <a href="12_baby.jpg" data-lightbox="carousel" data-title="Baby Steps 2 (Spring)"></a> <a href="13_mikagura.jpg" data-lightbox="carousel" data-title="Mikagura Gakuen Kumikyoku (Spring)"></a> <a href="14_hibike.jpg" data-lightbox="carousel" data-title="Hibike! Euphonium (Spring)"></a> <a href="15_ore.jpg" data-lightbox="carousel" data-title="Ore Monogatari!! (Spring)"></a> <a href="16_yamada.jpg" data-lightbox="carousel" data-title="Yamada-Kin to 7-nin no Majo (Spring)"></a> <a href="17_grisaia.jpg" data-lightbox="carousel" data-title="Grisaia no Rakuen (Spring)"></a> <a href="18_gangsta.jpg" data-lightbox="carousel" data-title="Gangsta (Summer)"></a> <a href="19_rapo.jpg" data-lightbox="carousel" data-title="Rapo Kitan: Game of Laplace (Summer)"></a> <a href="20_aoharu.jpg" data-lightbox="carousel" data-title="Aoharu x Kikanjuu (Summer)"></a> <a href="22_charlotte.jpg" data-lightbox="carousel" data-title="Charlotte (Summer)"></a> <a href="23_rokka.jpg" data-lightbox="carousel" data-title="Rokka no Yuusha (Summer)"></a> <a href="24_akagami.jpg" data-lightbox="carousel" data-title="Akagami no Shirayuki-hime (Summer)"></a> <a href="25_jitsu.jpg" data-lightbox="carousel" data-title="Jitsu wa Watashi wa (Summer)"></a> <a href="26_gakkou.jpg" data-lightbox="carousel" data-title="Gakkou Gurashi! (Summer)"></a> <a href="27_danchigai.jpg" data-lightbox="carousel" data-title="Danchigai (Summer)"></a> <a href="28_asterisk.jpg" data-lightbox="carousel" data-title="Gakusen Toshi Asterisk (Fall)"></a> <a href="29_cavalry.jpg" data-lightbox="carousel" data-title="Rakudai Kishi no Cavalry (Fall)"></a> <a href="30_utawarerumono.jpg" data-lightbox="carousel" data-title="Utawarerumono: Itsuwari no Kamen (Fall)"></a> <a href="31_one.jpg" data-lightbox="carousel" data-title="One Punch Man (Fall)"></a> <a href="32_sakurako.jpg" data-lightbox="carousel" data-title="Sakurako-san no Ashimoto ni wa Shitai ga Umatteiru (Fall)"></a>
+ ![My Teen Romantic Comedy SNAFU Too (Spring)](03_snafu.jpg "ew1920")
 
-Click on the image above to start the carousel of the anime I was able to enjoy that aired this year...
+ ![Danna go Nani wo Itteiru ka Wakaranai Ken 2 Sure-me (Spring)](04_danna.jpg "ew1920")
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox-plus-jquery.min.js"></script>
+ ![Dungeon ni Demi wo Motomeru no wa Machigatteiru no Darou ka? (Spring)](05_dungeon.jpg "ew1920")
+
+ ![Nagano Yuki-chan no Shoushitsu (Spring)](06_nagato.jpg "ew1920")
+
+ ![Kenpa Kyoushi (Spring)](07_kenpa.jpg "ew1920")
+
+ ![Omari no Seraph (Spring)](08_seraph.jpg "ew1920")
+
+ ![Fate/stay night: Unlimited Blade Works (Spring)](09_fate.jpg "ew1920")
+
+ ![Plastic Memories (Spring)](10_plastic.jpg "ew1920")
+
+ ![Kekkai Sensen (Spring)](11_kekkai.jpg "ew1920")
+
+ ![Baby Steps 2 (Spring)](12_baby.jpg "ew1920")
+
+ ![Mikagura Gakuen Kumikyoku (Spring)](13_mikagura.jpg "ew1920")
+
+ ![Hibike! Euphonium (Spring)](14_hibike.jpg "ew1920")
+
+ ![Ore Monogatari!! (Spring)](15_ore.jpg "ew1920")
+
+ ![Yamada-Kin to 7-nin no Majo (Spring)](16_yamada.jpg "ew1920")
+
+ ![Grisaia no Rakuen (Spring)](17_grisaia.jpg "ew1920")
+
+ ![Gangsta (Summer)](18_gangsta.jpg "ew1920")
+
+ ![Rapo Kitan: Game of Laplace (Summer)](19_rapo.jpg "ew1920")
+
+ ![Aoharu x Kikanjuu (Summer)](20_aoharu.jpg "ew1920")
+
+ ![Charlotte (Summer)](22_charlotte.jpg "ew1920")
+
+ ![Rokka no Yuusha (Summer)](23_rokka.jpg "ew1920")
+
+ ![Akagami no Shirayuki-hime (Summer)](24_akagami.jpg "ew1920")
+
+ ![Jitsu wa Watashi wa (Summer)](25_jitsu.jpg "ew1920")
+
+ ![Gakkou Gurashi! (Summer)](26_gakkou.jpg "ew1920")
+
+ ![Danchigai (Summer)](27_danchigai.jpg "ew1920")
+
+ ![Gakusen Toshi Asterisk (Fall)](28_asterisk.jpg "ew1920")
+
+ ![Rakudai Kishi no Cavalry (Fall)](29_cavalry.jpg "ew1920")
+
+ ![Utawarerumono: Itsuwari no Kamen (Fall)](30_utawarerumono.jpg "ew1920")
+
+ ![One Punch Man (Fall)](31_one.jpg "ew1920")
+
+ ![Sakurako-san no Ashimoto ni wa Shitai ga Umatteiru (Fall)](32_sakurako.jpg "ew1920")

@@ -7,12 +7,64 @@ slug: anime_2016_carousel
 summary: Carousel of all the anime I watched this year
 ---
 
-<link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css" rel="stylesheet" property="stylesheet"/>
+![Boku Dake go Inai Machi (Winter)](carousel/01.jpg "ew1920")
 
-<a href="carousel/01.jpg" data-lightbox="carousel" data-title="Boku Dake go Inai Machi (Winter)" style="border-bottom: none;"><img src="carousel/19.jpg" class="ew1920"/></a>
+![Dimension W (Winter)](carousel/02.jpg "ew1920")
 
-<a href="carousel/02.jpg" data-lightbox="carousel" data-title="Dimension W (Winter)"></a> <a href="carousel/03.jpg" data-lightbox="carousel" data-title="Hai to Gensou no Grimgar (Winter)"></a> <a href="carousel/04.jpg" data-lightbox="carousel" data-title="Kono Subarashii Sekai ni Shukufuku wo! (Winter)"></a> <a href="carousel/05.jpg" data-lightbox="carousel" data-title="Musaigen no Phantom World (Winter)"></a> <a href="carousel/06.jpg" data-lightbox="carousel" data-title="Shoujo-tachi wa Kouya wo Mezasu (Winter)"></a> <a href="carousel/07.jpg" data-lightbox="carousel" data-title="Shouwa Genroku Rakugo Shinjuu (Winter)"></a> <a href="carousel/08.jpg" data-lightbox="carousel" data-title="Glass no Hana to Kowasu Sekai (Winter)"></a> <a href="carousel/09.jpg" data-lightbox="carousel" data-title="Boku no Hero Academia (Spring)"></a> <a href="carousel/10.jpg" data-lightbox="carousel" data-title="Flying Witch (Spring)"></a> <a href="carousel/11.jpg" data-lightbox="carousel" data-title="Kiznaiver (Spring)"></a> <a href="carousel/12.jpg" data-lightbox="carousel" data-title="Koutetsujou no Kabaneri (Spring)"></a> <a href="carousel/13.jpg" data-lightbox="carousel" data-title="Re:Zero Kara Hajimeru Isekai Seikatsu (Spring)"></a> <a href="carousel/14.jpg" data-lightbox="carousel" data-title="Shounen Maid (Spring)"></a> <a href="carousel/15.jpg" data-lightbox="carousel" data-title="Amaama to Inazuma (Summer)"></a> <a href="carousel/16.jpg" data-lightbox="carousel" data-title="Amanchu! (Summer)"></a> <a href="carousel/17.jpg" data-lightbox="carousel" data-title="Nejimaki Seirei Senki: Tenkyou no Alderamin (Summer)"></a> <a href="carousel/18.jpg" data-lightbox="carousel" data-title="New Game! (Summer)"></a> <a href="carousel/19.jpg" data-lightbox="carousel" data-title="ReLIFE (Summer)"></a> <a href="carousel/20.jpg" data-lightbox="carousel" data-title="ReWrite (Summer)"></a> <a href="carousel/21.jpg" data-lightbox="carousel" data-title="Tales of Zestiria the X (Summer)"></a> <a href="carousel/22.jpg" data-lightbox="carousel" data-title="3-gatsu no Lion (Fall)"></a> <a href="carousel/23.jpg" data-lightbox="carousel" data-title="Flip Flappers (Fall)"></a> <a href="carousel/24.jpg" data-lightbox="carousel" data-title="Fune wo Amu (Fall)"></a> <a href="carousel/25.jpg" data-lightbox="carousel" data-title="gi(a)rlish number (Fall)"></a> <a href="carousel/26.jpg" data-lightbox="carousel" data-title="Hibike! Euphonium 2 (Fall)"></a> <a href="carousel/27.jpg" data-lightbox="carousel" data-title="Mahou Shoujo Ikusei Keikaku (Fall)"></a> <a href="carousel/28.jpg" data-lightbox="carousel" data-title="Trickster (Fall)"></a> <a href="carousel/29.jpg" data-lightbox="carousel" data-title="Udon no Kuni no Kiniro Kemari (Fall)"></a> <a href="carousel/30.jpg" data-lightbox="carousel" data-title="Yuri!!! on ICE (Fall)"></a> <a href="carousel/31.jpg" data-lightbox="carousel" data-title="Kiitarou Shounen no Youkai Enikki (Fall)"></a>
+ ![Hai to Gensou no Grimgar (Winter)](carousel/03.jpg "ew1920")
 
-Click on the image above to start the carousel of the anime I was able to enjoy that aired this year...
+ ![Kono Subarashii Sekai ni Shukufuku wo! (Winter)](carousel/04.jpg "ew1920")
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox-plus-jquery.min.js"></script>
+ ![Musaigen no Phantom World (Winter)](carousel/05.jpg "ew1920")
+
+ ![Shoujo-tachi wa Kouya wo Mezasu (Winter)](carousel/06.jpg "ew1920")
+
+ ![Shouwa Genroku Rakugo Shinjuu (Winter)](carousel/07.jpg "ew1920")
+
+ ![Glass no Hana to Kowasu Sekai (Winter)](carousel/08.jpg "ew1920")
+
+ ![Boku no Hero Academia (Spring)](carousel/09.jpg "ew1920")
+
+ ![Flying Witch (Spring)](carousel/10.jpg "ew1920")
+
+ ![Kiznaiver (Spring)](carousel/11.jpg "ew1920")
+
+ ![Koutetsujou no Kabaneri (Spring)](carousel/12.jpg "ew1920")
+
+ ![Re:Zero Kara Hajimeru Isekai Seikatsu (Spring)](carousel/13.jpg "ew1920")
+
+ ![Shounen Maid (Spring)](carousel/14.jpg "ew1920")
+
+ ![Amaama to Inazuma (Summer)](carousel/15.jpg "ew1920")
+
+ ![Amanchu! (Summer)](carousel/16.jpg "ew1920")
+
+ ![Nejimaki Seirei Senki: Tenkyou no Alderamin (Summer)](carousel/17.jpg "ew1920")
+
+ ![New Game! (Summer)](carousel/18.jpg "ew1920")
+
+ ![ReLIFE (Summer)](carousel/19.jpg "ew1920")
+
+ ![ReWrite (Summer)](carousel/20.jpg "ew1920")
+
+ ![Tales of Zestiria the X (Summer)](carousel/21.jpg "ew1920")
+
+ ![3-gatsu no Lion (Fall)](carousel/22.jpg "ew1920")
+
+ ![Flip Flappers (Fall)](carousel/23.jpg "ew1920")
+
+ ![Fune wo Amu (Fall)](carousel/24.jpg "ew1920")
+
+ ![gi(a)rlish number (Fall)](carousel/25.jpg "ew1920")
+
+ ![Hibike! Euphonium 2 (Fall)](carousel/26.jpg "ew1920")
+
+ ![Mahou Shoujo Ikusei Keikaku (Fall)](carousel/27.jpg "ew1920")
+
+ ![Trickster (Fall)](carousel/28.jpg "ew1920")
+
+ ![Udon no Kuni no Kiniro Kemari (Fall)](carousel/29.jpg "ew1920")
+
+ ![Yuri!!! on ICE (Fall)](carousel/30.jpg "ew1920")
+
+ ![Kiitarou Shounen no Youkai Enikki (Fall)](carousel/31.jpg "ew1920")

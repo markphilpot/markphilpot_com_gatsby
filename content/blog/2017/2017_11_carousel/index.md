@@ -7,12 +7,84 @@ slug: anime_2017_carousel
 summary: Carousel of all the anime I watched this year
 ---
 
-<link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css" rel="stylesheet" property="stylesheet"/>
+![Kono Subarashii Sekai ni Shukufuku wo! 2 (Winter)](carousel/01_konasuba.jpg "ew1920")
 
-<a href="carousel/01_konasuba.jpg" data-lightbox="carousel" data-title="Kono Subarashii Sekai ni Shukufuku wo! 2 (Winter)" style="border-bottom: none;"><img src="carousel/28_mahoutsukai.jpg" class="ew1920"/></a>
+![Kobayashi-san Chi no Maiddragon (Winter)](carousel/02_kobayashi.jpg "ew1920")
 
-<a href="carousel/02_kobayashi.jpg" data-lightbox="carousel" data-title="Kobayashi-san Chi no Maiddragon (Winter)"></a> <a href="carousel/03_lwa.jpg" data-lightbox="carousel" data-title="Little Witch Academia"></a> <a href="carousel/04_youjo_senki.jpg" data-lightbox="carousel" data-title="Youjo Senki"></a> <a href="carousel/05_demichan.jpg" data-lightbox="carousel" data-title="Demi-chan wa Kataritai"></a> <a href="carousel/06_acca.jpg" data-lightbox="carousel" data-title="ACCA: 13-ku Kansatsu-ka"></a> <a href="carousel/07_tales.jpg" data-lightbox="carousel" data-title="Tales of Zestiria the X 2"></a> <a href="carousel/08_rakugo.jpg" data-lightbox="carousel" data-title="Shouwa Genroku Rakugo Shinjuu: Sukeroku Futatabihen"></a> <a href="carousel/09_heroaca.jpg" data-lightbox="carousel" data-title="Boku no Hero Academia 2 (Spring)"></a> <a href="carousel/10_rokudenashi.jpg" data-lightbox="carousel" data-title="Rokudenashi Majutsu Koushi to Kinki Kyouten"></a> <a href="carousel/11_recreators.jpg" data-lightbox="carousel" data-title="Re:Creators"></a> <a href="carousel/12_zero.jpg" data-lightbox="carousel" data-title="Zero kara Hajimeru"></a> <a href="carousel/13_shuumatsu.jpg" data-lightbox="carousel" data-title="Shuumatsu Nani Shitemasu ka?"></a> <a href="carousel/14_tsuki.jpg" data-lightbox="carousel" data-title="Tsuki ga Kirei"></a> <a href="carousel/15_granblue.jpg" data-lightbox="carousel" data-title="Granblue Fantasy The Animation"></a> <a href="carousel/16_sakura.jpg" data-lightbox="carousel" data-title="Sakura Quest"></a> <a href="carousel/17_alice.jpg" data-lightbox="carousel" data-title="Alice to Zouroku"></a> <a href="carousel/18_kiminonawa.jpg" data-lightbox="carousel" data-title="Kimi no Na wa (Summer)"></a> <a href="carousel/19_koenokatachi.jpg" data-lightbox="carousel" data-title="Koe no Katachi"></a> <a href="carousel/20_kakegurui.jpg" data-lightbox="carousel" data-title="Kakegurui"></a> <a href="carousel/21_gamers.jpg" data-lightbox="carousel" data-title="Gamers!"></a> <a href="carousel/22_abyss.jpg" data-lightbox="carousel" data-title="Made in Abyss"></a> <a href="carousel/23_tsurezure.jpg" data-lightbox="carousel" data-title="Tsurezure Children"></a> <a href="carousel/24_youkoso.jpg" data-lightbox="carousel" data-title="Youkoso Jitsuryoku Shijou Shigi no Kyoushitsu e"></a> <a href="carousel/25_newgame.jpg" data-lightbox="carousel" data-title="New Game!!"></a> <a href="carousel/26_ahogirl.jpg" data-lightbox="carousel" data-title="Aho-Girl"></a> <a href="carousel/27_princess.jpg" data-lightbox="carousel" data-title="Princess Principal"></a> <a href="carousel/28_mahoutsukai.jpg" data-lightbox="carousel" data-title="Mahoutsukai no Yome (Fall)"></a> <a href="carousel/29_sao.jpg" data-lightbox="carousel" data-title="Sword Art Online - Ordinal Scale"></a> <a href="carousel/30_kekkai.jpg" data-lightbox="carousel" data-title="Kekkai Sensen & Beyond"></a> <a href="carousel/31_juuni.jpg" data-lightbox="carousel" data-title="Juuni Taisen"></a> <a href="carousel/32_inuyashiki.jpg" data-lightbox="carousel" data-title="Inuyashiki"></a> <a href="carousel/33_justbecause.jpg" data-lightbox="carousel" data-title="Just Because!"></a> <a href="carousel/34_kino.jpg" data-lightbox="carousel" data-title="Kino no Tabi"></a> <a href="carousel/35_shoujo.jpg" data-lightbox="carousel" data-title="Shoujo Shuumatsu Ryokou"></a> <a href="carousel/36_kujira.jpg" data-lightbox="carousel" data-title="Kujira no Kora wa Sajou ni Utau"></a> <a href="carousel/37_netjuu.jpg" data-lightbox="carousel" data-title="Net-juu no Susume"></a> <a href="carousel/38_houseki.jpg" data-lightbox="carousel" data-title="Houseki no Kuni"></a> <a href="carousel/39_osake.jpg" data-lightbox="carousel" data-title="Osake wa Fuufu ni Natte Kara"></a> <a href="carousel/40_konohana.jpg" data-lightbox="carousel" data-title="Konohana Kitan"></a> <a href="carousel/41_anime.jpg" data-lightbox="carousel" data-title="Anime-Gataris"></a>
+ ![Little Witch Academia](carousel/03_lwa.jpg "ew1920")
 
-Click on the image above to start the carousel of the anime I was able to enjoy that aired this year...
+ ![Youjo Senki](carousel/04_youjo_senki.jpg "ew1920")
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox-plus-jquery.min.js"></script>
+ ![Demi-chan wa Kataritai](carousel/05_demichan.jpg "ew1920")
+
+ ![ACCA: 13-ku Kansatsu-ka](carousel/06_acca.jpg "ew1920")
+
+ ![Tales of Zestiria the X 2](carousel/07_tales.jpg "ew1920")
+
+ ![Shouwa Genroku Rakugo Shinjuu: Sukeroku Futatabihen](carousel/08_rakugo.jpg "ew1920")
+
+ ![Boku no Hero Academia 2 (Spring)](carousel/09_heroaca.jpg "ew1920")
+
+ ![Rokudenashi Majutsu Koushi to Kinki Kyouten](carousel/10_rokudenashi.jpg "ew1920")
+
+ ![Re:Creators](carousel/11_recreators.jpg "ew1920")
+
+ ![Zero kara Hajimeru](carousel/12_zero.jpg "ew1920")
+
+ ![Shuumatsu Nani Shitemasu ka?](carousel/13_shuumatsu.jpg "ew1920")
+
+ ![Tsuki ga Kirei](carousel/14_tsuki.jpg "ew1920")
+
+ ![Granblue Fantasy The Animation](carousel/15_granblue.jpg "ew1920")
+
+ ![Sakura Quest](carousel/16_sakura.jpg "ew1920")
+
+ ![Alice to Zouroku](carousel/17_alice.jpg "ew1920")
+
+ ![Kimi no Na wa (Summer)](carousel/18_kiminonawa.jpg "ew1920")
+
+ ![Koe no Katachi](carousel/19_koenokatachi.jpg "ew1920")
+
+ ![Kakegurui](carousel/20_kakegurui.jpg "ew1920")
+
+ ![Gamers!](carousel/21_gamers.jpg "ew1920")
+
+ ![Made in Abyss](carousel/22_abyss.jpg "ew1920")
+
+ ![Tsurezure Children](carousel/23_tsurezure.jpg "ew1920")
+
+ ![Youkoso Jitsuryoku Shijou Shigi no Kyoushitsu e](carousel/24_youkoso.jpg "ew1920")
+
+ ![New Game!!](carousel/25_newgame.jpg "ew1920")
+
+ ![Aho-Girl](carousel/26_ahogirl.jpg "ew1920")
+
+ ![Princess Principal](carousel/27_princess.jpg "ew1920")
+
+ ![Mahoutsukai no Yome (Fall)](carousel/28_mahoutsukai.jpg "ew1920")
+
+ ![Sword Art Online - Ordinal Scale](carousel/29_sao.jpg "ew1920")
+
+ ![Kekkai Sensen & Beyond](carousel/30_kekkai.jpg "ew1920")
+
+ ![Juuni Taisen](carousel/31_juuni.jpg "ew1920")
+
+ ![Inuyashiki](carousel/32_inuyashiki.jpg "ew1920")
+
+ ![Just Because!](carousel/33_justbecause.jpg "ew1920")
+
+ ![Kino no Tabi](carousel/34_kino.jpg "ew1920")
+
+ ![Shoujo Shuumatsu Ryokou](carousel/35_shoujo.jpg "ew1920")
+
+ ![Kujira no Kora wa Sajou ni Utau](carousel/36_kujira.jpg "ew1920")
+
+ ![Net-juu no Susume](carousel/37_netjuu.jpg "ew1920")
+
+ ![Houseki no Kuni](carousel/38_houseki.jpg "ew1920")
+
+ ![Osake wa Fuufu ni Natte Kara](carousel/39_osake.jpg "ew1920")
+
+ ![Konohana Kitan](carousel/40_konohana.jpg "ew1920")
+
+ ![Anime-Gataris](carousel/41_anime.jpg "ew1920")
