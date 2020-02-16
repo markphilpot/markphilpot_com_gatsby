@@ -13,7 +13,7 @@ const NavBar = props => {
           borderBottom: '1px solid',
           borderColor: 'accent',
           py: 6,
-          px: 16,
+          px: 10,
           mb: 10,
         }}
       >

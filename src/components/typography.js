@@ -38,11 +38,11 @@ export const Year = props => {
   return (
     <Box
       sx={{
-        position: ['static', 'absolute'],
+        position: ['static', 'static', 'static', 'absolute'],
         width: '150px',
-        left: [0, '-190px'],
-        textAlign: ['left', 'right'],
-        mb: [10, 0],
+        left: [0, 0, 0, '-190px'],
+        textAlign: ['left', 'left', 'left', 'right'],
+        mb: [10, 10, 10, 0],
         color: 'dateHighlight',
       }}
     >

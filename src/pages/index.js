@@ -8,7 +8,7 @@ import Layout, { CenterColumn } from '../components/layout';
 import Hero from '../components/Hero';
 import NavBar from '../components/NavBar';
 import { Year } from '../components/typography';
-import Link from "../components/Link";
+import Link from '../components/Link';
 
 const FeaturedImagePost = props => {
   const { node, title, isDraft } = props;
@@ -19,7 +19,10 @@ const FeaturedImagePost = props => {
         mb: 10,
       }}
     >
-      <Image style={{ borderRadius: 4 }} fluid={node.frontmatter.featured_image.childImageSharp.fluid} />
+      <Image
+        style={{ borderRadius: 4, height: '180px', objectFit: 'cover' }}
+        fluid={node.frontmatter.featured_image.childImageSharp.fluid}
+      />
       {isDraft ? (
         <Text
           sx={{
@@ -67,6 +70,7 @@ const FeaturedImagePost = props => {
               fontSize: 0,
               fontWeight: 'bold',
               color: '#2E3440',
+              display: ['none', 'none', 'block', 'block'],
             }}
           >
             {DateTime.fromSQL(node.frontmatter.date).toFormat('LLLL d, yyyy')}
@@ -75,6 +79,7 @@ const FeaturedImagePost = props => {
             sx={{
               fontSize: 0,
               color: '#2E3440',
+              display: ['none', 'none', 'none', 'block'],
             }}
           >
             {node.frontmatter.tags.join(', ')}
@@ -93,6 +98,7 @@ const SimpleTitlePost = props => {
       sx={{
         mb: 10,
         justifyContent: 'space-between',
+        alignItems: 'center',
       }}
     >
       <Text
@@ -107,6 +113,7 @@ const SimpleTitlePost = props => {
         sx={{
           flexDirection: 'column',
           alignItems: 'flex-end',
+          display: ['none', 'none', 'block', 'block'],
         }}
       >
         <Text
@@ -123,6 +130,7 @@ const SimpleTitlePost = props => {
           sx={{
             fontSize: 0,
             color: 'muted',
+            display: ['none', 'none', 'none', 'block'],
           }}
         >
           {node.frontmatter.tags.join(', ')}

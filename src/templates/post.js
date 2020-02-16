@@ -18,35 +18,29 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
     <Layout location={location} title={siteTitle}>
       <Hero hero={post.frontmatter.hero} />
       <NavBar />
-      <article
-        style={{
-          margin: '0 auto',
-          maxWidth: '660px',
-        }}
-      >
-        <header>
-          <Text sx={{ fontSize: 0, fontWeight: 'bold', color: 'accent' }} variant={'caps'}>
-            {post.frontmatter.date}
-          </Text>
-          <Heading
-            as="h1"
-            sx={{
-              mb: 10,
-              mt: 6,
-              fontSize: 6,
-            }}
-            css={{ textAlign: 'center' }}
-          >
-            {post.frontmatter.title}
-          </Heading>
-        </header>
-        <section>
-          <MDXRenderer>{post.body}</MDXRenderer>
-        </section>
-        <hr />
-      </article>
-
       <CenterColumn>
+        <article>
+          <header>
+            <Text sx={{ fontSize: 0, fontWeight: 'bold', color: 'accent' }} variant={'caps'}>
+              {post.frontmatter.date}
+            </Text>
+            <Heading
+              as="h1"
+              sx={{
+                mb: 10,
+                mt: 6,
+                fontSize: 6,
+              }}
+              css={{ textAlign: 'center' }}
+            >
+              {post.frontmatter.title}
+            </Heading>
+          </header>
+          <section>
+            <MDXRenderer>{post.body}</MDXRenderer>
+          </section>
+          <hr />
+        </article>
         <nav>
           <Flex
             sx={{

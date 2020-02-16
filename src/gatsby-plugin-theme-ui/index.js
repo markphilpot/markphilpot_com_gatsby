@@ -1,6 +1,6 @@
 export default {
-  useColorSchemeMediaQuery: true,
-  breakpoints: ['920px', '1920px'],
+  // useColorSchemeMediaQuery: true,
+  breakpoints: ['375px', '768px', '960px', '1920px'],
   fonts: {
     body:
       '-apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;',

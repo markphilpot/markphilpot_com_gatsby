@@ -9,7 +9,8 @@ export const CenterColumn = ({ children }) => {
     <Box
       css={{
         margin: '0 auto',
-        maxWidth: '660px',
+        maxWidth: '600px',
+        padding: '0 30px',
       }}
     >
       {children}
@@ -17,60 +18,12 @@ export const CenterColumn = ({ children }) => {
   );
 };
 
-const Layout = ({ location, title, children }) => {
-  // const rootPath = `${__PATH_PREFIX__}/`;
-  // let header;
-  //
-  // if (location.pathname === rootPath) {
-  //   header = (
-  //     <h1
-  //       style={{
-  //         marginTop: 0,
-  //       }}
-  //     >
-  //       <Link
-  //         style={{
-  //           boxShadow: `none`,
-  //           textDecoration: `none`,
-  //           color: `inherit`,
-  //         }}
-  //         to={`/`}
-  //       >
-  //         {title}
-  //       </Link>
-  //     </h1>
-  //   );
-  // } else {
-  //   header = (
-  //     <h3
-  //       style={{
-  //         marginTop: 0,
-  //       }}
-  //     >
-  //       <Link
-  //         style={{
-  //           boxShadow: `none`,
-  //           textDecoration: `none`,
-  //           color: `inherit`,
-  //         }}
-  //         to={`/`}
-  //       >
-  //         {title}
-  //       </Link>
-  //     </h3>
-  //   );
-  // }
+const Layout = ({ children }) => {
   return (
-    <div
-      style={{
-        marginLeft: `auto`,
-        marginRight: `auto`,
-      }}
-    >
+    <>
       <main>{children}</main>
-      {/*<footer>© {new Date().getFullYear()}</footer>*/}
       <Footer />
-    </div>
+    </>
   );
 };
 
