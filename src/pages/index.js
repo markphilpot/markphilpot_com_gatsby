@@ -9,7 +9,7 @@ import Hero from '../components/Hero';
 import NavBar from '../components/NavBar';
 import { Year } from '../components/typography';
 
-const FeaturedImagePost = (props) => {
+const FeaturedImagePost = props => {
   const { node, title, isDraft } = props;
   return (
     <Box
@@ -20,16 +20,20 @@ const FeaturedImagePost = (props) => {
     >
       <Image style={{ borderRadius: 4 }} fluid={node.frontmatter.featured_image.childImageSharp.fluid} />
       {isDraft ? (
-        <Text sx={{
-          variant: 'text.caps',
-          position: 'absolute',
-          top: '50%',
-          left: '50%',
-          transform: 'translate(-50%, -50%) rotate(-10deg)',
-          fontSize: '120px',
-          color: 'red',
-          opacity: '0.8',
-        }}>draft</Text>
+        <Text
+          sx={{
+            variant: 'text.caps',
+            position: 'absolute',
+            top: '50%',
+            left: '50%',
+            transform: 'translate(-50%, -50%) rotate(-10deg)',
+            fontSize: '120px',
+            color: 'red',
+            opacity: '0.8',
+          }}
+        >
+          draft
+        </Text>
       ) : null}
       <Flex
         sx={{
@@ -77,17 +81,17 @@ const FeaturedImagePost = (props) => {
         </Flex>
       </Flex>
     </Box>
-  )
+  );
 };
 
-const SimpleTitlePost = (props) => {
-  const { title, isDraft } = props;
+const SimpleTitlePost = props => {
+  const { title, node, isDraft } = props;
 
   return (
-    <Box
+    <Flex
       sx={{
-        position: 'relative',
         mb: 10,
+        justifyContent: 'space-between',
       }}
     >
       <Text
@@ -95,9 +99,37 @@ const SimpleTitlePost = (props) => {
           color: '#2E3440',
           fontSize: 4,
         }}
-      >{isDraft ? 'DRAFT :: ' : ''}{title}</Text>
-    </Box>
-  )
+      >
+        {isDraft ? 'DRAFT :: ' : ''}
+        {title}
+      </Text>
+      <Flex
+        sx={{
+          flexDirection: 'column',
+          alignItems: 'flex-end',
+        }}
+      >
+        <Text
+          sx={{
+            variant: 'text.caps',
+            fontSize: 0,
+            fontWeight: 'bold',
+            color: '#2E3440',
+          }}
+        >
+          {DateTime.fromSQL(node.frontmatter.date).toFormat('LLLL d, yyyy')}
+        </Text>
+        <Text
+          sx={{
+            fontSize: 0,
+            color: '#2E3440',
+          }}
+        >
+          {node.frontmatter.tags.join(', ')}
+        </Text>
+      </Flex>
+    </Flex>
+  );
 };
 
 const BlogIndex = ({ data, location }) => {
@@ -114,32 +146,36 @@ const BlogIndex = ({ data, location }) => {
       <CenterColumn>
         {posts
           .filter(({ node }) => {
-            if(process.env.NODE_ENV !== 'development') {
-              return node.frontmatter.status !== 'draft'
+            if (process.env.NODE_ENV !== 'development') {
+              return node.frontmatter.status !== 'draft';
             }
             return true;
           })
           .map(({ node }, index, p) => {
-          const currentYear = DateTime.fromSQL(node.frontmatter.date).year;
-          const prevYear = index > 0 ? DateTime.fromSQL(p[index-1].node.frontmatter.date).year : null;
+            const currentYear = DateTime.fromSQL(node.frontmatter.date).year;
+            const prevYear = index > 0 ? DateTime.fromSQL(p[index - 1].node.frontmatter.date).year : null;
 
-          let year = null;
-          if (currentYear !== prevYear) {
-            year = <Year>{currentYear}</Year>;
-          }
+            let year = null;
+            if (currentYear !== prevYear) {
+              year = <Year>{currentYear}</Year>;
+            }
 
-          const title = node.frontmatter.title || node.fields.slug;
-          const isDraft = node.frontmatter.status === 'draft';
-          const hasFeaturedImage = node.frontmatter.featured_image != null && node.frontmatter.featured_image != '';
-          return (
-            <article style={{ position: 'relative' }} key={node.fields.slug}>
-              {year}
-              <Link style={{ textDecoration: 'none' }} to={node.fields.slug}>
-                {hasFeaturedImage ? <FeaturedImagePost node={node} title={title} isDraft={isDraft}/> : <SimpleTitlePost title={title} isDraft={isDraft}/>}
-              </Link>
-            </article>
-          );
-        })}
+            const title = node.frontmatter.title || node.fields.slug;
+            const isDraft = node.frontmatter.status === 'draft';
+            const hasFeaturedImage = node.frontmatter.featured_image != null && node.frontmatter.featured_image != '';
+            return (
+              <article style={{ position: 'relative' }} key={node.fields.slug}>
+                {year}
+                <Link style={{ textDecoration: 'none' }} to={node.fields.slug}>
+                  {hasFeaturedImage ? (
+                    <FeaturedImagePost node={node} title={title} isDraft={isDraft} />
+                  ) : (
+                    <SimpleTitlePost title={title} node={node} isDraft={isDraft} />
+                  )}
+                </Link>
+              </article>
+            );
+          })}
       </CenterColumn>
     </Layout>
   );

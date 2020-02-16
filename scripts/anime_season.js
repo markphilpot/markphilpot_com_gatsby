@@ -1,10 +1,10 @@
-import ApolloClient from "apollo-client";
-import gql from "graphql-tag";
+import ApolloClient from 'apollo-client';
+import gql from 'graphql-tag';
 import fetch from 'node-fetch';
 import { createHttpLink } from 'apollo-link-http';
-import { InMemoryCache } from "apollo-cache-inmemory";
+import { InMemoryCache } from 'apollo-cache-inmemory';
 import { DateTime } from 'luxon';
-import handlebars from 'handlebars'
+import handlebars from 'handlebars';
 import _ from 'lodash';
 
 import fs from 'fs';
@@ -39,7 +39,7 @@ const link = createHttpLink({ uri: ANILIST_API, fetch });
 
 const client = new ApolloClient({
   link,
-  cache: new InMemoryCache()
+  cache: new InMemoryCache(),
 });
 
 const year = process.env.YEAR || 2019;
@@ -56,19 +56,18 @@ const fetchData = async () => {
     variables: {
       year,
       season: season.toUpperCase(),
-    }
+    },
   });
 
   const shows = data.Page.media;
 
   console.log(`${shows.length} shows found...`);
 
-  for(const show of shows) {
-    await download(show.coverImage.large, `${targetDir}/covers`)
+  for (const show of shows) {
+    await download(show.coverImage.large, `${targetDir}/covers`);
   }
 
   return shows.map(show => {
-
     const coverUrl = show.coverImage.large;
     const coverFile = coverUrl.split('/').slice(-1)[0];
 
@@ -76,10 +75,12 @@ const fetchData = async () => {
 
     return {
       ...show,
-      '__studios': _.get(show, 'studios.nodes', []).map(s => s.name).join(', '),
-      '__description': description != null ? description.replace('\r\n', '<br/>').replace('\n', '<br/>') : '',
+      __studios: _.get(show, 'studios.nodes', [])
+        .map(s => s.name)
+        .join(', '),
+      __description: description != null ? description.replace('\r\n', '<br/>').replace('\n', '<br/>') : '',
       coverFile,
-    }
+    };
   });
 };
 

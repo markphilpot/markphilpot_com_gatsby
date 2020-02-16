@@ -53,12 +53,20 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
               justifyContent: 'space-between',
             }}
           >
-            {previous != null ? (<Link sx={{ variant: 'styles.navlink', fontSize: 3 }} to={previous.fields.slug} rel="prev">
-              {previous.frontmatter.title}
-            </Link>) : <Box/>}
-            {next != null ? (<Link sx={{ variant: 'styles.navlink', fontSize: 3 }} to={next.fields.slug} rel="next">
-              {next.frontmatter.title}
-            </Link>) : <Box/>}
+            {previous != null ? (
+              <Link sx={{ variant: 'styles.navlink', fontSize: 3 }} to={previous.fields.slug} rel="prev">
+                {previous.frontmatter.title}
+              </Link>
+            ) : (
+              <Box />
+            )}
+            {next != null ? (
+              <Link sx={{ variant: 'styles.navlink', fontSize: 3 }} to={next.fields.slug} rel="next">
+                {next.frontmatter.title}
+              </Link>
+            ) : (
+              <Box />
+            )}
           </Flex>
         </nav>
       </CenterColumn>

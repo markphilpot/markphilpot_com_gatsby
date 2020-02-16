@@ -131,17 +131,18 @@ module.exports = {
               }
             }
             `,
-            normalize: ({ query: { site, allMdx }}) => {
+            normalize: ({ query: { site, allMdx } }) => {
               return allMdx.edges.map(edge => {
                 return {
                   title: edge.node.frontmatter.title,
                   date: edge.node.frontmatter.date,
                   url: site.siteMetadata.siteUrl + edge.node.fields.slug,
                   html: edge.node.html,
-                }
-              })
-            }
-          }, {
+                };
+              });
+            },
+          },
+          {
             name: 'micro',
             query: `
             {
@@ -160,18 +161,18 @@ module.exports = {
               }
             }
             `,
-            normalize: ({ query: { site, allMdx }}) => {
+            normalize: ({ query: { site, allMdx } }) => {
               return allMdx.edges.map(edge => {
                 return {
                   date: edge.node.frontmatter.date,
                   url: site.siteMetadata.siteUrl + edge.node.fields.slug,
                   html: edge.node.html,
-                }
-              })
-            }
-          }
-        ]
-      }
-    }
+                };
+              });
+            },
+          },
+        ],
+      },
+    },
   ],
 };
