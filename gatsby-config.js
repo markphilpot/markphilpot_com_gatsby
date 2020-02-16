@@ -46,13 +46,13 @@ module.exports = {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 1920,
-              wrapperStyle: img => {
-                // console.log( img;
-                if (img.presentationWidth === 1920 && img.aspectRatio > 3) {
-                  return 'margin-left: calc((100vw - 540px) / -2); margin-right: calc((100vw - 540px) / -2);';
-                }
-                return '';
-              },
+              // wrapperStyle: img => {
+              //   // console.log( img;
+              //   if (img.presentationWidth === 1920 && img.aspectRatio > 3) {
+              //     return 'margin-left: calc((100vw - 540px) / -2); margin-right: calc((100vw - 540px) / -2);';
+              //   }
+              //   return '';
+              // },
             },
           },
           {
