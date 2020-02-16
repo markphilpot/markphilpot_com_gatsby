@@ -22,7 +22,7 @@ I'm kicking myself it took me so long to experience this gem.
 
 On the visual novel time scale, it's a short read (about six hours) and the basic plot is just a foil for seeing how these characters interact -- and it's the all the characters (but especially Amber and Marina) that make this VN shine.
 
-![Vegas](vegas.jpg "Vegas")
+![Vegas](vegas.jpg "ew1920")
 
 There is a charm and realism to how all the characters bounce off one another. 
 

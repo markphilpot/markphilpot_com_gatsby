@@ -13,7 +13,7 @@ In the summer of 2000 I stumbled upon a review of this new point-&-click adventu
 
 By way of stage setting, King's Quest VI came out in the fall of 1992. Space Quest V came out in the spring of 1993. Full Throttle arrived in the spring of 1995. The late 80's/early 90's was the golden age of adventure gaming -- right smack center of my gaming adolescence. But the late 90's saw this all dry up. The gaming landscape had pivoted to 3D and FPS. It was clear, even by 1999 that story-driven adventure games were all but dead, at least from main stream gaming. So when I heard of this ambitious new project, The Longest Journey appeared from nowhere, I was A) shocked and B) like a dehydrated man stumbling upon an oasis, eager to consume as much as I could.
 
-![The Longest Journey](tlj_title.jpg 'The Longest Journey')
+![The Longest Journey](tlj_title.jpg 'ew1920')
 
 I'm not sure what I appreciate most: the world building, mythos, characters, dialog, OST... There is so much to like about this ambitious undertaking written and designed by Ragnar Tørnquist. That being said, let me direct my first shot of praise on the lead protagonist -- April Ryan.
 
@@ -21,7 +21,7 @@ This isn't your typical protagonist: eager for adventure and happy-go-lucky. Apr
 
 I loved TLJ (not to be confused with _The Last Jedi_).
 
-![Dreamfall](dreamfall.jpg?ew1920 'Dreamfall')
+![Dreamfall](dreamfall.jpg?ew1920 'ew1920')
 
 Six years later, Funcom released _Dreamfall_. Instead of directly building off the story of April Ryan, we were introduced to yet another kick ass female lead -- Zoë Castillo. While this probably surprised many, Zoë was a fantastic character and her story interweaved between Arcadia and Stark seamlessly while not being a direct clone of April. I appreciated the time spent world building through the eyes of another character in a different (yet related) setting.
 
@@ -37,7 +37,7 @@ There may have been others leading by example, but none as big as Double Fine's 
 
 In the fall of 2012, Ragnar announced that his new studio, Red Thread Games had leased the rights to the property and would be using Kickstarter to crowdfund the game (along with a series of grants from the Norwegian Film Institute). Five episodes where announced and the first, _Book One: Reborn_ arrived in the fall of 2014.
 
-![Dreamfall Chapters](dreamfall_chapters.jpg?ew1920 'Dreamfall Chapters')
+![Dreamfall Chapters](dreamfall_chapters.jpg?ew1920 'ew1920')
 
 _Dreamfall Chapters_ is a deserving capstone to the TLJ story. _Chapters_ has a branching narrative where decisions, actions or inactions in the earlier chapters have consequences (sometimes serious ones) in later chapters. The world feels much bigger and lived in than previous games (which early builds of the earlier chapters were overpowering even decent gaming hardware). _Chapters_ is much longer than _Dreamfall_ and gives more development to some of the complimentary characters (Enu is best Zhid).
 

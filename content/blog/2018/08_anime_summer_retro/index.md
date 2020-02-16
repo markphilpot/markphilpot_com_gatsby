@@ -11,7 +11,7 @@ featured_image: 'cards/hero.jpg'
 
 A pattern is being established. Watch the first 6 or so episodes of a series then hold off watching anymore until it's complete then binge the rest. Shows where I have a casual interest or aren't setup to have a last arc build up I'll follow throughout the shows run, but I definitely prefer to watch episodes 10, 11 and 12 of a show back to back rather than wait three weeks.
 
-![Persona 5](cards/persona5.jpg 'Persona 5')
+![Persona 5](cards/persona5.jpg 'ew1920')
 
 ### [Persona 5 The Animation](https://anilist.co/anime/99693/Persona-5-The-Animation/)
 
@@ -25,13 +25,13 @@ Maybe they will take the time to do the OVA right. Maybe they will give us a two
 
 Should you watch it? If you've played the game, I think it's worth it. Getting another chance to spend time with these characters is worth the investment. If there is an official English dub down the road (provided they use the cast from the game) I will end up watching it yet again. Otherwise, I am reserving judgment until the OVA drops to make a final determination.
 
-![Satsuriku no Tenshi](cards/angels.jpg 'Satsuriku no Tenshi')
+![Satsuriku no Tenshi](cards/angels.jpg 'ew1920')
 
 ### [Satsuriku no Tenshi](https://anilist.co/anime/99629)
 
 I feel like there is a piece of context I was missing with _Angels of Death_. There was some interesting morality exploration and some good voice acting, but the dialog was often obtuse and repetitive -- exemplified by any interaction between Zack (Isaac Foster) and Abraham Gray. At this point I've invested enough time that I want to find out what the big reveal is (if there is one) and thankfully it seems the OVA is picking up immediately after the final episode, so no waiting (unlike another show on this list).
 
-![Hanebado](cards/hanebado.jpg 'Hanebado')
+![Hanebado](cards/hanebado.jpg 'ew1920')
 
 ### [Hanebado!](https://anilist.co/anime/101045)
 
@@ -41,7 +41,7 @@ I am willing to give the writers the benefit of the doubt on this one. Even thou
 
 It's easy to mistake that realization because Aragaki gets shafted for screen time. There isn't enough time to develop these two characters given how much time is spent exploring some of the other rivals. If they were able to do a 24 episode show with the same level of animation throughout, this show could have been absolutely amazing.
 
-![Harukana Receive](cards/harukana.jpg 'Harukana Receive')
+![Harukana Receive](cards/harukana.jpg 'ew1920')
 
 ### [Harukana Receive](https://anilist.co/anime/99586)
 
@@ -49,7 +49,7 @@ Actual heart to go along with your fan service.
 
 I enjoyed the characters and their relationships, but unfortunately the animation and composition during the matches really left a lot to be desired. If you go into it with low expectations, I think you'll find something more than just vanilla fan service.
 
-![Revue Starlight](cards/revue.jpg 'Revue Starlight')
+![Revue Starlight](cards/revue.jpg 'ew1920')
 
 ### [Shoujo☆Kageki Revue Starlight](https://anilist.co/anime/98658)
 
@@ -63,7 +63,7 @@ Any original anime effort should be applauded for the risk they are taking and t
 
 This show doesn't just deserve props for effort. Its story, animation, and meta exploration of what it means to perform are executed brilliantly. I highly suggest re-watching the first episode after you've completed the show to see just now the narrative parallels are setup early on.
 
-![Planet With](cards/planet_with.jpg 'Planet With')
+![Planet With](cards/planet_with.jpg 'ew1920')
 
 ### [Planet With](https://anilist.co/anime/101368)
 
@@ -73,7 +73,7 @@ It's weird and absurd, but with purpose.
 
 As far as mech shows go, I think it's very digestible for anyone (like myself) that doesn't watch many of them, but will pick one up occasionally ([Gurren Lagann](https://anilist.co/anime/2001/Tengen-Toppa-Gurren-Lagann/), [Darling in the Franxx](https://anilist.co/anime/99423/Darling-in-the-Franxx/), etc)
 
-![Kyoto Teramachi Sanjou no Holmes](cards/holmes.jpg 'Kyoto Teramachi Sanjou no Holmes')
+![Kyoto Teramachi Sanjou no Holmes](cards/holmes.jpg 'ew1920')
 
 ### [Kyoto Teramachi Sanjou no Holmes](https://anilist.co/anime/101292)
 

@@ -17,7 +17,7 @@ What a really great season! The two 2 cour shows (SAO & Slime) that I'm followin
 
 ### [Goblin Slayer](https://anilist.co/anime/101165)
 
-![Goblin Slayer](cards/goblin.jpg "Goblin Slayer")
+![Goblin Slayer](cards/goblin.jpg "ew1920")
 
 After a controversial and unnecessarily graphic opening episode, *Goblin Slayer* settled down into a decent D&D-style narrative. There is no character development here, but the show does manage to assemble an interesting and sympathetic party to surround the protagonist. This show is perfectly skippable however, especially if you don't need graphic violence in your life at this moment.
 
@@ -25,7 +25,7 @@ After a controversial and unnecessarily graphic opening episode, *Goblin Slayer*
 
 ### [Seishun Buta Yarou wa Bunny Girl-senpai no Yume wo Minai](https://anilist.co/anime/101291)
 
-![Bunny Girl-senpai](cards/bunny.jpg "Bunny Girl-senpai")
+![Bunny Girl-senpai](cards/bunny.jpg "ew1920")
 
 [Monogatari](https://anilist.co/anime/5081/Bakemonogatari/) done in rom-com fashion, and I absolutely loved it. [Mai](https://anilist.co/character/127222/Mai-Sakurajima) and [Sakuta](https://anilist.co/character/127221/Sakuta-Azusagawa) were couple of the season after the first arc and the show never strayed from that root romance even as it told the stories of the other characters.
 
@@ -35,7 +35,7 @@ Even if you don't normally watch shows like this, go watch the first three episo
 
 ### [Irozuku Sekai no Ashita kara](https://anilist.co/anime/101316)
 
-![Irozuku Sekai no Ashita kara](cards/colors.jpg "Irozuku Sekai no Ashita kara")
+![Irozuku Sekai no Ashita kara](cards/colors.jpg "ew1920")
 
 First, let me just say this show wins the award for best Background Art of the season and it's not even close. 
 
@@ -46,7 +46,7 @@ That said this story feels like it would have been better as a two hour film tha
 
 ### [Zombie Land Saga](https://anilist.co/anime/103871)
 
-![Zombie Land Saga](cards/zombie.jpg "Zombie Land Saga")
+![Zombie Land Saga](cards/zombie.jpg "ew1920")
 
 I *really* want to go see a full *Franchouchou* [concert](https://wowjapan.asia/2018/11/zombie-land-saga-group-franchouchou-holds-first-live/)... 
 
@@ -57,7 +57,7 @@ I'm absolutely hooked on the OST, but what made the show is the character explor
 
 ### [Yagate Kimi ni Naru](https://anilist.co/anime/101573)
 
-![Yagate Kimi ni Naru](cards/bloom.jpg "Yagate Kimi ni Naru")
+![Yagate Kimi ni Naru](cards/bloom.jpg "ew1920")
 
 Probably the best yuri romance ever and *damn* do I hope we get a second season. The anime adaptation *essentially* ended where the English manga release is, so I think there is about a volume and a half of source material that is currently published but not adapted.
 
@@ -68,7 +68,7 @@ The anime adaptation did what I wish all adaptations did -- enhance the source m
 
 ### [SSSS.GRIDMAN](https://anilist.co/anime/99424)
 
-![SSSS.GRIDMAN](cards/gridman.jpg "SSSS.GRIDMAN")
+![SSSS.GRIDMAN](cards/gridman.jpg "ew1920")
 
 **The Trigger Rule**
 
@@ -78,7 +78,7 @@ A really wonderful homage while at the same time constructing an entirely new my
 
 And hot damn! Rikka for the win!
 
-![Rikka](cards/rikka.jpg "Rikka")
+![Rikka](cards/rikka.jpg "ew1920")
 
 Also, we need to ship Rikka & Akane *stat!*
 
@@ -86,7 +86,7 @@ Also, we need to ship Rikka & Akane *stat!*
 
 ### [Tonari no Kyuuketsuki-san](https://anilist.co/anime/101371)
 
-![Tonari no Kyuuketsuki-san](cards/vampire.jpg "Tonari no Kyuuketsuki-san")
+![Tonari no Kyuuketsuki-san](cards/vampire.jpg "ew1920")
 
 A cute 4-koma adaptation. If that's your cup of tea, then dive right in.
 
@@ -94,7 +94,7 @@ A cute 4-koma adaptation. If that's your cup of tea, then dive right in.
 
 ### [RELEASE THE SPYCE](https://anilist.co/anime/101014)
 
-![RELEASE THE SPYCE](cards/spyce.jpg "RELEASE THE SPYCE")
+![RELEASE THE SPYCE](cards/spyce.jpg "ew1920")
 
 I ended up binging this once it finished and I am *very* happy I did. The last arc would have been really rough in real time.
 
@@ -104,7 +104,7 @@ I think I had higher expectations for this show that was reasonable which is why
 
 ### [Gaikotsu Shotenin Honda-san](https://anilist.co/anime/100093)
 
-![Gaikotsu Shotenin Honda-san](cards/bookseller.jpg "Gaikotsu Shotenin Honda-san")
+![Gaikotsu Shotenin Honda-san](cards/bookseller.jpg "ew1920")
 
 I've never worked retail so I don't embrace this show as fully as some others might, but it's damn funny.
 
@@ -112,7 +112,7 @@ I've never worked retail so I don't embrace this show as fully as some others mi
 
 ### [Anima Yell!](https://anilist.co/anime/101013)
 
-![Anima Yell!](cards/yell.jpg "Anima Yell!")
+![Anima Yell!](cards/yell.jpg "ew1920")
 
 <div class="twitter-embed" style="display: flex; justify-content: center;"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">I am shook. We finally got a genuine &#39;coming out&#39; scene in a regular anime, not yuri or yaoi. This is how it should be handled and it came from a cheerleading show of all places! Props to Doga Kobo!<br/>(Via Anima! Yell, Crunchyroll) <a href="https://t.co/97OhmbeNQJ">pic.twitter.com/97OhmbeNQJ</a></p>&mdash; Isla (@islamctear) <a href="https://twitter.com/islamctear/status/1054138313345548288?ref_src=twsrc%5Etfw">October 21, 2018</a></blockquote></div><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 

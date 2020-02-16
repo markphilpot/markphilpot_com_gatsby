@@ -43,7 +43,7 @@ module.exports = {
         extensions: [`.mdx`, `.md`],
         gatsbyRemarkPlugins: [
           {
-            resolve: `gatsby-remark-images`,
+            resolve: `gatsby-remark-images-custom`,
             options: {
               maxWidth: 1920,
               // wrapperStyle: img => {

@@ -17,7 +17,7 @@ As usual, two cour shows starting this season will be covered in the next retros
 
 I also put *Hero Aca* on hold as I think it's a show better binged, but I'm hearing good things about it. *Persona 5* is good so far, but not great. I was hoping for better and the effort so far just feels lackluster at best. I'm still going to follow till the end, but my expectations have been significantly reduced.
 
-![Sword Art Online Alternative: Gun Gale Online](cards/ggo.jpg "Sword Art Online Alternative: Gun Gale Online")
+![Sword Art Online Alternative: Gun Gale Online](cards/ggo.jpg "ew1920")
 
 ### [SAO Alternative: Gun Gale Online](https://anilist.co/anime/100183)
 
@@ -28,7 +28,7 @@ Of course it helps to have a *Studio 3hz* and a new writer on board. There was a
 Wait... What's that you say? [SAO 3](https://anilist.co/anime/100182/Sword-Art-Online-Alicization/) is coming this fall... 🧐
 
 
-![Wotaku ni Koi wa Muzukashii](cards/wotaku.jpg "Wotaku ni Koi wa Muzukashii") 
+![Wotaku ni Koi wa Muzukashii](cards/wotaku.jpg "ew1920") 
 
 ### [Wotaku ni Koi wa Muzukashii](https://anilist.co/anime/99578)
 
@@ -40,14 +40,14 @@ I can't recommend this one enough if you like romance anime. It's such a breath 
 
 
 
-![Megalo Box](cards/megalo.jpg "Megalo Box") 
+![Megalo Box](cards/megalo.jpg "ew1920") 
 
 ### [Megalo Box](https://anilist.co/anime/100298)
 
 Fantastic retro aesthetics but with a story that seems to peter at the end. I'm not saying it's bad at all, I just think the beginning out performs the ending by quite a large margin.
 
 
-![Golden Kamui](cards/golden.jpg "Golden Kamui") 
+![Golden Kamui](cards/golden.jpg "ew1920") 
 
 ### [Golden Kamui](https://anilist.co/anime/99699)
 
@@ -55,7 +55,7 @@ The only show on this list that I haven't quite finished yet. If you can ignore 
 
 
 
-![Hinamatsuri](cards/hinamatsuri.jpg "Hinamatsuri") 
+![Hinamatsuri](cards/hinamatsuri.jpg "ew1920") 
 
 ### [Hinamatsuri](https://anilist.co/anime/100077)
 
@@ -63,7 +63,7 @@ This show had more heart and genuine LOL moments than any show in the past few y
 
 
 
-![Comic Girls](cards/comic.jpg "Comic Girls") 
+![Comic Girls](cards/comic.jpg "ew1920") 
 
 ### [Comic Girls](https://anilist.co/anime/99131)
 
@@ -72,7 +72,7 @@ This show had more heart and genuine LOL moments than any show in the past few y
 I'm going to stick to that analysis. There is a lot here to relate to for anyone dealing with creative pursuits, but the characters are a bit one note in comparison to other "cute girls working" shows.
 
 
-![Asagao to Kase-san](cards/asagao.jpg "Asagao to Kase-san") 
+![Asagao to Kase-san](cards/asagao.jpg "ew1920") 
 
 ### [Asagao to Kase-san](https://anilist.co/anime/99916)
 
