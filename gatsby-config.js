@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `markphilpot.com`,
     author: `Mark Philpot`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: ``,
     siteUrl: `https://markphilpot.com`,
     social: {
       twitter: `mark_philpot`,
@@ -69,25 +69,18 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    // {
-    //   resolve: `gatsby-plugin-google-analytics`,
-    //   options: {
-    //     //trackingId: `ADD YOUR TRACKING ID HERE`,
-    //   },
-    // },
-    // `gatsby-plugin-feed`,
-    // {
-    //   resolve: `gatsby-plugin-manifest`,
-    //   options: {
-    //     name: `Gatsby Starter Blog`,
-    //     short_name: `GatsbyJS`,
-    //     start_url: `/`,
-    //     background_color: `#ffffff`,
-    //     theme_color: `#663399`,
-    //     display: `minimal-ui`,
-    //     icon: `content/assets/gatsby-icon.png`,
-    //   },
-    // },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Mark Philpot`,
+        short_name: `GatsbyJS`,
+        start_url: `/`,
+        background_color: `#ffffff`,
+        theme_color: `#663399`,
+        display: `minimal-ui`,
+        icon: `content/assets/heros/gg_bridge_ico.png`,
+      },
+    },
     `gatsby-plugin-react-helmet`,
     // {
     //   resolve: `gatsby-plugin-typography`,
@@ -98,6 +91,87 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
-    'gatsby-plugin-theme-ui',
+    `gatsby-plugin-theme-ui`,
+    {
+      resolve: `gatsby-plugin-feed-generator`,
+      options: {
+        generator: 'GatsbyJS',
+        rss: true,
+        json: true,
+        siteQuery: `
+          {
+            site {
+              siteMetadata {
+                title
+                description
+                siteUrl
+                author
+              }
+            }
+          }
+        `,
+        feeds: [
+          {
+            name: 'feed',
+            query: `
+            {
+              allMdx(filter: { fields: { sourceName: { eq: "blog" } } }, sort: { fields: [frontmatter___date], order: DESC }, limit: 20) {
+                edges {
+                  node {
+                    html
+                    fields {
+                      slug
+                    }
+                    frontmatter {
+                      date
+                      title
+                    }
+                  }
+                }
+              }
+            }
+            `,
+            normalize: ({ query: { site, allMdx }}) => {
+              return allMdx.edges.map(edge => {
+                return {
+                  title: edge.node.frontmatter.title,
+                  date: edge.node.frontmatter.date,
+                  url: site.siteMetadata.siteUrl + edge.node.fields.slug,
+                  html: edge.node.html,
+                }
+              })
+            }
+          }, {
+            name: 'micro',
+            query: `
+            {
+              allMdx(filter: { fields: { sourceName: { eq: "micro" } } }, sort: { fields: [frontmatter___date], order: DESC }, limit: 20) {
+                edges {
+                  node {
+                    html
+                    fields {
+                      slug
+                    }
+                    frontmatter {
+                      date
+                    }
+                  }
+                }
+              }
+            }
+            `,
+            normalize: ({ query: { site, allMdx }}) => {
+              return allMdx.edges.map(edge => {
+                return {
+                  date: edge.node.frontmatter.date,
+                  url: site.siteMetadata.siteUrl + edge.node.fields.slug,
+                  html: edge.node.html,
+                }
+              })
+            }
+          }
+        ]
+      }
+    }
   ],
 };

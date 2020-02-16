@@ -5,8 +5,8 @@ tags: [anime, first impressions]
 category: anime
 slug: anime_{{ year }}_{{ season }}_first
 summary: First Impressions of the Anime {{ __season}} {{ year }} Season
-hero: "hero.jpg"
-featured_image: "hero.jpg"
+hero: 
+featured_image: 
 status: draft
 ---
 

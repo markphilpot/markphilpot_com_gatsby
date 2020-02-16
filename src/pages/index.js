@@ -9,6 +9,97 @@ import Hero from '../components/Hero';
 import NavBar from '../components/NavBar';
 import { Year } from '../components/typography';
 
+const FeaturedImagePost = (props) => {
+  const { node, title, isDraft } = props;
+  return (
+    <Box
+      sx={{
+        position: 'relative',
+        mb: 10,
+      }}
+    >
+      <Image style={{ borderRadius: 4 }} fluid={node.frontmatter.featured_image.childImageSharp.fluid} />
+      {isDraft ? (
+        <Text sx={{
+          variant: 'text.caps',
+          position: 'absolute',
+          top: '50%',
+          left: '50%',
+          transform: 'translate(-50%, -50%) rotate(-10deg)',
+          fontSize: '120px',
+          color: 'red',
+          opacity: '0.8',
+        }}>draft</Text>
+      ) : null}
+      <Flex
+        sx={{
+          alignItems: 'center',
+          justifyContent: 'space-between',
+          position: 'absolute',
+          bottom: 0,
+          width: '100%',
+          px: 2,
+          backgroundColor: 'rgba(255, 255, 255, 0.75)',
+        }}
+      >
+        <Text
+          sx={{
+            color: '#2E3440',
+            fontSize: 4,
+          }}
+        >
+          {title}
+        </Text>
+        <Flex
+          sx={{
+            flexDirection: 'column',
+            alignItems: 'flex-end',
+          }}
+        >
+          <Text
+            sx={{
+              variant: 'text.caps',
+              fontSize: 0,
+              fontWeight: 'bold',
+              color: '#2E3440',
+            }}
+          >
+            {DateTime.fromSQL(node.frontmatter.date).toFormat('LLLL d, yyyy')}
+          </Text>
+          <Text
+            sx={{
+              fontSize: 0,
+              color: '#2E3440',
+            }}
+          >
+            {node.frontmatter.tags.join(', ')}
+          </Text>
+        </Flex>
+      </Flex>
+    </Box>
+  )
+};
+
+const SimpleTitlePost = (props) => {
+  const { title, isDraft } = props;
+
+  return (
+    <Box
+      sx={{
+        position: 'relative',
+        mb: 10,
+      }}
+    >
+      <Text
+        sx={{
+          color: '#2E3440',
+          fontSize: 4,
+        }}
+      >{isDraft ? 'DRAFT :: ' : ''}{title}</Text>
+    </Box>
+  )
+};
+
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title;
   const posts = data.allMdx.edges;
@@ -39,75 +130,12 @@ const BlogIndex = ({ data, location }) => {
 
           const title = node.frontmatter.title || node.fields.slug;
           const isDraft = node.frontmatter.status === 'draft';
+          const hasFeaturedImage = node.frontmatter.featured_image != null && node.frontmatter.featured_image != '';
           return (
             <article style={{ position: 'relative' }} key={node.fields.slug}>
               {year}
               <Link style={{ textDecoration: 'none' }} to={node.fields.slug}>
-                <Box
-                  sx={{
-                    position: 'relative',
-                    mb: 10,
-                  }}
-                >
-                  <Image style={{ borderRadius: 4 }} fluid={node.frontmatter.featured_image.childImageSharp.fluid} />
-                  {isDraft ? (
-                    <Text sx={{
-                      variant: 'text.caps',
-                      position: 'absolute',
-                      top: '50%',
-                      left: '50%',
-                      transform: 'translate(-50%, -50%) rotate(-10deg)',
-                      fontSize: '120px',
-                      color: 'red',
-                      opacity: '0.8',
-                    }}>draft</Text>
-                  ) : null}
-                  <Flex
-                    sx={{
-                      alignItems: 'center',
-                      justifyContent: 'space-between',
-                      position: 'absolute',
-                      bottom: 0,
-                      width: '100%',
-                      px: 2,
-                      backgroundColor: 'rgba(255, 255, 255, 0.75)',
-                    }}
-                  >
-                    <Text
-                      sx={{
-                        color: '#2E3440',
-                        fontSize: 4,
-                      }}
-                    >
-                      {title}
-                    </Text>
-                    <Flex
-                      sx={{
-                        flexDirection: 'column',
-                        alignItems: 'flex-end',
-                      }}
-                    >
-                      <Text
-                        sx={{
-                          variant: 'text.caps',
-                          fontSize: 0,
-                          fontWeight: 'bold',
-                          color: '#2E3440',
-                        }}
-                      >
-                        {DateTime.fromSQL(node.frontmatter.date).toFormat('LLLL d, yyyy')}
-                      </Text>
-                      <Text
-                        sx={{
-                          fontSize: 0,
-                          color: '#2E3440',
-                        }}
-                      >
-                        {node.frontmatter.tags.join(', ')}
-                      </Text>
-                    </Flex>
-                  </Flex>
-                </Box>
+                {hasFeaturedImage ? <FeaturedImagePost node={node} title={title} isDraft={isDraft}/> : <SimpleTitlePost title={title} isDraft={isDraft}/>}
               </Link>
             </article>
           );
