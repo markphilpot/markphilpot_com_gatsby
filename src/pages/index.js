@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, graphql } from 'gatsby';
+import { graphql } from 'gatsby';
 import { useColorMode, Box, Flex, Text } from 'theme-ui';
 import { DateTime } from 'luxon';
 import Image from 'gatsby-image';
@@ -8,6 +8,7 @@ import Layout, { CenterColumn } from '../components/layout';
 import Hero from '../components/Hero';
 import NavBar from '../components/NavBar';
 import { Year } from '../components/typography';
+import Link from "../components/Link";
 
 const FeaturedImagePost = props => {
   const { node, title, isDraft } = props;
@@ -96,7 +97,6 @@ const SimpleTitlePost = props => {
     >
       <Text
         sx={{
-          color: '#2E3440',
           fontSize: 4,
         }}
       >
@@ -114,7 +114,7 @@ const SimpleTitlePost = props => {
             variant: 'text.caps',
             fontSize: 0,
             fontWeight: 'bold',
-            color: '#2E3440',
+            color: 'muted',
           }}
         >
           {DateTime.fromSQL(node.frontmatter.date).toFormat('LLLL d, yyyy')}
@@ -122,7 +122,7 @@ const SimpleTitlePost = props => {
         <Text
           sx={{
             fontSize: 0,
-            color: '#2E3440',
+            color: 'muted',
           }}
         >
           {node.frontmatter.tags.join(', ')}
@@ -166,7 +166,7 @@ const BlogIndex = ({ data, location }) => {
             return (
               <article style={{ position: 'relative' }} key={node.fields.slug}>
                 {year}
-                <Link style={{ textDecoration: 'none' }} to={node.fields.slug}>
+                <Link sx={{ textDecoration: 'none' }} to={node.fields.slug}>
                   {hasFeaturedImage ? (
                     <FeaturedImagePost node={node} title={title} isDraft={isDraft} />
                   ) : (

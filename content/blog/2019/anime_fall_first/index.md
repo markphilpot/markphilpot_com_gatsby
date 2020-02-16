@@ -6,7 +6,7 @@ category: anime
 slug: anime_2019_fall_first
 summary: First Impressions of the Anime Fall 2019 Season
 hero: 
-featured_image: 
+#featured_image: 
 status: draft
 ---
 

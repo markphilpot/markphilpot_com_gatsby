@@ -6,7 +6,7 @@ category: blog
 slug: tjl
 summary: Retrospective of the Longest Journey
 hero: 'hero.jpg'
-featured_image: 'tlj_title.jpg'
+featured_image: 'hero.jpg'
 ---
 
 In the summer of 2000 I stumbled upon a review of this new point-&-click adventure game by a Norwegian game studio I had never heard of. The UK release had gone out in the spring with no word of a US release. So desperate for a story focused adventure game, I decided to pay a hefty premium and import the game so I could play it. The US release ultimately came a few months later, but not knowing that at the time, I thought I had discovered gaming gold.

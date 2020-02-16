@@ -5,8 +5,8 @@ tags: [anime, retrospective]
 category: blog
 slug: anime_2018_winter_retro
 summary: Retrospective of the Anime Winter 2018 Season
-hero: "cards/hero.jpg"
-featured_image: "cards/hero.jpg"
+hero: "cards/evergarden.jpg"
+featured_image: "cards/evergarden.jpg"
 ---
 
 

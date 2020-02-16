@@ -5,8 +5,8 @@ tags: [anime, first impressions]
 category: anime
 slug: anime_2020_winter_first
 summary: First Impressions of the Anime Winter 2020 Season
-hero: 
-featured_image: 
+#hero: 
+#featured_image: 
 status: draft
 ---
 

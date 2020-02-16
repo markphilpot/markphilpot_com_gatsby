@@ -5,8 +5,8 @@ tags: [mac]
 category: blog
 slug: macpro_thoughts
 summary: No longer?
-hero: "hero.jpg"
-featured_image: "hero.jpg"
+#hero:
+#featured_image:
 status: draft
 ---
 
