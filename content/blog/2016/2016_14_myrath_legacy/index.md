@@ -5,15 +5,15 @@ tags: [music, review]
 category: blog
 slug: myrath_legacy
 summary: Review of Myrath's new album 'Legacy'
-Hero: "background-image: url(/images/2016/myrath/hero.jpg);"
+hero: "background-image: url(/images/2016/myrath/hero.jpg);"
 featured_image: "/images/2016/myrath/hero.jpg"
 ---
 
-![Her Halo]({static}/images/2016/myrath/legacy.jpg){: .ew1000}
+![Her Halo](legacy.jpg)
 
 I really can't believe it. Amazon's recommendations are two for two in successive months. This time based on my purchase of _Her Halo_ by Teramaze, the number one recommendation was this album. Damn I feel lucky.
 
-![Band]({static}/images/2016/myrath/band.jpg){: .ew1200}
+![Band](band.jpg)
 
 _Legacy_ is the fourth studio album from Myrath a metal band from Tunisia with excellent arabic influences (using double harmonic scales as Google has informed me). I can't emphasize how refreshing this sound is. There is definitely an element of "sameness" from the current block of metal bands from northern Europe. The excellent layered vocals combined with a great mix of traditional metal riffs with middle eastern influences turns out to be a fantastic combination.
 

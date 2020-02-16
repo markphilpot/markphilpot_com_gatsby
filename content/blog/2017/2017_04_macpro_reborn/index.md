@@ -5,7 +5,7 @@ tags: [mac]
 category: blog
 slug: macpro_reborn
 summary: Rebirth of my Mac Pro
-Hero: "background-image: url(/images/2017/macpro_reborn/hero.jpg);"
+hero: "background-image: url(/images/2017/macpro_reborn/hero.jpg);"
 featured_image: "/images/2017/macpro_reborn/hero.jpg"
 ---
 

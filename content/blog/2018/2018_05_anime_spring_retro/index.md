@@ -5,11 +5,11 @@ tags: [anime, retrospective]
 category: anime
 slug: anime_2018_spring_retro
 summary: Retrospective of the Anime Spring 2018 Season
-Hero: "background-image: url(/images/anime/2018/spring/cards/hero.jpg);"
+hero: "background-image: url(/images/anime/2018/spring/cards/hero.jpg);"
 featured_image: "/images/anime/2018/spring/cards/hero.jpg"
 ---
 
-[TOC]
+
 
 Woah! I'm behind this season.
 
@@ -17,7 +17,7 @@ As usual, two cour shows starting this season will be covered in the next retros
 
 I also put *Hero Aca* on hold as I think it's a show better binged, but I'm hearing good things about it. *Persona 5* is good so far, but not great. I was hoping for better and the effort so far just feels lackluster at best. I'm still going to follow till the end, but my expectations have been significantly reduced.
 
-![Sword Art Online Alternative: Gun Gale Online]({static}/images/anime/2018/spring/cards/ggo.jpg "Sword Art Online Alternative: Gun Gale Online"){: .ew1920}
+![Sword Art Online Alternative: Gun Gale Online](cards/ggo.jpg "Sword Art Online Alternative: Gun Gale Online")
 
 ### [SAO Alternative: Gun Gale Online](https://anilist.co/anime/100183)
 
@@ -28,7 +28,7 @@ Of course it helps to have a *Studio 3hz* and a new writer on board. There was a
 Wait... What's that you say? [SAO 3](https://anilist.co/anime/100182/Sword-Art-Online-Alicization/) is coming this fall... 🧐
 
 
-![Wotaku ni Koi wa Muzukashii]({static}/images/anime/2018/spring/cards/wotaku.jpg "Wotaku ni Koi wa Muzukashii"){: .ew1920} 
+![Wotaku ni Koi wa Muzukashii](cards/wotaku.jpg "Wotaku ni Koi wa Muzukashii") 
 
 ### [Wotaku ni Koi wa Muzukashii](https://anilist.co/anime/99578)
 
@@ -40,14 +40,14 @@ I can't recommend this one enough if you like romance anime. It's such a breath 
 
 
 
-![Megalo Box]({static}/images/anime/2018/spring/cards/megalo.jpg "Megalo Box"){: .ew1920} 
+![Megalo Box](cards/megalo.jpg "Megalo Box") 
 
 ### [Megalo Box](https://anilist.co/anime/100298)
 
 Fantastic retro aesthetics but with a story that seems to peter at the end. I'm not saying it's bad at all, I just think the beginning out performs the ending by quite a large margin.
 
 
-![Golden Kamui]({static}/images/anime/2018/spring/cards/golden.jpg "Golden Kamui"){: .ew1920} 
+![Golden Kamui](cards/golden.jpg "Golden Kamui") 
 
 ### [Golden Kamui](https://anilist.co/anime/99699)
 
@@ -55,7 +55,7 @@ The only show on this list that I haven't quite finished yet. If you can ignore 
 
 
 
-![Hinamatsuri]({static}/images/anime/2018/spring/cards/hinamatsuri.jpg "Hinamatsuri"){: .ew1920} 
+![Hinamatsuri](cards/hinamatsuri.jpg "Hinamatsuri") 
 
 ### [Hinamatsuri](https://anilist.co/anime/100077)
 
@@ -63,7 +63,7 @@ This show had more heart and genuine LOL moments than any show in the past few y
 
 
 
-![Comic Girls]({static}/images/anime/2018/spring/cards/comic.jpg "Comic Girls"){: .ew1920} 
+![Comic Girls](cards/comic.jpg "Comic Girls") 
 
 ### [Comic Girls](https://anilist.co/anime/99131)
 
@@ -72,7 +72,7 @@ This show had more heart and genuine LOL moments than any show in the past few y
 I'm going to stick to that analysis. There is a lot here to relate to for anyone dealing with creative pursuits, but the characters are a bit one note in comparison to other "cute girls working" shows.
 
 
-![Asagao to Kase-san]({static}/images/anime/2018/spring/cards/asagao.jpg "Asagao to Kase-san"){: .ew1920} 
+![Asagao to Kase-san](cards/asagao.jpg "Asagao to Kase-san") 
 
 ### [Asagao to Kase-san](https://anilist.co/anime/99916)
 

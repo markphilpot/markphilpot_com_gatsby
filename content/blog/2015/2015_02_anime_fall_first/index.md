@@ -5,16 +5,16 @@ tags: [anime, first impressions]
 category: blog
 slug: anime_2015_fall_first
 summary: First Impressions of the Anime Fall 2015 Season
-Hero: "background-image: url(/images/anime/2015/fall/hero.jpg);"
+hero: "fall/hero.jpg"
 ---
 
-[TOC]
+
 
 So this is my inaugural anime post that I really meant to do for the Summer season but due to vacations wasn't able to do. I still hope to do a Summer 2015 retrospective at some point because it really was an excellent season. My plan right now is to try to do two posts a season: a First Impressions post that covers the first episode or two of the shows I'm going to try to watch, and a Retrospective post covering the shows I enjoyed and the reasons why I dropped others.
 
 By way of introduction, I use [Hummingbird](https://hummingbird.me) to keep tabs on by anime "todo" list and you can follow me [here](https://hummingbird.me/users/mphilpot). The interface is by far superior to [MAL](https://myanimelist.net) which is probably a post in and of itself.
 
-![One Punch Man]({static}/images/anime/2015/fall/onepunch_pv.jpg "One Punch Man"){:.center} ![Madhouse]({static}/images/anime/studios/madhouse.png "Madhouse"){:.studio}
+![One Punch Man](fall/onepunch_pv.jpg "One Punch Man") ![Madhouse]({static}/images/anime/studios/madhouse.png "Madhouse")
 
 ### [One Punch Man](https://hummingbird.me/anime/one-punch-man)
 
@@ -22,7 +22,7 @@ If you go based on the hype, this is the only show of the season. Having never h
 
 The animation is fantastic (almost like Madhouse got together with Trigger) and I really like the OP. I just have no idea where the show will go with the story. Episode 1 was a basic introduction, and I'm hoping the show is more than a villian-of-the-week formula.
 
-![Heavy Object TODO]({static}/images/anime/2015/fall/heavyobject_pv.jpg "Heavy Object"){:.center} ![JC Staff]({static}/images/anime/studios/jc_staff.png "JC Staff"){:.studio}
+![Heavy Object TODO](fall/heavyobject_pv.jpg "Heavy Object") ![JC Staff]({static}/images/anime/studios/jc_staff.png "JC Staff")
 
 ### [Heavy Object](https://hummingbird.me/anime/heavy-object)
 
@@ -30,43 +30,43 @@ Going into this season, I was genuinely excited for this one. The writer is Kazu
 
 Granted the first episode was heavy on backstory, but just found myself bored by the conflict and the characters felt completely flat. Contrast this with the characters from Railgun who I fell in love with almost immediately. I'll get through the 3 episode rule with this one, but it might not get beyond that.
 
-![Sakurako]({static}/images/anime/2015/fall/sakurako-san_pv.jpg "Sakurako"){:.center} ![TROYCA]({static}/images/anime/studios/troyca.png "TROYCA"){:.studio}
+![Sakurako](fall/sakurako-san_pv.jpg "Sakurako") ![TROYCA]({static}/images/anime/studios/troyca.png "TROYCA")
 
 ### [Sakurako-san no Ashimoto ni wa Shitai ga Umatteiru](https://hummingbird.me/anime/sakurako-san-no-ashimoto-ni-wa-shitai-ga-umatteiru)
 
 The last to air for the fall season, this could be promising or it could be a very awkward triangle relationship between an engaged couple and a high school student. I'd admit the dynamic between the two main characters has some good back and forth and it doesn't dive head first into awkwardness based on the age difference. This will be either a "murder mystery of the week" with some punchy dialog between the characters, or an over the top sordid exploration of the relationship between an older woman and underage teenager.
 
-![Comet Lucifer]({static}/images/anime/2015/fall/comet_pv.jpg "Comet Lucifer"){:.center} [8-Bit](https://){: .center .link-nb}
+![Comet Lucifer](fall/comet_pv.jpg "Comet Lucifer") [8-Bit](https://)
 
 ### [Comet Lucifer](https://hummingbird.me/anime/comet-lucifer)
 
 I'm not one of those people who strictly avoids mecha, but I'm also not one that seeks it out. I honestly didn't realize this was a mecha before I watched the first episode. I think my liking of this show will parallel how deep they go into the characters. If it turns out to be "just another mech series" then I'll probably skip it. I will confess however, that I was intrigued by the first episode.
 
-![Young Black Jack]({static}/images/anime/2015/fall/blackjack_pv.jpg "Young Black Jack"){:.center} [Tezuka Productions](https://){: .center .link-nb}
+![Young Black Jack](fall/blackjack_pv.jpg "Young Black Jack") [Tezuka Productions](https://)
 
 ### [Young Black Jack](https://hummingbird.me/anime/young-black-jack)
 
 I had no idea this was a prequel for an exiting series. Knowing nothing of the characters, the first episode fell entirely flat with me. I doubt I'll make it to 3 episodes with this one.
 
-![Hacka Doll]({static}/images/anime/2015/fall/hackadoll_pv.jpg "Hacka Doll"){:.center} ![Trigger]({static}/images/anime/studios/trigger.png "Trigger"){:.studio}
+![Hacka Doll](fall/hackadoll_pv.jpg "Hacka Doll") ![Trigger]({static}/images/anime/studios/trigger.png "Trigger")
 
 ### [Hacka Doll The Animation](https://hummingbird.me/anime/hacka-doll-the-animation)
 
 The only reason this is on anyone's radar for this season is the studio attached to it. I loved [Kill la Kill](https://hummingbird.me/anime/kill-la-kill) and was really hoping for more [Little Witch Academia](https://hummingbird.me/anime/little-witch-academia) (no, I haven't had a chance yet to watch the [movie](https://hummingbird.me/anime/little-witch-academia-2)). But oh boy does this seem like a wasted effort. I guess the only saving grace is that it truly does turn out to be a dud, it was only a series of shorts.
 
-![Utawarerumono]({static}/images/anime/2015/fall/utawarerumono_pv.jpg "Utawarerumono"){:.center} ![White Fox]({static}/images/anime/studios/white_fox.png "White Fox"){:.studio}
+![Utawarerumono](fall/utawarerumono_pv.jpg "Utawarerumono") ![White Fox]({static}/images/anime/studios/white_fox.png "White Fox")
 
 ### [Utawarerumono: Itsuwari No Kamen](https://hummingbird.me/anime/utawarerumono-itsuwari-no-kamen)
 
 File this under "complete unknown" and "somewhat promising." I actually appreciate that the show just drops in the audience without explaining any of context of the world the protagonist finds himself in (unlike some other shows I could name _cough_ Heavy Object _cough_). My one gripe is that it's a continuation of a lazy (but theoretically competant) male lead trope. It really would be nice to have a show with this tone that was gender flipped. The saving grace is that the female supporting character seems like the "sweet but kick-ass type" -- I hope anyway.
 
-![Rakudai]({static}/images/anime/2015/fall/rakudai_pv.jpg "Rakudai"){:.center}<br/> [Silver Link](https://){: .center .link-nb}
+![Rakudai](fall/rakudai_pv.jpg "Rakudai")<br/> [Silver Link](https://)
 
 ### [Rakudai Kishi no Cavalry](https://hummingbird.me/anime/rakudai-kishi-no-cavalry)
 
 Why must the Japanese always ruin perfectly good shows with meaningless ecchi shit? I really want to take a show like this and put it on the editing block and see if a genuinely good show comes out of it. I think underneath all that crap there might be a half decent story to be told here, but my guess is they ruin it by pushing the ecchi plus "fight of the week" to 11.
 
-![Asterisk]({static}/images/anime/2015/fall/gakusen_pv.jpg "Asterisk"){:.center} ![A1]({static}/images/anime/studios/a1.png "A1"){: .studio}
+![Asterisk](fall/gakusen_pv.jpg "Asterisk") ![A1]({static}/images/anime/studios/a1.png "A1")
 
 ### [Gakusen Toshi Asterisk](https://hummingbird.me/anime/gakusen-toshi-asterisk)
 
@@ -74,25 +74,25 @@ What. The. _Hell_?! You could literally run Asterisk and Cavalry side by side, a
 
 Once again, theoretically a decent story underneath the ecchi, but I have almost no hope that there will be a shift in tone for the better. I think Cavalry will be much better than this one based on a single episode sample.
 
-![Lance]({static}/images/anime/2015/fall/lance_pv.jpg "Lance"){:.center} [Studio Gokumi](https://){:.center .link-nb}
+![Lance](fall/lance_pv.jpg "Lance") [Studio Gokumi](https://)
 
 ### [Lance N’ Masques](https://hummingbird.me/anime/lance-n-masques)
 
 Think Medieval Superman... with weird dynamics and implications with _very_ underage girls. Most likely I'll end up passing on this one.
 
-![Concrete Revolutio]({static}/images/anime/2015/fall/concrete_pv.jpg "Concrete Revolutio"){:.center} ![Bones]({static}/images/anime/studios/bones.png "Bones"){: .studio}
+![Concrete Revolutio](fall/concrete_pv.jpg "Concrete Revolutio") ![Bones]({static}/images/anime/studios/bones.png "Bones")
 
 ### [Concrete Revolutio: Choujin Gensou](https://hummingbird.me/anime/concrete-revolutio-choujin-gensou)
 
 What do you get when you cross [Kekkai Sensen](https://hummingbird.me/anime/kekkai-sensen) with [Rolling Girls](https://hummingbird.me/anime/the-rolling-girls)? I'm not exactly sure either, but Concrete Revolutio would be my best guess. Unlike Kekkai Sensen, I wasn't immediately sucked into the world being built and it was hard to get a sense of the characters. I'll definitely give it a few more episodes, but considering how long we've waited for Kekkai Sensen's final episode, I feel like Bones doesn't get any free passes on this one.
 
-![Omari no Seraph]({static}/images/anime/2015/fall/owarinoseraphs2_pv.jpg "Omari no Seraph"){:.center} ![Wit]({static}/images/anime/studios/wit.png "Wit"){: .studio}
+![Omari no Seraph](fall/owarinoseraphs2_pv.jpg "Omari no Seraph") ![Wit]({static}/images/anime/studios/wit.png "Wit")
 
 ### [Owari no Seraph 2](https://hummingbird.me/anime/owari-no-seraph-nagoya-kessen)
 
 A so-so series from two seasons ago, I held off finishing once I heard there was going to be a second season.
 
-![Haikuu]({static}/images/anime/2015/fall/haikyuus2_pv.jpg "Haikuu"){:.center} ![Production IG]({static}/images/anime/studios/production_ig.png "Production IG"){:.studio}
+![Haikuu](fall/haikyuus2_pv.jpg "Haikuu") ![Production IG]({static}/images/anime/studios/production_ig.png "Production IG")
 
 ### [Haikyuu 2](https://hummingbird.me/anime/haikyuu-2)
 

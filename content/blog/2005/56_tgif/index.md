@@ -6,7 +6,7 @@ category: blog
 slug: tgif
 ---
 
-![Washington Monument]({static}/images/2005/DSC_0165.jpg){: .center}
+![Washington Monument](DSC_0165.jpg)
 
 I thought I'd start out Friday with a "new" image. It's actually a rather old picture (July 2004 I believe). I took a bunch of other good ones on that shoot, so this set got lost in the background. I uploaded two others in my <a href="https://gallery.mcstudios.net">Gallery</a> of the Washington Monument that I thought also turned out well. Unfortunately the Reflecting Pool was draining at the time, but I actually think it creates a rather neat effect.
 

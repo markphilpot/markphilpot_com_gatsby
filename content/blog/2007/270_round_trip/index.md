@@ -6,7 +6,7 @@ category: blog
 slug: round_trip
 ---
 
-![Map]({static}/images/2007/cross2.png){: .center}
+![Map](cross2.png)
 
 <em>Fly out... Pack-Move... Drive back</em>
 

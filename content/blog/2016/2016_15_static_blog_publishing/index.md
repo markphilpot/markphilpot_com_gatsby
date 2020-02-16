@@ -5,11 +5,11 @@ tags: [s3, travis, pelican]
 category: blog
 slug: static_blog_publishing
 summary: How to publish a static blog
-Hero: "background-image: url(/images/2016/blog_publish_workflow/hero.jpg);"
+hero: "background-image: url(/images/2016/blog_publish_workflow/hero.jpg);"
 featured_image: "/images/2016/blog_publish_workflow/hero.jpg"
 ---
 
-[TOC]
+
 
 This quick tutorial will take a static blogging engine ([jekyll](https://jekyllrb.com/), [pelican](https://blog.getpelican.com/), [hugo](https://www.gohugo.io/)) and publish it to S3 automatically. I'm making the following assumptions:
 
@@ -40,7 +40,7 @@ For security reasons, we want to create a dedicated user whose sole responsibili
 
 Go to the IAM screen and create a new user. You will want to record your `AWS_ACCESS_KEY_ID` and `AWS_SECRET_KEY` values for this user as we will need them later.
 
-![IAM Permissions]({static}/images/2016/blog_publish_workflow/iam_permissions.jpg){:.center}
+![IAM Permissions](iam_permissions.jpg)
 
 In the process of creating the role, edit the permissions for the role and give it full access to S3 (`AmazonS3FullAccess`). This will allow this role to write your blog to S3.
 
@@ -48,11 +48,11 @@ In the process of creating the role, edit the permissions for the role and give 
 
 Go to the S3 screen in the console and create a bucket for your domain. Note that the S3 key space is global. Normally if your domain was `foobar.com` then you should be able to create a bucket `foobar.com` -- On the off chance this key is taken, just pick another unique value.
 
-![S3 Website]({static}/images/2016/blog_publish_workflow/s3_website.jpg){:.center}
+![S3 Website](s3_website.jpg)
 
 In the `Static Website Hosting` section, select `Enable website hosting` (you may want to set the `Index Document` field to index.html but that depends on your blogging engine).
 
-![S3 Bucket Policy]({static}/images/2016/blog_publish_workflow/s3_edit_policy.jpg){:.center}
+![S3 Bucket Policy](s3_edit_policy.jpg)
 
 In the `Permissions` section, click `Edit bucket policy` button and paste in the following policy (modify `$DOMAIN` to your domain)
 
@@ -122,7 +122,7 @@ Next head over to Cloudfront and create a `Cloudfront Distribution` for your sit
 
 For the most part you should be able to accept most of the defaults. For `Origin Domain Name` you want to select your S3 bucket. Put your domain in for the `Alternate Domain Names` field.
 
-![Cloudfront Origin Settings]({static}/images/2016/blog_publish_workflow/cloudfront_origin.jpg){:.center}
+![Cloudfront Origin Settings](cloudfront_origin.jpg)
 
 Make sure the `Origin Protocol Policy` is set to `HTTP Only` (S3's website hosting mode only serves the files with http.
 

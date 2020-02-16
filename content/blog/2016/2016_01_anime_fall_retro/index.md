@@ -6,15 +6,15 @@ tags: [anime, retro]
 category: blog
 slug: anime_2015_fall_retro
 summary: Retrospective of the Fall 2015 Anime Season
-Hero: "background-image: url(/images/anime/2015/fall/hero.jpg);"
+hero: "background-image: url(/images/anime/2015/fall/hero.jpg);"
 featured_image: "/images/anime/2015/fall/hero.jpg"
 ---
 
-[TOC]
+
 
 This season had a lot fewer shows that I was interested in when compared to the outstanding Summer season. I ended up dropping more shows then I usually would. I only ended up watching four shows to their conclusion this season (a significant drop from Summer's count of eight). I used the extra time to catch up on some movies and older shows that had been sitting in my queue for a while.
 
-![One Punch Man]({static}/images/anime/2015/fall/half/onepunch_pv.jpg "One Punch Man"){:.center} ![Madhouse]({static}/images/anime/studios/half/madhouse.png "Madhouse"){:.studio}
+![One Punch Man](fall/half/onepunch_pv.jpg "One Punch Man") ![Madhouse]({static}/images/anime/studios/half/madhouse.png "Madhouse")
 
 ### [One Punch Man](https://hummingbird.me/anime/one-punch-man)
 
@@ -24,7 +24,7 @@ Well, it definitely lived up to the hype -- which really is a massive achievemen
 
 Enjoy it with everyone's blessing.
 
-![Heavy Object]({static}/images/anime/2015/fall/half/heavyobject_pv.jpg "Heavy Object"){:.center} ![JC Staff]({static}/images/anime/studios/half/jc_staff.png "JC Staff"){:.studio}
+![Heavy Object](fall/half/heavyobject_pv.jpg "Heavy Object") ![JC Staff]({static}/images/anime/studios/half/jc_staff.png "JC Staff")
 
 ### [Heavy Object](https://hummingbird.me/anime/heavy-object)
 
@@ -32,7 +32,7 @@ _Dropped!_
 
 Wow, talk about disappointment. I couldn't even get past the first episode... it was just _blah_! Random military school-ish situation with random ecchi situations. How perfectly mediocre. It's definitely been a while since JC Staff has made anything that I really enjoyed. I don't think they have anything coming out for Winter either, so unfortunate all around.
 
-![Sakurako]({static}/images/anime/2015/fall/half/sakurako-san_pv.jpg "Sakurako"){:.center} ![TROYCA]({static}/images/anime/studios/half/troyca.png "TROYCA"){:.studio}
+![Sakurako](fall/half/sakurako-san_pv.jpg "Sakurako") ![TROYCA]({static}/images/anime/studios/half/troyca.png "TROYCA")
 
 ### [Sakurako-san no Ashimoto ni wa Shitai ga Umatteiru](https://hummingbird.me/anime/sakurako-san-no-ashimoto-ni-wa-shitai-ga-umatteiru)
 
@@ -40,7 +40,7 @@ _Not what I thought_
 
 So it turns out, Sakurako _might_ be engaged, given that we _never are even introduced to her fiancé!_ While I enjoyed this, it's no [Hyouka](https://hummingbird.me/anime/hyouka) and my rating will probably drop further if it never gets a second cour. Being basically a "mystery of the week" type of show, there was almost no character development to speak of. We find out bits of Sakurako's backstory, but never get to the main mystery of her past. We are introduced to what should be a central antagonist essentially in the final episode. Since there is no manga, I'm assuming they are trying to setup a second season that allows Sakurako to match wits with this antagonist. If you haven't started this, I might suggest holding off until the second season is confirmed.
 
-![Comet Lucifer]({static}/images/anime/2015/fall/half/comet_pv.jpg "Comet Lucifer"){:.center} [8-Bit](https://){: .center .link-nb}
+![Comet Lucifer](fall/half/comet_pv.jpg "Comet Lucifer") [8-Bit](https://)
 
 ### [Comet Lucifer](https://hummingbird.me/anime/comet-lucifer)
 
@@ -48,7 +48,7 @@ _Dropped!_
 
 My high hopes after episode 1 were completely dashed in episode 2. I'm glad I ended up dropping this one, because based on the episode ratings, it was a fairly clear nose dive.
 
-![Utawarerumono]({static}/images/anime/2015/fall/half/utawarerumono_pv.jpg "Utawarerumono"){:.center} ![White Fox]({static}/images/anime/studios/half/white_fox.png "White Fox"){:.studio}
+![Utawarerumono](fall/half/utawarerumono_pv.jpg "Utawarerumono") ![White Fox]({static}/images/anime/studios/half/white_fox.png "White Fox")
 
 ### [Utawarerumono: Itsuwari No Kamen](https://hummingbird.me/anime/utawarerumono-itsuwari-no-kamen)
 
@@ -56,7 +56,7 @@ _Might be Hold territory_
 
 Turns out this is a follow-on series set in the same universe (both based on a game). The pacing feels incredibly slow with a 24 episode run. Through episode 8, there is still no conflict -- no antagonist. Just minimal character and world building. Maybe this is supposed to be more fan service to those who watched the original. I'll probably get to the rest eventually once the run completes.
 
-![Rakudai]({static}/images/anime/2015/fall/half/rakudai_pv.jpg "Rakudai"){:.center}<br/> [Silver Link](https://){:.center .link-nb}
+![Rakudai](fall/half/rakudai_pv.jpg "Rakudai")<br/> [Silver Link](https://)
 
 ### [Rakudai Kishi no Cavalry](https://hummingbird.me/anime/rakudai-kishi-no-cavalry)
 
@@ -64,7 +64,7 @@ _Suprising!_
 
 On the whole... Not bad. Not great mind you, but it could have been worse (see below). Characters were good, conflicts were compelling, OP was visually striking. On the whole, if you don't take it too seriously, you'll probably end up enjoying this one.
 
-![Asterisk]({static}/images/anime/2015/fall/half/gakusen_pv.jpg "Asterisk"){:.center} ![A1]({static}/images/anime/studios/half/a1.png "A1"){: .studio}
+![Asterisk](fall/half/gakusen_pv.jpg "Asterisk") ![A1]({static}/images/anime/studios/half/a1.png "A1")
 
 ### [Gakusen Toshi Asterisk](https://hummingbird.me/anime/gakusen-toshi-asterisk)
 
@@ -72,7 +72,7 @@ _Completed Dud_
 
 So while I technically completed this one, I definitely wouldn't recommend it. This just bled mediocre. Shallow characters with no compelling conflict. For as much similarity that the first episodes of this and Cavalry showed, they both diverged immediately. Cavalry's characters were compelling, having complex motivations (even taking into account a bit of Deus Ex Machina). Asterisk's fell flat from moment zero and was never able to recover.
 
-![Lance]({static}/images/anime/2015/fall/half/lance_pv.jpg "Lance"){: .center} [Studio Gokumi](https://){: .center .link-nb}
+![Lance](fall/half/lance_pv.jpg "Lance") [Studio Gokumi](https://)
 
 ### [Lance N’ Masques](https://hummingbird.me/anime/lance-n-masques)
 
@@ -80,7 +80,7 @@ _Dropped!_
 
 Yeah, this one didn't make it past episode 2 for me. Ugh. Just bad.
 
-![Concrete Revolutio]({static}/images/anime/2015/fall/half/concrete_pv.jpg "Concrete Revolutio"){:.center} ![Bones]({static}/images/anime/studios/half/bones.png "Bones"){:.studio}
+![Concrete Revolutio](fall/half/concrete_pv.jpg "Concrete Revolutio") ![Bones]({static}/images/anime/studios/half/bones.png "Bones")
 
 ### [Concrete Revolutio: Choujin Gensou](https://hummingbird.me/anime/concrete-revolutio-choujin-gensou)
 

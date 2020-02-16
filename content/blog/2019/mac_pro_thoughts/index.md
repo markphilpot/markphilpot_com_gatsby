@@ -5,7 +5,7 @@ tags: [mac]
 category: blog
 slug: macpro_thoughts
 summary: No longer?
-Hero: "background-image: url(/images/2019/highway_blossoms/hero.jpg);"
+hero: "background-image: url(/images/2019/highway_blossoms/hero.jpg);"
 featured_image: "/images/2019/highway_blossoms/hero.jpg"
 status: draft
 ---

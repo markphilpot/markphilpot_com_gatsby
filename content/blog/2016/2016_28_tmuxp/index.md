@@ -5,7 +5,7 @@ tags: [cli, tmux]
 category: blog
 slug: cli_tmuxp
 summary: Where have you been all my life?!
-Hero: "background-image: url(/images/2016/tmuxp/hero.jpg);"
+hero: "background-image: url(/images/2016/tmuxp/hero.jpg);"
 featured_image: "/images/2016/tmuxp/hero.jpg"
 ---
 

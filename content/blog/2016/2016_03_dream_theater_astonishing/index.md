@@ -5,11 +5,11 @@ tags: [music, review]
 category: blog
 slug: dream_theater_astonishing
 summary: Review of Dream Theater's "The Astonishing"
-Hero: "background-image: url(/images/2016/dream_theater/hero.jpg);"
+hero: "background-image: url(/images/2016/dream_theater/hero.jpg);"
 featured_image: "/images/2016/dream_theater/hero.jpg"
 ---
 
-![The Astonishing]({static}/images/2016/dream_theater/dream_theater_astonishing.jpg){: .ew1000}
+![The Astonishing](dream_theater_astonishing.jpg)
 
 I honestly can't think of a band that is as consistently diverse as Dream Theater has been, going on almost three decades. Some bands pivot their style (Anathema comes to mind), but usually on either side of that pivot the core sound and style is consistent. With Dream Theater, the foundation and overall mix has remained consistent since _Scenes From A Memory_, but the gamut of sound and style is wider than any other band I know of.
 

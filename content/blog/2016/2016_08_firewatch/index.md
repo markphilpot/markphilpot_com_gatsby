@@ -5,11 +5,11 @@ tags: [review, games]
 category: blog
 slug: firewatch
 summary: Review of Panic's Firewatch
-Hero: "background-image: url(/images/2016/firewatch/hero.jpg);"
+hero: "background-image: url(/images/2016/firewatch/hero.jpg);"
 featured_image: "/images/2016/firewatch/hero.jpg"
 ---
 
-![Firewatch]({static}/images/2016/firewatch/title.jpg){: .ew1000}
+![Firewatch](title.jpg)
 
 If [Panic Inc.](https://panic.com/) doesn't strike you as a game company, you would be right. Panic is a Mac and iOS application developer (Coda, Transmit, Prompt). [Campo Santo](https://www.camposanto.com/) is a new indie game studio without a game under their belt. Despite the unlikely partnership, _Firewatch_ is obviously a game from a crew who really wanted to deliver an immersive story based game -- and they definitely succeed in spades.
 

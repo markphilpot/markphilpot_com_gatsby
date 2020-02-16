@@ -5,7 +5,7 @@ tags: [mac, linux]
 category: blog
 slug: can_i_go_back
 summary: Can I go back to linux full time?
-Hero: "background-image: url(/images/2016/go_back/hero.jpg);"
+hero: "background-image: url(/images/2016/go_back/hero.jpg);"
 featured_image: "/images/2016/go_back/hero.jpg"
 ---
 
@@ -13,7 +13,7 @@ For many years I rocked an old IBM [Thinkpad](https://www.thinkwiki.org/wiki/Cat
 
 On my home desktop I had to bend over backwards fighting linux audio drivers and [jackd](https://www.jackaudio.org/) to try to get any sort of music recording done. At some point, I just decided it wasn't worth the time I spent fighting it -- I barely had enough to musically doodle as it was. So I took the plunge and got a Mac Pro in 2010 (which solved that issue at the time). The Thinkpad kept chugging until a fateful incident with a beer bottle finally did the laptop in. Thankfully, Apple released a revamped MacBook Air (2012) and I fell into a homogenous platform with Apple.
 
-![Apple]({static}/images/2016/go_back/apple.jpg){: .ew1920}
+![Apple](apple.jpg)
 
 I've since added an iPhone and iPad to the lineup. All in all it's been good. I get the best of both worlds in a command line I can do work on and a GUI that I don't have to worry about or manage. However, years on my trusty Air's battery is failing and my Mac Pro's chipset does not meet the virtualization requirements to run Docker for Mac (though if I had splurged for the 6 or 8 core it would have... fairly bitter about that one).
 

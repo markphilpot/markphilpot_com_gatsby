@@ -14,6 +14,6 @@ There is supposed to be a new moon on May 7th. I'm hoping to be able to take my 
 
 This was my first attempt:
 
-![Moon Stack]({static}/images/2005/Moon_stack_2.jpg){: .center}
+![Moon Stack](Moon_stack_2.jpg)
 
 Given the light pollution in DC, I thought it came out pretty well. We'll see if I can pick up stars with a new moon next week.

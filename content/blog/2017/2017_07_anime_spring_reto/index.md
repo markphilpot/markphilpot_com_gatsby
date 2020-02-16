@@ -5,17 +5,17 @@ tags: [anime, retro]
 category: blog
 slug: anime_2017_spring_retro
 summary: Anime Spring 2017 Season Retrospective
-Hero: "background-image: url(/images/anime/2017/spring/hero.jpg);"
+hero: "background-image: url(/images/anime/2017/spring/hero.jpg);"
 featured_image: "/images/anime/2017/spring/hero.jpg"
 ---
 
-[TOC]
+
 
 This season was particularly enjoyable. Great variety of genres and more shows above threshold than I could watch in real time. Additionally, we got a bunch of two cour shows (whose thoughts I will leave until next seasons retro).
 
 I'm still not caught up on the heavy hitters (Attack on Titan, etc) and I'm still behind on the 2 two cour shows from last season (Little Witch Academia, etc). Such is life I guess...
 
-![GRANBLUE FANTASY The Animation]({static}/images/anime/2017/spring/cards/granblue.jpg "GRANBLUE FANTASY The Animation"){:.ew1920}
+![GRANBLUE FANTASY The Animation](cards/granblue.jpg "GRANBLUE FANTASY The Animation")
 
 ### [GRANBLUE FANTASY The Animation](https://anilist.co/anime/21361)
 
@@ -23,7 +23,7 @@ An easy comparison is [Tales of Zesteria](https://anilist.co/anime/21221/Talesof
 
 As with _Tales_ it was nice just to follow along on an epic adventure. The ending is decently satisfying, given they didn't reach the endgame (so to speak). If you're a fan of the fantasy genre, you might like this one -- but not a must see.
 
-![Rokudenashi Majutsu Koushi to Kinki Kyouten]({static}/images/anime/2017/spring/cards/bastard.jpg "Rokudenashi Majutsu Koushi to Kinki Kyouten"){:.ew1920}
+![Rokudenashi Majutsu Koushi to Kinki Kyouten](cards/bastard.jpg "Rokudenashi Majutsu Koushi to Kinki Kyouten")
 
 ### [Rokudenashi Majutsu Koushi to Kinki Kyouten](https://anilist.co/anime/21700)
 
@@ -31,13 +31,13 @@ I feel like the best analogy for this one is good B-Movie summer release. Keep y
 
 I avoided most of the community discussions slamming this show, mostly because I didn't need to hear it. This show is what it is -- either you enjoy it or you don't. Move on.
 
-![Zero kara Hajimeru Mahou no Sho]({static}/images/anime/2017/spring/cards/zero.jpg "Zero kara Hajimeru Mahou no Sho"){:.ew1920}
+![Zero kara Hajimeru Mahou no Sho](cards/zero.jpg "Zero kara Hajimeru Mahou no Sho")
 
 ### [Zero kara Hajimeru Mahou no Sho](https://anilist.co/anime/97682)
 
 The one main criticism I have is that the world felt small and incomplete, especially in contrast with _SukaSuka_ (below). The resolution with the antagonist at the end, while somewhat believable, was very "plot convenient" and wasn't nearly as satisfying as it could have been. That being said, I did enjoy the dynamic of the main ensemble. I would definitely follow along on subsequent adventures.
 
-![Shuumatsu Nani Shitemasu ka? Isogashii desu ka? Sukutte Moratte Ii desu ka?]({static}/images/anime/2017/spring/cards/worldsend.jpg "Shuumatsu Nani Shitemasu ka? Isogashii desu ka? Sukutte Moratte Ii desu ka?"){:.ew1920}
+![Shuumatsu Nani Shitemasu ka? Isogashii desu ka? Sukutte Moratte Ii desu ka?](cards/worldsend.jpg "Shuumatsu Nani Shitemasu ka? Isogashii desu ka? Sukutte Moratte Ii desu ka?")
 
 ### [Shuumatsu Nani Shitemasu ka? Isogashii desu ka? Sukutte Moratte Ii desu ka?](https://anilist.co/anime/21860)
 
@@ -47,7 +47,7 @@ The OST was particularly excellent and the _Scarborough Fair_ callback in the fi
 
 Despite the ridiculousness of the title, _SukaSuka_ shows that you definitely can't paint all LN adaptations with the same brush.
 
-![Tsuki ga Kirei]({static}/images/anime/2017/spring/cards/tsuki.jpg "Tsuki ga Kirei"){:.ew1920}
+![Tsuki ga Kirei](cards/tsuki.jpg "Tsuki ga Kirei")
 
 ### [Tsuki ga Kirei](https://anilist.co/anime/98202)
 
@@ -55,7 +55,7 @@ Gem of the season. If this show had some tighter editing and a bit more focus on
 
 However... despite my gripes about pacing -- HOLY SHIT that final credit sequence! _THAT_ my friends, is how you nail an ending of a show.
 
-![Alice to Zouroku]({static}/images/anime/2017/spring/cards/alice.jpg "Alice to Zouroku"){:.ew1920}
+![Alice to Zouroku](cards/alice.jpg "Alice to Zouroku")
 
 ### [Alice to Zouroku](https://anilist.co/anime/97821)
 

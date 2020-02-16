@@ -7,7 +7,7 @@ slug: review_boku_wa_tomodachi_ga_sukunai
 summary: Review of Boku wa Tomodachi ga Sukunai
 ---
 
-![Boku wa Tomodachi ga Sukunai]({static}/images/2015/haganai/pv.jpg "Boku wa Tomodachi ga Sukunai"){:.center} ![Anime International Company]({static}/images/anime/studios/aic.png){:.studio}
+![Boku wa Tomodachi ga Sukunai](pv.jpg "Boku wa Tomodachi ga Sukunai") ![Anime International Company]({static}/images/anime/studios/aic.png)
 
 [Boku wa Tomodachi ga Sukunai](https://hummingbird.me/anime/boku-wa-tomodachi-ga-sukunai) _Haganai_
 
@@ -19,7 +19,7 @@ But there is a nugget -- a kernel -- within the story and characters that lets i
 
 It's your basic ecchi/harem/romcom plot: Our male protagonist, Hasegawa Kodaka, is a recent transfer student and due to unfortunate misunderstandings and is appearance is shunned/avoided by the rest of the students. As a result he has no friends to speak of. He runs into a fellow student, Yozora Mikazuki, who appears to be equally outcast and together they _happen_ to form a new club dedicated to trying to figure out how to get or make friends. They are shortly joined by a girl who they wouldn't think needed friends (Player 2 has joined the game...)
 
-![Harem Cast]({static}/images/2015/haganai/cast.jpg "Harem Cast"){: .ew1000}
+![Harem Cast](cast.jpg "Harem Cast")
 
 While there are other students who end up joining the club looking for friends, they are mainly there for comedic relief and they aren't nearly as well defined as the first three who form the main relationship triangle. The longing for friendship and their struggles seem completely genuine. These characters are prickly and oblivious in realistic ways. This sincerity won me over very quickly which is the main reason that I probably ended up overlooking what are very obvious flaws.
 
@@ -35,6 +35,6 @@ The OP & ED are catchy and ended up in my "anime music" playlist. The OST in gen
 
 ## Final Thoughts
 
-![Girls]({static}/images/2015/haganai/girls.jpg "Girls"){: .ew1000}
+![Girls](girls.jpg "Girls")
 
 In many ways, this show reminded me a slightly less sophisticated [My Teen Romantic Comedy SNAFU](https://hummingbird.me/anime/my-teen-romantic-comedy-snafu). There is a second season which I haven't started yet and I genuinely hope they don't end up ruining the show. There are very few anime (hell, TV shows in general) that can pull off resolving a relationship triangle without negatively affecting your opinion of either the characters or the show as a whole. [Toradora](https://hummingbird.me/anime/toradora) might be the sole exception to that rule. In this particular case, I think I'd be OK with the show ending without resolving the triangle.

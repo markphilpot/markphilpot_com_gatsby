@@ -8,7 +8,7 @@ summary: Review of Bakemonogatari
 status: draft
 ---
 
-![Bakemonogatari]({static}/images/2016/bakemonogatari/cover.jpg){: .center} ![Shaft]({static}/images/anime/studios/shaft.png){: .studio}
+![Bakemonogatari](cover.jpg) ![Shaft]({static}/images/anime/studios/shaft.png)
 
 [Bakemonogatari](https://hummingbird.me/anime/bakemonogatari) _Bakemonogatari_
 
@@ -20,13 +20,13 @@ Thanks to the writing of Nisio Isin and the animation by Shaft, you have one of 
 
 While not the exact origin, it is the formation of the group of girls surrounding our protagonist, Koyomi Araragi -- a recovering part-vampire high school student who seems to attract supernatural possessed/haunted girls[ref]Even as I write this synopsis now, someone unfamiliar with Bake would shrug this off as just another harem show[/ref]. Koyomi has the help of Oshino Meme, a Hawaiian-shirt-wearing shaman who helped Koyomi return from full vampire a few months ago.
 
-![cast]({static}/images/2016/bakemonogatari/cast.jpg){: .center}
+![cast](cast.jpg)
 
 At its most basic, Bake is a series of short stories as he helps the girls exterminate and/or ameliorate their supernatural tendencies.
 
 ### Hitagi Crab
 
-![Hitagi Senjōgahara]({static}/images/2016/bakemonogatari/senjougahara.jpg){:.center}
+![Hitagi Senjōgahara](senjougahara.jpg)
 
 The opening story gives us the introduction to Araragi's (and the Internet it seems) future girlfriend, Hitagi Senjōgahara. She is beautiful, witty and oh-so-slightly-completely-psychotic (which she admits freely). This opening story sets the stage -- the subliminal kanji messages on screen, the striking yet simplistic backgrounds, and the dialog -- The dialog...
 
@@ -34,25 +34,25 @@ For this show alone I wish I could understand Japanese. I hope nothing is lost i
 
 ### Mayoi Snail
 
-![Mayoi]({static}/images/2016/bakemonogatari/mayoi.jpg){: .center}
+![Mayoi](mayoi.jpg)
 
 The second girl we meet is Mayoi, a lost elementary school girl. This story includes one of the better on going verbal gags in the show and the humor lands a perfect 10 across the translation gap.
 
 ### Suruga Monkey
 
-![Suruga]({static}/images/2016/bakemonogatari/suruga.jpg){: .center}
+![Suruga](suruga.jpg)
 
 Ah Suruga Kanbaru, the star of the high school basketball team and underclassman to Koyomi and Senjogahara.
 
 ### Nadeko Snake
 
-![Nadeko]({static}/images/2016/bakemonogatari/nadeko.jpg){: .center}
+![Nadeko](nadeko.jpg)
 
 Nadeko is a friend of Koyomi's twin sisters, Karen and Tsukihi.
 
 ### Tsubasa Cat
 
-![Tsubasa]({static}/images/2016/bakemonogatari/tsubasa.jpg){: .center}
+![Tsubasa](tsubasa.jpg)
 
 ## Music & Sound
 

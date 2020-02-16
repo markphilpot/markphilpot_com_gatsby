@@ -19,7 +19,7 @@ Below is collection of anime whose story and characters packed a huge emotional 
 
 ### Gakkou Gurashi!
 
-![Yuki]({static}/images/2015/tears/yuki.jpg){: .ew1000}
+![Yuki](yuki.jpg)
 
 The most recent show on this list is here because of its emotional range -- cute moe, fear, desperation, loss... It truly ran the gamut and that roller coaster made it's gut punches that much more effective.
 
@@ -29,7 +29,7 @@ That and that damn dog...
 
 ### Toradora!
 
-![Taiga]({static}/images/2015/tears/tiaga.jpg){: .ew1000}
+![Taiga](tiaga.jpg)
 
 Christmas Eve. If you've seen this show, you know the scene of which I speak.
 
@@ -39,7 +39,7 @@ Thankfully, the punch is pulled a bit here since there are still five or so more
 
 ### Angel Beats!
 
-![Yuki]({static}/images/2015/tears/ab.jpg){: .ew1000}
+![Yuki](ab.jpg)
 
 I kind of knew what was coming from a few episodes in -- as each supporting character "moved on" I knew what might be in store at the end. What I didn't know was how they were going to deliver that blow.
 
@@ -51,7 +51,7 @@ I watched this show significantly after it aired and bits and pieces had filtere
 
 ### Plastic Memories
 
-![Memories]({static}/images/2015/tears/pm2.jpg){: .ew1000}
+![Memories](pm2.jpg)
 
 From the moment you start this show, you know there is going to be hard gut punch at the end. Hell, even the first episode manages to crush your soul and that is for two characters you barely even know yet.
 
@@ -61,7 +61,7 @@ I will never look at ferris wheels the same way again, however.
 
 ### Death Parade
 
-![Parade]({static}/images/2015/tears/dp.jpg){: .ew1000}
+![Parade](dp.jpg)
 
 The premise of this show is to deliver multiple gut checks throughout the season, and Madhouse did a fantastic job quickly introducing two new characters each week and weave a narrative that resulted in some epic scenes.
 
@@ -71,7 +71,7 @@ However, the penultimate feels train goes to the unnamed dark-haired women who i
 
 ### Shiatsu wa Kimi no Uso
 
-![Separation]({static}/images/2015/tears/lie.jpg){: .ew1000}
+![Separation](lie.jpg)
 
 If you haven't seen this (or better yet, not heard of it before), **stop right now** and go watch this show.
 

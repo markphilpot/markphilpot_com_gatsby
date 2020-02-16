@@ -5,11 +5,11 @@ tags: [review, games]
 category: blog
 slug: life_is_strange
 summary: Review of Dontnod's "Life is Strange"
-Hero: "background-image: url(/images/2016/life_is_strange/hero.jpg);"
+hero: "background-image: url(/images/2016/life_is_strange/hero.jpg);"
 featured_image: "/images/2016/life_is_strange/hero.jpg"
 ---
 
-![Life is Strange]({static}/images/2016/life_is_strange/title.jpg){: .ew1000}
+![Life is Strange](title.jpg)
 
 Narrative-focused games are few and far between. There are seemingly hundreds of _Battlefront_ or _Destiny_ style games for every story-based game. Given the absolute shit show that is the gaming community right now, this game embodies everything "the GG side" seem to despise: character driven story based game led by a duo of female protagonists.
 
@@ -17,7 +17,7 @@ All the more reason why we need more games like this. _I_ want more games like t
 
 _Life is Strange_ has its flaws to be sure, but I refuse to let that detract from what is otherwise an absolute gem of a game.
 
-![Divider]({static}/images/dividers/heartbeat_half.png){: .center}
+![Divider]({static}/images/dividers/heartbeat_half.png)
 
 _Life is Strange_ takes place in a small town called Arcadia Bay, following Max, a shy and reserved high school girl at a school for artistic students. After stumbling into an 'incident' in a bathroom, she discovers she has the ability to rewind time. And... scene.
 

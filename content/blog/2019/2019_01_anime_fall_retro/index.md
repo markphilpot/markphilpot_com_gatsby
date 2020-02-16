@@ -5,19 +5,19 @@ tags: [anime, retrospective]
 category: anime
 slug: anime_2018_fall_retro
 summary: Retrospective of the Anime Fall 2018 Season
-Hero: "background-image: url(/images/anime/2018/fall/cards/hero.jpg);"
+hero: "background-image: url(/images/anime/2018/fall/cards/hero.jpg);"
 featured_image: "/images/anime/2018/fall/cards/hero.jpg"
 ---
 
 
-[TOC]
+
 
 What a really great season! The two 2 cour shows (SAO & Slime) that I'm following regularly are doing well (with Slime being the surprise of the season). I haven't yet dived into *Index III* yet -- it's been such a stacked season something had to give.
 
 
 ### [Goblin Slayer](https://anilist.co/anime/101165)
 
-![Goblin Slayer]({static}/images/anime/2018/fall/cards/goblin.jpg "Goblin Slayer"){: .ew1920}
+![Goblin Slayer](cards/goblin.jpg "Goblin Slayer")
 
 After a controversial and unnecessarily graphic opening episode, *Goblin Slayer* settled down into a decent D&D-style narrative. There is no character development here, but the show does manage to assemble an interesting and sympathetic party to surround the protagonist. This show is perfectly skippable however, especially if you don't need graphic violence in your life at this moment.
 
@@ -25,7 +25,7 @@ After a controversial and unnecessarily graphic opening episode, *Goblin Slayer*
 
 ### [Seishun Buta Yarou wa Bunny Girl-senpai no Yume wo Minai](https://anilist.co/anime/101291)
 
-![Bunny Girl-senpai]({static}/images/anime/2018/fall/cards/bunny.jpg "Bunny Girl-senpai"){: .ew1920}
+![Bunny Girl-senpai](cards/bunny.jpg "Bunny Girl-senpai")
 
 [Monogatari](https://anilist.co/anime/5081/Bakemonogatari/) done in rom-com fashion, and I absolutely loved it. [Mai](https://anilist.co/character/127222/Mai-Sakurajima) and [Sakuta](https://anilist.co/character/127221/Sakuta-Azusagawa) were couple of the season after the first arc and the show never strayed from that root romance even as it told the stories of the other characters.
 
@@ -35,7 +35,7 @@ Even if you don't normally watch shows like this, go watch the first three episo
 
 ### [Irozuku Sekai no Ashita kara](https://anilist.co/anime/101316)
 
-![Irozuku Sekai no Ashita kara]({static}/images/anime/2018/fall/cards/colors.jpg "Irozuku Sekai no Ashita kara"){: .ew1920}
+![Irozuku Sekai no Ashita kara](cards/colors.jpg "Irozuku Sekai no Ashita kara")
 
 First, let me just say this show wins the award for best Background Art of the season and it's not even close. 
 
@@ -46,7 +46,7 @@ That said this story feels like it would have been better as a two hour film tha
 
 ### [Zombie Land Saga](https://anilist.co/anime/103871)
 
-![Zombie Land Saga]({static}/images/anime/2018/fall/cards/zombie.jpg "Zombie Land Saga"){: .ew1920}
+![Zombie Land Saga](cards/zombie.jpg "Zombie Land Saga")
 
 I *really* want to go see a full *Franchouchou* [concert](https://wowjapan.asia/2018/11/zombie-land-saga-group-franchouchou-holds-first-live/)... 
 
@@ -57,7 +57,7 @@ I'm absolutely hooked on the OST, but what made the show is the character explor
 
 ### [Yagate Kimi ni Naru](https://anilist.co/anime/101573)
 
-![Yagate Kimi ni Naru]({static}/images/anime/2018/fall/cards/bloom.jpg "Yagate Kimi ni Naru"){: .ew1920}
+![Yagate Kimi ni Naru](cards/bloom.jpg "Yagate Kimi ni Naru")
 
 Probably the best yuri romance ever and *damn* do I hope we get a second season. The anime adaptation *essentially* ended where the English manga release is, so I think there is about a volume and a half of source material that is currently published but not adapted.
 
@@ -68,7 +68,7 @@ The anime adaptation did what I wish all adaptations did -- enhance the source m
 
 ### [SSSS.GRIDMAN](https://anilist.co/anime/99424)
 
-![SSSS.GRIDMAN]({static}/images/anime/2018/fall/cards/gridman.jpg "SSSS.GRIDMAN"){: .ew1920}
+![SSSS.GRIDMAN](cards/gridman.jpg "SSSS.GRIDMAN")
 
 **The Trigger Rule**
 
@@ -78,7 +78,7 @@ A really wonderful homage while at the same time constructing an entirely new my
 
 And hot damn! Rikka for the win!
 
-![Rikka]({static}/images/anime/2018/fall/cards/rikka.jpg "Rikka"){: .ew1920}
+![Rikka](cards/rikka.jpg "Rikka")
 
 Also, we need to ship Rikka & Akane *stat!*
 
@@ -86,7 +86,7 @@ Also, we need to ship Rikka & Akane *stat!*
 
 ### [Tonari no Kyuuketsuki-san](https://anilist.co/anime/101371)
 
-![Tonari no Kyuuketsuki-san]({static}/images/anime/2018/fall/cards/vampire.jpg "Tonari no Kyuuketsuki-san"){: .ew1920}
+![Tonari no Kyuuketsuki-san](cards/vampire.jpg "Tonari no Kyuuketsuki-san")
 
 A cute 4-koma adaptation. If that's your cup of tea, then dive right in.
 
@@ -94,7 +94,7 @@ A cute 4-koma adaptation. If that's your cup of tea, then dive right in.
 
 ### [RELEASE THE SPYCE](https://anilist.co/anime/101014)
 
-![RELEASE THE SPYCE]({static}/images/anime/2018/fall/cards/spyce.jpg "RELEASE THE SPYCE"){: .ew1920}
+![RELEASE THE SPYCE](cards/spyce.jpg "RELEASE THE SPYCE")
 
 I ended up binging this once it finished and I am *very* happy I did. The last arc would have been really rough in real time.
 
@@ -104,7 +104,7 @@ I think I had higher expectations for this show that was reasonable which is why
 
 ### [Gaikotsu Shotenin Honda-san](https://anilist.co/anime/100093)
 
-![Gaikotsu Shotenin Honda-san]({static}/images/anime/2018/fall/cards/bookseller.jpg "Gaikotsu Shotenin Honda-san"){: .ew1920}
+![Gaikotsu Shotenin Honda-san](cards/bookseller.jpg "Gaikotsu Shotenin Honda-san")
 
 I've never worked retail so I don't embrace this show as fully as some others might, but it's damn funny.
 
@@ -112,7 +112,7 @@ I've never worked retail so I don't embrace this show as fully as some others mi
 
 ### [Anima Yell!](https://anilist.co/anime/101013)
 
-![Anima Yell!]({static}/images/anime/2018/fall/cards/yell.jpg "Anima Yell!"){: .ew1920}
+![Anima Yell!](cards/yell.jpg "Anima Yell!")
 
 <div class="twitter-embed" style="display: flex; justify-content: center;"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">I am shook. We finally got a genuine &#39;coming out&#39; scene in a regular anime, not yuri or yaoi. This is how it should be handled and it came from a cheerleading show of all places! Props to Doga Kobo!<br>(Via Anima! Yell, Crunchyroll) <a href="https://t.co/97OhmbeNQJ">pic.twitter.com/97OhmbeNQJ</a></p>&mdash; Isla (@islamctear) <a href="https://twitter.com/islamctear/status/1054138313345548288?ref_src=twsrc%5Etfw">October 21, 2018</a></blockquote></div><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 

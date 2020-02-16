@@ -7,7 +7,7 @@ slug: review_kaichou_wa_maid_sama
 summary: Review of Kaichou wa Maid-sama!
 ---
 
-![Kaichou wa Maid-sama!]({static}/images/2015/maid/pv.jpg){: .center} ![JC Staff]({static}/images/anime/studios/jc_staff.png){: .studio}
+![Kaichou wa Maid-sama!](pv.jpg) ![JC Staff]({static}/images/anime/studios/jc_staff.png)
 
 [Kaichou wa Maid-sama!](https://hummingbird.me/anime/kaichou-wa-maid-sama) _Maid-Sama!_
 
@@ -15,7 +15,7 @@ I don't think I've been so conflicted about an anime as I was watching _Maid-Sam
 
 ## Story & Characters
 
-![Misaki]({static}/images/2015/maid/misaki.jpg){: .ew1000}
+![Misaki](misaki.jpg)
 
 _Maid-Sama!_ is a well regarded rom-com with a fantastically empowered female lead, Misaki Ayuzawa.
 
@@ -31,7 +31,7 @@ Additionally, this show runs 26 episodes (with a handful of quirky filler episod
 
 ## Animation
 
-![Style]({static}/images/2015/maid/style.jpg){: .ew1000}
+![Style](style.jpg)
 
 The animation here won't be winning any awards. While the character designs are high quality (complete with hyper stylized character shots with boarders -- I don't really know how else to describe the style) the overall production is rather minimal (possibly by design). The backgrounds are plain and minimal for the most part. The comedy aspects are accentuated with "cat eyes" and exaggerated movements (I'm at a vocabulary loss to describe this style but is often used in comedy or in comedic situations).
 
@@ -41,6 +41,6 @@ _Maid-Sama!_ has no OP or ED songs, which would have been a staple even in 2010.
 
 ## Final Thoughts
 
-![Misaki Usui]({static}/images/2015/maid/misaki_usui.jpg){: .ew1000}
+![Misaki Usui](misaki_usui.jpg)
 
 Did I like it? Yeah, for the most part. Would I recommend this? Eh. There are a bunch of other rom-com's out there that I would definitely recommend well ahead of _Maid-Sama!_. If you've already made it through those and are generally a fan of the genre, give this a try. I think Misaki's character is enough to salvage the shows general faults.

@@ -5,7 +5,7 @@ tags: [roland]
 category: blog
 slug: roland_jv_1080
 summary: ROMs from Roland's JV-1080
-Hero: "background-image: url(/images/2016/jv1080/hero.jpg);"
+hero: "background-image: url(/images/2016/jv1080/hero.jpg);"
 featured_image: "/images/2016/jv1080/hero.jpg"
 ---
 

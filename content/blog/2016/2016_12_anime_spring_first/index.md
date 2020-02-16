@@ -5,15 +5,15 @@ tags: [anime, first impressions]
 category: blog
 slug: anime_2016_spring_first
 summary: First Impressions of the Anime Spring 2016 Season
-Hero: "background-image: url(/images/anime/2016/spring/hero.jpg);"
+hero: "background-image: url(/images/anime/2016/spring/hero.jpg);"
 featured_image: "/images/anime/2016/spring/hero.jpg"
 ---
 
-[TOC]
+
 
 You'll notice [Boku no Hero Academia](https://hummingbird.me/anime/boku-no-hero-academia) is not listed below. I guess I'm just not as much a fan of the _shoenen_ category as everyone else as _Academia_ has no draw on me. I might try it at some point, but I think I'd rather give _Hunter x Hunter_ a try instead.
 
-![Re:Zero kara Hajimeru Isekai Seikatsu]({static}/images/anime/2016/spring/rezero.jpg "Re:Zero kara Hajimeru Isekai Seikatsu"){:.center} ![White Fox]({static}/images/anime/studios/white_fox.png){: .studio}
+![Re:Zero kara Hajimeru Isekai Seikatsu](spring/rezero.jpg "Re:Zero kara Hajimeru Isekai Seikatsu") ![White Fox]({static}/images/anime/studios/white_fox.png)
 
 ### [Re:Zero kara Hajimeru Isekai Seikatsu](https://hummingbird.me/anime/re-zero-kara-hajimeru-isekai-seikatsu)
 
@@ -21,7 +21,7 @@ Umm... This is not at all what I was expecting, but I'd be lying if I said I was
 
 This is a two cour show (24 episodes) and I have absolutely _no_ idea where this plot will go. There is quite a lot left unexplained about the world and characters that it really could go anywhere. Keeping my fingers crossed for this one.
 
-![Koutetsujou no Kabaneri]({static}/images/anime/2016/spring/1458215767_1_1_64ad8812acc3fa6d4127acb8964fc623.jpg "Koutetsujou no Kabaneri"){:.center} ![Wit]({static}/images/anime/studios/wit.png){: .studio}
+![Koutetsujou no Kabaneri](spring/1458215767_1_1_64ad8812acc3fa6d4127acb8964fc623.jpg "Koutetsujou no Kabaneri") ![Wit]({static}/images/anime/studios/wit.png)
 
 ### [Koutetsujou no Kabaneri](https://hummingbird.me/anime/koutetsujou-no-kabaneri)
 
@@ -31,7 +31,7 @@ Essentially this is [Attack on Titan](https://hummingbird.me/anime/attack-on-tit
 
 Side note here -- I found it _very_ interesting that Amazon picked this one up as an exclusive. I do love the fact that the Amazon Video iOS app lets you download the videos for offline viewing (_cough_ Netflix _cough_).
 
-![Netoge no Yome wa Onnanoko ja Nai to Omotta?]({static}/images/anime/2016/spring/netogenoyomewaonnanokojanaitoomottav2.jpg "Netoge no Yome wa Onnanoko ja Nai to Omotta?"){:.center}
+![Netoge no Yome wa Onnanoko ja Nai to Omotta?](spring/netogenoyomewaonnanokojanaitoomottav2.jpg "Netoge no Yome wa Onnanoko ja Nai to Omotta?")
 
 <div class="studio">Project No.9</div>
 
@@ -39,7 +39,7 @@ Side note here -- I found it _very_ interesting that Amazon picked this one up a
 
 At the half way point of the first episode, I was _this_ close to dropping it. I'm not exactly saying the end redeemed itself, but it at least made me give it a chance. It reminded me a little of [Boku wa Tomodachi ga Sukunai](https://hummingbird.me/anime/boku-wa-tomodachi-ga-sukunai). Whether or not I watch to the end will completely depend on how much humanity these characters have (and how much they are just harem tropes) -- really could go either way.
 
-![Bungou Stray Dogs]({static}/images/anime/2016/spring/bungoustraydogs.jpg "Bungou Stray Dogs"){:.center} ![Bones]({static}/images/anime/studios/bones.png){: .studio}
+![Bungou Stray Dogs](spring/bungoustraydogs.jpg "Bungou Stray Dogs") ![Bones]({static}/images/anime/studios/bones.png)
 
 ### [Bungou Stray Dogs](https://hummingbird.me/anime/bungou-stray-dogs)
 
@@ -47,7 +47,7 @@ Bones, Bones, Bones. Need I say more?
 
 A super hero detective agency channeling [Kekkai Sensen](https://hummingbird.me/anime/kekkai-sensen) -- the first episode was definitely entertaining with the humor flowing and some nice stylized action sequences. I wonder if this one will have a story arc to it or focus more on individual standalone stories.
 
-![Gakusen Toshi Asterisk 2nd Season]({static}/images/anime/2016/spring/ixrjzy_gakusentoshiasterisk2.jpg "Gakusen Toshi Asterisk 2nd Season"){:.center} ![A1]({static}/images/anime/studios/a1.png){: .studio}
+![Gakusen Toshi Asterisk 2nd Season](spring/ixrjzy_gakusentoshiasterisk2.jpg "Gakusen Toshi Asterisk 2nd Season") ![A1]({static}/images/anime/studios/a1.png)
 
 ### [Gakusen Toshi Asterisk 2nd Season](https://hummingbird.me/anime/gakusen-toshi-asterisk-2nd-season)
 
@@ -55,13 +55,13 @@ Why? _Why?_ **Why??**
 
 I finished the first season which really wasn't any good. A coin flip if I get around to this one.
 
-![Flying Witch]({static}/images/anime/2016/spring/htraii_flyingwitchv2.jpg "Flying Witch"){:.center} ![JC Staff]({static}/images/anime/studios/jc_staff.png){: .studio}
+![Flying Witch](spring/htraii_flyingwitchv2.jpg "Flying Witch") ![JC Staff]({static}/images/anime/studios/jc_staff.png)
 
 ### [Flying Witch](https://hummingbird.me/anime/flying-witch)
 
 This one is a fantastic counter balance to _Re:Zero_ and _Kabaneri_ -- you need something to offset the intensity, and I think _Flying Witch_ will suit me nicely. I'm hoping this fills the role that [Non Non Biyori](https://hummingbird.me/anime/non-non-biyori) did. I have high hopes for this one.
 
-![Kiznaiver]({static}/images/anime/2016/spring/main02.jpg "Kiznaiver"){:.center} ![Trigger]({static}/images/anime/studios/trigger.png){: .studio}
+![Kiznaiver](spring/main02.jpg "Kiznaiver") ![Trigger]({static}/images/anime/studios/trigger.png)
 
 ### [Kiznaiver](https://hummingbird.me/anime/kiznaiver)
 
@@ -69,13 +69,13 @@ I can't believe this is Trigger's first serious outing since [Kill la Kill](http
 
 I'm only an episode in, so I don't know whether or not there will be _any_ character development, or only situational lip service to the plot device -- essentially an ensemble cast whose pain (and possibly other emotions?) are linked together. Could be interesting, but I have a sneaking suspicion that I'm ultimately not going to like any of the characters.
 
-![Joker Game]({static}/images/anime/2016/spring/izgylc_jokergame.jpg "Joker Game"){:.center} ![Production IG]({static}/images/anime/studios/production_ig.png){:.studio}
+![Joker Game](spring/izgylc_jokergame.jpg "Joker Game") ![Production IG]({static}/images/anime/studios/production_ig.png)
 
 ### [Joker Game](https://hummingbird.me/anime/joker-game)
 
 I have no idea if I'll ultimately have the patience for this one. The pacing, the premise, the characters (and good god the "identical" character designs) left me a little bored. Will the entire story take place in 1937 or will they skip ahead to after WWII and follow these characters? My guess is the former, but the latter would be more interesting for me.
 
-![Kuma Miko]({static}/images/anime/2016/spring/cwjvky_kumamiko.jpg "Kuma Miko"){:.center}
+![Kuma Miko](spring/cwjvky_kumamiko.jpg "Kuma Miko")
 
 <div class="studio">Kinema Citrus, EMT²</div>
 
@@ -83,13 +83,13 @@ I have no idea if I'll ultimately have the patience for this one. The pacing, th
 
 So, this will sound crazy... but couldn't finish the opening episode because of the Bear's voice actor (I guess not that unusual a statement given The Jungle Book remake, but still). It just prevented me from suspending disbelief. I'll check back later to see what everyone thinks of the show to see if it's worth it.
 
-![Kuromukuro]({static}/images/anime/2016/spring/exvfec_kuromukurov4.jpg "Kuromukuro"){:.center} ![PA Works]({static}/images/anime/studios/pa_works.png){: .studio}
+![Kuromukuro](spring/exvfec_kuromukurov4.jpg "Kuromukuro") ![PA Works]({static}/images/anime/studios/pa_works.png)
 
 ### [Kuromukuro](https://hummingbird.me/anime/kuromukuro)
 
 Netflix picked this one up, but it looks like it will be released much later in the year (no idea why). A bit in the dark on the plot for this one, but I'm usually willing to give shows by PA Works a chance.
 
-![Shounen Maid]({static}/images/anime/2016/spring/uyedwa_shounenmaid.jpg "Shounen Maid"){:.center}
+![Shounen Maid](spring/uyedwa_shounenmaid.jpg "Shounen Maid")
 
 <div class="studio">8bit</div>
 

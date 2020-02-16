@@ -5,7 +5,7 @@ tags: [apple, macbook, thoughts]
 category: blog
 slug: mbp_thoughts
 summary: Some thoughts on Apple's new MacBook Pro
-Hero: "background-image: url(/images/2017/mbp_thoughts/hero.jpg);"
+hero: "background-image: url(/images/2017/mbp_thoughts/hero.jpg);"
 featured_image: "/images/2017/mbp_thoughts/hero.jpg"
 ---
 

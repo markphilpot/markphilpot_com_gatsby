@@ -5,12 +5,12 @@ tags: [anime, first impressions]
 category: anime
 slug: anime_2019_winter_first
 summary: First Impressions of the Anime Winter 2019 Season
-Hero: "background-image: url(/images/anime/2019/winter/hero.jpg);"
+hero: "background-image: url(/images/anime/2019/winter/hero.jpg);"
 featured_image: "/images/anime/2019/winter/hero.jpg"
 ---
 
 
-[TOC]
+
 
 Due to circumstances beyond my control (germs making their way home) this is going up *extremely* late. That being said, also due to said germs, I've been able to stay current with almost everything so far this season!
 
@@ -18,8 +18,8 @@ Due to circumstances beyond my control (germs making their way home) this is goi
 
 ### [Kakegurui ××](https://anilist.co/anime/100876)
 
-![Kakegurui ××]({static}/images/anime/2019/winter/n100876-2L9vR8WtAlzi.jpg "Kakegurui ××"){: .center} 
-![MAPPA]({static}/images/anime/studios/half/mappa.png){: .studio}
+![Kakegurui ××](covers/n100876-2L9vR8WtAlzi.jpg "Kakegurui ××") 
+![MAPPA]({static}/images/anime/studios/half/mappa.png)
 
 > Insert latest Netflix rant here...
 
@@ -27,7 +27,7 @@ Due to circumstances beyond my control (germs making their way home) this is goi
 
 ### [Tate no Yuusha no Nariagari](https://anilist.co/anime/99263)
 
-![Tate no Yuusha no Nariagari]({static}/images/anime/2019/winter/nx99263-SJSk5d6mhQZO.jpg "Tate no Yuusha no Nariagari"){: .center} 
+![Tate no Yuusha no Nariagari](covers/nx99263-SJSk5d6mhQZO.jpg "Tate no Yuusha no Nariagari") 
 
 <div class="studio">Kinema Citrus</div>
 
@@ -39,7 +39,7 @@ I sincerely wish I could binge this show in a 24hr blast. Like *Slime* I really 
 
 ### [Yakusoku no Neverland](https://anilist.co/anime/101759)
 
-![Yakusoku no Neverland]({static}/images/anime/2019/winter/nx101759-ONAwIKCFiNtE.jpg "Yakusoku no Neverland"){: .center} 
+![Yakusoku no Neverland](covers/nx101759-ONAwIKCFiNtE.jpg "Yakusoku no Neverland") 
 
 <div class="studio">CloverWorks</div>
 
@@ -55,8 +55,8 @@ Also, the OP is **awesome**
 
 ### [Boogiepop wa Warawanai (2019)](https://anilist.co/anime/101283)
 
-![Boogiepop wa Warawanai (2019)]({static}/images/anime/2019/winter/nx101283-YpZqD7wrzWui.jpg "Boogiepop wa Warawanai (2019)"){: .center} 
-![MADHOUSE]({static}/images/anime/studios/half/madhouse.png){: .studio}
+![Boogiepop wa Warawanai (2019)](covers/nx101283-YpZqD7wrzWui.jpg "Boogiepop wa Warawanai (2019)") 
+![MADHOUSE]({static}/images/anime/studios/half/madhouse.png)
 
 I'm not at all familiar with the original (done almost 20 years ago at this point) so I went in completely cold turkey. First impression was excellent and a good decision to air the first two episodes at once. There seems to be a bit of overlapping character designs which caused a bit of confusion as to who is who, but I think I've manged to get the three initial groups straight now. The non-linear storytelling takes effort as there aren't a lot of queues for you to anchor on.
 
@@ -67,8 +67,8 @@ The OP and ED are each fantastic as well!
 
 ### [Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen](https://anilist.co/anime/101921)
 
-![Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen]({static}/images/anime/2019/winter/nx101921-k0zETTY1j3Zy.jpg "Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen"){: .center} 
-![A-1 Pictures]({static}/images/anime/studios/half/a1.png){: .studio}
+![Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen](covers/nx101921-k0zETTY1j3Zy.jpg "Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen") 
+![A-1 Pictures]({static}/images/anime/studios/half/a1.png)
 
 The execution of this opening episode is top notch. The handling of the internal monologues was perfectly done. I hope there is more to this show however than just these two narcissistic characters bouncing off each other. If there is some actual development and some sort of arc, then I think I'll really enjoy this show.
 
@@ -77,8 +77,8 @@ The execution of this opening episode is top notch. The handling of the internal
 
 ### [Dororo](https://anilist.co/anime/101347)
 
-![Dororo]({static}/images/anime/2019/winter/nx101347-2J2p8qJpxpfZ.jpg "Dororo"){: .center} 
-![MAPPA, Twin Engine, Tezuka Productions]({static}/images/anime/studios/half/mappa.png){: .studio}
+![Dororo](covers/nx101347-2J2p8qJpxpfZ.jpg "Dororo") 
+![MAPPA, Twin Engine, Tezuka Productions]({static}/images/anime/studios/half/mappa.png)
 
 Another strong showing by MAPPA. A killer OP and a no-hold-bar take on feudal Japan. If it weren't for *Neverland* this might have taken the lead for show of the season.
 
@@ -86,7 +86,7 @@ Another strong showing by MAPPA. A killer OP and a no-hold-bar take on feudal Ja
 
 ### [Manaria Friends](https://anilist.co/anime/21322)
 
-![Manaria Friends]({static}/images/anime/2019/winter/nx21322-JI8QkN9MJkQR.jpg "Manaria Friends"){: .center} 
+![Manaria Friends](covers/nx21322-JI8QkN9MJkQR.jpg "Manaria Friends") 
 
 <div class="studio">CygamesPictures</div>
 
@@ -97,7 +97,7 @@ Incredible production values for a short (given it seems to be reusing assets fr
 
 ### [5-Toubun no Hanayome](https://anilist.co/anime/103572)
 
-![5-Toubun no Hanayome]({static}/images/anime/2019/winter/nx103572-gF3en6caAoJO.jpg "5-Toubun no Hanayome"){: .center} 
+![5-Toubun no Hanayome](covers/nx103572-gF3en6caAoJO.jpg "5-Toubun no Hanayome") 
 
 <div class="studio">Tezuka Productions</div>
 
@@ -110,8 +110,8 @@ That being said, the manga looks very good so that might be a better alternative
 
 ### [Mahou Shoujo Tokushusen Asuka](https://anilist.co/anime/103222)
 
-![Mahou Shoujo Tokushusen Asuka]({static}/images/anime/2019/winter/nx103222-wqNFOfxscteC.jpg "Mahou Shoujo Tokushusen Asuka"){: .center} 
-![LIDENFILMS]({static}/images/anime/studios/half/lidenfilms.png){: .studio}
+![Mahou Shoujo Tokushusen Asuka](covers/nx103222-wqNFOfxscteC.jpg "Mahou Shoujo Tokushusen Asuka") 
+![LIDENFILMS]({static}/images/anime/studios/half/lidenfilms.png)
 
 
 Personally, I would have preferred a show that focuses on the PTSD aspect of Magical Girls rather than the show I think we are going to get. I'll give this a few more episodes to see what kind of narrative we are setting up.
@@ -120,7 +120,7 @@ Personally, I would have preferred a show that focuses on the PTSD aspect of Mag
 
 ### [Egao no Daika](https://anilist.co/anime/104674)
 
-![Egao no Daika]({static}/images/anime/2019/winter/nx104674-jnKhbLm4PNyy.jpg "Egao no Daika"){: .center} 
+![Egao no Daika](covers/nx104674-jnKhbLm4PNyy.jpg "Egao no Daika") 
 
 <div class="studio">Tatsunoko Production</div>
 
@@ -132,8 +132,8 @@ I'll tune in next week to see what this conflict is and how they are going to st
 
 ### [Watashi ni Tenshi ga Maiorita!](https://anilist.co/anime/102680)
 
-![Watashi ni Tenshi ga Maiorita!]({static}/images/anime/2019/winter/nx102680-lbNTS26wBVYB.jpg "Watashi ni Tenshi ga Maiorita!"){: .center} 
-![Doga Kobo]({static}/images/anime/studios/half/dogakobo.png){: .studio}
+![Watashi ni Tenshi ga Maiorita!](covers/nx102680-lbNTS26wBVYB.jpg "Watashi ni Tenshi ga Maiorita!") 
+![Doga Kobo]({static}/images/anime/studios/half/dogakobo.png)
 
 Oh my god! *WHY?*
 
@@ -142,8 +142,8 @@ Two *extremely* questionable loli shows in back to back seasons...
 
 ### [Endro!](https://anilist.co/anime/103301)
 
-![Endro!]({static}/images/anime/2019/winter/nx103301-cSSHgCgUQVrR.jpg "Endro!"){: .center} 
-![Studio Gokumi]({static}/images/anime/studios/half/studio_gokumi.png){: .studio}
+![Endro!](covers/nx103301-cSSHgCgUQVrR.jpg "Endro!") 
+![Studio Gokumi]({static}/images/anime/studios/half/studio_gokumi.png)
 
 Very clever opening episode.
 
@@ -154,7 +154,7 @@ I'm not sure there is going to be enough here to keep me coming back each week, 
 
 ### [Kemurikusa](https://anilist.co/anime/101123)
 
-![Kemurikusa]({static}/images/anime/2019/winter/nx101123-UYfGb6gwOC7s.jpg "Kemurikusa"){: .center} 
+![Kemurikusa](covers/nx101123-UYfGb6gwOC7s.jpg "Kemurikusa") 
 
 <div class="studio">Yaoyorozu</div>
 
@@ -164,7 +164,7 @@ I'm not sure there is going to be enough here to keep me coming back each week, 
 
 ### [Girly Air Force](https://anilist.co/anime/101930)
 
-![Girly Air Force]({static}/images/anime/2019/winter/nx101930-JqnkTrUUqtP0.jpg "Girly Air Force"){: .center} 
+![Girly Air Force](covers/nx101930-JqnkTrUUqtP0.jpg "Girly Air Force") 
 
 <div class="studio">Satelight</div>
 
@@ -175,7 +175,7 @@ I have a question... Did this show enter production before or after [Darling in 
 
 ### [Kouya no Kotobuki Hikoutai](https://anilist.co/anime/104253)
 
-![Kouya no Kotobuki Hikoutai]({static}/images/anime/2019/winter/nx104253-Yl9t6c0PpAdD.jpg "Kouya no Kotobuki Hikoutai"){: .center} 
+![Kouya no Kotobuki Hikoutai](covers/nx104253-Yl9t6c0PpAdD.jpg "Kouya no Kotobuki Hikoutai") 
 
 <div class="studio">GEMBA</div>
 
@@ -186,7 +186,7 @@ So I don't think I'm a fan of the aesthetic choices (main characters in 3D, back
 
 ### [Pastel Memories](https://anilist.co/anime/101379)
 
-![Pastel Memories]({static}/images/anime/2019/winter/nx101379-PUbPQVUk1yMX.jpg "Pastel Memories"){: .center} 
+![Pastel Memories](covers/nx101379-PUbPQVUk1yMX.jpg "Pastel Memories") 
 
 <div class="studio">project No.9</div>
 

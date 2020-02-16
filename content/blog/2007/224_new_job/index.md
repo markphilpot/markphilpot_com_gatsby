@@ -8,7 +8,7 @@ slug: new_job
 
 We are now both set for our transitions back to California. I accepted a job with the TMOS project at the San Jose Lockheed office (more on the project later...)
 
-![GPS IIR]({static}/images/2007/gps2rart.jpg){: .center}
+![GPS IIR](gps2rart.jpg)
 
 I must say I am very lucky to have worked on the GPS project for four years right out of school. It has been a great experience and I've learned a great deal from the fantastic people on the project both in Gaithersburg and Colorado Springs.
 

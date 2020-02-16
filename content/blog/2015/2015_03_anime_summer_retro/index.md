@@ -7,7 +7,7 @@ slug: anime_2015_summer_retro
 summary: Retrospective of the Summer 2015 Anime Season
 ---
 
-[TOC]
+
 
 Welcome to my first attempt at an anime season retrospective. Some ground rules before we get started.
 
@@ -21,7 +21,7 @@ With that out of the way, I'm sorry this will come in a bit late as I'm still wo
 
 Wow. While I haven't been following anime that long, this summer season easily goes down as one of the best. While there weren't any all-time great shows, the breadth in quality that we got was astonishing. Great stories and great characters up and down the lineup. From what I understand, summer had been traditionally the "thin" season with the heavy hitters going with Fall/Winter/Spring premiers. Honestly, this season has left me with a hangover as the fall season doesn't look like it has nearly the quality that this did.
 
-![Gangsta]({static}/images/anime/2015/summer/gangsta_pv1.jpg){: .center} [Manglobe](https://hummingbird.me/anime/gangsta){: .center .link-nb}
+![Gangsta](summer/gangsta_pv1.jpg) [Manglobe](https://hummingbird.me/anime/gangsta)
 
 ### [Gangsta](https://hummingbird.me/anime/gangsta)
 
@@ -31,7 +31,7 @@ I loved this show with a huge caveat :: I will be absolutely crushed if this nev
 
 If you enjoyed [Black Lagoon](https://hummingbird.me/anime/black-lagoon) then I highly recommend this one.
 
-![Gakkou Gurashi!]({static}/images/anime/2015/summer/gakkougurashi_pv.jpg){:.center} ![Lerche]({static}/images/anime/studios/lerche.png){: .studio}
+![Gakkou Gurashi!](summer/gakkougurashi_pv.jpg) ![Lerche]({static}/images/anime/studios/lerche.png)
 
 ### [Gakkou Gurashi!](https://hummingbird.me/anime/gakkou-gurashi)
 
@@ -39,7 +39,7 @@ _Must watch_
 
 Don't read anything. Just trust me. Give this one a shot. Go! Why are you still here? Expect a more spoiler filled review very soon.
 
-![GATE]({static}/images/anime/2015/summer/gate_pv1.jpg){: .center} ![A1]({static}/images/anime/studios/a1.png){: .studio}
+![GATE](summer/gate_pv1.jpg) ![A1]({static}/images/anime/studios/a1.png)
 
 ### [GATE](https://)
 
@@ -47,7 +47,7 @@ _On Hold_
 
 I have to say, A1 seems to be struggling to find something other than [Sword Art Online](https://hummingbird.me/anime/sword-art-online). The premise of this show has so much potential! Modern Military vs Medieval Fantasy. There have to be some great story arcs given that setting, but what it feels like we got was something broaching slice of life with vanilla characters. I'm about five episodes in and have it on hold until the second half airs in the winter, so I definitely don't have the complete picture. I don't even know what to say, I'm just so fearful they've really missed an opportunity here.
 
-![Akagami]({static}/images/anime/2015/summer/akagami_pv.jpg){: .center} ![Bones]({static}/images/anime/studios/bones.png){: .studio}
+![Akagami](summer/akagami_pv.jpg) ![Bones]({static}/images/anime/studios/bones.png)
 
 ### [Akagami no Shirayuki-hime](https://hummingbird.me/anime/akagami-no-shirayuki-hime)
 
@@ -55,7 +55,7 @@ _Classic in the making_
 
 It has been a long time since I've seen a story this touching with fantastic characters and such a strong female protagonist; such a breath of fresh air that doesn't suffer from many of the overdone stereotypical tropes (damsel in distress, love triangles, etc). As a bonus, they announced there will be a second season coming soon (winter if I remember correctly). Even if you're not a fan of typical shoujo, there is a very good chance you may still enjoy this one.
 
-![Charlotte]({static}/images/anime/2015/summer/charlotte_pv2.jpg){: .center} ![PA Works]({static}/images/anime/studios/pa_works.png){: .studio}
+![Charlotte](summer/charlotte_pv2.jpg) ![PA Works]({static}/images/anime/studios/pa_works.png)
 
 ### [Charlotte](https://hummingbird.me/anime/charlotte)
 
@@ -65,7 +65,7 @@ Wow, this show really ran the gamut for me. I gave it three episodes and when it
 
 If you enjoyed [Angel Beats](https://hummingbird.me/anime/angel-beats) you'll probably enjoy this one as well. I'll have more to say in a review soon (hopefully).
 
-![Overlord]({static}/images/anime/2015/summer/overlord_pv.jpg){: .center} ![Madhouse]({static}/images/anime/studios/madhouse.png){: .studio}
+![Overlord](summer/overlord_pv.jpg) ![Madhouse]({static}/images/anime/studios/madhouse.png)
 
 ### [Overlord](https://hummingbird.me/anime/overlord)
 
@@ -73,7 +73,7 @@ _On Hold slipping toward Dropped_
 
 For me at least, this was [Sword Art Online](https://hummingbird.me/anime/sword-art-online) with none of the fun. I know some talked about the devolution of morality for the MC as being worth watching, but I just couldn't get behind it. Part of that might be to do with the avatar or the thread of ecchi, but I was just bored watching it. Now, I haven't dropped it completely but that's entirely due to Madhouse as the production studio. In my mind, they've earned a chance to bring me around with their work recently. I'll keep it in my hold queue for a while and see if I can give it a second chance.
 
-![Aoharu]({static}/images/anime/2015/summer/aoharu_pv1.jpg){: .center} ![Brains Base]({static}/images/anime/studios/brains_base.png){: .studio}
+![Aoharu](summer/aoharu_pv1.jpg) ![Brains Base]({static}/images/anime/studios/brains_base.png)
 
 ### [Aoharu x Kikanjuu](https://hummingbird.me/anime/aoharu-x-kikanjuu)
 
@@ -81,7 +81,7 @@ _Solid_
 
 Fully entertaining. Just the right amount of over-the-top coupled with an ass-kicking cross-dressing female lead. The pacing is its one fault; feels too much like a 15 year old learning to drive stick. That being said, I loved the character interactions and the extreme personas. I actually think there will be an OVA with the disc release, where I really, _really_ hope they finally do the one thing they needed to do with this show. Fingers crossed.
 
-![Danchigai]({static}/images/anime/2015/summer/danchigai_pv.jpg){: .center} [Creators in Pack](https://){: .center .link-nb}
+![Danchigai](summer/danchigai_pv.jpg) [Creators in Pack](https://)
 
 ### [Danchigai](https://hummingbird.me/anime/danchigai)
 
@@ -89,7 +89,7 @@ _Why did I even bother_
 
 What is it with the Japanese obsession being in love with one's own brother or sister? I mean, really... _really?_ At this point I'm not shocked per se and I think the only reason I got through this show as that it was a short (5 minute episodes). This is probably not worth your time (even if that time isn't much compared to a regular show).
 
-![Rokka]({static}/images/anime/2015/summer/rokka_pv.jpg){: .center} [Passione](https://){: .center .link-nb}
+![Rokka](summer/rokka_pv.jpg) [Passione](https://)
 
 ### [Rokka no Yuusha](https://hummingbird.me/anime/rokka-no-yuusha)
 
@@ -99,7 +99,7 @@ This was the one show during the season that I watched as soon as it became avai
 
 Give this one a shot. It's truly an action-packed mystery thrill ride of a show.
 
-![God Eater]({static}/images/anime/2015/summer/god_eater_pv.jpg){: .center} ![ufotable]({static}/images/anime/studios/ufotable.jpg){: .studio}
+![God Eater](summer/god_eater_pv.jpg) ![ufotable]({static}/images/anime/studios/ufotable.jpg)
 
 ### [God Eater](https://hummingbird.me/anime/god-eater)
 
@@ -109,7 +109,7 @@ Since this wasn't on either Cruncyroll or Funimation, I was only able to catch o
 
 Speaking of which, while I think the characters and plot fell flat, the animation is gorgeous. It's just a shame it's wasted on such poor writing. I will end up finishing this one if I can carve out the time, even if it's just to appreciate the animation (which is definitely a ufotable speciality).
 
-![Ranpo]({static}/images/anime/2015/summer/ranpo_pv1.jpg){: .center} ![Lerche]({static}/images/anime/studios/lerche.png){: .studio}
+![Ranpo](summer/ranpo_pv1.jpg) ![Lerche]({static}/images/anime/studios/lerche.png)
 
 ### [Ranpo Kitan: Game of Laplace](https://hummingbird.me/anime/ranpo-kitan-game-of-laplace)
 
@@ -119,7 +119,7 @@ I have a few more episodes to go on this one. This is a dark, murder mystery of 
 
 _Update:_ Finally finished the show and **wow** that was a great ending. It really shows how much an ending to a series can swing your opinion. Definitely recommend. The first half is essentially introductions and laying the ground work. The show gets it's legs in the second half and screams to the finish.
 
-![Dandelion]({static}/images/anime/2015/summer/dandelion_pv1.jpg){: .center} [Production IMS](https://){: .center .link-nb}
+![Dandelion](summer/dandelion_pv1.jpg) [Production IMS](https://)
 
 ### [Joukamachi no Dandelion](https://hummingbird.me/anime/joukamachi-no-dandelion)
 

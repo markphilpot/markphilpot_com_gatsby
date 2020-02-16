@@ -5,7 +5,7 @@ tags: [thoughts, music]
 category: blog
 slug: thoughts_on_temp_tracks
 summary: Collection of random thoughts on temp tracks
-Hero: "background-image: url(/images/2016/thoughts_temp/hero.jpg);"
+hero: "background-image: url(/images/2016/thoughts_temp/hero.jpg);"
 featured_image: "/images/2016/thoughts_temp/hero.jpg"
 ---
 

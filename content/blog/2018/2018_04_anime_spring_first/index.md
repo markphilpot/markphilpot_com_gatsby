@@ -5,18 +5,18 @@ tags: [anime, first impressions]
 category: anime
 slug: anime_2018_spring_first
 summary: First Impressions of the Anime Spring 2018 Season
-Hero: "background-image: url(/images/anime/2018/spring/hero.jpg);"
+hero: "background-image: url(/images/anime/2018/spring/hero.jpg);"
 featured_image: "/images/anime/2018/spring/hero.jpg"
 ---
 
-[TOC]
+
 
 This year has been a feast of riches for the anime community. So many good shows -- originals and sequels to favorites. At the same time, I need to catch up on last seasons two cour series. What is one to do?
 
 
 
-![Steins;Gate 0]({static}/images/anime/2018/spring/21127-JDu91CY9kHOI.jpg "Steins;Gate 0"){: .center} 
-![White Fox]({static}/images/anime/studios/half/white_fox.png){: .studio}
+![Steins;Gate 0](covers/21127-JDu91CY9kHOI.jpg "Steins;Gate 0") 
+![White Fox]({static}/images/anime/studios/half/white_fox.png)
 
 ### [Steins;Gate 0](https://anilist.co/anime/21127)
 
@@ -28,8 +28,8 @@ In addition to being my favorite anime of all time, the original is also my favo
 
 
 
-![Boku no Hero Academia 3]({static}/images/anime/2018/spring/100166-l8ZWtz9oWdXd.jpg "Boku no Hero Academia 3"){: .center} 
-![BONES]({static}/images/anime/studios/half/bones.png){: .studio}
+![Boku no Hero Academia 3](covers/100166-l8ZWtz9oWdXd.jpg "Boku no Hero Academia 3") 
+![BONES]({static}/images/anime/studios/half/bones.png)
 
 ### [Boku no Hero Academia 3](https://anilist.co/anime/100166)
 
@@ -39,8 +39,8 @@ It's back! And with another two cours!
 
 
 
-![Sword Art Online Alternative: Gun Gale Online]({static}/images/anime/2018/spring/100183-v4S2sGAG3A24.jpg "Sword Art Online Alternative: Gun Gale Online"){: .center} 
-![Studio 3Hz]({static}/images/anime/studios/half/studio_3hz.png){: .studio}
+![Sword Art Online Alternative: Gun Gale Online](covers/100183-v4S2sGAG3A24.jpg "Sword Art Online Alternative: Gun Gale Online") 
+![Studio 3Hz]({static}/images/anime/studios/half/studio_3hz.png)
 
 ### [Sword Art Online Alternative: Gun Gale Online](https://anilist.co/anime/100183)
 
@@ -50,8 +50,8 @@ So far this one is extremely promising. The characters are good and it seems lik
 
 
 
-![Persona 5 The Animation]({static}/images/anime/2018/spring/99693-aSdObZr9eBC4.jpg "Persona 5 The Animation"){: .center} 
-![A1]({static}/images/anime/studios/half/a1.png){: .studio}
+![Persona 5 The Animation](covers/99693-aSdObZr9eBC4.jpg "Persona 5 The Animation") 
+![A1]({static}/images/anime/studios/half/a1.png)
 
 ### [Persona 5 The Animation](https://anilist.co/anime/99693)
 
@@ -64,8 +64,8 @@ Objectively, anyone watching this who hasn't played the game may struggle with t
 But I'm going to enjoy every second of this one. Oh and just an aside, I really hope they ship Makoto, which is obviously the only *real* choice =)
 
 
-![Wotaku ni Koi wa Muzukashii]({static}/images/anime/2018/spring/99578-JooUZvr8kv6S.jpg "Wotaku ni Koi wa Muzukashii"){: .center} 
-![A-1 Pictures]({static}/images/anime/studios/half/a1.png){: .studio}
+![Wotaku ni Koi wa Muzukashii](covers/99578-JooUZvr8kv6S.jpg "Wotaku ni Koi wa Muzukashii") 
+![A-1 Pictures]({static}/images/anime/studios/half/a1.png)
 
 ### [Wotaku ni Koi wa Muzukashii](https://anilist.co/anime/99578)
 
@@ -73,8 +73,8 @@ This looks really fun. I tried picking up the manga a while back, but dropped it
 
 
 
-![Megalo Box]({static}/images/anime/2018/spring/100298-TWXglA9sZtxV.jpg "Megalo Box"){: .center} 
-![TMS Entertainment]({static}/images/anime/studios/half/tms.png){: .studio}
+![Megalo Box](covers/100298-TWXglA9sZtxV.jpg "Megalo Box") 
+![TMS Entertainment]({static}/images/anime/studios/half/tms.png)
 
 ### [Megalo Box](https://anilist.co/anime/100298)
 
@@ -89,7 +89,7 @@ Shit!
 What a complete retro trip!
 
 
-![Golden Kamui]({static}/images/anime/2018/spring/99699-vwSpHdiY2R3L.jpg "Golden Kamui"){: .center} 
+![Golden Kamui](covers/99699-vwSpHdiY2R3L.jpg "Golden Kamui") 
 
 <div class="studio">Geno Studio</div>
 
@@ -103,7 +103,7 @@ Also -- Can I just say *Man With A Mission* kills it again with a fantastic OP s
 
 
 
-![Hinamatsuri]({static}/images/anime/2018/spring/100077-GWWxOmN8WHwe.jpg "Hinamatsuri"){: .center} 
+![Hinamatsuri](covers/100077-GWWxOmN8WHwe.jpg "Hinamatsuri") 
 
 <div class="studio">feel.</div>
 
@@ -113,7 +113,7 @@ If you are a fan of dead-pan humor, then I highly recommend this one. I had quit
 
 
 
-![Devils Line]({static}/images/anime/2018/spring/99531-k0gyWMtCYn2j.jpg "Devils Line"){: .center} 
+![Devils Line](covers/99531-k0gyWMtCYn2j.jpg "Devils Line") 
 
 <div class="studio">Platinum Vision</div>
 
@@ -125,8 +125,8 @@ Good lord. Stay the fuck away.
 
 
 
-![Tada-kun wa Koi wo Shinai]({static}/images/anime/2018/spring/100179-jDGTOMxtoDkt.jpg "Tada-kun wa Koi wo Shinai"){: .center} 
-![Doga Kobo]({static}/images/anime/studios/half/dogakobo.png){: .studio}
+![Tada-kun wa Koi wo Shinai](covers/100179-jDGTOMxtoDkt.jpg "Tada-kun wa Koi wo Shinai") 
+![Doga Kobo]({static}/images/anime/studios/half/dogakobo.png)
 
 ### [Tada-kun wa Koi wo Shinai](https://anilist.co/anime/100179)
 
@@ -134,7 +134,7 @@ This is going to be a challenge to see if the show crumples under the weight of 
 
 
 
-![Mahou Shoujo Site]({static}/images/anime/2018/spring/100010-pL6r0CxkXh2q.jpg "Mahou Shoujo Site"){: .center} 
+![Mahou Shoujo Site](covers/100010-pL6r0CxkXh2q.jpg "Mahou Shoujo Site") 
 
 <div class="studio">production doA</div>
 
@@ -146,7 +146,7 @@ Holy shit this is disgusting. Between this and *Devils Line*, I don't know who r
 
 
 
-![Caligula]({static}/images/anime/2018/spring/100569-LBfpdDhS4oBE.jpg "Caligula"){: .center} 
+![Caligula](covers/100569-LBfpdDhS4oBE.jpg "Caligula") 
 
 <div class="studio">Satelight</div>
 
@@ -156,7 +156,7 @@ This show is better than it has any right to be. With a setup reminiscent of [An
 
 
 
-![3D Kanojo]({static}/images/anime/2018/spring/100526-LqDnjcIhDakp.jpg "3D Kanojo"){: .center} 
+![3D Kanojo](covers/100526-LqDnjcIhDakp.jpg "3D Kanojo") 
 
 <div class="studio">Hoods Entertainment</div>
 
@@ -166,7 +166,7 @@ My first reactions to the opening episode were all variations of cringing. To th
 
 
 
-![Comic Girls]({static}/images/anime/2018/spring/99131-DN6yv26YqjBa.jpg "Comic Girls"){: .center} 
+![Comic Girls](covers/99131-DN6yv26YqjBa.jpg "Comic Girls") 
 
 <div class="studio">Nexus</div>
 
@@ -176,8 +176,8 @@ Vibes of [New Game](https://anilist.co/anime/21455/New-Game/) but not nearly as 
 
 
 
-![Kakuriyo no Yadomeshi]({static}/images/anime/2018/spring/100500-39ZWkWQNA5tl.jpg "Kakuriyo no Yadomeshi"){: .center} 
-![GONZO]({static}/images/anime/studios/half/gonzo.png){: .studio}
+![Kakuriyo no Yadomeshi](covers/100500-39ZWkWQNA5tl.jpg "Kakuriyo no Yadomeshi") 
+![GONZO]({static}/images/anime/studios/half/gonzo.png)
 
 ### [Kakuriyo no Yadomeshi](https://anilist.co/anime/100500)
 
@@ -185,7 +185,7 @@ This one went immediately on hold. Not that it looks bad -- I just can't take on
 
 
 
-![Asagao to Kase-san]({static}/images/anime/2018/spring/99916-BvB7lDcW6eBu.jpg "Asagao to Kase-san"){: .center} 
+![Asagao to Kase-san](covers/99916-BvB7lDcW6eBu.jpg "Asagao to Kase-san") 
 
 <div class="studio">ZEXCS, </div>
 

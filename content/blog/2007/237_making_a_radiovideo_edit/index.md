@@ -14,6 +14,6 @@ What I didn't realize is that <em>Pilot in the Sky of Dreams</em> (the great vid
 
 ## Pilot Breakdown
 
-![Breakdown]({static}/images/2007/pilot.png){: .center}
+![Breakdown](pilot.png)
 
 The full length song is really good. The vocals on the bridge section are really awesome -- they should have tried to incorporate it (a four minute video isn't that much longer than a three). All in all a great album, however if you want to try Threshold to get into it, I'd recommend starting with <em>Subsurface</em>.

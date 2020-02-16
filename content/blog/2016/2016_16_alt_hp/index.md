@@ -5,7 +5,7 @@ tags: [harry potter, books]
 category: blog
 slug: alt_harry_potter
 summary: Alternate plots in the world of Harry Potter
-Hero: "background-image: url(/images/2016/alt_hp/hero.jpg);"
+hero: "background-image: url(/images/2016/alt_hp/hero.jpg);"
 featured_image: "/images/2016/alt_hp/hero.jpg"
 ---
 

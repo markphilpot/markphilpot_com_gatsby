@@ -5,15 +5,15 @@ tags: [anime, retrospective]
 category: blog
 slug: anime_2016_fall_retrospective
 summary: Retrospective of the Anime Fall 2016 Season
-Hero: "background-image: url(/images/anime/2016/fall/hero.jpg);"
+hero: "background-image: url(/images/anime/2016/fall/hero.jpg);"
 featured_image: "/images/anime/2016/fall/hero.jpg"
 ---
 
-[TOC]
+
 
 So between the holidays and getting sucked back into a few games (_cough_ Diablo III \*cough) I ended up not getting through most of the shows I intended. I'm still playing D3 and there a number of shows in the new season that are blocking me from going back and binging. In particular, I plan to get through [Yuri](https://anilist.co/anime/21709/YurionICE), [Udon](https://anilist.co/anime/21631/UdonnoKuninoKiniroKemari), [Gi(a)rlish Number](https://anilist.co/anime/21627/giarlishnumber), and [Fune wo Amu](https://anilist.co/anime/21703/FunewoAmu). The rest are a toss up between hold and dropped.
 
-![Hibike! Euphonium 2]({static}/images/anime/2016/fall/Cog7g4TUAAEm8Xv.jpg "Hibike! Euphonium 2"){:.center} ![Kyoto Animation]({static}/images/anime/studios/half/kyoto.png){:.studio}
+![Hibike! Euphonium 2](fall/Cog7g4TUAAEm8Xv.jpg "Hibike! Euphonium 2") ![Kyoto Animation]({static}/images/anime/studios/half/kyoto.png)
 
 ### [Hibike! Euphonium 2](https://hummingbird.me/anime/hibike-euphonium-2)
 
@@ -25,7 +25,7 @@ As far as character dramas go, nothing tops what Kyoani has done here. _Eupho_ i
 
 My understanding is that there won't be a third cour. The source novels have wrapped at the same point in the story. The ending is satisfying (if not tear inducing). I will have to rewatch this show multiple times in the years to come -- I will miss the characters too much to stay away.
 
-![Flip Flappers]({static}/images/anime/2016/fall/tumblr_ocvg5iO9Vl1sqqtwzo1_1280.jpg "Flip Flappers"){:.center}
+![Flip Flappers](fall/tumblr_ocvg5iO9Vl1sqqtwzo1_1280.jpg "Flip Flappers")
 
 <div class="studio">Studio 3Hz, Infinite</div>
 

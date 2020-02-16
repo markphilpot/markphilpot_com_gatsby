@@ -5,11 +5,11 @@ tags: [anime, first impressions]
 category: anime
 slug: anime_2018_summer_first
 summary: First Impressions of the Anime Summer 2018 Season
-Hero: "background-image: url(/images/anime/2018/summer/hero.jpg);"
+hero: "background-image: url(/images/anime/2018/summer/hero.jpg);"
 featured_image: "/images/anime/2018/summer/hero.jpg"
 ---
 
-[TOC]
+
 
 This will be abbreviated because, damn! Am I late to the party on this one...
 
@@ -18,8 +18,8 @@ With the season half way done, I guess it's better late than never.
 
 
 
-![Satsuriku no Tenshi]({static}/images/anime/2018/summer/99629-e1xUDHVKEpg7.jpg "Satsuriku no Tenshi"){: .center} 
-![J.C. Staff]({static}/images/anime/studios/half/jc_staff.png){: .studio}
+![Satsuriku no Tenshi](covers/99629-e1xUDHVKEpg7.jpg "Satsuriku no Tenshi") 
+![J.C. Staff]({static}/images/anime/studios/half/jc_staff.png)
 
 ### [Satsuriku no Tenshi](https://anilist.co/anime/99629)
 
@@ -28,8 +28,8 @@ There is enough here where I'm curious to see where it goes. The VA's interpreta
 
 
 
-![Hanebado!]({static}/images/anime/2018/summer/101045-byKzyG0rZD8b.jpg "Hanebado!"){: .center} 
-![LIDENFILMS]({static}/images/anime/studios/half/lidenfilms.png){: .studio}
+![Hanebado!](covers/101045-byKzyG0rZD8b.jpg "Hanebado!") 
+![LIDENFILMS]({static}/images/anime/studios/half/lidenfilms.png)
 
 ### [Hanebado!](https://anilist.co/anime/101045)
 
@@ -44,8 +44,8 @@ I have no idea how that relationship will go, but I'm sorry. Worst mom ever.
 
 
 
-![Chio-chan no Tsuugakuro]({static}/images/anime/2018/summer/99366-4iCYhCzpJwes.jpg "Chio-chan no Tsuugakuro"){: .center} 
-![diomedéa]({static}/images/anime/studios/half/diomedea.png){: .studio}
+![Chio-chan no Tsuugakuro](covers/99366-4iCYhCzpJwes.jpg "Chio-chan no Tsuugakuro") 
+![diomedéa]({static}/images/anime/studios/half/diomedea.png)
 
 ### [Chio-chan no Tsuugakuro](https://anilist.co/anime/99366)
 
@@ -53,8 +53,8 @@ This one is really funny but I think would do much better as a 12 minute short e
 
 
 
-![Asobi Asobase]({static}/images/anime/2018/summer/101001-lHJX4Y7gJk7B.jpg "Asobi Asobase"){: .center} 
-![Lerche]({static}/images/anime/studios/half/lerche.png){: .studio}
+![Asobi Asobase](covers/101001-lHJX4Y7gJk7B.jpg "Asobi Asobase") 
+![Lerche]({static}/images/anime/studios/half/lerche.png)
 
 ### [Asobi Asobase](https://anilist.co/anime/101001)
 
@@ -64,7 +64,7 @@ I'm not sure this is my brand of humor so it's been on hold for most of the seas
 
 
 
-![Harukana Receive]({static}/images/anime/2018/summer/99586-2qGCg1jkQ0YJ.jpg "Harukana Receive"){: .center} 
+![Harukana Receive](covers/99586-2qGCg1jkQ0YJ.jpg "Harukana Receive") 
 
 <div class="studio">C2C</div>
 
@@ -77,7 +77,7 @@ Sure, this show is an excuse to have 12 episodes of *beach episodes* but I've be
 
 
 
-![Yuragi-sou no Yuuna-san]({static}/images/anime/2018/summer/100483-fzseZYJnQTLI.jpg "Yuragi-sou no Yuuna-san"){: .center} 
+![Yuragi-sou no Yuuna-san](covers/100483-fzseZYJnQTLI.jpg "Yuragi-sou no Yuuna-san") 
 
 <div class="studio">Xebec</div>
 
@@ -88,8 +88,8 @@ Just wait for the Blu-Ray release...
 
 
 
-![Shichisei no Subaru]({static}/images/anime/2018/summer/100085-vlkcAE221VeM.jpg "Shichisei no Subaru"){: .center} 
-![Lerche]({static}/images/anime/studios/half/lerche.png){: .studio}
+![Shichisei no Subaru](covers/100085-vlkcAE221VeM.jpg "Shichisei no Subaru") 
+![Lerche]({static}/images/anime/studios/half/lerche.png)
 
 ### [Shichisei no Subaru](https://anilist.co/anime/100085)
 
@@ -97,7 +97,7 @@ So very close to dropping this, but I want to find out what the twist is. I'm pr
 
 
 
-![Shoujo☆Kageki Revue Starlight]({static}/images/anime/2018/summer/98658-63T0EpBCb22I.jpg "Shoujo☆Kageki Revue Starlight"){: .center} 
+![Shoujo☆Kageki Revue Starlight](covers/98658-63T0EpBCb22I.jpg "Shoujo☆Kageki Revue Starlight") 
 
 <div class="studio">Kinema Citrus</div>
 
@@ -107,8 +107,8 @@ The first episode is quite a trip, but I immediately put this on hold as I think
 
 
 
-![Planet With]({static}/images/anime/2018/summer/101368-3cECvrThAPmU.jpg "Planet With"){: .center} 
-![J.C. Staff]({static}/images/anime/studios/half/jc_staff.png){: .studio}
+![Planet With](covers/101368-3cECvrThAPmU.jpg "Planet With") 
+![J.C. Staff]({static}/images/anime/studios/half/jc_staff.png)
 
 ### [Planet With](https://anilist.co/anime/101368)
 
@@ -117,7 +117,7 @@ I'm *going* to watch this (I think) but I haven't started yet.
 
 
 
-![Kyoto Teramachi Sanjou no Holmes]({static}/images/anime/2018/summer/101292-epJCyCMj03W8.jpg "Kyoto Teramachi Sanjou no Holmes"){: .center} 
+![Kyoto Teramachi Sanjou no Holmes](covers/101292-epJCyCMj03W8.jpg "Kyoto Teramachi Sanjou no Holmes") 
 
 <div class="studio">Seven</div>
 

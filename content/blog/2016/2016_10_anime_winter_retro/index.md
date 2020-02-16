@@ -5,17 +5,17 @@ tags: [anime, retro]
 category: blog
 slug: anime_2016_winter_retro
 summary: Retrospective of the Anime Winter 2016 Season
-Hero: "background-image: url(/images/anime/2016/winter/hero.jpg);"
+hero: "background-image: url(/images/anime/2016/winter/hero.jpg);"
 featured_image: "/images/anime/2016/winter/hero.jpg"
 ---
 
-[TOC]
+
 
 So I was unable to get to the "sequels" for this season (_Gate_, _Ansatsu Kyoushitsu_, and _Akagami no Shirayuki-hime_). All three I will hopefully complete at some point (especially _Shirayuki_) but this was a crazy quarter personally and I ended up really only having time for a few shows.
 
 I've also started reading manga on a regular basis. I have a bunch of series I'm enjoying (some from shows I've watched and some new ones) and as a result my evening time is spread even more thinly.
 
-![Boku dake ga Inai Machi]({static}/images/anime/2016/winter/erased.jpg "Boku dake ga Inai Machi"){:.center} ![A-1]({static}/images/anime/studios/half/a1.png "A-1 Pictures"){:.studio}
+![Boku dake ga Inai Machi](winter/erased.jpg "Boku dake ga Inai Machi") ![A-1]({static}/images/anime/studios/half/a1.png "A-1 Pictures")
 
 ### [Boku dake ga Inai Machi](https://hummingbird.me/anime/boku-dake-ga-inai-machi)
 
@@ -25,13 +25,13 @@ The opening two episodes hooked me so badly I ended up watching each episode as 
 
 From what I've heard, the manga might be even better since there was quite a few threads dropped in order to fit into a single cour. I'm a few chapters in at the moment and definitely think that consensus might be right.
 
-![Kono Subarashii Sekai ni Shukufuku wo!]({static}/images/anime/2016/winter/kono_subarashii.jpg "Kono Subarashii Sekai ni Shukufuku wo!"){:.center} ![Deen]({static}/images/anime/studios/half/studio_deen.png "Studio DEEN"){:.studio}
+![Kono Subarashii Sekai ni Shukufuku wo!](winter/kono_subarashii.jpg "Kono Subarashii Sekai ni Shukufuku wo!") ![Deen]({static}/images/anime/studios/half/studio_deen.png "Studio DEEN")
 
 ### [Kono Subarashii Sekai ni Shukufuku wo!](https://hummingbird.me/anime/kono-subarashii-sekai-ni-shukufuku-wo)
 
 For me this was the surprise of the season. The humor was consistently good throughout and even the art style while jarring at first meshed well with the humor. The entire production was just _fun_!
 
-![Dimension W]({static}/images/anime/2016/winter/dimensionw.jpg "Dimension W"){:.center}
+![Dimension W](winter/dimensionw.jpg "Dimension W")
 
 <div class="studio">Studio 3Hz, Orange</div>
 
@@ -39,13 +39,13 @@ For me this was the surprise of the season. The humor was consistently good thro
 
 My initial assessment was spot on -- I kept my expectations low and was pleasantly surprised. The characters aren't deep and they have minimal arcs, the character design is OK, and the plot is mildly interesting. That might come across as damming, but the sum of the pieces resulted in something fairly entertaining. If you just want a decent sci-fi show to pass the time, this one isn't too bad.
 
-![Musaigen no Phantom World]({static}/images/anime/2016/winter/musaigennophantomworld.jpg "Musaigen no Phantom World"){:.center} ![Kyoto]({static}/images/anime/studios/half/kyoto.png "Kyoto"){:.studio}
+![Musaigen no Phantom World](winter/musaigennophantomworld.jpg "Musaigen no Phantom World") ![Kyoto]({static}/images/anime/studios/half/kyoto.png "Kyoto")
 
 ### [Musaigen no Phantom World](https://hummingbird.me/anime/musaigen-no-phantom-world)
 
 Oh the disappointment. The world had so much potential, but the writers seemed content with standalone surface level character pieces. I mean, it's KyotoAni so it's gorgeous to look at, but there was no depth aside from the art. _sigh_ Chalk this one up to missed opportunity.
 
-![Hai to Gensou no Grimgar]({static}/images/anime/2016/winter/haitogensounogrimgar.jpg "Hai to Gensou no Grimgar"){:.center} ![A-1]({static}/images/anime/studios/half/a1.png "A-1 Pictures"){:.studio}
+![Hai to Gensou no Grimgar](winter/haitogensounogrimgar.jpg "Hai to Gensou no Grimgar") ![A-1]({static}/images/anime/studios/half/a1.png "A-1 Pictures")
 
 ### [Hai to Gensou no Grimgar](https://hummingbird.me/anime/hai-to-gensou-no-grimgar)
 
@@ -53,37 +53,37 @@ I'm half way through this and while I really want to give it a chance it feels l
 
 I'm hoping they do soon...
 
-![Ao no Kanata no Four Rhythm]({static}/images/anime/2016/winter/aonokanatanofourrhythmv2.jpg "Ao no Kanata no Four Rhythm"){:.center} ![Gonzo]({static}/images/anime/studios/half/gonzo.png "Gonzo"){:.studio}
+![Ao no Kanata no Four Rhythm](winter/aonokanatanofourrhythmv2.jpg "Ao no Kanata no Four Rhythm") ![Gonzo]({static}/images/anime/studios/half/gonzo.png "Gonzo")
 
 ### [Ao no Kanata no Four Rhythm](https://hummingbird.me/anime/ao-no-kanata-no-four-rhythm)
 
 I got a few episodes in before putting it on hold. I think I would have been more interested if it had more "sports anime" influences. I don't think it's a bad show, just meh.
 
-![Dagashi Kashi]({static}/images/anime/2016/winter/dagashikashi_main.jpg "Dagashi Kashi"){:.center} ![Pony Canyon]({static}/images/anime/studios/half/pony_canyon.png "Pony Canyon"){:.studio}
+![Dagashi Kashi](winter/dagashikashi_main.jpg "Dagashi Kashi") ![Pony Canyon]({static}/images/anime/studios/half/pony_canyon.png "Pony Canyon")
 
 ### [Dagashi Kashi](https://hummingbird.me/anime/dagashi-kashi)
 
 Couldn't do it -- mostly because I can't relate to the food he show revolves around. Ultimately there might be a story hidden underneath but I didn't have the patience to find out.
 
-![Haruchika: Haruta to Chika wa Seishun Suru]({static}/images/anime/2016/winter/haruchika.jpg "Haruchika: Haruta to Chika wa Seishun Suru"){:.center} ![PA Works]({static}/images/anime/studios/half/pa_works.png "PA Works"){:.studio}
+![Haruchika: Haruta to Chika wa Seishun Suru](winter/haruchika.jpg "Haruchika: Haruta to Chika wa Seishun Suru") ![PA Works]({static}/images/anime/studios/half/pa_works.png "PA Works")
 
 ### [Haruchika: Haruta to Chika wa Seishun Suru](https://hummingbird.me/anime/haruchika-haruta-to-chika-wa-seishun-suru)
 
 This one got moved to the held column pretty quickly because other shows were more interesting.
 
-![Prince of Stride: Alternative]({static}/images/anime/2016/winter/princeofstridealternative.jpg "Prince of Stride: Alternative"){:.center} ![Madhouse]({static}/images/anime/studios/half/madhouse.png "Madhouse"){:.studio}
+![Prince of Stride: Alternative](winter/princeofstridealternative.jpg "Prince of Stride: Alternative") ![Madhouse]({static}/images/anime/studios/half/madhouse.png "Madhouse")
 
 ### [Prince of Stride: Alternative](https://hummingbird.me/anime/prince-of-stride-alternative)
 
 I'm fairly sure I'm going to end up dropping this one. Just not enough there to keep my interest.
 
-![Shoujo-tachi wa Kouya wo Mezasu]({static}/images/anime/2016/winter/shoujotachiwakouyawomezasu.jpg "Shoujo-tachi wa Kouya wo Mezasu"){:.center}
+![Shoujo-tachi wa Kouya wo Mezasu](winter/shoujotachiwakouyawomezasu.jpg "Shoujo-tachi wa Kouya wo Mezasu")
 
 ### [Shoujo-tachi wa Kouya wo Mezasu](https://hummingbird.me/anime/shoujo-tachi-wa-kouya-wo-mezasu)
 
 I'm half way through this one and will probably end up just an average show. A lot will depend on how much they the characters versus just the process of making this game, which I only find mildly interesting.
 
-![Shouwa Genroku Rakugo Shinjuu]({static}/images/anime/2016/winter/rakugo.jpg "Shouwa Genroku Rakugo Shinjuu"){:.center} ![Deen]({static}/images/anime/studios/half/studio_deen.png "Deen"){:.studio}
+![Shouwa Genroku Rakugo Shinjuu](winter/rakugo.jpg "Shouwa Genroku Rakugo Shinjuu") ![Deen]({static}/images/anime/studios/half/studio_deen.png "Deen")
 
 ### [Shouwa Genroku Rakugo Shinjuu](https://hummingbird.me/anime/shouwa-genroku-rakugo-shinjuu-tv)
 
@@ -91,11 +91,11 @@ This show went in a much different direction that I thought from the opening epi
 
 Despite this, the way Deen has animated the Rakugo stories is fantastic, often times letting the entire story be told. There is probably a lot lost in translation (and perhaps culturally), but this show has been a fantastic change of pace from the rest of the season.
 
-![Divider]({static}/images/dividers/heartbeat_half.png){: .center }
+![Divider]({static}/images/dividers/heartbeat_half.png)
 
 <div class="divider-title">Shorts</div>
 
-![Ooyasan wa Shishunki!]({static}/images/anime/2016/winter/ooyasanwashishunki.jpg "Ooyasan wa Shishunki!"){:.center}
+![Ooyasan wa Shishunki!](winter/ooyasanwashishunki.jpg "Ooyasan wa Shishunki!")
 
 <div class="studio">Genco, Seven Arcs</div>
 
@@ -103,7 +103,7 @@ Despite this, the way Deen has animated the Rakugo stories is fantastic, often t
 
 Quirky and fun, but nothing to write home about. The humor is actually decent and the 2 minute run time means you can binge the season in less time than a single normal show.
 
-![Mahou Shoujo Nante Mou Ii Desukara.]({static}/images/anime/2016/winter/Mahou-Shoujo-Nante-Mou-Ii-Desukara.jpg "Mahou Shoujo Nante Mou Ii Desukara."){:.center}
+![Mahou Shoujo Nante Mou Ii Desukara.](winter/Mahou-Shoujo-Nante-Mou-Ii-Desukara.jpg "Mahou Shoujo Nante Mou Ii Desukara.")
 
 <div class="studio">Pine Jam, FMF</div>
 

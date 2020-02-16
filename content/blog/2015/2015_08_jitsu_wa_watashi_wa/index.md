@@ -7,7 +7,7 @@ slug: review_jitsu_wa_watashi_wa
 summary: Review of Jitsu wa Watashi wa
 ---
 
-![Jitsu]({static}/images/2015/jitsu/jitsuwa_pv.jpg){: .center} ![TBS Entertainment]({static}/images/anime/studios/tbs.png){: .studio}
+![Jitsu](jitsuwa_pv.jpg) ![TBS Entertainment]({static}/images/anime/studios/tbs.png)
 
 [Jitsu wa Watashi wa](https://hummingbird.me/anime/jitsu-wa-watashi-wa) _Actually, I Am…_
 
@@ -19,7 +19,7 @@ I don't know what caused me to try watching the first episode again, but I'm _so
 
 ## Story & Characters
 
-![cast]({static}/images/2015/jitsu/cast.jpg){: .ew1000}
+![cast](cast.jpg)
 
 The basic premise is a well run trope -- An emotionally transparent and good natured high school student is so open that he can't keep secrets. Urged by his friends, Asahi Kuromine decides to confess to his classmate crush Yoko Shiragami -- only to discover she's a vampire. A sweet, but incredibly dense vampire...
 
@@ -45,7 +45,7 @@ It also helped that there is a really funny "Quiz" bit at the end of the credits
 
 ## Final Thoughts
 
-![peace]({static}/images/2015/jitsu/peace.jpg){: .ew1000}
+![peace](peace.jpg)
 
 How crazy good was this summer season?! Had I given this a chance initially, it would have been a show I watched as _soon_ as it was available on Crunchyroll. Ultimately I'm so glad I didn't end up missing this.
 

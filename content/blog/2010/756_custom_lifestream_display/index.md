@@ -12,7 +12,7 @@ For a long time, I've wanted to display my lifestream as a single page (and on m
 
 <h2>Custom Lifestream Display</h2>
 
-![mpnet]({static}/images/2010/mpnet.png){: .center}
+![mpnet](mpnet.png)
 
 The source is located over <a href="https://github.com/griphiam/mpnet">here</a> on github. It's a simple set of PHP files that uses the lifestream data from the Lifestream Plugin in your Wordpress database and renders it grouped by event type.
 

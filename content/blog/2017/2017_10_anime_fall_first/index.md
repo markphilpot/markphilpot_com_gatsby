@@ -5,15 +5,15 @@ tags: [anime, first impressions]
 category: blog
 slug: anime_2017_fall_first
 summary: First Impressions of the Anime Fall 2017 Season
-Hero: "background-image: url(/images/anime/2017/fall/hero.jpg);"
+hero: "background-image: url(/images/anime/2017/fall/hero.jpg);"
 featured_image: "/images/anime/2017/fall/hero.jpg"
 ---
 
-[TOC]
+
 
 Ummm... And here I thought that my watch list would be light this season.
 
-![Fate/stay night [Heaven's Feel] I. presage flower]({static}/images/anime/2017/fall/20791-qBVKnfdWc8fa.jpg "Fate/stay night [Heaven's Feel] I. presage flower"){:.center} ![ufotable]({static}/images/anime/studios/half/ufotable.png){:.studio}
+![Fate/stay night [Heaven's Feel] I. presage flower](fall/20791-qBVKnfdWc8fa.jpg "Fate/stay night [Heaven's Feel] I. presage flower") ![ufotable]({static}/images/anime/studios/half/ufotable.png)
 
 ### [Fate/stay night [Heaven's Feel] I. presage flower](https://anilist.co/anime/20791)
 
@@ -21,7 +21,7 @@ Opening this seasons impressions again with a movie. Excited to see the third ro
 
 The challenge for me will be to see if I manage to complete the visual novel before the third movie comes out next year.
 
-![Mahoutsukai no Yome]({static}/images/anime/2017/fall/98436-UMxpGC5mcqHy.jpg "Mahoutsukai no Yome"){:.center} ![Wit]({static}/images/anime/studios/half/wit.png){: .studio} ![Prod IG]({static}/images/anime/studios/half/production_ig.png){: .studio}
+![Mahoutsukai no Yome](fall/98436-UMxpGC5mcqHy.jpg "Mahoutsukai no Yome") ![Wit]({static}/images/anime/studios/half/wit.png) ![Prod IG]({static}/images/anime/studios/half/production_ig.png)
 
 ### [Mahoutsukai no Yome](https://anilist.co/anime/98436)
 
@@ -31,7 +31,7 @@ I can't tell you how excited I was for this show (and even more ecstatic that it
 
 If you couldn't already tell, I'm excited for this one. I'm not sure how much of the manga they are planning to cover, but if they manage to nail the fantastical aspects of the manga as well as they did the prequel, this is going to be a fabulous series to follow.
 
-![Kekkai Sensen & Beyond]({static}/images/anime/2017/fall/97886-iArtYIxZzGcR.jpg "Kekkai Sensen & Beyond"){:.center} ![Bones]({static}/images/anime/studios/half/bones.png){: .studio}
+![Kekkai Sensen & Beyond](fall/97886-iArtYIxZzGcR.jpg "Kekkai Sensen & Beyond") ![Bones]({static}/images/anime/studios/half/bones.png)
 
 ### [Kekkai Sensen & Beyond](https://anilist.co/anime/97886)
 
@@ -41,7 +41,7 @@ This was a very rapid reintroduction to the world of Hellsalem's Lot, but I must
 
 Welcome back Leonardo...
 
-![Black Clover]({static}/images/anime/2017/fall/97940-cmgkiM9APwu6.jpg "Black Clover"){:.center}
+![Black Clover](fall/97940-cmgkiM9APwu6.jpg "Black Clover")
 
 <div class="studio">Studio Pierrot</div>
 
@@ -51,7 +51,7 @@ Jesus. One minute into this show I was scrambling to find the mute button. The V
 
 I just couldn't do an entire season of this, let alone one episode.
 
-![Dies irae]({static}/images/anime/2017/fall/21555-5dZCoocXoX9O.jpg "Dies irae"){:.center}
+![Dies irae](fall/21555-5dZCoocXoX9O.jpg "Dies irae")
 
 <div class="studio">Genco</div>
 
@@ -61,7 +61,7 @@ _What the hell?!_
 
 Ugh. Wasn't really expecting much going into it and I know I technically only watched episode "0", but there is just nothing here that I want to come back to watch. Solid pass.
 
-![Inuyashiki]({static}/images/anime/2017/fall/97922-seJC6kFXjBFS.jpg "Inuyashiki"){:.center} ![MAPPA]({static}/images/anime/studios/half/mappa.png){: .studio}
+![Inuyashiki](fall/97922-seJC6kFXjBFS.jpg "Inuyashiki") ![MAPPA]({static}/images/anime/studios/half/mappa.png)
 
 ### [Inuyashiki](https://anilist.co/anime/97922)
 
@@ -74,7 +74,7 @@ A few notes:
 
 I feel like this was an episode 0 -- the origin story if you will -- and that we'll get a better idea of the show in the next two episodes. I was encouraged to read (after the fact) that the VA for the MC is a 68 year old.
 
-![Juuni Taisen]({static}/images/anime/2017/fall/98443-1d7qImgzb6Dj.jpg "Juuni Taisen"){:.center}
+![Juuni Taisen](fall/98443-1d7qImgzb6Dj.jpg "Juuni Taisen")
 
 <div class="studio">Graphinica</div>
 
@@ -82,26 +82,26 @@ I feel like this was an episode 0 -- the origin story if you will -- and that we
 
 A dark _Battle Royale_ that doesn't seem to be afraid to not pull punches?
 
-![Ok, if you insist]({static}/images/anime/2017/fall/daily_show_insist.gif){:.center} <br/>
+![Ok, if you insist](fall/daily_show_insist.gif) <br/>
 
 <div style="text-align: center; margin-top: -50px;"><small class="caption-text muted">Well
 if you insist</small></div>
 
 This should be entertaining if the ending of the first episode is the start of a trend line.
 
-![Just Because!]({static}/images/anime/2017/fall/98820-uz3n6YW1OXYU.jpg "Just Because!"){:.center} ![Pine Jam]({static}/images/anime/studios/half/pine_jam.png){:.studio}
+![Just Because!](fall/98820-uz3n6YW1OXYU.jpg "Just Because!") ![Pine Jam]({static}/images/anime/studios/half/pine_jam.png)
 
 ### [Just Because!](https://anilist.co/anime/98820)
 
 I have high hopes for this one and the first episode didn't let me down. From the studio that gave us [Gamers!](https://anilist.co/anime/97766) last season I think this has tremendous potential because they aren't restricted to the comedy genre. The episode is slow but I loved the honesty in all the characters (see my first reaction to _Gamers!_... same thoughts). As long as they don't manufacture a bunch of overlapping relationship triangles and just focus on these characters interacting, this could be the gem of the season.
 
-![Kino no Tabi: The Beautiful World - the Animated Series]({static}/images/anime/2017/fall/98448-OdfxrjAhkYvp.jpg "Kino no Tabi: The Beautiful World - the Animated Series"){:.center} ![Lerche]({static}/images/anime/studios/half/lerche.png){: .studio}
+![Kino no Tabi: The Beautiful World - the Animated Series](fall/98448-OdfxrjAhkYvp.jpg "Kino no Tabi: The Beautiful World - the Animated Series") ![Lerche]({static}/images/anime/studios/half/lerche.png)
 
 ### [Kino no Tabi: The Beautiful World - the Animated Series](https://anilist.co/anime/98448)
 
 I haven't seen the original, but know that many love this show. The first episode was I think a great intro to this episodic series (part of me wonders if there will be any sort of modern take of an arc). For a moment there I thought this was done by A1...
 
-![Kujira no Kora wa Sajou ni Utau]({static}/images/anime/2017/fall/98449-jgDuWOtfIvaE.jpg "Kujira no Kora wa Sajou ni Utau"){:.center} ![JC Staff]({static}/images/anime/studios/half/jc_staff.png){:.studio}
+![Kujira no Kora wa Sajou ni Utau](fall/98449-jgDuWOtfIvaE.jpg "Kujira no Kora wa Sajou ni Utau") ![JC Staff]({static}/images/anime/studios/half/jc_staff.png)
 
 ### [Kujira no Kora wa Sajou ni Utau](https://anilist.co/anime/98449)
 
@@ -111,7 +111,7 @@ Oh wait.
 
 _DAMN IT NETFLIX_
 
-![Ousama Game The Animation]({static}/images/anime/2017/fall/99698-5k8bDkhcJx9B.jpg "Ousama Game The Animation"){:.center}
+![Ousama Game The Animation](fall/99698-5k8bDkhcJx9B.jpg "Ousama Game The Animation")
 
 <div class="studio">Seven</div>
 
@@ -123,19 +123,19 @@ _How in the hell does this kid get admitted to yet another school after being th
 
 I have no idea why they seem to be adopting a "sequel" and there was no attempt to make me feel empathetic to the MC or any of the supporting cast. I'm going to give this one or two more tries, but I suspect I'm not going to be able to accept this one (especially when we have _Juuni Taisen_ this season).
 
-![Shoujo Shuumatsu Ryokou]({static}/images/anime/2017/fall/99420-hsLF2eTJCbyQ.jpg "Shoujo Shuumatsu Ryokou"){:.center} ![White Fox]({static}/images/anime/studios/half/white_fox.png){:.studio}
+![Shoujo Shuumatsu Ryokou](fall/99420-hsLF2eTJCbyQ.jpg "Shoujo Shuumatsu Ryokou") ![White Fox]({static}/images/anime/studios/half/white_fox.png)
 
 ### [Shoujo Shuumatsu Ryokou](https://anilist.co/anime/99420)
 
 This was a very interesting juxtaposition between cute and unsettling. The scene with the rations and the gun... Ugh, wow. If the music had made a bigger impact, it truly would have been great opening episode.
 
-![3-gatsu no Lion 2]({static}/images/anime/2017/fall/98478-jK91Uw1gq5Nr.jpg "3-gatsu no Lion 2"){:.center} ![Shaft]({static}/images/anime/studios/half/shaft.png){: .studio}
+![3-gatsu no Lion 2](fall/98478-jK91Uw1gq5Nr.jpg "3-gatsu no Lion 2") ![Shaft]({static}/images/anime/studios/half/shaft.png)
 
 ### [3-gatsu no Lion 2](https://anilist.co/anime/98478)
 
 Cutting reminder that I still need to finish the first season...
 
-![Code:Realize - Sousei no Himegimi]({static}/images/anime/2017/fall/98630-Wtb6TdfrayC5.jpg "Code:Realize - Sousei no Himegimi"){:.center}
+![Code:Realize - Sousei no Himegimi](fall/98630-Wtb6TdfrayC5.jpg "Code:Realize - Sousei no Himegimi")
 
 <div class="studio">M.S.C, Lantis, DAX Production</div>
 
@@ -143,7 +143,7 @@ Cutting reminder that I still need to finish the first season...
 
 I'm on the fence for this one. I think it was because there was no villain introduced, so I'm still uncertain exactly what kind of series this will end up being. Could be good, I guess we'll just have to wait and see.
 
-![Houseki no Kuni]({static}/images/anime/2017/fall/98707-yKcrtBTmFjEu.png "Houseki no Kuni"){:.center}
+![Houseki no Kuni](fall/98707-yKcrtBTmFjEu.png "Houseki no Kuni")
 
 <div class="studio">Orange</div>
 
@@ -155,7 +155,7 @@ There could be some very interesting world building here, so I'm going to stick 
 
 It's the eyes. Nail that and it will cover a lot of other imperfections.
 
-![Net-juu no Susume]({static}/images/anime/2017/fall/99726-NbYnLhXEMISQ.jpg "Net-juu no Susume"){:.center}
+![Net-juu no Susume](fall/99726-NbYnLhXEMISQ.jpg "Net-juu no Susume")
 
 <div class="studio">Signal.MD</div>
 
@@ -163,7 +163,7 @@ It's the eyes. Nail that and it will cover a lot of other imperfections.
 
 This one has the potential to be a favorite of the season. The MC is really endearing even if the pacing was a tad rough around the edges.
 
-![Osake wa Fuufu ni Natte Kara]({static}/images/anime/2017/fall/98657-P9OayeslJ79r.jpg "Osake wa Fuufu ni Natte Kara"){:.center}
+![Osake wa Fuufu ni Natte Kara](fall/98657-P9OayeslJ79r.jpg "Osake wa Fuufu ni Natte Kara")
 
 <div class="studio">Creators in Pack</div>
 
@@ -171,7 +171,7 @@ This one has the potential to be a favorite of the season. The MC is really ende
 
 This 3 minute short is too short for it's own good. I'm skeptical it will win me over as throughly as [Danna ga Nani wo Itteiru ka Wakaranai Ken](https://anilist.co/anime/20735) did, but I'm willing to give it a chance.
 
-![Konohana Kitan]({static}/images/anime/2017/fall/98506-BPHtNhP7Q1TD.jpg "Konohana Kitan"){:.center} ![Lerche]({static}/images/anime/studios/half/lerche.png){: .studio}
+![Konohana Kitan](fall/98506-BPHtNhP7Q1TD.jpg "Konohana Kitan") ![Lerche]({static}/images/anime/studios/half/lerche.png)
 
 ### [Konohana Kitan](https://anilist.co/anime/98506)
 
@@ -179,7 +179,7 @@ Oh good lord is this shit cute.
 
 If it's anywhere close to the feel good comfort that was [Non Non Biyori](https://anilist.co/anime/17549) I'll be very happy.
 
-![Sengoku Night Blood]({static}/images/anime/2017/fall/98603-PPWyXBNCgWvd.jpg "Sengoku Night Blood"){:.center}
+![Sengoku Night Blood](fall/98603-PPWyXBNCgWvd.jpg "Sengoku Night Blood")
 
 <div class="studio">TYPHOON GRAPHICS</div>
 
@@ -187,13 +187,13 @@ If it's anywhere close to the feel good comfort that was [Non Non Biyori](https:
 
 Ugh. Couldn't get through the first episode. Skip. Skip. Skip.
 
-![Two Car]({static}/images/anime/2017/fall/99672-Z2aXOeOG8xHd.jpg "Two Car"){:.center} ![Silver Link]({static}/images/anime/studios/half/silver_link.png){:.studio}
+![Two Car](fall/99672-Z2aXOeOG8xHd.jpg "Two Car") ![Silver Link]({static}/images/anime/studios/half/silver_link.png)
 
 ### [Two Car](https://anilist.co/anime/99672)
 
 Ok, ok... I know it looks ridiculous, but I at least wanted to see one episode before tossing. I ended up dropping the "biking" animes from a few seasons ago, so the probability is high this one will follow. There wasn't a lot there other than rapid fire side character introductions and a very generic backstory for the two MCs. Will need another episode or two to get a proper gauge on what the rest of the season might have in store.
 
-![URAHARA]({static}/images/anime/2017/fall/98513-IARUSpAhc1Mu.jpg "URAHARA"){:.center}
+![URAHARA](fall/98513-IARUSpAhc1Mu.jpg "URAHARA")
 
 <div class="studio">Shirogumi</div>
 
@@ -203,7 +203,7 @@ I have _no_ idea if this will hook me enough to keep it from the drop pile, but 
 
 It's very different to say the least. It kind of reminded me of [Flip Flappers](https://anilist.co/anime/21714) with a pastel color pallet, but _FF_ hooked me from the first episode, where as _Urahara_ was much more middle of the road. I'll give it a few more episodes and see where it lands.
 
-![Anime-Gataris]({static}/images/anime/2017/fall/98607-yh9RjzFdVUWl.jpg "Anime-Gataris"){:.center}
+![Anime-Gataris](fall/98607-yh9RjzFdVUWl.jpg "Anime-Gataris")
 
 <div class="studio">WAO World</div>
 

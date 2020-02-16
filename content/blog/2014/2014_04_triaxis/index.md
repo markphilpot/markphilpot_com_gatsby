@@ -8,7 +8,7 @@ slug: mesa-boogie
 summary: Mesa Boogie Deep Dive
 ---
 
-![Mesa Boogie TriAxis]({static}/images/triaxis.jpg "Mesa Boogie TriAxis"){: .ew1200} <br/> <small class="caption-text muted">Photo by <a href="https://www.flickr.com/photos/markphilpot/">Mark Philpot</a></small>
+![Mesa Boogie TriAxis](triaxis.jpg "Mesa Boogie TriAxis") <br/> <small class="caption-text muted">Photo by <a href="https://www.flickr.com/photos/markphilpot/">Mark Philpot</a></small>
 
 The Mesa Boogie TriAxis / 2:Ninety is a classic. Sure, we have digital modelers, cab simulators and silicon based preamps now, but nothing can quite complete with the raw tube power and spectrum of the TriAxis preamp and the 2:Ninety power amp. Combine that with a classic tc electronic G-Major in the effects loop, you have a wondrous world of sound possibilities.
 

@@ -9,7 +9,7 @@ summary: A favorite memory from my time in Cameron Indoor Stadium
 
 I found an old post from the old [DBR](https://dukebasketballreport.com) forum about the Duke vs UNC game played on February 1, 2001 and I thought I'd share it. I couldn't find the original post (not sure if it made it through the DBR revamp) so credit goes to _WI Dukie_
 
-![Cameron Indoor Stadium]({static}/images/2015/duke_unc/cameron.jpg "Cameron Indoor Stadium"){: .ew1000} <small>Credit: <a href="https://flic.kr/p/7fpAza">Lindsay Hickman</a></small>
+![Cameron Indoor Stadium](cameron.jpg "Cameron Indoor Stadium") <small>Credit: <a href="https://flic.kr/p/7fpAza">Lindsay Hickman</a></small>
 
 I was one of the members of DUMB that stuck around well after the game ended and this is one of my favorite memories of getting to play in the band in Cameron Indoor Stadium.
 

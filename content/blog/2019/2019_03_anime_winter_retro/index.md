@@ -5,19 +5,19 @@ tags: [anime, retrospective]
 category: anime
 slug: anime_2019_winter_retro
 summary: Retrospective of the Anime Winter 2019 Season
-Hero: "background-image: url(/images/anime/2019/winter/cards/hero.jpg);"
+hero: "background-image: url(/images/anime/2019/winter/cards/hero.jpg);"
 featured_image: "/images/anime/2019/winter/cards/hero.jpg"
 ---
 
 
-[TOC]
+
 
 All around a solid start for 2019 (which has a lot to live up to given the strength of shows in 2018). As usual the two cour shows (Dororo and Shield Hero) will be covered in the next retro (spoiler: Dororo is *awesome!*)
 
 
 ### [Yakusoku no Neverland](https://anilist.co/anime/101759)
 
-![Yakusoku no Neverland]({static}/images/anime/2019/winter/cards/neverland.jpg "Yakusoku no Neverland"){: .ew1920}
+![Yakusoku no Neverland](cards/neverland.jpg "Yakusoku no Neverland")
 
 Anime of the Year?
 
@@ -32,7 +32,7 @@ Now, if you'll excuse me, I need to now catch up in the manga so I'm ready for [
 
 ### [Sword Art Online: Alicization](https://anilist.co/anime/100182)
 
-![Sword Art Online: Alicization]({static}/images/anime/2019/winter/cards/sao.jpg "Sword Art Online: Alicization"){: .ew1920}
+![Sword Art Online: Alicization](cards/sao.jpg "Sword Art Online: Alicization")
 
 Wrapping up it's second (of 4?) cours, Alicization was actually an entertaining entry in the SAO franchise. At times very exposition heavy, I enjoyed giving the plot room to breathe. If you're already predisposed to hate on SAO then I wouldn't bother jumping into this -- quite a number of the flaws from previous arcs bleed through as well some very heavy handed handling of themes in the final encounter.
 
@@ -43,7 +43,7 @@ Good entertainment. I'm not sure what more we should expect out of this franchis
 
 ### [Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen](https://anilist.co/anime/101921)
 
-![Kaguya-sama wa Kokurasetai]({static}/images/anime/2019/winter/cards/love.jpg "Kaguya-sama wa Kokurasetai"){: .ew1920}
+![Kaguya-sama wa Kokurasetai](cards/love.jpg "Kaguya-sama wa Kokurasetai")
 
 Chika is best girl.
 
@@ -56,7 +56,7 @@ There were lots of *laugh out loud* moments and many of the predicaments were st
 
 ### [Manaria Friends](https://anilist.co/anime/21322)
 
-![Manaria Friends]({static}/images/anime/2019/winter/cards/friends.jpg "Manaria Friends"){: .ew1920}
+![Manaria Friends](cards/friends.jpg "Manaria Friends")
 
 Honestly, it exceeded my expectations. The production values alone for a show like this place this show in a category of it's own. The relationship between Anne and Grea is absolutely adorable and I think there was just the right amount of shipping tension for this show.
 
@@ -65,7 +65,7 @@ Honestly, it exceeded my expectations. The production values alone for a show li
 
 ### [Endro!](https://anilist.co/anime/103301)
 
-![Endro!]({static}/images/anime/2019/winter/cards/endro.jpg "Endro!"){: .ew1920}
+![Endro!](cards/endro.jpg "Endro!")
 
 This had just enough to keep me going for the entire run. There were about 4 episodes that were just straight up filler, but the main arc of the story was actually quite good.
 

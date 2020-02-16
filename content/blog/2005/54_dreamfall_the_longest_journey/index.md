@@ -8,7 +8,7 @@ slug: dreamfall_the_longest_journey
 
 Back in the summer of my sophomore year in college (2000 or 2001) while Jeff and I were working at Vialta, one lunch time we stumbled upon a review of a new game from Finland. It hadn't yet been released in the US (I don't think they had yet secured a US publisher). It was a rave review. Harking back to the classic puzzle & character driven adventure game that had made the Sierra classics so popular so many years ago. This was released when Quake, Unreal, and the rest of the FPS genre was <em>huge</em>, so a pure adventure game stuck out. Not knowing if it would ever reach the US (I should have known better... about 8 months after I caved it was released... but I did get it 8 months early), I went ahead and imported the English version. <a href="https://www.longestjourney.com/">The Longest Journey</a> was a great ride though a genre that I thought had been abandoned.
 
-![TLJ]({static}/images/2005/tlj.jpg){: .center}
+![TLJ](tlj.jpg)
 
 It was well worth it. The plot was fantastic (though one could argue it's a little over the top... that's what makes it fun). The characters were deep and evolved. The music was excellent & it was visually stunning. Everything a good adventure game needs. People clamored for a sequel. It was ripe for it. And it is finally coming: <em><a href="https://www.dreamfall.com">Dreamfall</a></em>.
 

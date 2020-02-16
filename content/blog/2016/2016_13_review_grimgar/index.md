@@ -5,11 +5,11 @@ tags: [anime, review]
 category: blog
 slug: review_grimgar
 summary: Review of Hai to Gensou no Grimgar (Grimgar of Fantasy and Ash)
-Hero: "background-image: url(/images/2016/grimgar/hero.jpg);"
+hero: "background-image: url(/images/2016/grimgar/hero.jpg);"
 featured_image: "/images/2016/grimgar/hero.jpg"
 ---
 
-![Grimgar]({static}/images/2016/grimgar/title.jpg){: .ew1200} ![A1]({static}/images/anime/studios/half/a1.png){: .studio}
+![Grimgar](title.jpg) ![A1]({static}/images/anime/studios/half/a1.png)
 
 [Hai to Gensou no Grimgar](https://hummingbird.me/anime/hai-to-gensou-no-grimgar) _Grimgar of Fantasy and Ash_
 
@@ -31,7 +31,7 @@ In the second episode, there is a 4 minute montage showing the day-to-day life o
 
 The thematic elements were a little overwrought, but I definitely forgave the writers quickly as they were at least attempting it, rather than avoiding it entirely. Too often this genre seems to only appeal to story telling's lowest common denominator, so it was nice to have a genuine _Hero's Journey_.
 
-![Fight]({static}/images/2016/grimgar/fight.jpg){: .ew1200}
+![Fight](fight.jpg)
 
 The art and animation was spectacular. The backgrounds were soft, almost watercolor like. The character designs were solid and the fights while simplistic were well done.
 

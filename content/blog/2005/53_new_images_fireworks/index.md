@@ -10,6 +10,6 @@ So I finally got my fireworks pictures up in a new gallery. This was a rather di
 
 This is one of my favorites because it almost looks like a star constellation or galaxy. The second image is a 21 stitch pano (around 40MP) of Monticello taken when we went down to Charlottesville. It was sunny when we started the tour of the house, but by the end it was overcast, so it looks slightly gloomy. Oh well.
 
-![Monticello]({static}/images/2005/Monticello.jpg){: .center}
+![Monticello](Monticello.jpg)
 
 Prior to the fireworks, we gathered for a great BBQ in a park area in north Rock Creek. Paul came out from Seattle for the weekend and Dave came up from North Carolina. Sam and his girlfriend came down from Philadelphia as well but unfortunately Sam and Dave had to leave before the fireworks (work... ever the inconvenience). I hadn't played croquet or ultimate in a very long time, so thanks guys! I had a blast! (And the BBQ turned out really well... once we reinvented how to make fire) =)

@@ -4,7 +4,7 @@ date: "2016-03-03 23:16:00"
 tags: [thoughts]
 category: blog
 slug: redesign
-Hero: "background-image: url(/images/2016/redesign/hero.jpg);"
+hero: "background-image: url(/images/2016/redesign/hero.jpg);"
 featured_image: "/images/2016/redesign/hero.jpg"
 ---
 

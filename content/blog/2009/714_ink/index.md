@@ -6,7 +6,7 @@ category: blog
 slug: ink
 ---
 
-![Ink]({static}/images/2009/ink.jpg){: .center}
+![Ink](ink.jpg)
 
 I heard about <a href="https://www.imdb.com/title/tt1071804/">Ink</a> today from a blog post about how it had been pirated all over the torrent sites, but as a result had zoomed up the popularity charts. If you have Netflix, it's available on <a href="https://www.netflix.com/Movie/Ink/70125584">Watch Instantly</a>, and I highly, highly recommend it.
 

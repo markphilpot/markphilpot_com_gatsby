@@ -5,18 +5,18 @@ tags: [anime, retrospective]
 category: blog
 slug: anime_2018_winter_retro
 summary: Retrospective of the Anime Winter 2018 Season
-Hero: "background-image: url(/images/anime/2018/winter/hero.jpg);"
+hero: "background-image: url(/images/anime/2018/winter/hero.jpg);"
 featured_image: "/images/anime/2018/winter/hero.jpg"
 ---
 
-[TOC]
+
 
 Is it just me or are there more two cour shows slated for 2018 than previous years?
 
 Of the two two-cour shows still on my slate ([Darling in the FranXX](https://anilist.co/anime/99423/DarlingintheFranxx) and [Grancrest](https://anilist.co/anime/97768/GrancrestSenki)) *Darling* is an absolute trip with arguably *Best Girl* in Zero Two, whereas *Grancrest* feels like a show trying too hard to be ambitious in its world building. I'll definitely keep up with both, but my interest in *Grancrest* might wain in the later weeks given how strong the Spring 2018 slate is shaping up to be.
 
 
-![Mahoutsukai no Yome]({static}/images/anime/2018/winter/cards/mahoutsukai.jpg "Mahoutsukai no Yome"){:.ew1920}
+![Mahoutsukai no Yome](cards/mahoutsukai.jpg "Mahoutsukai no Yome")
 
 ### [Mahoutsukai no Yome](https://anilist.co/anime/98436)
 
@@ -29,7 +29,7 @@ It was often painfully obvious that they took the budget of a single cour and tr
 Chise was a brilliant protagonist and I loved the weaving of pagan and Irish mythology. All in all, I think I was hoping for a bit more based on the OVA, but I'm still ecstatic that we got what we did.
 
 
-![Violet Evergarden]({static}/images/anime/2018/winter/cards/evergarden.jpg "Violet Evergarden"){:.ew1920}
+![Violet Evergarden](cards/evergarden.jpg "Violet Evergarden")
 
 ### [Violet Evergarden](https://anilist.co/anime/21827)
 
@@ -42,7 +42,7 @@ It's far from Koyani's best work, but that's a high bar to clear. The art and an
 Props also to Episode 10 -- I haven't cried that hard since the end of [Shigatsu wa Kimi no Uso](https://anilist.co/anime/20665/ShigatsuwaKiminoUso)
 
 
-![citrus]({static}/images/anime/2018/winter/cards/citrus.jpg "citrus"){:.ew1920}
+![citrus](cards/citrus.jpg "citrus")
 
 ### [citrus](https://anilist.co/anime/97832)
 
@@ -55,7 +55,7 @@ Did I still enjoy it? *Yep*
 Not more more to say. Great OP song from [nano.RIPE](https://www.nanoripe.com/)
 
 
-![Koi wa Ameagari no You ni]({static}/images/anime/2018/winter/cards/koi.jpg "Koi wa Ameagari no You ni"){:.ew1920}
+![Koi wa Ameagari no You ni](cards/koi.jpg "Koi wa Ameagari no You ni")
 
 ### [Koi wa Ameagari no You ni](https://anilist.co/anime/98385)
 
@@ -67,7 +67,7 @@ Such a fantastic story about relationships, growing up, and reflecting on your p
 
 
 
-![Sora yori mo Tooi Basho]({static}/images/anime/2018/winter/cards/sora.jpg "Sora yori mo Tooi Basho"){:.ew1920}
+![Sora yori mo Tooi Basho](cards/sora.jpg "Sora yori mo Tooi Basho")
 
 ### [Sora yori mo Tooi Basho](https://anilist.co/anime/99426)
 
@@ -91,7 +91,7 @@ I cannot possibly articulate all of what this show has meant to me -- instead, b
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wO6CGqKimC0" frameborder="0" allowfullscreen></iframe>
 </div>
 
-![Yuru Camp△]({static}/images/anime/2018/winter/cards/yuru.jpg "Yuru Camp△"){:.ew1920}
+![Yuru Camp△](cards/yuru.jpg "Yuru Camp△")
 
 ### [Yuru Camp△](https://anilist.co/anime/98444)
 
@@ -100,7 +100,7 @@ This show surprised me. All the normal tropes of your typical anti-social protag
 It definitely made me want to go camping... 
 
 
-![Hakata Tonkotsu Ramens]({static}/images/anime/2018/winter/cards/ramens.jpg "Hakata Tonkotsu Ramens"){:.ew1920}
+![Hakata Tonkotsu Ramens](cards/ramens.jpg "Hakata Tonkotsu Ramens")
 
 ### [Hakata Tonkotsu Ramens](https://anilist.co/anime/99483)
 
@@ -108,7 +108,7 @@ Felt a bit like *Ocean's 11* with a cross dressing shippable "couple" and everyo
 
 
 
-![Hakumei to Mikochi]({static}/images/anime/2018/winter/cards/hakumei.jpg "Hakumei to Mikochi"){:.ew1920}
+![Hakumei to Mikochi](cards/hakumei.jpg "Hakumei to Mikochi")
 
 ### [Hakumei to Mikochi](https://anilist.co/anime/99748)
 
@@ -118,7 +118,7 @@ Now, that may have turned you off this show, but don't let it. This is a delight
 
 
 
-![Märchen Mädchen]({static}/images/anime/2018/winter/cards/marchen.jpg "Märchen Mädchen"){:.ew1920}
+![Märchen Mädchen](cards/marchen.jpg "Märchen Mädchen")
 
 ### [Märchen Mädchen](https://anilist.co/anime/99720)
 
