@@ -5,8 +5,8 @@ tags: [anime, first impressions]
 category: anime
 slug: anime_2019_winter_first
 summary: First Impressions of the Anime Winter 2019 Season
-hero: "background-image: url(/images/anime/2019/winter/hero.jpg);"
-featured_image: "/images/anime/2019/winter/hero.jpg"
+hero: "covers/hero.jpg"
+featured_image: "covers/hero.jpg"
 ---
 
 

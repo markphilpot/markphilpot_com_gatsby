@@ -5,8 +5,8 @@ tags: [review, games]
 category: blog
 slug: firewatch
 summary: Review of Panic's Firewatch
-hero: "background-image: url(/images/2016/firewatch/hero.jpg);"
-featured_image: "/images/2016/firewatch/hero.jpg"
+hero: "hero.jpg"
+featured_image: "hero.jpg"
 ---
 
 ![Firewatch](title.jpg)

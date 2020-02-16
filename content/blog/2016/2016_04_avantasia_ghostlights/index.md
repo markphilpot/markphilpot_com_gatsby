@@ -5,8 +5,8 @@ tags: [music, review]
 category: blog
 slug: avantasia_ghostlights
 summary: Review of Avantasia's "Ghostlights"
-hero: "background-image: url(/images/2016/avantasia/hero.jpg);"
-featured_image: "/images/2016/avantasia/hero.jpg"
+hero: "hero.jpg"
+featured_image: "hero.jpg"
 ---
 
 ![Ghostlights](avantasia-ghostlights.jpg)

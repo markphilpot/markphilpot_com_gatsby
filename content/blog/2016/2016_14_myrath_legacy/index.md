@@ -5,8 +5,8 @@ tags: [music, review]
 category: blog
 slug: myrath_legacy
 summary: Review of Myrath's new album 'Legacy'
-hero: "background-image: url(/images/2016/myrath/hero.jpg);"
-featured_image: "/images/2016/myrath/hero.jpg"
+hero: "hero.jpg"
+featured_image: "hero.jpg"
 ---
 
 ![Her Halo](legacy.jpg)

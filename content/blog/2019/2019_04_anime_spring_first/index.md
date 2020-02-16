@@ -5,8 +5,8 @@ tags: [anime, first impressions]
 category: anime
 slug: anime_2019_spring_first
 summary: First Impressions of the Anime Spring 2019 Season
-hero: "background-image: url(/images/anime/2019/spring/hero.jpg);"
-featured_image: "/images/anime/2019/spring/hero.jpg"
+hero: "covers/hero.jpg"
+featured_image: "covers/hero.jpg"
 ---
 
 

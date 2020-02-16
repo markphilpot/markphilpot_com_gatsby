@@ -5,8 +5,8 @@ tags: [music, review]
 category: blog
 slug: teramaze_her_halo
 summary: Review of Teramaze's new album 'Her Halo'
-hero: "background-image: url(/images/2016/teramaze/hero.jpg);"
-featured_image: "/images/2016/teramaze/hero.jpg"
+hero: "hero.jpg"
+featured_image: "hero.jpg"
 ---
 
 ![Her Halo](album.jpg)

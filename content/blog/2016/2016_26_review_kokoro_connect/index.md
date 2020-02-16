@@ -5,8 +5,8 @@ tags: [anime, review]
 category: blog
 slug: kokoro_connect
 summary: Review of the anime series Kokoro Connect
-hero: "background-image: url(/images/2016/kokoro/hero.jpg);"
-featured_image: "/images/2016/kokoro/hero.jpg"
+hero: "hero.jpg"
+featured_image: "hero.jpg"
 ---
 
 ![Title](title.jpg)

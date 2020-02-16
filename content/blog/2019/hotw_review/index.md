@@ -5,8 +5,8 @@ tags: [games, review, visual novel]
 category: games
 slug: heart_of_the_woods
 summary: Review of Studio Élan's "Heart of the Woods"
-hero: "background-image: url(/images/2019/hotw/hero.jpg);"
-featured_image: "/images/2019/hotw/hero.jpg"
+hero: "hero.jpg"
+featured_image: "hero.jpg"
 status: draft
 ---
 

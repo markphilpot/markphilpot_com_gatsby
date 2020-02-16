@@ -5,8 +5,8 @@ tags: [games, review, visual novel]
 category: games
 slug: highway_blossoms
 summary: Review of Alienworks "Highway Blossoms"
-hero: "background-image: url(/images/2019/highway_blossoms/hero.jpg);"
-featured_image: "/images/2019/highway_blossoms/hero.jpg"
+hero: "hero.jpg"
+featured_image: "hero.jpg"
 status: draft
 ---
 

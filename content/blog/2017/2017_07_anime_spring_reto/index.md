@@ -5,8 +5,8 @@ tags: [anime, retro]
 category: blog
 slug: anime_2017_spring_retro
 summary: Anime Spring 2017 Season Retrospective
-hero: "background-image: url(/images/anime/2017/spring/hero.jpg);"
-featured_image: "/images/anime/2017/spring/hero.jpg"
+hero: "cards/hero.jpg"
+featured_image: "cards/hero.jpg"
 ---
 
 
