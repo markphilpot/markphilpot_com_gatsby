@@ -44,6 +44,15 @@
     "typography": "^0.16.19"
   },
   "devDependencies": {
+    "apollo-client": "^2.6.8",
+    "apollo-cache-inmemory": "^1.6.5",
+    "apollo-link-http": "^1.5.16",
+    "download": "^7.1.0",
+    "esm": "^3.2.25",
+    "graphql": "^14.6.0",
+    "graphql-tag": "^2.10.3",
+    "handlebars": "^4.7.3",
+    "node-fetch": "^2.6.0",
     "prettier": "^1.19.1"
   },
   "homepage": "https://markphilpot.com",
@@ -60,6 +69,7 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "anime_season": "YEAR=2020 SEASON=winter node -r esm scripts/anime_season.js"
   }
 }

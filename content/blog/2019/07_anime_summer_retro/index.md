@@ -1,6 +1,6 @@
 ---
 title: "Anime Summer 2019 Retrospective"
-date: "2019-08-03 10:37:00"
+date: "2019-10-03 10:37:00"
 tags: [anime, retro]
 category: anime
 slug: anime_2019_summer_retro
