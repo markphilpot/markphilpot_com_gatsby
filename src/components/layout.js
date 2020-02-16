@@ -9,7 +9,7 @@ export const CenterColumn = ({ children }) => {
     <Box
       css={{
         margin: '0 auto',
-        maxWidth: '600px',
+        maxWidth: '740px',
         padding: '0 30px',
       }}
     >
