@@ -10,7 +10,7 @@ featured_image: "hero.jpg"
 ---
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">The new Transformer&#39;s cartoon that my son has discovered has a theme that is **this** close to the new Star Trek theme... driving me nuts!</p>&mdash; Mark Philpot (@mark_philpot) <a href="https://twitter.com/mark_philpot/status/782053795379294208">October 1, 2016</a></blockquote>
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Star Trek&#39;s Theme :: <a href="https://t.co/hfSWElLozB">https://t.co/hfSWElLozB</a><br>Transformers Prime Theme :: <a href="https://t.co/KO3HysXKT9">https://t.co/KO3HysXKT9</a></p>&mdash; Mark Philpot (@mark_philpot) <a href="https://twitter.com/mark_philpot/status/782055085043884032">October 1, 2016</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Star Trek&#39;s Theme :: <a href="https://t.co/hfSWElLozB">https://t.co/hfSWElLozB</a><br/>Transformers Prime Theme :: <a href="https://t.co/KO3HysXKT9">https://t.co/KO3HysXKT9</a></p>&mdash; Mark Philpot (@mark_philpot) <a href="https://twitter.com/mark_philpot/status/782055085043884032">October 1, 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <div class="iframe_wrapper">

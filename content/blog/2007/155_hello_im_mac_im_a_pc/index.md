@@ -10,9 +10,7 @@ Prior to getting started, regardless of which camp you support, you have to appr
 
 For Christmas Ann got me an iPod -- there is a reason this things sell so well. They are just damn easy to use. they of course have their quirks, but they are at least not frustrating to use. My previous MP3 players where the "portable" <a href="https://en.wikipedia.org/wiki/Creative_Nomad_Jukebox#NOMAD_Jukebox_Zen">Creative Jukebox 3</a> and the "great-for-workouts-if-you-didn't-mind-listening-to-the-same-songs-over-and-over" <a href="https://en.wikipedia.org/wiki/Creative_Nomad_Jukebox#NOMAD_and_NOMAD_MuVo">Creative Nomad IIc</a>. Both of these basically come from the before-iPod-era (BiPE) of portable music players. However, before I get too deep in this, let me segue in true Star Wars fashion...
 
-## <em>This is not the post you're looking for...
-
-</em>
+<em>This is not the post you're looking for...</em>
 
 The real reason is that in the next few months, we need to get Ann a new computer (laptop) before she starts school. Which brings us to tonight's word...
 

@@ -10,22 +10,22 @@ Remember! These are from a game released in 1989 on a platform released in 1986.
 
 **Crystal's and Enemy**
 
-<audio controls><source src="crystal_and_enemy.ogg" type="audio/ogg"</audio>
+<audio controls><source src="crystal_and_enemy.ogg" type="audio/ogg"/></audio>
 
 **You Died**
 
-<audio controls><source src="died.ogg" type="audio/ogg"</audio>
+<audio controls><source src="died.ogg" type="audio/ogg"/></audio>
 
 **Special**
 
-<audio controls><source src="special.ogg" type="audio/ogg"</audio>
+<audio controls><source src="special.ogg" type="audio/ogg"/></audio>
 
 **Whee!**
 
-<audio controls><source src="whee.ogg" type="audio/ogg"</audio>
+<audio controls><source src="whee.ogg" type="audio/ogg"/></audio>
 
 **Orgasmic**
 
-<audio controls><source src="orgasmic.ogg" type="audio/ogg"</audio>
+<audio controls><source src="orgasmic.ogg" type="audio/ogg"/></audio>
 
 When you think about it, the Apple IIgs was <em>way</em> ahead of its time!
