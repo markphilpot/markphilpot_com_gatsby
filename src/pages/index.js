@@ -175,11 +175,13 @@ const BlogIndex = ({ data, location }) => {
               <article style={{ position: 'relative' }} key={node.fields.slug}>
                 {year}
                 <Link sx={{ textDecoration: 'none' }} to={node.fields.slug}>
+                  {/*<a href={node.fields.slug}>*/}
                   {hasFeaturedImage ? (
                     <FeaturedImagePost node={node} title={title} isDraft={isDraft} />
                   ) : (
                     <SimpleTitlePost title={title} node={node} isDraft={isDraft} />
                   )}
+                  {/*</a>*/}
                 </Link>
               </article>
             );

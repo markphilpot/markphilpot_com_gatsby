@@ -14,6 +14,7 @@
     "@fortawesome/free-brands-svg-icons": "^5.12.1",
     "@mdx-js/mdx": "^1.5.5",
     "@mdx-js/react": "^1.5.5",
+    "@reach/router": "1.2.1",
     "gatsby": "^2.19.7",
     "gatsby-image": "^2.2.39",
     "gatsby-plugin-feed-generator": "^2.0.5",
