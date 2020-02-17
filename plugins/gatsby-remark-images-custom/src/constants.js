@@ -10,8 +10,8 @@ exports.DEFAULT_OPTIONS = {
   loading: `lazy`,
   disableBgImageOnAlpha: false,
   disableBgImage: false,
-}
+};
 
-exports.imageClass = `gatsby-resp-image-image`
-exports.imageWrapperClass = `gatsby-resp-image-wrapper`
-exports.imageBackgroundClass = `gatsby-resp-image-background-image`
+exports.imageClass = `gatsby-resp-image-image`;
+exports.imageWrapperClass = `gatsby-resp-image-wrapper`;
+exports.imageBackgroundClass = `gatsby-resp-image-background-image`;
