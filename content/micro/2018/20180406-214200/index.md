@@ -1,5 +1,5 @@
 ---
-title: 
+title: ''
 category: micro
 date: "2018-04-06 21:42:00"
 slug: "2018-04-06T21:42:00"
