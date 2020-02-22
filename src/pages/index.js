@@ -146,7 +146,8 @@ const SimpleTitlePost = props => {
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title;
-  const posts = data.allMdx.edges;
+  const posts = data.posts.edges;
+  const drafts = data.drafts.edges;
   const { heroLight, heroDark } = data;
 
   const [colorMode] = useColorMode();
@@ -156,6 +157,33 @@ const BlogIndex = ({ data, location }) => {
       <Hero hero={colorMode === 'default' ? heroLight : heroDark} />
       <NavBar />
       <CenterColumn>
+        {process.env.NODE_ENV === 'development' ? drafts
+            .map(({ node }, index, p) => {
+
+              let year = null;
+              if (index === 0) {
+                year = <Year>Drafts</Year>;
+              }
+
+              const title = node.frontmatter.title || node.fields.slug;
+              const isDraft = node.frontmatter.status === 'draft';
+              const hasFeaturedImage = node.frontmatter.featured_image != null && node.frontmatter.featured_image != '';
+              return (
+                <article style={{ position: 'relative' }} key={node.fields.slug}>
+                  {year}
+                  <Link sx={{ textDecoration: 'none' }} to={node.fields.slug}>
+                    {/*<a href={node.fields.slug}>*/}
+                    {hasFeaturedImage ? (
+                      <FeaturedImagePost node={node} title={title} isDraft={isDraft} />
+                    ) : (
+                      <SimpleTitlePost title={title} node={node} isDraft={isDraft} />
+                    )}
+                    {/*</a>*/}
+                  </Link>
+                </article>
+              );
+            })
+          : null}
         {posts
           .filter(({ node }) => {
             if (process.env.NODE_ENV !== 'development') {
@@ -197,8 +225,6 @@ const BlogIndex = ({ data, location }) => {
 
 export default BlogIndex;
 
-//filter: { sourceInstanceName: { eq: "blog" } },
-
 export const pageQuery = graphql`
   query {
     site {
@@ -212,7 +238,36 @@ export const pageQuery = graphql`
     heroDark: file(absolutePath: { regex: "/gg_bridge_dark.jpg/" }) {
       publicURL
     }
-    allMdx(filter: { fields: { sourceName: { eq: "blog" } } }, sort: { fields: [frontmatter___date], order: DESC }) {
+    posts: allMdx(
+        filter: { fields: { sourceName: { eq: "blog" } }, frontmatter: { status: { ne: "draft" } } }
+        sort: { fields: [frontmatter___date], order: DESC }
+    ) {
+      edges {
+        node {
+          excerpt
+          fields {
+            slug
+          }
+          frontmatter {
+            date
+            title
+            tags
+            status
+            featured_image {
+              childImageSharp {
+                fluid {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    drafts: allMdx(
+        filter: { fields: { sourceName: { eq: "blog" } }, frontmatter: { status: { eq: "draft" } } }
+        sort: { fields: [frontmatter___date], order: DESC }
+    ) {
       edges {
         node {
           excerpt
