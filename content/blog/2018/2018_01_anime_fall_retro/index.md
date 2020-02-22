@@ -15,13 +15,13 @@ So Persona 5 completely derailed my keeping up with the fall season. Thankfully 
 
 Note: This is going out late due to a combination of procrastination and illness. Sorry! 🤒
 
-![Mahoutsukai no Yome](fall/98436-UMxpGC5mcqHy.jpg "Mahoutsukai no Yome") ![Wit]({static}/images/anime/studios/half/wit.png) ![Prod IG]({static}/images/anime/studios/half/production_ig.png)
+![Mahoutsukai no Yome](fall/98436-UMxpGC5mcqHy.jpg "Mahoutsukai no Yome") ![Wit](studios/half/wit.png) ![Prod IG](studios/half/production_ig.png)
 
 ### [Mahoutsukai no Yome](https://anilist.co/anime/98436)
 
 Quick thought since it's only halfway through: _LOVE!!_
 
-![Kekkai Sensen & Beyond](fall/97886-iArtYIxZzGcR.jpg "Kekkai Sensen & Beyond") ![Bones]({static}/images/anime/studios/half/bones.png)
+![Kekkai Sensen & Beyond](fall/97886-iArtYIxZzGcR.jpg "Kekkai Sensen & Beyond") ![Bones](studios/half/bones.png)
 
 ### [Kekkai Sensen & Beyond](https://anilist.co/anime/97886)
 
@@ -29,7 +29,7 @@ A collection of episodic vignettes.
 
 To be honest, I missed the overall arc that the first season had. This season was great too because I really do love these characters, but it ultimately fell short of it's stronger opening season.
 
-![Inuyashiki](fall/97922-seJC6kFXjBFS.jpg "Inuyashiki") ![MAPPA]({static}/images/anime/studios/half/mappa.png)
+![Inuyashiki](fall/97922-seJC6kFXjBFS.jpg "Inuyashiki") ![MAPPA](studios/half/mappa.png)
 
 ### [Inuyashiki](https://anilist.co/anime/97922)
 
@@ -49,7 +49,7 @@ Not bad. Spoilers, but the ending felt a bit of a cheat, but it was acknowledged
 
 Quick note on that ED. Good lord, someone should be fired for approving that storyboard. Good song though.
 
-![Just Because!](fall/98820-uz3n6YW1OXYU.jpg "Just Because!") ![Pine Jam]({static}/images/anime/studios/half/pine_jam.png)
+![Just Because!](fall/98820-uz3n6YW1OXYU.jpg "Just Because!") ![Pine Jam](studios/half/pine_jam.png)
 
 ### [Just Because!](https://anilist.co/anime/98820)
 
@@ -57,13 +57,13 @@ I loved this show with a _huge_ asterisk: The Ending.
 
 The ending fell extremely flat and almost took away all my enjoyment of the series. Compare this ending to the ending of [Tsuki ga Kirei](https://anilist.co/anime/98202/TsukigaKirei) which left me ecstatic even though it was just wrapped up during the credit sequence. I still recommend the show if you are into a well done, slow paced slice-of-life show -- just temper your expectations.
 
-![Kino no Tabi: The Beautiful World - the Animated Series](fall/98448-OdfxrjAhkYvp.jpg "Kino no Tabi: The Beautiful World - the Animated Series") ![Lerche]({static}/images/anime/studios/half/lerche.png)
+![Kino no Tabi: The Beautiful World - the Animated Series](fall/98448-OdfxrjAhkYvp.jpg "Kino no Tabi: The Beautiful World - the Animated Series") ![Lerche](studios/half/lerche.png)
 
 ### [Kino no Tabi: The Beautiful World - the Animated Series](https://anilist.co/anime/98448)
 
 I think I would have enjoyed this reboot more if it wasn't airing alongside Girls' Last Tour. Having not seen the original I have no real point of comparison other than hearing in general that the original was "better" -- take that for what you will.
 
-![Kujira no Kora wa Sajou ni Utau](fall/98449-jgDuWOtfIvaE.jpg "Kujira no Kora wa Sajou ni Utau") ![JC Staff]({static}/images/anime/studios/half/jc_staff.png)
+![Kujira no Kora wa Sajou ni Utau](fall/98449-jgDuWOtfIvaE.jpg "Kujira no Kora wa Sajou ni Utau") ![JC Staff](studios/half/jc_staff.png)
 
 ### [Kujira no Kora wa Sajou ni Utau](https://anilist.co/anime/98449)
 
@@ -71,7 +71,7 @@ Fantastic! (Completely in spite of Netflix... thank god for fansubs)
 
 High recommendation but didn't exceed in any one category. The ending implies that there is more coming. I'll be curious how that is ultimately handled. Netflix's poor treatment of anime is (in my opinion) robbing the shows of the acclaim that they would otherwise garner from the community. I'm not sure how much seasonal hype translates into long term acclaim, but if we take a show like Little Witch Academia, it seems to me that the shows can't recover from it. Simulcasts _mean_ something in the community, much more so that it did in the past. Netflix would have been a godsend 10 years ago -- now, it feels like a sentence to obscurity.
 
-![Shoujo Shuumatsu Ryokou](fall/99420-hsLF2eTJCbyQ.jpg "Shoujo Shuumatsu Ryokou") ![White Fox]({static}/images/anime/studios/half/white_fox.png)
+![Shoujo Shuumatsu Ryokou](fall/99420-hsLF2eTJCbyQ.jpg "Shoujo Shuumatsu Ryokou") ![White Fox](studios/half/white_fox.png)
 
 ### [Shoujo Shuumatsu Ryokou](https://anilist.co/anime/99420)
 
@@ -97,7 +97,7 @@ Don't get me wrong -- I loved this show. I loved the MC. Fantastic all around. H
 
 At some point, _someone_ has to give us a romcom that doesn't center around near debilitating shyness/awkwardness. Can't they just genuinely like each other and move incrementally forward? Essentially, I want this plot with the seriousness of [Tsuki ga Kirei](https://anilist.co/anime/98202/TsukigaKirei).
 
-![Konohana Kitan](fall/98506-BPHtNhP7Q1TD.jpg "Konohana Kitan") ![Lerche]({static}/images/anime/studios/half/lerche.png)
+![Konohana Kitan](fall/98506-BPHtNhP7Q1TD.jpg "Konohana Kitan") ![Lerche](studios/half/lerche.png)
 
 ### [Konohana Kitan](https://anilist.co/anime/98506)
 

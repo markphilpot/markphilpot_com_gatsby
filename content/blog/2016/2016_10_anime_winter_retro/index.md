@@ -15,7 +15,7 @@ So I was unable to get to the "sequels" for this season (_Gate_, _Ansatsu Kyoush
 
 I've also started reading manga on a regular basis. I have a bunch of series I'm enjoying (some from shows I've watched and some new ones) and as a result my evening time is spread even more thinly.
 
-![Boku dake ga Inai Machi](winter/erased.jpg "Boku dake ga Inai Machi") ![A-1]({static}/images/anime/studios/half/a1.png "A-1 Pictures")
+![Boku dake ga Inai Machi](winter/erased.jpg "Boku dake ga Inai Machi") ![A-1](studios/half/a1.png "A-1 Pictures")
 
 ### [Boku dake ga Inai Machi](https://hummingbird.me/anime/boku-dake-ga-inai-machi)
 
@@ -25,7 +25,7 @@ The opening two episodes hooked me so badly I ended up watching each episode as 
 
 From what I've heard, the manga might be even better since there was quite a few threads dropped in order to fit into a single cour. I'm a few chapters in at the moment and definitely think that consensus might be right.
 
-![Kono Subarashii Sekai ni Shukufuku wo!](winter/kono_subarashii.jpg "Kono Subarashii Sekai ni Shukufuku wo!") ![Deen]({static}/images/anime/studios/half/studio_deen.png "Studio DEEN")
+![Kono Subarashii Sekai ni Shukufuku wo!](winter/kono_subarashii.jpg "Kono Subarashii Sekai ni Shukufuku wo!") ![Deen](studios/half/studio_deen.png "Studio DEEN")
 
 ### [Kono Subarashii Sekai ni Shukufuku wo!](https://hummingbird.me/anime/kono-subarashii-sekai-ni-shukufuku-wo)
 
@@ -39,13 +39,13 @@ For me this was the surprise of the season. The humor was consistently good thro
 
 My initial assessment was spot on -- I kept my expectations low and was pleasantly surprised. The characters aren't deep and they have minimal arcs, the character design is OK, and the plot is mildly interesting. That might come across as damming, but the sum of the pieces resulted in something fairly entertaining. If you just want a decent sci-fi show to pass the time, this one isn't too bad.
 
-![Musaigen no Phantom World](winter/musaigennophantomworld.jpg "Musaigen no Phantom World") ![Kyoto]({static}/images/anime/studios/half/kyoto.png "Kyoto")
+![Musaigen no Phantom World](winter/musaigennophantomworld.jpg "Musaigen no Phantom World") ![Kyoto](studios/half/kyoto.png "Kyoto")
 
 ### [Musaigen no Phantom World](https://hummingbird.me/anime/musaigen-no-phantom-world)
 
 Oh the disappointment. The world had so much potential, but the writers seemed content with standalone surface level character pieces. I mean, it's KyotoAni so it's gorgeous to look at, but there was no depth aside from the art. _sigh_ Chalk this one up to missed opportunity.
 
-![Hai to Gensou no Grimgar](winter/haitogensounogrimgar.jpg "Hai to Gensou no Grimgar") ![A-1]({static}/images/anime/studios/half/a1.png "A-1 Pictures")
+![Hai to Gensou no Grimgar](winter/haitogensounogrimgar.jpg "Hai to Gensou no Grimgar") ![A-1](studios/half/a1.png "A-1 Pictures")
 
 ### [Hai to Gensou no Grimgar](https://hummingbird.me/anime/hai-to-gensou-no-grimgar)
 
@@ -53,25 +53,25 @@ I'm half way through this and while I really want to give it a chance it feels l
 
 I'm hoping they do soon...
 
-![Ao no Kanata no Four Rhythm](winter/aonokanatanofourrhythmv2.jpg "Ao no Kanata no Four Rhythm") ![Gonzo]({static}/images/anime/studios/half/gonzo.png "Gonzo")
+![Ao no Kanata no Four Rhythm](winter/aonokanatanofourrhythmv2.jpg "Ao no Kanata no Four Rhythm") ![Gonzo](studios/half/gonzo.png "Gonzo")
 
 ### [Ao no Kanata no Four Rhythm](https://hummingbird.me/anime/ao-no-kanata-no-four-rhythm)
 
 I got a few episodes in before putting it on hold. I think I would have been more interested if it had more "sports anime" influences. I don't think it's a bad show, just meh.
 
-![Dagashi Kashi](winter/dagashikashi_main.jpg "Dagashi Kashi") ![Pony Canyon]({static}/images/anime/studios/half/pony_canyon.png "Pony Canyon")
+![Dagashi Kashi](winter/dagashikashi_main.jpg "Dagashi Kashi") ![Pony Canyon](studios/half/pony_canyon.png "Pony Canyon")
 
 ### [Dagashi Kashi](https://hummingbird.me/anime/dagashi-kashi)
 
 Couldn't do it -- mostly because I can't relate to the food he show revolves around. Ultimately there might be a story hidden underneath but I didn't have the patience to find out.
 
-![Haruchika: Haruta to Chika wa Seishun Suru](winter/haruchika.jpg "Haruchika: Haruta to Chika wa Seishun Suru") ![PA Works]({static}/images/anime/studios/half/pa_works.png "PA Works")
+![Haruchika: Haruta to Chika wa Seishun Suru](winter/haruchika.jpg "Haruchika: Haruta to Chika wa Seishun Suru") ![PA Works](studios/half/pa_works.png "PA Works")
 
 ### [Haruchika: Haruta to Chika wa Seishun Suru](https://hummingbird.me/anime/haruchika-haruta-to-chika-wa-seishun-suru)
 
 This one got moved to the held column pretty quickly because other shows were more interesting.
 
-![Prince of Stride: Alternative](winter/princeofstridealternative.jpg "Prince of Stride: Alternative") ![Madhouse]({static}/images/anime/studios/half/madhouse.png "Madhouse")
+![Prince of Stride: Alternative](winter/princeofstridealternative.jpg "Prince of Stride: Alternative") ![Madhouse](studios/half/madhouse.png "Madhouse")
 
 ### [Prince of Stride: Alternative](https://hummingbird.me/anime/prince-of-stride-alternative)
 
@@ -83,7 +83,7 @@ I'm fairly sure I'm going to end up dropping this one. Just not enough there to 
 
 I'm half way through this one and will probably end up just an average show. A lot will depend on how much they the characters versus just the process of making this game, which I only find mildly interesting.
 
-![Shouwa Genroku Rakugo Shinjuu](winter/rakugo.jpg "Shouwa Genroku Rakugo Shinjuu") ![Deen]({static}/images/anime/studios/half/studio_deen.png "Deen")
+![Shouwa Genroku Rakugo Shinjuu](winter/rakugo.jpg "Shouwa Genroku Rakugo Shinjuu") ![Deen](studios/half/studio_deen.png "Deen")
 
 ### [Shouwa Genroku Rakugo Shinjuu](https://hummingbird.me/anime/shouwa-genroku-rakugo-shinjuu-tv)
 

@@ -16,19 +16,19 @@ First off... Just how many concurrent projects can A-1 Pictures handle? The shee
 
 What is also shocking is that I haven't dropped a single show after it's first episode! This season is going to be crazy if none of the shows below are drop worthy. There is one show that I _really_ hope will be as good as it seems like it could be and the rest coming in solidly average. I'm in for a lot of content this season.
 
-![Gate: Jieitai Kanochi nite, Kaku Tatakaeri - Enryuu-hen](winter/gate2.jpg "Gate: Jieitai Kanochi nite, Kaku Tatakaeri - Enryuu-hen") ![A-1]({static}/images/anime/studios/a1.png "A-1 Pictures")
+![Gate: Jieitai Kanochi nite, Kaku Tatakaeri - Enryuu-hen](winter/gate2.jpg "Gate: Jieitai Kanochi nite, Kaku Tatakaeri - Enryuu-hen") ![A-1](studios/a1.png "A-1 Pictures")
 
 ### [Gate: Jieitai Kanochi nite, Kaku Tatakaeri - Enryuu-hen](https://hummingbird.me/anime/gate-jieitai-kanochi-nite-kaku-tatakaeri-enryuu-hen)
 
 This means I now get to actually finish the first cour (I usually do that to avoid the season ending cliffhanger). My impression of the first cour was _meh_ but it was interesting enough that I'm curious if we'll get any more depth in the characters.
 
-![Ansatsu Kyoushitsu (TV) 2nd Season](winter/assissantion2.jpg "Ansatsu Kyoushitsu (TV) 2nd Season") ![Lerche]({static}/images/anime/studios/lerche.png "Lerche")
+![Ansatsu Kyoushitsu (TV) 2nd Season](winter/assissantion2.jpg "Ansatsu Kyoushitsu (TV) 2nd Season") ![Lerche](studios/lerche.png "Lerche")
 
 ### [Ansatsu Kyoushitsu (TV) 2nd Season](https://hummingbird.me/anime/ansatsu-kyoushitsu-tv-2)
 
 The first cour was fun and entertaining despite some uneven pacing. The only issue is that this is _another_ 24 episode run. How much original story can they have? I may let this one marinate for 12 episodes or so to make sure it's living up to the promise of the first season -- specifically does it actually go into the backstory of our main antagonist.
 
-![Boku dake ga Inai Machi](winter/erased.jpg "Boku dake ga Inai Machi") ![A-1]({static}/images/anime/studios/a1.png "A-1 Pictures")
+![Boku dake ga Inai Machi](winter/erased.jpg "Boku dake ga Inai Machi") ![A-1](studios/a1.png "A-1 Pictures")
 
 ### [Boku dake ga Inai Machi](https://hummingbird.me/anime/boku-dake-ga-inai-machi)
 
@@ -36,7 +36,7 @@ Wow.
 
 To say that the first episode sucked me in is a significant understatement. By episode 2 I was committed. What a fantastic opening to a show. I really, _really_ hope A-1 doesn't do something to screw this one up, because I think it could hands down be the best show of the season.
 
-![Musaigen no Phantom World](winter/musaigennophantomworld.jpg "Musaigen no Phantom World") ![Kyoto]({static}/images/anime/studios/kyoto.png "Kyoto")
+![Musaigen no Phantom World](winter/musaigennophantomworld.jpg "Musaigen no Phantom World") ![Kyoto](studios/kyoto.png "Kyoto")
 
 ### [Musaigen no Phantom World](https://hummingbird.me/anime/musaigen-no-phantom-world)
 
@@ -44,19 +44,19 @@ On first glance, this appears to be a more light hearted version of [Beyond the 
 
 By episode 2, we are still just being introduced to the mechanics of the world. I'm hoping the characters take a front seat soon, or this may end up just being a _meh_ show.
 
-![Hai to Gensou no Grimgar](winter/haitogensounogrimgar.jpg "Hai to Gensou no Grimgar") ![A-1]({static}/images/anime/studios/a1.png "A-1 Pictures")
+![Hai to Gensou no Grimgar](winter/haitogensounogrimgar.jpg "Hai to Gensou no Grimgar") ![A-1](studios/a1.png "A-1 Pictures")
 
 ### [Hai to Gensou no Grimgar](https://hummingbird.me/anime/hai-to-gensou-no-grimgar)
 
 This is [Sword Art Online]() with amnesia and by the opening of episode 2, they definitely make it clear this is not your parents SAO. The killing of the goblin was honestly difficult to take it. It was clear this was essentially murder and seeing how the characters processed that event was striking. This wasn't like SAO where enemies just went _poof_. I'm really curious to see where this goes. A final note on episode 2 -- taking almost a full 5 minutes of dialog-less animation with a fantastic song after the killing of the goblin was a gutsy call and in my mind paid off in spades.
 
-![Akagami no Shirayuki-hime 2nd Season](winter/snow_white2.jpg "Akagami no Shirayuki-hime 2nd Season") ![Bones]({static}/images/anime/studios/bones.png "Bones")
+![Akagami no Shirayuki-hime 2nd Season](winter/snow_white2.jpg "Akagami no Shirayuki-hime 2nd Season") ![Bones](studios/bones.png "Bones")
 
 ### [Akagami no Shirayuki-hime 2nd Season](https://hummingbird.me/anime/akagami-no-shirayuki-hime-2)
 
 Yay! So happy this got a second cour so soon! My one worry is that the level of tension will make this show unenjoyable for me. I loved the first season _because_ it was so light hearted. My concern with the opening episode is that we have a bunch of _because plot_ happenings to separate our main characters, and they are _hinting_ at a love triangle, which I will not stand for if they go down that route.
 
-![Ao no Kanata no Four Rhythm](winter/aonokanatanofourrhythmv2.jpg "Ao no Kanata no Four Rhythm") ![Gonzo]({static}/images/anime/studios/gonzo.png "Gonzo")
+![Ao no Kanata no Four Rhythm](winter/aonokanatanofourrhythmv2.jpg "Ao no Kanata no Four Rhythm") ![Gonzo](studios/gonzo.png "Gonzo")
 
 ### [Ao no Kanata no Four Rhythm](https://hummingbird.me/anime/ao-no-kanata-no-four-rhythm)
 
@@ -66,19 +66,19 @@ Ummmm... Ok.
 
 This show hasn't lost me yet, but I might be quick to pull the dropped trigger on this one.
 
-![Dagashi Kashi](winter/dagashikashi_main.jpg "Dagashi Kashi") ![Pony Canyon]({static}/images/anime/studios/pony_canyon.png "Pony Canyon")
+![Dagashi Kashi](winter/dagashikashi_main.jpg "Dagashi Kashi") ![Pony Canyon](studios/pony_canyon.png "Pony Canyon")
 
 ### [Dagashi Kashi](https://hummingbird.me/anime/dagashi-kashi)
 
 _Wierd_ doesn't begin to cover this show. I'm sort of assuming dagashi is a Japanese equivalent of Little Debbie Snacks, just with more flavor variety. I'm not totally sold on this one yet, but the humor seems decent.
 
-![Haruchika: Haruta to Chika wa Seishun Suru](winter/haruchika.jpg "Haruchika: Haruta to Chika wa Seishun Suru") ![PA Works]({static}/images/anime/studios/pa_works.png "PA Works")
+![Haruchika: Haruta to Chika wa Seishun Suru](winter/haruchika.jpg "Haruchika: Haruta to Chika wa Seishun Suru") ![PA Works](studios/pa_works.png "PA Works")
 
 ### [Haruchika: Haruta to Chika wa Seishun Suru](https://hummingbird.me/anime/haruchika-haruta-to-chika-wa-seishun-suru)
 
 On the surface looks like [Hibike! Euphonium](https://hummingbird.me/anime/hibike-euphonium) and [Hyouka](https://hummingbird.me/anime/hyouka) had a baby animated by PA Works. For some reason the level of animation doesn't meet the expectations I usually have for PA Works shows. I wonder if they will stick with a "mystery of the week" style or a longer mystery arc.
 
-![Prince of Stride: Alternative](winter/princeofstridealternative.jpg "Prince of Stride: Alternative") ![Madhouse]({static}/images/anime/studios/madhouse.png "Madhouse")
+![Prince of Stride: Alternative](winter/princeofstridealternative.jpg "Prince of Stride: Alternative") ![Madhouse](studios/madhouse.png "Madhouse")
 
 ### [Prince of Stride: Alternative](https://hummingbird.me/anime/prince-of-stride-alternative)
 
@@ -88,7 +88,7 @@ Ummm... team parkour... _racing?_
 
 I'm not sure about this one. If it wasn't being produced by Madhouse, I don't think I would have even have tried it. I think this will have quite a bit of the hype necessary in a sport anime without going into the shounen super power territory. Let's see how this one plays out.
 
-![Kono Subarashii Sekai ni Shukufuku wo!](winter/kono_subarashii.jpg "Kono Subarashii Sekai ni Shukufuku wo!") ![Deen]({static}/images/anime/studios/studio_deen.png "Studio DEEN")
+![Kono Subarashii Sekai ni Shukufuku wo!](winter/kono_subarashii.jpg "Kono Subarashii Sekai ni Shukufuku wo!") ![Deen](studios/studio_deen.png "Studio DEEN")
 
 ### [Kono Subarashii Sekai ni Shukufuku wo!](https://hummingbird.me/anime/kono-subarashii-sekai-ni-shukufuku-wo)
 
@@ -100,7 +100,7 @@ Ugh. I can't tell if the animation is bad on purpose or there was just no budget
 
 Very meta, but not exactly [Shirobako](https://hummingbird.me/anime/shirobako) here. Animation is OK and the characters while mostly just filling stereotypical roles have enough weight that I think I'll stay tuned for the first few episodes to see what becomes of them.
 
-![Shouwa Genroku Rakugo Shinjuu](winter/rakugo.jpg "Shouwa Genroku Rakugo Shinjuu") ![Deen]({static}/images/anime/studios/studio_deen.png "Deen")
+![Shouwa Genroku Rakugo Shinjuu](winter/rakugo.jpg "Shouwa Genroku Rakugo Shinjuu") ![Deen](studios/studio_deen.png "Deen")
 
 ### [Shouwa Genroku Rakugo Shinjuu](https://hummingbird.me/anime/shouwa-genroku-rakugo-shinjuu-tv)
 

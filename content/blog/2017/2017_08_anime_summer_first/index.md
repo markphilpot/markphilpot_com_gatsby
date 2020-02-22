@@ -11,7 +11,7 @@ featured_image: "covers/montage.jpg"
 
 
 
-![No Game No Life -Zero-](covers/21875-xF6gR9paLC7C.jpg "No Game No Life -Zero-") ![Madhouse]({static}/images/anime/studios/half/madhouse.png)
+![No Game No Life -Zero-](covers/21875-xF6gR9paLC7C.jpg "No Game No Life -Zero-") ![Madhouse](studios/half/madhouse.png)
 
 ### [No Game No Life -Zero-](https://anilist.co/anime/21875)
 
@@ -23,19 +23,19 @@ _Sigh_
 
 I still want a continuation, but I guess I'll have to settle for this. It's at least Madhouse.
 
-![Katsugeki Touken Ranbu](covers/21742-4emv6O8PPq93.jpg "Katsugeki Touken Ranbu") ![ufotable]({static}/images/anime/studios/half/ufotable.png)
+![Katsugeki Touken Ranbu](covers/21742-4emv6O8PPq93.jpg "Katsugeki Touken Ranbu") ![ufotable](studios/half/ufotable.png)
 
 ### [Katsugeki Touken Ranbu](https://anilist.co/anime/21742)
 
 Not being familiar _at all_ with Touken Ranbu the game, I went into this story cold -- I mean it's ufotable, which means there was no way I wasn't going to give it a shot. I can easily say that it doesn't disappoint. Great fight sequences, groundwork for some good character dynamics, and the hinting of an orchestrated conflict sells it for me.
 
-![The Reflection Wave One](covers/21461-uMKVoLchuwUK.jpg "The Reflection Wave One") ![Studio Deen]({static}/images/anime/studios/half/studio_deen.png)
+![The Reflection Wave One](covers/21461-uMKVoLchuwUK.jpg "The Reflection Wave One") ![Studio Deen](studios/half/studio_deen.png)
 
 ### [The Reflection Wave One](https://anilist.co/anime/21461)
 
 Don't know why this one is airing so late but it's at least on my radar. Really don't know much about it to be honest.
 
-![Princess Principal](covers/98505-TSRbOdDsp5jT.jpg "Princess Principal") ![Studio 3Hz]({static}/images/anime/studios/half/studio_3hz.png)
+![Princess Principal](covers/98505-TSRbOdDsp5jT.jpg "Princess Principal") ![Studio 3Hz](studios/half/studio_3hz.png)
 
 ### [Princess Principal](https://anilist.co/anime/98505)
 
@@ -53,7 +53,7 @@ I must commend 3Hz in adapting original stories. It's very risky but I hope (_ho
 
 If they ditch the boyfriends completely rather than continually having them loom, I might stick with it. The violent boyfriend angle in episode 2 is a sure fire way to get dropped if not addressed quickly. It's a short anyway so minimal investment required.
 
-![Fate/Apocrypha](covers/98035-g3D2miwA9dSd.jpg "Fate/Apocrypha") ![A1]({static}/images/anime/studios/half/a1.png)
+![Fate/Apocrypha](covers/98035-g3D2miwA9dSd.jpg "Fate/Apocrypha") ![A1](studios/half/a1.png)
 
 ### [Fate/Apocrypha](https://anilist.co/anime/98035)
 
@@ -63,13 +63,13 @@ And while I have the soap box: Amazon
 
 WORKOUT YOUR FREAKING PRICING! WHAT THE HELL IS WITH THE DOUBLE PAY WALL?
 
-![New Game!!](covers/98292-MjBqoQt8fjzF.png "New Game!!") ![Dogakobo]({static}/images/anime/studios/half/dogakobo.png)
+![New Game!!](covers/98292-MjBqoQt8fjzF.png "New Game!!") ![Dogakobo](studios/half/dogakobo.png)
 
 ### [New Game!!](https://anilist.co/anime/98292)
 
 It feels like they never left. _New Game!!_ (literally) Onwards!
 
-![Gamers!](covers/97766-PtVldOnUhEcQ.jpg "Gamers!") ![Pine Jam]({static}/images/anime/studios/half/pine_jam.png)
+![Gamers!](covers/97766-PtVldOnUhEcQ.jpg "Gamers!") ![Pine Jam](studios/half/pine_jam.png)
 
 ### [Gamers!](https://anilist.co/anime/97766)
 
@@ -83,7 +83,7 @@ About half way through the opening episode I thought I had written off the show 
 
 Ugh, I felt contaminated after watching this. Could have been good if treated with respect, but the writing is just flat out disgusting. There is a chance this was just a bad opening episode, but somehow I doubt it.
 
-![Koi to Uso](covers/98320-S6WtpgeZIs6v.jpg "Koi to Uso") ![Liden Films]({static}/images/anime/studios/half/lidenfilms.png)
+![Koi to Uso](covers/98320-S6WtpgeZIs6v.jpg "Koi to Uso") ![Liden Films](studios/half/lidenfilms.png)
 
 ### [Koi to Uso](https://anilist.co/anime/98320)
 
@@ -91,25 +91,25 @@ What a waste of a premise. Maybe I'm judging too quickly, but it was hard to get
 
 And the eyes! It's like an entire cast modeled after [Visha](https://anilist.co/character/121057/ViktoriyaIvanovnaSerebryakova) from [Youjo Senki](https://anilist.co/anime/21613/YoujoSenki)!
 
-![Isekai Shokudou](covers/97617-TmRRraupfbT5.jpg "Isekai Shokudou") ![Silver Link]({static}/images/anime/studios/half/silver_link.png)
+![Isekai Shokudou](covers/97617-TmRRraupfbT5.jpg "Isekai Shokudou") ![Silver Link](studios/half/silver_link.png)
 
 ### [Isekai Shokudou](https://anilist.co/anime/97617)
 
 There has got to be something more than just food every week. At least with a show like [Death Parade](https://anilist.co/anime/20931/DeathParade) where the main characters where secondary to the weekly story and conflict, there was a gripping, dramatic scenario playing out. Making out with food just isn't going to do it for me without some sort of character development. I'll give it another episode or two, but it's going to have to turn things around to keep my interest.
 
-![Kakegurui](covers/98314-BWpNNKOmiUoe.jpg "Kakegurui") ![Mappa]({static}/images/anime/studios/half/mappa.png)
+![Kakegurui](covers/98314-BWpNNKOmiUoe.jpg "Kakegurui") ![Mappa](studios/half/mappa.png)
 
 ### [Kakegurui](https://anilist.co/anime/98314)
 
 Yep. This is bat-shit-crazy. I'm sold.
 
-![Tsurezure Children](covers/98291-rr8vlG8ZQ1zB.jpg "Tsurezure Children") ![Studio Gokumi]({static}/images/anime/studios/half/studio_gokumi.png)
+![Tsurezure Children](covers/98291-rr8vlG8ZQ1zB.jpg "Tsurezure Children") ![Studio Gokumi](studios/half/studio_gokumi.png)
 
 ### [Tsurezure Children](https://anilist.co/anime/98291)
 
 I'm actually caught up on the manga/comic with this one. The stories are really funny and the studio has done a good job of blending the stories together so it feels like it occupies one world (rather than just disconnected skits).
 
-![Aho-Girl](covers/98251-RAgDWqnspedR.jpg "Aho-Girl") ![Diomedea]({static}/images/anime/studios/half/diomedea.png)
+![Aho-Girl](covers/98251-RAgDWqnspedR.jpg "Aho-Girl") ![Diomedea](studios/half/diomedea.png)
 
 ### [Aho-Girl](https://anilist.co/anime/98251)
 
@@ -123,7 +123,7 @@ This show is really, really stupid... But _really_ funny.
 
 Think [Demi-chan wa Kataritai](https://anilist.co/anime/97592/DemichanwaKataritai) with an opportunity to explore racial divisions because there aren't any humans and there are 4 (at least... something to do with 6 rather than for main appendages...) distinct racial groups. I don't yet know if they will actually explore those angles and what the conflicts will be, but they have definitely set themselves up to dive into those if they want. I'm hoping they do, and not just dance around the edges with it.
 
-![Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e](covers/98659-8vvB0aTeZhHc.png "Centaur no Nayami") ![Lerche]({static}/images/anime/studios/half/lerche.png)
+![Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e](covers/98659-8vvB0aTeZhHc.png "Centaur no Nayami") ![Lerche](studios/half/lerche.png)
 
 ### [Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e](https://anilist.co/anime/98659/YoukosoJitsuryokuShijouShuginoKyoushitsue)
 

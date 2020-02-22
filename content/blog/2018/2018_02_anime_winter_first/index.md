@@ -13,7 +13,7 @@ featured_image: "covers/hero.jpg"
 
 You'll notice [Pop Team Epic](https://anilist.co/anime/98549/PopTeamEpic) isn't on this list... Take that for what you will.
 
-![Violet Evergarden](covers/21827-Xlo8r4tIfrJI.jpg "Violet Evergarden") ![Kyoto Animation]({static}/images/anime/studios/half/kyoto.png)
+![Violet Evergarden](covers/21827-Xlo8r4tIfrJI.jpg "Violet Evergarden") ![Kyoto Animation](studios/half/kyoto.png)
 
 ### [Violet Evergarden](https://anilist.co/anime/21827)
 
@@ -31,7 +31,7 @@ Would I be watching this if I hadn't read the manga? Probably not.
 
 This show is loaded with fanservice and cliches but I'm actually rather fond of the gyaru-girl MC. The combination of voice acting and character design really nails that character and I somehow can't help rooting for her.
 
-![Death March Kara Hajimaru Isekai Kyousoukyoku](covers/97907-rEB4M1WlcsR4.jpg "Death March Kara Hajimaru Isekai Kyousoukyoku") ![SILVER LINK]({static}/images/anime/studios/half/silver_link.png)
+![Death March Kara Hajimaru Isekai Kyousoukyoku](covers/97907-rEB4M1WlcsR4.jpg "Death March Kara Hajimaru Isekai Kyousoukyoku") ![SILVER LINK](studios/half/silver_link.png)
 
 ### [Death March Kara Hajimaru Isekai Kyousoukyoku](https://anilist.co/anime/97907)
 
@@ -60,7 +60,7 @@ _Want heart crushed?_ Ehhhh....
 
 So as far as I can tell from the word of mouth, this is a fantastic show... that unfortunately I may never watch. I hold out hope that one day I'll assemble the fortitude to wade in, but that time is not now.
 
-![Koi wa Ameagari no You ni](covers/98385-Q7piD3Sxzg2q.jpg "Koi wa Ameagari no You ni") ![Wit Studio]({static}/images/anime/studios/half/wit.png)
+![Koi wa Ameagari no You ni](covers/98385-Q7piD3Sxzg2q.jpg "Koi wa Ameagari no You ni") ![Wit Studio](studios/half/wit.png)
 
 ### [Koi wa Ameagari no You ni](https://anilist.co/anime/98385)
 
@@ -68,7 +68,7 @@ Ok, this can go one of two ways: Tasteful or Rotten.
 
 Thus far it's on the _tasteful_ side with fantastic visuals and a great ED by Aimer. I hold out hope it stays on the tasteful side, but this is an anime from Japan so I'm not sure the odds are in my favor for this one.
 
-![Darling in the FranXX](covers/darling.jpg "Darling in the FranXX") ![Trigger]({static}/images/anime/studios/half/trigger.png) ![A-1 Pictures]({static}/images/anime/studios/half/a1.png)
+![Darling in the FranXX](covers/darling.jpg "Darling in the FranXX") ![Trigger](studios/half/trigger.png) ![A-1 Pictures](studios/half/a1.png)
 
 ### [Darling in the FranXX](https://anilist.co/anime/99423/DarlingintheFranxx)
 
@@ -82,7 +82,7 @@ If you thought [Kill la Kill](https://anilist.co/anime/18679/KilllaKill) was exc
 
 <div style="text-align: center; margin-top: -50px;"><small class="caption-text muted">Zero Two: Best Girl</small></div>
 
-![Grancrest Senki](covers/97768-BsbVjar0pJYo.jpg "Grancrest Senki") ![A-1 Pictures]({static}/images/anime/studios/half/a1.png)
+![Grancrest Senki](covers/97768-BsbVjar0pJYo.jpg "Grancrest Senki") ![A-1 Pictures](studios/half/a1.png)
 
 ### [Grancrest Senki](https://anilist.co/anime/97768)
 
@@ -98,7 +98,7 @@ I predict this is going to be one of those low rated shows that I actually end u
 
 Oh this is so cute, but _MY GOD_ is the pacing slow. If each episode was 12 minutes instead of the full 24 I think I would adore this show to pieces. Since it's not, I probably won't be able to make my way through it.
 
-![Sora yori mo Tooi Basho](covers/99426-oVBePMVlxDad.jpg "Sora yori mo Tooi Basho") ![MADHOUSE]({static}/images/anime/studios/half/madhouse.png)
+![Sora yori mo Tooi Basho](covers/99426-oVBePMVlxDad.jpg "Sora yori mo Tooi Basho") ![MADHOUSE](studios/half/madhouse.png)
 
 ### [Sora yori mo Tooi Basho](https://anilist.co/anime/99426)
 
@@ -124,7 +124,7 @@ This is the more of the normal cute girls slice-of-life fair. Camping looks fun 
 
 This show needs one of those old school detective boards with strings going from picture to picture explaining the relationships. A highly entertaining yet mid-tier show.
 
-![Hakumei to Mikochi](covers/99748-g7x9G5Ic4zFK.png "Hakumei to Mikochi") ![Lerche]({static}/images/anime/studios/half/lerche.png)
+![Hakumei to Mikochi](covers/99748-g7x9G5Ic4zFK.png "Hakumei to Mikochi") ![Lerche](studios/half/lerche.png)
 
 ### [Hakumei to Mikochi](https://anilist.co/anime/99748)
 

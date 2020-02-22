@@ -7,7 +7,7 @@ slug: review_charlotte
 summary: Review of Charlotte
 ---
 
-![Charlotte](charlotte_pv2.jpg) ![PA Works]({static}/images/anime/studios/pa_works.png)
+![Charlotte](charlotte_pv2.jpg)
 
 [Charlotte](https://hummingbird.me/anime/charlotte)
 

@@ -13,7 +13,7 @@ featured_image: "fall/hero.jpg"
 
 So between the holidays and getting sucked back into a few games (_cough_ Diablo III \*cough) I ended up not getting through most of the shows I intended. I'm still playing D3 and there a number of shows in the new season that are blocking me from going back and binging. In particular, I plan to get through [Yuri](https://anilist.co/anime/21709/YurionICE), [Udon](https://anilist.co/anime/21631/UdonnoKuninoKiniroKemari), [Gi(a)rlish Number](https://anilist.co/anime/21627/giarlishnumber), and [Fune wo Amu](https://anilist.co/anime/21703/FunewoAmu). The rest are a toss up between hold and dropped.
 
-![Hibike! Euphonium 2](fall/Cog7g4TUAAEm8Xv.jpg "Hibike! Euphonium 2") ![Kyoto Animation]({static}/images/anime/studios/half/kyoto.png)
+![Hibike! Euphonium 2](fall/Cog7g4TUAAEm8Xv.jpg "Hibike! Euphonium 2")
 
 ### [Hibike! Euphonium 2](https://hummingbird.me/anime/hibike-euphonium-2)
 

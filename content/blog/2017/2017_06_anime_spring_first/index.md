@@ -17,13 +17,13 @@ _sigh_
 
 Note: some of the commentary was written after only the first few episodes...
 
-![Shingeki no Kyojin 2](covers/20958-OvqJZf8GNno3.jpg "Shingeki no Kyojin 2") ![$STUDIO]({static}/images/anime/studios/half/wit.png)
+![Shingeki no Kyojin 2](covers/20958-OvqJZf8GNno3.jpg "Shingeki no Kyojin 2") ![$STUDIO](studios/half/wit.png)
 
 ### [Shingeki no Kyojin 2](https://anilist.co/anime/20958)
 
 The first of course being _Attack on Titan_. I've only watched the first cour of the first season, so I have quite a bit to catch up on before I begin to dive into this new season. I've only heard good things, so I'm eager to catch up as quickly as I can.
 
-![Boku no Hero Academia 2](covers/21856-I9rVZElYPVUE.png "Boku no Hero Academia 2") ![$STUDIO]({static}/images/anime/studios/half/bones.png)
+![Boku no Hero Academia 2](covers/21856-I9rVZElYPVUE.png "Boku no Hero Academia 2") ![$STUDIO](studios/half/bones.png)
 
 ### [Boku no Hero Academia 2](https://anilist.co/anime/21856)
 
@@ -31,13 +31,13 @@ The first season was unexpected -- I initially thought I wouldn't watch it at al
 
 _Tournament Arc!!_
 
-![Dungeon ni Deai o Motomeru no wa Machigatteiru Darou ka Gaiden: Sword Oratoria](covers/21676-WsArzi2eHqZu.jpg "Dungeon ni Deai o Motomeru no wa Machigatteiru Darou ka Gaiden: Sword Oratoria") ![$STUDIO]({static}/images/anime/studios/half/jc_staff.png)
+![Dungeon ni Deai o Motomeru no wa Machigatteiru Darou ka Gaiden: Sword Oratoria](covers/21676-WsArzi2eHqZu.jpg "Dungeon ni Deai o Motomeru no wa Machigatteiru Darou ka Gaiden: Sword Oratoria") ![$STUDIO](studios/half/jc_staff.png)
 
 ### [Dungeon ni Deai o Motomeru no wa Machigatteiru Darou ka Gaiden: Sword Oratoria](https://anilist.co/anime/21676)
 
 I'm disappointed this wasn't a season 2 of the original story. The new POV character mage didn't grab my attention and disappointed rumblings have caused this to move into the Hold List. There were too many other good shows this season to keep up with this one in real time.
 
-![GRANBLUE FANTASY The Animation](covers/21361-8gQWpTE5AJpz.jpg "GRANBLUE FANTASY The Animation") ![$STUDIO]({static}/images/anime/studios/half/a1.png)
+![GRANBLUE FANTASY The Animation](covers/21361-8gQWpTE5AJpz.jpg "GRANBLUE FANTASY The Animation") ![$STUDIO](studios/half/a1.png)
 
 ### [GRANBLUE FANTASY The Animation](https://anilist.co/anime/21361)
 
@@ -53,7 +53,7 @@ A little heavy on the cheese and you can see the game mechanics bleeding through
 
 Poor, trope filled first episode was followed up with a much stronger second episode. It's had it's up and downs (and seems to be the community's whipping child for this season due to it's light novel orgins and tropes) but still entertaining.
 
-![eromanga sensei](covers/21685-bJOXiEOxIew0.jpg "eromanga sensei") ![$STUDIO]({static}/images/anime/studios/half/a1.png)
+![eromanga sensei](covers/21685-bJOXiEOxIew0.jpg "eromanga sensei") ![$STUDIO](studios/half/a1.png)
 
 ### [eromanga sensei](https://anilist.co/anime/21685)
 
@@ -61,7 +61,7 @@ As a slightly apologietic fan of [OreImo](https://anilist.co/anime/8769/OrenoImo
 
 Eh is about all I can say. The female protagonist isn't nearly as good so it feels luke warm to me. Holding on to it to catch up with at some point.
 
-![Zero kara Hajimeru Mahou no Sho](covers/97682-YRhTwV979zSr.jpg "Zero kara Hajimeru Mahou no Sho") ![$STUDIO]({static}/images/anime/studios/half/white_fox.png)
+![Zero kara Hajimeru Mahou no Sho](covers/97682-YRhTwV979zSr.jpg "Zero kara Hajimeru Mahou no Sho") ![$STUDIO](studios/half/white_fox.png)
 
 ### [Zero kara Hajimeru Mahou no Sho](https://anilist.co/anime/97682)
 
@@ -77,7 +77,7 @@ Good world building in this one with what seems to be a very poor translation. O
 
 Oh I really wanted to like this one. I thought it was a really great premise essentially combining [Hyouka](https://anilist.co/anime/12189/Hyouka) with super powers. Unfortunatley between the abysmal deadpan voice acting and stoic animation, I had to drop this. What a disappointment!
 
-![Re:CREATORS](covers/97980-MVa6bwEU1aBm.jpg "Re:CREATORS") ![$STUDIO]({static}/images/anime/studios/half/troyca.png)
+![Re:CREATORS](covers/97980-MVa6bwEU1aBm.jpg "Re:CREATORS") ![$STUDIO](studios/half/troyca.png)
 
 ### [Re:CREATORS](https://anilist.co/anime/97980)
 
@@ -91,13 +91,13 @@ While I'm fairly sure this will be good, I'm entirely watching it for [Hiroyuki 
 
 This show opened with an absolutely perfect cover of _Scarbrough Fair_ that hooked me in instantly. This show really contrasts with _Re:Creators_ in that they manage to not explain _anything_ and really draw out the world building and character development. I have a feeling they are really rushing to fit everything in 12 episodes -- there are few "jump cuts" that skip a bunch of the usual training and build up, but that also might have been done on purpose.
 
-![Fukumenkei Noise](covers/21773-k1b0HzcHaaAd.jpg "Fukumenkei Noise") ![$STUDIO]({static}/images/anime/studios/half/brains_base.png)
+![Fukumenkei Noise](covers/21773-k1b0HzcHaaAd.jpg "Fukumenkei Noise") ![$STUDIO](studios/half/brains_base.png)
 
 ### [Fukumenkei Noise](https://anilist.co/anime/21773)
 
 If it wasn't a love triangle and was set in college, I think I would have loved this show. As it stands I put this on hold (mostly because of how full my ticket is this season) and unless something drastic changes, this will go in the same queue as [Fuuka](https://anilist.co/anime/21887/Fuuka) from last season.
 
-![SAKURA QUEST](covers/97903-Q50eYGCP5YQO.jpg "SAKURA QUEST") ![$STUDIO]({static}/images/anime/studios/half/pa_works.png)
+![SAKURA QUEST](covers/97903-Q50eYGCP5YQO.jpg "SAKURA QUEST") ![$STUDIO](studios/half/pa_works.png)
 
 ### [SAKURA QUEST](https://anilist.co/anime/97903)
 
@@ -111,7 +111,7 @@ PA Works is at it again. This is a crushing reminder that I still haven't finish
 
 This is Yang to [Kuzu no Honkai](https://anilist.co/anime/21701/KuzunoHonkai) from last season. The sweet awkwardness oozing from this show is adorable while at the same time realistically awkward as hell.
 
-![Alice to Zouroku](covers/97821-2AcwSXsBGsos.jpg "Alice to Zouroku") ![$STUDIO]({static}/images/anime/studios/half/jc_staff.png)
+![Alice to Zouroku](covers/97821-2AcwSXsBGsos.jpg "Alice to Zouroku") ![$STUDIO](studios/half/jc_staff.png)
 
 ### [Alice to Zouroku](https://anilist.co/anime/97821)
 

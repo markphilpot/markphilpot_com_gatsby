@@ -13,7 +13,7 @@ featured_image: "fall/hero.jpg"
 
 Ummm... And here I thought that my watch list would be light this season.
 
-![Fate/stay night [Heaven's Feel] I. presage flower](fall/20791-qBVKnfdWc8fa.jpg "Fate/stay night [Heaven's Feel] I. presage flower") ![ufotable]({static}/images/anime/studios/half/ufotable.png)
+![Fate/stay night [Heaven's Feel] I. presage flower](fall/20791-qBVKnfdWc8fa.jpg "Fate/stay night [Heaven's Feel] I. presage flower") ![ufotable](studios/half/ufotable.png)
 
 ### [Fate/stay night [Heaven's Feel] I. presage flower](https://anilist.co/anime/20791)
 
@@ -21,7 +21,7 @@ Opening this seasons impressions again with a movie. Excited to see the third ro
 
 The challenge for me will be to see if I manage to complete the visual novel before the third movie comes out next year.
 
-![Mahoutsukai no Yome](fall/98436-UMxpGC5mcqHy.jpg "Mahoutsukai no Yome") ![Wit]({static}/images/anime/studios/half/wit.png) ![Prod IG]({static}/images/anime/studios/half/production_ig.png)
+![Mahoutsukai no Yome](fall/98436-UMxpGC5mcqHy.jpg "Mahoutsukai no Yome") ![Wit](studios/half/wit.png) ![Prod IG](studios/half/production_ig.png)
 
 ### [Mahoutsukai no Yome](https://anilist.co/anime/98436)
 
@@ -31,7 +31,7 @@ I can't tell you how excited I was for this show (and even more ecstatic that it
 
 If you couldn't already tell, I'm excited for this one. I'm not sure how much of the manga they are planning to cover, but if they manage to nail the fantastical aspects of the manga as well as they did the prequel, this is going to be a fabulous series to follow.
 
-![Kekkai Sensen & Beyond](fall/97886-iArtYIxZzGcR.jpg "Kekkai Sensen & Beyond") ![Bones]({static}/images/anime/studios/half/bones.png)
+![Kekkai Sensen & Beyond](fall/97886-iArtYIxZzGcR.jpg "Kekkai Sensen & Beyond") ![Bones](studios/half/bones.png)
 
 ### [Kekkai Sensen & Beyond](https://anilist.co/anime/97886)
 
@@ -61,7 +61,7 @@ _What the hell?!_
 
 Ugh. Wasn't really expecting much going into it and I know I technically only watched episode "0", but there is just nothing here that I want to come back to watch. Solid pass.
 
-![Inuyashiki](fall/97922-seJC6kFXjBFS.jpg "Inuyashiki") ![MAPPA]({static}/images/anime/studios/half/mappa.png)
+![Inuyashiki](fall/97922-seJC6kFXjBFS.jpg "Inuyashiki") ![MAPPA](studios/half/mappa.png)
 
 ### [Inuyashiki](https://anilist.co/anime/97922)
 
@@ -89,19 +89,19 @@ if you insist</small></div>
 
 This should be entertaining if the ending of the first episode is the start of a trend line.
 
-![Just Because!](fall/98820-uz3n6YW1OXYU.jpg "Just Because!") ![Pine Jam]({static}/images/anime/studios/half/pine_jam.png)
+![Just Because!](fall/98820-uz3n6YW1OXYU.jpg "Just Because!") ![Pine Jam](studios/half/pine_jam.png)
 
 ### [Just Because!](https://anilist.co/anime/98820)
 
 I have high hopes for this one and the first episode didn't let me down. From the studio that gave us [Gamers!](https://anilist.co/anime/97766) last season I think this has tremendous potential because they aren't restricted to the comedy genre. The episode is slow but I loved the honesty in all the characters (see my first reaction to _Gamers!_... same thoughts). As long as they don't manufacture a bunch of overlapping relationship triangles and just focus on these characters interacting, this could be the gem of the season.
 
-![Kino no Tabi: The Beautiful World - the Animated Series](fall/98448-OdfxrjAhkYvp.jpg "Kino no Tabi: The Beautiful World - the Animated Series") ![Lerche]({static}/images/anime/studios/half/lerche.png)
+![Kino no Tabi: The Beautiful World - the Animated Series](fall/98448-OdfxrjAhkYvp.jpg "Kino no Tabi: The Beautiful World - the Animated Series") ![Lerche](studios/half/lerche.png)
 
 ### [Kino no Tabi: The Beautiful World - the Animated Series](https://anilist.co/anime/98448)
 
 I haven't seen the original, but know that many love this show. The first episode was I think a great intro to this episodic series (part of me wonders if there will be any sort of modern take of an arc). For a moment there I thought this was done by A1...
 
-![Kujira no Kora wa Sajou ni Utau](fall/98449-jgDuWOtfIvaE.jpg "Kujira no Kora wa Sajou ni Utau") ![JC Staff]({static}/images/anime/studios/half/jc_staff.png)
+![Kujira no Kora wa Sajou ni Utau](fall/98449-jgDuWOtfIvaE.jpg "Kujira no Kora wa Sajou ni Utau") ![JC Staff](studios/half/jc_staff.png)
 
 ### [Kujira no Kora wa Sajou ni Utau](https://anilist.co/anime/98449)
 
@@ -123,13 +123,13 @@ _How in the hell does this kid get admitted to yet another school after being th
 
 I have no idea why they seem to be adopting a "sequel" and there was no attempt to make me feel empathetic to the MC or any of the supporting cast. I'm going to give this one or two more tries, but I suspect I'm not going to be able to accept this one (especially when we have _Juuni Taisen_ this season).
 
-![Shoujo Shuumatsu Ryokou](fall/99420-hsLF2eTJCbyQ.jpg "Shoujo Shuumatsu Ryokou") ![White Fox]({static}/images/anime/studios/half/white_fox.png)
+![Shoujo Shuumatsu Ryokou](fall/99420-hsLF2eTJCbyQ.jpg "Shoujo Shuumatsu Ryokou") ![White Fox](studios/half/white_fox.png)
 
 ### [Shoujo Shuumatsu Ryokou](https://anilist.co/anime/99420)
 
 This was a very interesting juxtaposition between cute and unsettling. The scene with the rations and the gun... Ugh, wow. If the music had made a bigger impact, it truly would have been great opening episode.
 
-![3-gatsu no Lion 2](fall/98478-jK91Uw1gq5Nr.jpg "3-gatsu no Lion 2") ![Shaft]({static}/images/anime/studios/half/shaft.png)
+![3-gatsu no Lion 2](fall/98478-jK91Uw1gq5Nr.jpg "3-gatsu no Lion 2") ![Shaft](studios/half/shaft.png)
 
 ### [3-gatsu no Lion 2](https://anilist.co/anime/98478)
 
@@ -171,7 +171,7 @@ This one has the potential to be a favorite of the season. The MC is really ende
 
 This 3 minute short is too short for it's own good. I'm skeptical it will win me over as throughly as [Danna ga Nani wo Itteiru ka Wakaranai Ken](https://anilist.co/anime/20735) did, but I'm willing to give it a chance.
 
-![Konohana Kitan](fall/98506-BPHtNhP7Q1TD.jpg "Konohana Kitan") ![Lerche]({static}/images/anime/studios/half/lerche.png)
+![Konohana Kitan](fall/98506-BPHtNhP7Q1TD.jpg "Konohana Kitan") ![Lerche](studios/half/lerche.png)
 
 ### [Konohana Kitan](https://anilist.co/anime/98506)
 
@@ -187,7 +187,7 @@ If it's anywhere close to the feel good comfort that was [Non Non Biyori](https:
 
 Ugh. Couldn't get through the first episode. Skip. Skip. Skip.
 
-![Two Car](fall/99672-Z2aXOeOG8xHd.jpg "Two Car") ![Silver Link]({static}/images/anime/studios/half/silver_link.png)
+![Two Car](fall/99672-Z2aXOeOG8xHd.jpg "Two Car") ![Silver Link](studios/half/silver_link.png)
 
 ### [Two Car](https://anilist.co/anime/99672)
 

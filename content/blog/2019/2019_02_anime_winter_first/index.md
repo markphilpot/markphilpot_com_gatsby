@@ -19,7 +19,7 @@ Due to circumstances beyond my control (germs making their way home) this is goi
 ### [Kakegurui ××](https://anilist.co/anime/100876)
 
 ![Kakegurui ××](covers/n100876-2L9vR8WtAlzi.jpg "Kakegurui ××") 
-![MAPPA]({static}/images/anime/studios/half/mappa.png)
+![MAPPA](studios/half/mappa.png)
 
 > Insert latest Netflix rant here...
 
@@ -56,7 +56,7 @@ Also, the OP is **awesome**
 ### [Boogiepop wa Warawanai (2019)](https://anilist.co/anime/101283)
 
 ![Boogiepop wa Warawanai (2019)](covers/nx101283-YpZqD7wrzWui.jpg "Boogiepop wa Warawanai (2019)") 
-![MADHOUSE]({static}/images/anime/studios/half/madhouse.png)
+![MADHOUSE](studios/half/madhouse.png)
 
 I'm not at all familiar with the original (done almost 20 years ago at this point) so I went in completely cold turkey. First impression was excellent and a good decision to air the first two episodes at once. There seems to be a bit of overlapping character designs which caused a bit of confusion as to who is who, but I think I've manged to get the three initial groups straight now. The non-linear storytelling takes effort as there aren't a lot of queues for you to anchor on.
 
@@ -68,7 +68,7 @@ The OP and ED are each fantastic as well!
 ### [Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen](https://anilist.co/anime/101921)
 
 ![Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen](covers/nx101921-k0zETTY1j3Zy.jpg "Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen") 
-![A-1 Pictures]({static}/images/anime/studios/half/a1.png)
+![A-1 Pictures](studios/half/a1.png)
 
 The execution of this opening episode is top notch. The handling of the internal monologues was perfectly done. I hope there is more to this show however than just these two narcissistic characters bouncing off each other. If there is some actual development and some sort of arc, then I think I'll really enjoy this show.
 
@@ -78,7 +78,7 @@ The execution of this opening episode is top notch. The handling of the internal
 ### [Dororo](https://anilist.co/anime/101347)
 
 ![Dororo](covers/nx101347-2J2p8qJpxpfZ.jpg "Dororo") 
-![MAPPA, Twin Engine, Tezuka Productions]({static}/images/anime/studios/half/mappa.png)
+![MAPPA, Twin Engine, Tezuka Productions](studios/half/mappa.png)
 
 Another strong showing by MAPPA. A killer OP and a no-hold-bar take on feudal Japan. If it weren't for *Neverland* this might have taken the lead for show of the season.
 
@@ -111,7 +111,7 @@ That being said, the manga looks very good so that might be a better alternative
 ### [Mahou Shoujo Tokushusen Asuka](https://anilist.co/anime/103222)
 
 ![Mahou Shoujo Tokushusen Asuka](covers/nx103222-wqNFOfxscteC.jpg "Mahou Shoujo Tokushusen Asuka") 
-![LIDENFILMS]({static}/images/anime/studios/half/lidenfilms.png)
+![LIDENFILMS](studios/half/lidenfilms.png)
 
 
 Personally, I would have preferred a show that focuses on the PTSD aspect of Magical Girls rather than the show I think we are going to get. I'll give this a few more episodes to see what kind of narrative we are setting up.
@@ -133,7 +133,7 @@ I'll tune in next week to see what this conflict is and how they are going to st
 ### [Watashi ni Tenshi ga Maiorita!](https://anilist.co/anime/102680)
 
 ![Watashi ni Tenshi ga Maiorita!](covers/nx102680-lbNTS26wBVYB.jpg "Watashi ni Tenshi ga Maiorita!") 
-![Doga Kobo]({static}/images/anime/studios/half/dogakobo.png)
+![Doga Kobo](studios/half/dogakobo.png)
 
 Oh my god! *WHY?*
 
@@ -143,7 +143,7 @@ Two *extremely* questionable loli shows in back to back seasons...
 ### [Endro!](https://anilist.co/anime/103301)
 
 ![Endro!](covers/nx103301-cSSHgCgUQVrR.jpg "Endro!") 
-![Studio Gokumi]({static}/images/anime/studios/half/studio_gokumi.png)
+![Studio Gokumi](studios/half/studio_gokumi.png)
 
 Very clever opening episode.
 

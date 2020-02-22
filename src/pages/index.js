@@ -71,6 +71,7 @@ const FeaturedImagePost = props => {
               fontWeight: 'bold',
               color: '#2E3440',
               display: ['none', 'none', 'block', 'block'],
+              textAlign: 'right',
             }}
           >
             {DateTime.fromSQL(node.frontmatter.date).toFormat('LLLL d, yyyy')}
@@ -80,6 +81,7 @@ const FeaturedImagePost = props => {
               fontSize: 0,
               color: '#2E3440',
               display: ['none', 'none', 'none', 'block'],
+              textAlign: 'right',
             }}
           >
             {node.frontmatter.tags.join(', ')}
@@ -122,6 +124,7 @@ const SimpleTitlePost = props => {
             fontSize: 0,
             fontWeight: 'bold',
             color: 'muted',
+            textAlign: 'right',
           }}
         >
           {DateTime.fromSQL(node.frontmatter.date).toFormat('LLLL d, yyyy')}
@@ -131,6 +134,7 @@ const SimpleTitlePost = props => {
             fontSize: 0,
             color: 'muted',
             display: ['none', 'none', 'none', 'block'],
+            textAlign: 'right',
           }}
         >
           {node.frontmatter.tags.join(', ')}

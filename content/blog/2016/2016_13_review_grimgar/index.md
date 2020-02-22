@@ -9,7 +9,7 @@ hero: "hero.jpg"
 featured_image: "hero.jpg"
 ---
 
-![Grimgar](title.jpg) ![A1]({static}/images/anime/studios/half/a1.png)
+![Grimgar](title.jpg)
 
 [Hai to Gensou no Grimgar](https://hummingbird.me/anime/hai-to-gensou-no-grimgar) _Grimgar of Fantasy and Ash_
 

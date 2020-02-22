@@ -18,7 +18,7 @@ Damn! Through the premier of all the shows on my radar this season and I only dr
 ### [Sword Art Online: Alicization](https://anilist.co/anime/100182)
 
 ![Sword Art Online: Alicization](covers/100182-oyTLBSN3iT21.jpg "Sword Art Online: Alicization") 
-![A-1 Pictures]({static}/images/anime/studios/half/a1.png)
+![A-1 Pictures](studios/half/a1.png)
 
 The anime everyone loves to hate comes out swinging with a double length opening. I can't help it -- I'm on board for this one.
 
@@ -28,7 +28,7 @@ Sure there were a few bits that were eye-roll worthy, but there was just so much
 ### [Goblin Slayer](https://anilist.co/anime/101165)
 
 ![Goblin Slayer](covers/101165-dVgOyGhEP4mB.jpg "Goblin Slayer") 
-![White Fox]({static}/images/anime/studios/half/white_fox.png)
+![White Fox](studios/half/white_fox.png)
 
 *Holy Fuck! Content Warning! Trigger Warning!*
 
@@ -61,7 +61,7 @@ Can I please have more of this in my anime life?
 ### [Toaru Majutsu no Index III](https://anilist.co/anime/100185)
 
 ![Toaru Majutsu no Index III](covers/100185-NHEkbQX2d7JA.jpg "Toaru Majutsu no Index III") 
-![J.C. Staff]({static}/images/anime/studios/half/jc_staff.png)
+![J.C. Staff](studios/half/jc_staff.png)
 
 It's here! 
 
@@ -74,7 +74,7 @@ Both *Index* and *Railgun* are up there for my favorite English dubs and I was e
 ### [Irozuku Sekai no Ashita kara](https://anilist.co/anime/101316)
 
 ![Irozuku Sekai no Ashita kara](covers/101316-KTC6TkKogKp8.jpg "Irozuku Sekai no Ashita kara") 
-![P.A. Works]({static}/images/anime/studios/half/pa_works.png)
+![P.A. Works](studios/half/pa_works.png)
 
 I am on board for this one!
 
@@ -84,7 +84,7 @@ Leave it to PA Works to get me seriously hyped for a slice of life show combinin
 ### [Zombie Land Saga](https://anilist.co/anime/103871)
 
 ![Zombie Land Saga](covers/103871-EvtLKTd9OV1q.jpg "Zombie Land Saga") 
-![MAPPA]({static}/images/anime/studios/half/mappa.png)
+![MAPPA](studios/half/mappa.png)
 
 *Damn!*
 
@@ -98,7 +98,7 @@ Taking my bet for comedy of the season.
 ### [Yagate Kimi ni Naru](https://anilist.co/anime/101573)
 
 ![Yagate Kimi ni Naru](covers/101573-u75RNeMBd2vz.jpg "Yagate Kimi ni Naru") 
-![TROYCA]({static}/images/anime/studios/half/troyca.png)
+![TROYCA](studios/half/troyca.png)
 
 Being a fan of the source manga, I was very excited for this show. While the character designs don't *quite* match what I expected coming from the manga, the animation is very good and the voice actresses of our two leads are pitch perfect. The only trick will be where and how they decide to end the show. There isn't an obvious point that I can recall and I will be interested to see what kind of story they end up telling.
 
@@ -106,7 +106,7 @@ Being a fan of the source manga, I was very excited for this show. While the cha
 ### [SSSS.GRIDMAN](https://anilist.co/anime/99424)
 
 ![SSSS.GRIDMAN](covers/99424-9bV9lbUhynar.jpg "SSSS.GRIDMAN") 
-![Trigger]({static}/images/anime/studios/half/trigger.png)
+![Trigger](studios/half/trigger.png)
 
 Welp, I guess I'm watching another mech show this season.
 
@@ -117,7 +117,7 @@ Honestly, I think I would prefer character interactions over the mech battles --
 ### [Kishuku Gakkou no Juliet](https://anilist.co/anime/101310)
 
 ![Kishuku Gakkou no Juliet](covers/101310-w1PLPsyg0XHr.jpg "Kishuku Gakkou no Juliet") 
-![LIDENFILMS]({static}/images/anime/studios/half/lidenfilms.png)
+![LIDENFILMS](studios/half/lidenfilms.png)
 
 I'm not sure how far I'll go with this one. A lot will depend on how the central relationship develops. If it becomes clear that their relationship is just a foil for contrived hijinx, I think I'll end up skipping it.
 
@@ -125,7 +125,7 @@ I'm not sure how far I'll go with this one. A lot will depend on how the central
 ### [Radiant](https://anilist.co/anime/101024)
 
 ![Radiant](covers/101024-4dFUVMKSE0Q1.jpg "Radiant") 
-![Lerche, NHK]({static}/images/anime/studios/half/lerche.png)
+![Lerche, NHK](studios/half/lerche.png)
 
 Despite the really interesting backstory to this production, *Radiant* is first on my dropped list this season. Shonen series aren't really my cup of tea to begin with and there really wasn't anything to hook me like there was with [My Hero Academia](https://anilist.co/anime/21459/Boku-no-Hero-Academia/). However, if you are a shonen fan, I would recommend checking this one out.
 
@@ -142,7 +142,7 @@ This is so obviously a 4-koma comic adaptation. All the beats and pacing are rea
 ### [Uchi no Maid ga Uzasugiru](https://anilist.co/anime/101506)
 
 ![Uchi no Maid ga Uzasugiru](covers/101506-uY2udopqvdYp.jpg "Uchi no Maid ga Uzasugiru") 
-![Doga Kobo]({static}/images/anime/studios/half/dogakobo.png)
+![Doga Kobo](studios/half/dogakobo.png)
 
 This is taking lolicon to the point of pedophilia. There is some really great animation at work here, but if the relationship dynamic doesn't settle somewhere in the ballpark of normal, I'm just going to lump this into weird, unhealthy Japanese fetishes and move on.
 
@@ -180,7 +180,7 @@ Haven't started this one yet, but given the pedigree coming from [Steins;Gate](h
 ### [Tsurune: Kazemai Koukou Kyuudou-bu](https://anilist.co/anime/100402)
 
 ![Tsurune: Kazemai Koukou Kyuudou-bu](covers/100402-0927VQ63WEkl.jpg "Tsurune: Kazemai Koukou Kyuudou-bu") 
-![Kyoto Animation]({static}/images/anime/studios/half/kyoto.png)
+![Kyoto Animation](studios/half/kyoto.png)
 
 This one is airing late and no word as to who is going to pick it up. It's KyoAni so I'm definitely going to check it out as soon as it's available.
 
@@ -223,7 +223,7 @@ This is a very off the wall comedy but the opening episode was extremely funny. 
 ### [Satsuriku no Tenshi (ONA)](https://anilist.co/anime/104243)
 
 ![Satsuriku no Tenshi (ONA)](covers/104243-i2VvLTuJH5I3.jpg "Satsuriku no Tenshi (ONA)") 
-![J.C. Staff]({static}/images/anime/studios/half/jc_staff.png)
+![J.C. Staff](studios/half/jc_staff.png)
 
 I'm invested at this point so I want to see how the story ends, but in retrospect, I'm not sure the show is worth starting if you haven't.
 
@@ -232,7 +232,7 @@ I'm invested at this point so I want to see how the story ends, but in retrospec
 ### [Anima Yell!](https://anilist.co/anime/101013)
 
 ![Anima Yell!](covers/101013-hFT0b0mqC1oY.jpg "Anima Yell!") 
-![Doga Kobo]({static}/images/anime/studios/half/dogakobo.png)
+![Doga Kobo](studios/half/dogakobo.png)
 
 A shoestring animation budget is doing this show no service. I'm going to reserve final judgment until the rest of the cast is introduced (and to see if the animation improves), but there was real *uncanny valley* going on.
 

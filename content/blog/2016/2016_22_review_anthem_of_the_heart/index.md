@@ -9,7 +9,7 @@ hero: "hero.jpg"
 featured_image: "hero.jpg"
 ---
 
-![Anthem of the Heart](title.jpg) ![A1]({static}/images/anime/studios/half/a1.png)
+![Anthem of the Heart](title.jpg)
 
 [Kokoro ga Sakebitagatterunda](https://hummingbird.me/anime/kokoro-ga-sakebitagatterunda) _The Anthem of the Heart_
 

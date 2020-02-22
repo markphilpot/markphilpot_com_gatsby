@@ -14,7 +14,7 @@ featured_image: "fall/hero.jpg"
 
 This season had a lot fewer shows that I was interested in when compared to the outstanding Summer season. I ended up dropping more shows then I usually would. I only ended up watching four shows to their conclusion this season (a significant drop from Summer's count of eight). I used the extra time to catch up on some movies and older shows that had been sitting in my queue for a while.
 
-![One Punch Man](fall/half/onepunch_pv.jpg "One Punch Man") ![Madhouse]({static}/images/anime/studios/half/madhouse.png "Madhouse")
+![One Punch Man](fall/half/onepunch_pv.jpg "One Punch Man") ![Madhouse](studios/half/madhouse.png "Madhouse")
 
 ### [One Punch Man](https://hummingbird.me/anime/one-punch-man)
 
@@ -24,7 +24,7 @@ Well, it definitely lived up to the hype -- which really is a massive achievemen
 
 Enjoy it with everyone's blessing.
 
-![Heavy Object](fall/half/heavyobject_pv.jpg "Heavy Object") ![JC Staff]({static}/images/anime/studios/half/jc_staff.png "JC Staff")
+![Heavy Object](fall/half/heavyobject_pv.jpg "Heavy Object") ![JC Staff](studios/half/jc_staff.png "JC Staff")
 
 ### [Heavy Object](https://hummingbird.me/anime/heavy-object)
 
@@ -32,7 +32,7 @@ _Dropped!_
 
 Wow, talk about disappointment. I couldn't even get past the first episode... it was just _blah_! Random military school-ish situation with random ecchi situations. How perfectly mediocre. It's definitely been a while since JC Staff has made anything that I really enjoyed. I don't think they have anything coming out for Winter either, so unfortunate all around.
 
-![Sakurako](fall/half/sakurako-san_pv.jpg "Sakurako") ![TROYCA]({static}/images/anime/studios/half/troyca.png "TROYCA")
+![Sakurako](fall/half/sakurako-san_pv.jpg "Sakurako") ![TROYCA](studios/half/troyca.png "TROYCA")
 
 ### [Sakurako-san no Ashimoto ni wa Shitai ga Umatteiru](https://hummingbird.me/anime/sakurako-san-no-ashimoto-ni-wa-shitai-ga-umatteiru)
 
@@ -48,7 +48,7 @@ _Dropped!_
 
 My high hopes after episode 1 were completely dashed in episode 2. I'm glad I ended up dropping this one, because based on the episode ratings, it was a fairly clear nose dive.
 
-![Utawarerumono](fall/half/utawarerumono_pv.jpg "Utawarerumono") ![White Fox]({static}/images/anime/studios/half/white_fox.png "White Fox")
+![Utawarerumono](fall/half/utawarerumono_pv.jpg "Utawarerumono") ![White Fox](studios/half/white_fox.png "White Fox")
 
 ### [Utawarerumono: Itsuwari No Kamen](https://hummingbird.me/anime/utawarerumono-itsuwari-no-kamen)
 
@@ -64,7 +64,7 @@ _Suprising!_
 
 On the whole... Not bad. Not great mind you, but it could have been worse (see below). Characters were good, conflicts were compelling, OP was visually striking. On the whole, if you don't take it too seriously, you'll probably end up enjoying this one.
 
-![Asterisk](fall/half/gakusen_pv.jpg "Asterisk") ![A1]({static}/images/anime/studios/half/a1.png "A1")
+![Asterisk](fall/half/gakusen_pv.jpg "Asterisk") ![A1](studios/half/a1.png "A1")
 
 ### [Gakusen Toshi Asterisk](https://hummingbird.me/anime/gakusen-toshi-asterisk)
 
@@ -80,7 +80,7 @@ _Dropped!_
 
 Yeah, this one didn't make it past episode 2 for me. Ugh. Just bad.
 
-![Concrete Revolutio](fall/half/concrete_pv.jpg "Concrete Revolutio") ![Bones]({static}/images/anime/studios/half/bones.png "Bones")
+![Concrete Revolutio](fall/half/concrete_pv.jpg "Concrete Revolutio") ![Bones](studios/half/bones.png "Bones")
 
 ### [Concrete Revolutio: Choujin Gensou](https://hummingbird.me/anime/concrete-revolutio-choujin-gensou)
 

@@ -22,7 +22,7 @@ Side note: is it just me or are a lot more shows getting two cours than before?
 ### [Kimetsu no Yaiba](https://anilist.co/anime/101922)
 
 ![Kimetsu no Yaiba](covers/b101922-0jF2j5lcZdKG.jpg "Kimetsu no Yaiba") 
-![ufotable]({static}/images/anime/studios/half/ufotable.png)
+![ufotable](studios/half/ufotable.png)
 
 I mean, it's ufotable... That should explain itself, right?
 
@@ -33,7 +33,7 @@ Either you're a fan of the ufotable aesthetic or you aren't, but this show looks
 ### [Fruits Basket](https://anilist.co/anime/105334)
 
 ![Fruits Basket](covers/bx105334-SCZAVd9fLWWN.jpg "Fruits Basket") 
-![TMS Entertainment]({static}/images/anime/studios/half/tms.png)
+![TMS Entertainment](studios/half/tms.png)
 
 I never saw (but had heard of) the original adaptation, but I'm really glad I can get to experience this story with refreshed design and animation. I kind of hope there isn't too much emphasis on a love triangle because I think I enjoy the characters' everyday interactions better then an overly dramatic romance.
 
@@ -53,7 +53,7 @@ It's quite shocking to hear all the voice actors of these shows all in one place
 ### [Fairy Gone](https://anilist.co/anime/107418)
 
 ![Fairy Gone](covers/bx107418-XjyC2RTCo7tL.jpg "Fairy Gone") 
-![P.A. Works]({static}/images/anime/studios/half/pa_works.png)
+![P.A. Works](studios/half/pa_works.png)
 
 Frankly, I'm a little disappointed with this one -- I had higher expectations from PA Works. I really like the music and OST, so I think that will keep me coming back at a minimum. The show tries to take itself very seriously and puts characters together because *plot* rather than natural development.
 
@@ -77,7 +77,7 @@ That being said, I've enjoyed the first view episodes more than I thought I woul
 ### [Carole & Tuesday](https://anilist.co/anime/101281)
 
 ![Carole & Tuesday](covers/bx101281-uHNThqTMPDCS.jpg "Carole & Tuesday") 
-![BONES]({static}/images/anime/studios/half/bones.png)
+![BONES](studios/half/bones.png)
 
 *Why* oh *WHY* is this show in Netflix Purgatory? Definitely a candidate for show of the year. There is a fansub group taking on the release and it seems like a lot of people in the community are taking that route with this show.
 
@@ -119,7 +119,7 @@ Ok, so this show is very weird (and not in a good way). It's taking its time so 
 ### [Sarazanmai](https://anilist.co/anime/101261)
 
 ![Sarazanmai](covers/bx101261-qHMHWDPvVAxn.jpg "Sarazanmai") 
-![MAPPA, Lapin Track]({static}/images/anime/studios/half/mappa.png)
+![MAPPA, Lapin Track](studios/half/mappa.png)
 
 Do yourself a favor and at least watch the opening episode. This show is an absolute trip and a half. I'm not sure it's *good*, but it's definitely something you should experience.
 
@@ -129,7 +129,7 @@ Do yourself a favor and at least watch the opening episode. This show is an abso
 ### [Mayonaka no Occult Koumuin](https://anilist.co/anime/102939)
 
 ![Mayonaka no Occult Koumuin](covers/bx102939-6Jugm5BxgMPQ.jpg "Mayonaka no Occult Koumuin") 
-![LIDENFILMS]({static}/images/anime/studios/half/lidenfilms.png)
+![LIDENFILMS](studios/half/lidenfilms.png)
 
 Sort of feels like a poor man's version of [ACCA 13](https://anilist.co/anime/21823/ACCA-13ku-Kansatsuka/) so I'm going to give it a chance to hopefully present some interesting situations.
 
@@ -139,7 +139,7 @@ Sort of feels like a poor man's version of [ACCA 13](https://anilist.co/anime/21
 ### [Hachigatsu no Cinderella Nine ](https://anilist.co/anime/104989)
 
 ![Hachigatsu no Cinderella Nine ](covers/bx104989-QpB4Nxrdm2Qq.jpg "Hachigatsu no Cinderella Nine ") 
-![TMS Entertainment]({static}/images/anime/studios/half/tms.png)
+![TMS Entertainment](studios/half/tms.png)
 
 Round out the season with a sports anime. By episode three we've rounded out a full cast of nine players each with their own quirks and foibles. This should be enjoyable in a way that only a sports anime can.
 

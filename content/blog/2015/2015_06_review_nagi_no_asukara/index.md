@@ -7,7 +7,7 @@ slug: review_nagi_no_asukara
 summary: Review of Nagi no Asukara
 ---
 
-![Nagi no Asukara](pv.jpg) ![PA]({static}/images/anime/studios/pa_works.png)
+![Nagi no Asukara](pv.jpg)
 
 [Nagi no Asukara](https://hummingbird.me/anime/nagi-no-asukara) _Nagi-Asu: A Lull in the Sea_
 

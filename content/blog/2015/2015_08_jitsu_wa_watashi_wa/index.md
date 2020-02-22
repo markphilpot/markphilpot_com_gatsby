@@ -7,7 +7,7 @@ slug: review_jitsu_wa_watashi_wa
 summary: Review of Jitsu wa Watashi wa
 ---
 
-![Jitsu](jitsuwa_pv.jpg) ![TBS Entertainment]({static}/images/anime/studios/tbs.png)
+![Jitsu](jitsuwa_pv.jpg)
 
 [Jitsu wa Watashi wa](https://hummingbird.me/anime/jitsu-wa-watashi-wa) _Actually, I Am…_
 

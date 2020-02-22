@@ -19,7 +19,7 @@ With the season half way done, I guess it's better late than never.
 
 
 ![Satsuriku no Tenshi](covers/99629-e1xUDHVKEpg7.jpg "Satsuriku no Tenshi") 
-![J.C. Staff]({static}/images/anime/studios/half/jc_staff.png)
+![J.C. Staff](studios/half/jc_staff.png)
 
 ### [Satsuriku no Tenshi](https://anilist.co/anime/99629)
 
@@ -29,7 +29,7 @@ There is enough here where I'm curious to see where it goes. The VA's interpreta
 
 
 ![Hanebado!](covers/101045-byKzyG0rZD8b.jpg "Hanebado!") 
-![LIDENFILMS]({static}/images/anime/studios/half/lidenfilms.png)
+![LIDENFILMS](studios/half/lidenfilms.png)
 
 ### [Hanebado!](https://anilist.co/anime/101045)
 
@@ -45,7 +45,7 @@ I have no idea how that relationship will go, but I'm sorry. Worst mom ever.
 
 
 ![Chio-chan no Tsuugakuro](covers/99366-4iCYhCzpJwes.jpg "Chio-chan no Tsuugakuro") 
-![diomedéa]({static}/images/anime/studios/half/diomedea.png)
+![diomedéa](studios/half/diomedea.png)
 
 ### [Chio-chan no Tsuugakuro](https://anilist.co/anime/99366)
 
@@ -54,7 +54,7 @@ This one is really funny but I think would do much better as a 12 minute short e
 
 
 ![Asobi Asobase](covers/101001-lHJX4Y7gJk7B.jpg "Asobi Asobase") 
-![Lerche]({static}/images/anime/studios/half/lerche.png)
+![Lerche](studios/half/lerche.png)
 
 ### [Asobi Asobase](https://anilist.co/anime/101001)
 
@@ -89,7 +89,7 @@ Just wait for the Blu-Ray release...
 
 
 ![Shichisei no Subaru](covers/100085-vlkcAE221VeM.jpg "Shichisei no Subaru") 
-![Lerche]({static}/images/anime/studios/half/lerche.png)
+![Lerche](studios/half/lerche.png)
 
 ### [Shichisei no Subaru](https://anilist.co/anime/100085)
 
@@ -108,7 +108,7 @@ The first episode is quite a trip, but I immediately put this on hold as I think
 
 
 ![Planet With](covers/101368-3cECvrThAPmU.jpg "Planet With") 
-![J.C. Staff]({static}/images/anime/studios/half/jc_staff.png)
+![J.C. Staff](studios/half/jc_staff.png)
 
 ### [Planet With](https://anilist.co/anime/101368)
 

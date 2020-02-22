@@ -8,7 +8,7 @@ summary: Review of Bakemonogatari
 status: draft
 ---
 
-![Bakemonogatari](cover.jpg) ![Shaft]({static}/images/anime/studios/shaft.png)
+![Bakemonogatari](cover.jpg)
 
 [Bakemonogatari](https://hummingbird.me/anime/bakemonogatari) _Bakemonogatari_
 

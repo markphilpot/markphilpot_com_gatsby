@@ -7,7 +7,7 @@ slug: review_kaichou_wa_maid_sama
 summary: Review of Kaichou wa Maid-sama!
 ---
 
-![Kaichou wa Maid-sama!](pv.jpg) ![JC Staff]({static}/images/anime/studios/jc_staff.png)
+![Kaichou wa Maid-sama!](pv.jpg)
 
 [Kaichou wa Maid-sama!](https://hummingbird.me/anime/kaichou-wa-maid-sama) _Maid-Sama!_
 

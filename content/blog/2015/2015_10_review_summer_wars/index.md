@@ -7,7 +7,7 @@ slug: review_summer_wars
 summary: Review of Summer Wars
 ---
 
-![Summer Wars](pv.jpg) ![Madhouse]({static}/images/anime/studios/madhouse.png)
+![Summer Wars](pv.jpg)
 
 [Summer Wars](https://hummingbird.me/anime/summer-wars)
 

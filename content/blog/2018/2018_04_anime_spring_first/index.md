@@ -16,7 +16,7 @@ This year has been a feast of riches for the anime community. So many good shows
 
 
 ![Steins;Gate 0](covers/21127-JDu91CY9kHOI.jpg "Steins;Gate 0") 
-![White Fox]({static}/images/anime/studios/half/white_fox.png)
+![White Fox](studios/half/white_fox.png)
 
 ### [Steins;Gate 0](https://anilist.co/anime/21127)
 
@@ -29,7 +29,7 @@ In addition to being my favorite anime of all time, the original is also my favo
 
 
 ![Boku no Hero Academia 3](covers/100166-l8ZWtz9oWdXd.jpg "Boku no Hero Academia 3") 
-![BONES]({static}/images/anime/studios/half/bones.png)
+![BONES](studios/half/bones.png)
 
 ### [Boku no Hero Academia 3](https://anilist.co/anime/100166)
 
@@ -40,7 +40,7 @@ It's back! And with another two cours!
 
 
 ![Sword Art Online Alternative: Gun Gale Online](covers/100183-v4S2sGAG3A24.jpg "Sword Art Online Alternative: Gun Gale Online") 
-![Studio 3Hz]({static}/images/anime/studios/half/studio_3hz.png)
+![Studio 3Hz](studios/half/studio_3hz.png)
 
 ### [Sword Art Online Alternative: Gun Gale Online](https://anilist.co/anime/100183)
 
@@ -51,7 +51,7 @@ So far this one is extremely promising. The characters are good and it seems lik
 
 
 ![Persona 5 The Animation](covers/99693-aSdObZr9eBC4.jpg "Persona 5 The Animation") 
-![A1]({static}/images/anime/studios/half/a1.png)
+![A1](studios/half/a1.png)
 
 ### [Persona 5 The Animation](https://anilist.co/anime/99693)
 
@@ -65,7 +65,7 @@ But I'm going to enjoy every second of this one. Oh and just an aside, I really 
 
 
 ![Wotaku ni Koi wa Muzukashii](covers/99578-JooUZvr8kv6S.jpg "Wotaku ni Koi wa Muzukashii") 
-![A-1 Pictures]({static}/images/anime/studios/half/a1.png)
+![A-1 Pictures](studios/half/a1.png)
 
 ### [Wotaku ni Koi wa Muzukashii](https://anilist.co/anime/99578)
 
@@ -74,7 +74,7 @@ This looks really fun. I tried picking up the manga a while back, but dropped it
 
 
 ![Megalo Box](covers/100298-TWXglA9sZtxV.jpg "Megalo Box") 
-![TMS Entertainment]({static}/images/anime/studios/half/tms.png)
+![TMS Entertainment](studios/half/tms.png)
 
 ### [Megalo Box](https://anilist.co/anime/100298)
 
@@ -126,7 +126,7 @@ Good lord. Stay the fuck away.
 
 
 ![Tada-kun wa Koi wo Shinai](covers/100179-jDGTOMxtoDkt.jpg "Tada-kun wa Koi wo Shinai") 
-![Doga Kobo]({static}/images/anime/studios/half/dogakobo.png)
+![Doga Kobo](studios/half/dogakobo.png)
 
 ### [Tada-kun wa Koi wo Shinai](https://anilist.co/anime/100179)
 
@@ -177,7 +177,7 @@ Vibes of [New Game](https://anilist.co/anime/21455/New-Game/) but not nearly as 
 
 
 ![Kakuriyo no Yadomeshi](covers/100500-39ZWkWQNA5tl.jpg "Kakuriyo no Yadomeshi") 
-![GONZO]({static}/images/anime/studios/half/gonzo.png)
+![GONZO](studios/half/gonzo.png)
 
 ### [Kakuriyo no Yadomeshi](https://anilist.co/anime/100500)
 
