@@ -115,7 +115,11 @@ module.exports = {
             name: 'feed',
             query: `
             {
-              allMdx(filter: { fields: { sourceName: { eq: "blog" } } }, sort: { fields: [frontmatter___date], order: DESC }, limit: 20) {
+              allMdx(
+                filter: { fields: { sourceName: { eq: "blog" } }, frontmatter: { status: { ne: "draft" } } }
+                sort: { fields: [frontmatter___date], order: DESC }
+                limit: 20
+              ) {
                 edges {
                   node {
                     html
@@ -146,7 +150,11 @@ module.exports = {
             name: 'micro',
             query: `
             {
-              allMdx(filter: { fields: { sourceName: { eq: "micro" } } }, sort: { fields: [frontmatter___date], order: DESC }, limit: 20) {
+              allMdx(
+                filter: { fields: { sourceName: { eq: "micro" } }, frontmatter: { status: { ne: "draft" } } }
+                sort: { fields: [frontmatter___date], order: DESC }
+                limit: 20
+              ) {
                 edges {
                   node {
                     html

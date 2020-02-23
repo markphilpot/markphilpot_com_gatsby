@@ -51,27 +51,27 @@ exports.createPages = async ({ graphql, actions }) => {
   });
 
   // Generate drafts
-  if(process.env.NODE_ENV === 'development') {
+  if (process.env.NODE_ENV === 'development') {
     const result = await graphql(
       `
-      {
-        allMdx(
-          filter: { fields: { sourceName: { eq: "blog" } }, frontmatter: { status: { eq: "draft" } } }
-          sort: { fields: [frontmatter___date], order: DESC }
-        ) {
-          edges {
-            node {
-              fields {
-                slug
-              }
-              frontmatter {
-                title
+        {
+          allMdx(
+            filter: { fields: { sourceName: { eq: "blog" } }, frontmatter: { status: { eq: "draft" } } }
+            sort: { fields: [frontmatter___date], order: DESC }
+          ) {
+            edges {
+              node {
+                fields {
+                  slug
+                }
+                frontmatter {
+                  title
+                }
               }
             }
           }
         }
-      }
-    `
+      `
     );
 
     if (result.errors) {
