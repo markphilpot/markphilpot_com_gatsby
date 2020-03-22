@@ -157,9 +157,8 @@ const BlogIndex = ({ data, location }) => {
       <Hero hero={colorMode === 'default' ? heroLight : heroDark} />
       <NavBar />
       <CenterColumn>
-        {process.env.NODE_ENV === 'development' ? drafts
-            .map(({ node }, index, p) => {
-
+        {process.env.NODE_ENV === 'development'
+          ? drafts.map(({ node }, index, p) => {
               let year = null;
               if (index === 0) {
                 year = <Year>Drafts</Year>;
@@ -239,8 +238,8 @@ export const pageQuery = graphql`
       publicURL
     }
     posts: allMdx(
-        filter: { fields: { sourceName: { eq: "blog" } }, frontmatter: { status: { ne: "draft" } } }
-        sort: { fields: [frontmatter___date], order: DESC }
+      filter: { fields: { sourceName: { eq: "blog" } }, frontmatter: { status: { ne: "draft" } } }
+      sort: { fields: [frontmatter___date], order: DESC }
     ) {
       edges {
         node {
@@ -265,8 +264,8 @@ export const pageQuery = graphql`
       }
     }
     drafts: allMdx(
-        filter: { fields: { sourceName: { eq: "blog" } }, frontmatter: { status: { eq: "draft" } } }
-        sort: { fields: [frontmatter___date], order: DESC }
+      filter: { fields: { sourceName: { eq: "blog" } }, frontmatter: { status: { eq: "draft" } } }
+      sort: { fields: [frontmatter___date], order: DESC }
     ) {
       edges {
         node {
