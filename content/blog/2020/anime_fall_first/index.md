@@ -5,8 +5,8 @@ tags: [anime, first impressions]
 category: anime
 slug: anime_2019_fall_first
 summary: First Impressions of the Anime Fall 2019 Season
-hero: 
-#featured_image: 
+hero: hero.jpg
+featured_image: hero.jpg
 status: draft
 ---
 
@@ -64,8 +64,6 @@ No one will notice how late this is... will they? This post will be "voiced" as 
 ### [Babylon](https://anilist.co/anime/101349)
 
 ![Babylon](covers/bx101349-AWy5SjUS8mYZ.jpg)
- 
-![Twin Engine, Revoroot](studios/half/.png)
 
 <div class="studio">Twin Engine, Revoroot</div>
 
@@ -76,8 +74,6 @@ No one will notice how late this is... will they? This post will be "voiced" as 
 ### [Watashi, Nouryoku wa Heikinchi de tte Itta yo ne!](https://anilist.co/anime/101227)
 
 ![Watashi, Nouryoku wa Heikinchi de tte Itta yo ne!](covers/bx101227-PUPavhaClwfa.jpg)
- 
-![project No.9](studios/half/.png)
 
 <div class="studio">project No.9</div>
 
@@ -89,8 +85,6 @@ No one will notice how late this is... will they? This post will be "voiced" as 
 ### [Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan wo Erandeiraremasen](https://anilist.co/anime/108268)
 
 ![Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan wo Erandeiraremasen](covers/bx108268-eRkvln6eoChs.jpg)
- 
-![Ajia-Do](studios/half/.png)
 
 <div class="studio">Ajia-Do</div>
 
@@ -102,9 +96,7 @@ No one will notice how late this is... will they? This post will be "voiced" as 
 
 ![BLACKFOX](covers/bx101317-WZpZb6FNXF29.jpg)
  
-![Studio 3Hz, Infinite, Flying Ship Studio](studios/half/.png)
-
-<div class="studio">Studio 3Hz, Infinite, Flying Ship Studio</div>
+![Studio 3Hz, Infinite, Flying Ship Studio](studios/half/studio_3hz.png)
 
 > Living in a ninja residence tucked away in a corner of a futuristic city is Rikka, the eldest daughter of a Ninja clan, who looks up to her father—a researcher—very much.&lt;br/&gt;Carrying on with her life normally, Rikka&#x27;s home came suddenly under attack one day. Driven into a corner, what would she do to overcome this crisis?
 Rip darkness to pieces and become &quot;BLACK&quot;!&lt;br&gt;&lt;br&gt;
@@ -116,9 +108,7 @@ Rip darkness to pieces and become &quot;BLACK&quot;!&lt;br&gt;&lt;br&gt;
 
 ![Chihayafuru 3](covers/bx101215-O9BzSTAOsS5y.jpg)
  
-![MADHOUSE](studios/half/.png)
-
-<div class="studio">MADHOUSE</div>
+![MADHOUSE](studios/half/madhouse.png)
 
 > They may have just won their most coveted karuta tournament, but members of the Mizusawa karuta team still have a long way to go. Each member chases their dreams, and with a win under their collective belt, those dreams are closer in reach than ever. Chihaya Ayase is determined to challenge Wakamiya Shinobu and win the title of Queen, and Taichi Mashima is ready to take on Arata Wataya now that he’s made it into the most elite of karuta players — but an unexpected revelation will deal these karuta players a hand none of them saw coming.&lt;br&gt;&lt;br&gt;(Source: Sentai Filmworks)
 
