@@ -54,6 +54,6 @@ collections:
       - {label: "Label", name: "label", widget: "string", hint: "CMS Title"}
       - {label: "Path", name: "path", widget: "hidden", default: "used_for_slug" }
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss" }
-      - {label: "Slug", name: "slug", widget: "datetime", format: "YYYY-MM-DDTHH:mm:ss"}
-      - {label: "Featured Image", name: "featured_image", widget: "string", hint: "/images/micro/X.jpg or /images/uploads/X.jpg"}
+      - {label: "Slug", name: "slug", widget: "string" }
+      - {label: "Featured Image", name: "featured_image", widget: "string", required: false, hint: "/images/micro/X.jpg or /images/uploads/X.jpg"}
       - {label: "Body", name: "body", widget: "markdown"}
