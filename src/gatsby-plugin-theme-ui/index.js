@@ -141,6 +141,8 @@ export default {
     td: {
       textAlign: 'left',
       borderBottomStyle: 'solid',
+      borderBottomWidth: 1,
+      borderColor: 'accent',
     },
     img: {
       maxWidth: '100%',

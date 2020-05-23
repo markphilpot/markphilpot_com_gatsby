@@ -29,7 +29,7 @@ const AboutPage = ({ data, location }) => {
             pb: 6,
           }}
         >
-          About
+          about
         </Heading>
 
         <Text
