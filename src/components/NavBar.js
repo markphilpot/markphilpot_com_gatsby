@@ -9,11 +9,11 @@ const NavBar = props => {
     <CenterColumn>
       <Flex
         sx={{
-          justifyContent: 'space-around',
+          justifyContent: ['space-between', 'space-between', 'space-around'],
           borderBottom: '1px solid',
           borderColor: 'accent',
           py: 6,
-          px: [0, 10, 10, 10],
+          px: [0, 0, 10],
           mb: 10,
         }}
       >

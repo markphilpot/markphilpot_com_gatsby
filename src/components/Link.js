@@ -1,4 +1,4 @@
-import React, { useCallback } from 'react';
+import React from 'react';
 import { Link } from 'theme-ui';
 // import { Link } from 'gatsby';
 import _ from 'lodash';

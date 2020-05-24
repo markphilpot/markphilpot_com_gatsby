@@ -3,13 +3,9 @@ import { graphql } from 'gatsby';
 import Layout, { CenterColumn } from '../../../components/layout';
 import Hero from '../../../components/Hero';
 import NavBar from '../../../components/NavBar';
-import { Flex, Link, Heading, Text } from 'theme-ui';
+import { Heading } from 'theme-ui';
 
 import { MDXRenderer } from 'gatsby-plugin-mdx';
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFont } from '@fortawesome/free-solid-svg-icons';
-import { faTwitter, faGithub, faFlickr } from '@fortawesome/free-brands-svg-icons';
 
 const SoftwarePage = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title;

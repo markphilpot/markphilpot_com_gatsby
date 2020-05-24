@@ -166,7 +166,8 @@ const BlogIndex = ({ data, location }) => {
 
               const title = node.frontmatter.title || node.fields.slug;
               const isDraft = node.frontmatter.status === 'draft';
-              const hasFeaturedImage = node.frontmatter.featured_image != null && node.frontmatter.featured_image != '';
+              const hasFeaturedImage =
+                node.frontmatter.featured_image != null && node.frontmatter.featured_image !== '';
               return (
                 <article style={{ position: 'relative' }} key={node.fields.slug}>
                   {year}
@@ -201,7 +202,7 @@ const BlogIndex = ({ data, location }) => {
 
             const title = node.frontmatter.title || node.fields.slug;
             const isDraft = node.frontmatter.status === 'draft';
-            const hasFeaturedImage = node.frontmatter.featured_image != null && node.frontmatter.featured_image != '';
+            const hasFeaturedImage = node.frontmatter.featured_image != null && node.frontmatter.featured_image !== '';
             return (
               <article style={{ position: 'relative' }} key={node.fields.slug}>
                 {year}
