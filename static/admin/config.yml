@@ -5,6 +5,7 @@ backend:
   squash_merges: true
   accept_roles: #optional - accepts all users if left out
     - admin
+publish_mode: editorial_workflow
 media_folder: "content/uploads" # Media files will be stored in the repo under images/uploads
 public_folder: "/uploads" # The src attribute for uploaded media will begin with /images/uploads
 
@@ -36,7 +37,7 @@ collections:
       - {label: "Summary", name: "summary", widget: "string"}
       - {label: "hero", name: "Hero", widget: "string", default: ""}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Status", name: "status", widget: "string", required: false }
+      #- {label: "Status", name: "status", widget: "string", required: false }
   - name: "micro"
     label: "Micro"
     folder: "content/micro/2020"
@@ -55,4 +56,4 @@ collections:
       - {label: "Slug", name: "slug", widget: "string", hint: "This will be the folder name" }
       - {label: "Featured Image", name: "featured_image", widget: "string", required: false }
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Status", name: "status", widget: "string", required: false }
+      #- {label: "Status", name: "status", widget: "string", required: false }
