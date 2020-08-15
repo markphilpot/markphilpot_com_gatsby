@@ -9,7 +9,27 @@ import { MDXRenderer } from 'gatsby-plugin-mdx';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFont } from '@fortawesome/free-solid-svg-icons';
-import { faTwitter, faGithub, faFlickr } from '@fortawesome/free-brands-svg-icons';
+import { faTwitter, faGithub, faFlickr, faBandcamp } from '@fortawesome/free-brands-svg-icons';
+
+const InternetPresence = props => {
+  const { link, text, icon } = props;
+
+  return (
+    <Link href={link}>
+      <Flex
+        sx={{
+          alignItems: 'center',
+          justifyContent: 'center',
+          flexDirection: 'column',
+          fontSize: 7,
+        }}
+      >
+        <FontAwesomeIcon icon={icon} />
+        <Text sx={{ fontSize: 3 }}>{text}</Text>
+      </Flex>
+    </Link>
+  );
+};
 
 const AboutPage = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title;
@@ -43,22 +63,14 @@ const AboutPage = ({ data, location }) => {
         <Flex
           sx={{
             justifyContent: 'space-around',
-            fontSize: 7,
             my: 5,
           }}
         >
-          <Link href={'https://twitter.com/mark_philpot'}>
-            <FontAwesomeIcon icon={faTwitter} />
-          </Link>
-          <Link href={'https://github.com/markphilpot'}>
-            <FontAwesomeIcon icon={faGithub} />
-          </Link>
-          <Link href={'https://www.flickr.com/photos/markphilpot'}>
-            <FontAwesomeIcon icon={faFlickr} />
-          </Link>
-          <Link href={'https://anilist.co/user/mphilpot'}>
-            <FontAwesomeIcon icon={faFont} />
-          </Link>
+          <InternetPresence link={'https://twitter.com/mark_philpot'} icon={faTwitter} text={'Twitter'} />
+          <InternetPresence link={'https://github.com/markphilpot'} icon={faGithub} text={'Github'} />
+          <InternetPresence link={'https://www.flickr.com/photos/markphilpot'} icon={faFlickr} text={'Flickr'} />
+          <InternetPresence link={'https://anilist.co/user/mphilpot'} icon={faFont} text={'AniList'} />
+          <InternetPresence link={'https://markphilpot.bandcamp.com/'} icon={faBandcamp} text={'Bandcamp'} />
         </Flex>
 
         <MDXRenderer>{about.body}</MDXRenderer>
