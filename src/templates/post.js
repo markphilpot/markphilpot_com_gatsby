@@ -1,6 +1,7 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
+import { DateTime } from 'luxon';
 
 import { Box, Flex, Text, Heading } from 'theme-ui';
 
@@ -14,6 +15,10 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
   const siteTitle = data.site.siteMetadata.title;
   const { previous, next } = pageContext;
 
+  const date = post.frontmatter.date.includes(' ')
+    ? DateTime.fromSQL(post.frontmatter.date)
+    : DateTime.fromISO(post.frontmatter.date);
+
   return (
     <Layout location={location} title={siteTitle}>
       <Hero hero={post.frontmatter.hero} />
@@ -22,7 +27,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         <article>
           <header>
             <Text sx={{ fontSize: 0, fontWeight: 'bold', color: 'accent' }} variant={'caps'}>
-              {post.frontmatter.date}
+              {date.toFormat('MMMM d, yyyy')}
             </Text>
             <Heading
               as="h1"

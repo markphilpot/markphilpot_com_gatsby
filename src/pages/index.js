@@ -12,6 +12,10 @@ import Link from '../components/Link';
 
 const FeaturedImagePost = props => {
   const { node, title, isDraft } = props;
+  // Woof -- TODO do a date search and replace to remove quotes from `date` fields
+  const date = node.frontmatter.date.includes(' ')
+    ? DateTime.fromSQL(node.frontmatter.date)
+    : DateTime.fromISO(node.frontmatter.date);
   return (
     <Box
       sx={{
@@ -74,7 +78,7 @@ const FeaturedImagePost = props => {
               textAlign: 'right',
             }}
           >
-            {DateTime.fromSQL(node.frontmatter.date).toFormat('LLLL d, yyyy')}
+            {date.toFormat('LLLL d, yyyy')}
           </Text>
           <Text
             sx={{
@@ -94,6 +98,10 @@ const FeaturedImagePost = props => {
 
 const SimpleTitlePost = props => {
   const { title, node, isDraft } = props;
+
+  const date = node.frontmatter.date.includes(' ')
+    ? DateTime.fromSQL(node.frontmatter.date)
+    : DateTime.fromISO(node.frontmatter.date);
 
   return (
     <Flex
@@ -127,7 +135,7 @@ const SimpleTitlePost = props => {
             textAlign: 'right',
           }}
         >
-          {DateTime.fromSQL(node.frontmatter.date).toFormat('LLLL d, yyyy')}
+          {date.toFormat('LLLL d, yyyy')}
         </Text>
         <Text
           sx={{
@@ -192,8 +200,18 @@ const BlogIndex = ({ data, location }) => {
             return true;
           })
           .map(({ node }, index, p) => {
-            const currentYear = DateTime.fromSQL(node.frontmatter.date).year;
-            const prevYear = index > 0 ? DateTime.fromSQL(p[index - 1].node.frontmatter.date).year : null;
+            // TODO date search/replace to remove quotes from `date` field
+            const currentDate = node.frontmatter.date.includes(' ')
+              ? DateTime.fromSQL(node.frontmatter.date)
+              : DateTime.fromISO(node.frontmatter.date);
+            const prevDate =
+              index > 0
+                ? p[index - 1].node.frontmatter.date.includes(' ')
+                  ? DateTime.fromSQL(p[index - 1].node.frontmatter.date)
+                  : DateTime.fromISO(p[index - 1].node.frontmatter.date)
+                : null;
+            const currentYear = currentDate.year;
+            const prevYear = index > 0 ? prevDate.year : null;
 
             let year = null;
             if (currentYear !== prevYear) {

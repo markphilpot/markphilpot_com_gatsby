@@ -100,7 +100,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 
   if (node.internal.type === `Mdx`) {
     const { date, slug } = node.frontmatter;
-    const d = DateTime.fromSQL(date);
+    const d = date.includes(' ') ? DateTime.fromSQL(date) : DateTime.fromISO(date);
     const fullSlug = `/posts/${d.year}/${d.toFormat('LL')}/${d.toFormat('dd')}/${slug}`;
 
     // const value = createFilePath({ node, getNode });

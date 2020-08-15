@@ -1,6 +1,6 @@
 ---
 title: "Mac Pro Thoughts"
-date: "2020-02-21 20:56:00"
+date: 2020-02-21 20:56:00
 tags: [mac]
 category: blog
 slug: macpro_thoughts
