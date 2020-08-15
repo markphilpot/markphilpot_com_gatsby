@@ -17,13 +17,13 @@ collections:
     format: "yaml-frontmatter"
     extension: "md"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{slug}}"
     path: '{{slug}}/index'
     media_folder: ''
     public_folder: ''
     fields: # The fields for each document, usually in front matter
       - {label: "title", name: "title", widget: "string"}
-      - {label: "date", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss with quotes"}
+      - {label: "date", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss"}
       - {label: "category", name: "category", widget: "hidden", default: "blog"}
       - label: "tags"
         name: "tags"
@@ -37,7 +37,7 @@ collections:
       - {label: "summary", name: "summary", widget: "string"}
       - {label: "hero", name: "hero", widget: "string", default: "", required: false}
       - {label: "featured_image", name: "featured_image", widget: "string", default: "", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "body", name: "body", widget: "markdown"}
       #- {label: "Status", name: "status", widget: "string", required: false }
   - name: "micro"
     label: "Micro"
@@ -45,7 +45,7 @@ collections:
     format: "yaml-frontmatter"
     extension: "md"
     create: true
-    slug: "{{year}}{{month}}{{day}}-{{hour}}{{minute}}{{second}}"
+    slug: "{{slug}}"
     identifier_field: slug
     path: '{{slug}}/index'
     media_folder: ''
@@ -53,8 +53,8 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "category", name: "category", widget: "hidden", default: "micro"}
       - {label: "title", name: "title", widget: "hidden", default: ""}
-      - {label: "date", name: "date", widget: "string", hint: "YYYY-MM-DD HH:mm:ss with quotes" }
+      - {label: "date", name: "date", widget: "datetime", hint: "YYYY-MM-DD HH:mm:ss" }
       - {label: "slug", name: "slug", widget: "string", hint: "This will be the folder name" }
       - {label: "featured_image", name: "featured_image", widget: "string", required: false }
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "body", name: "body", widget: "markdown"}
       #- {label: "Status", name: "status", widget: "string", required: false }
