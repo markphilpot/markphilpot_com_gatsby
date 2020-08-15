@@ -82,7 +82,7 @@ export const pageQuery = graphql`
       body
       frontmatter {
         title
-        date(formatString: "MMMM D, YYYY")
+        date
         hero {
           publicURL
         }
