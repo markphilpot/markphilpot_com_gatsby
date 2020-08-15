@@ -4,7 +4,7 @@ title: ''
 label: gatsby
 path: used_for_slug
 date: '2020-02-17 10:21:00'
-slug: '2020-02-17T10:21:00'
+slug: '20200217-102100'
 featured_image: 'construction.jpg'
 ---
 ![construction](construction.jpg)

@@ -22,10 +22,10 @@ collections:
     media_folder: ''
     public_folder: ''
     fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss"}
-      - {label: "Category", name: "category", widget: "hidden", default: "blog"}
-      - label: "Tags"
+      - {label: "title", name: "title", widget: "string"}
+      - {label: "date", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss with quotes"}
+      - {label: "category", name: "category", widget: "hidden", default: "blog"}
+      - label: "tags"
         name: "tags"
         widget: "list"
         default:
@@ -33,9 +33,10 @@ collections:
           - retrospective
           - first impressions
           - mac
-      - {label: "Slug", name: "slug", widget: "string"}
-      - {label: "Summary", name: "summary", widget: "string"}
-      - {label: "hero", name: "Hero", widget: "string", default: ""}
+      - {label: "slug", name: "slug", widget: "string"}
+      - {label: "summary", name: "summary", widget: "string"}
+      - {label: "hero", name: "hero", widget: "string", default: "", required: false}
+      - {label: "featured_image", name: "featured_image", widget: "string", default: "", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
       #- {label: "Status", name: "status", widget: "string", required: false }
   - name: "micro"
@@ -50,10 +51,10 @@ collections:
     media_folder: ''
     public_folder: ''
     fields: # The fields for each document, usually in front matter
-      - {label: "Category", name: "category", widget: "hidden", default: "micro"}
-      - {label: "Title", name: "title", widget: "hidden", default: ""}
-      - {label: "Publish Date", name: "date", widget: "string", hint: "YYYY-MM-DD HH:mm:ss with quotes" }
-      - {label: "Slug", name: "slug", widget: "string", hint: "This will be the folder name" }
-      - {label: "Featured Image", name: "featured_image", widget: "string", required: false }
+      - {label: "category", name: "category", widget: "hidden", default: "micro"}
+      - {label: "title", name: "title", widget: "hidden", default: ""}
+      - {label: "date", name: "date", widget: "string", hint: "YYYY-MM-DD HH:mm:ss with quotes" }
+      - {label: "slug", name: "slug", widget: "string", hint: "This will be the folder name" }
+      - {label: "featured_image", name: "featured_image", widget: "string", required: false }
       - {label: "Body", name: "body", widget: "markdown"}
       #- {label: "Status", name: "status", widget: "string", required: false }
