@@ -116,7 +116,7 @@ module.exports = {
             query: `
             {
               allMdx(
-                filter: { fields: { sourceName: { eq: "blog" } }, frontmatter: { status: { ne: "draft" } } }
+                filter: { fields: { sourceName: { eq: "blog" } } }
                 sort: { fields: [frontmatter___date], order: DESC }
                 limit: 20
               ) {
@@ -151,7 +151,7 @@ module.exports = {
             query: `
             {
               allMdx(
-                filter: { fields: { sourceName: { eq: "micro" } }, frontmatter: { status: { ne: "draft" } } }
+                filter: { fields: { sourceName: { eq: "micro" } } }
                 sort: { fields: [frontmatter___date], order: DESC }
                 limit: 20
               ) {
