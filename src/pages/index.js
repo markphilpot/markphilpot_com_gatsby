@@ -257,7 +257,7 @@ export const pageQuery = graphql`
       publicURL
     }
     posts: allMdx(
-      filter: { fields: { sourceName: { eq: "blog" } }, frontmatter: { status: { ne: "draft" } } }
+      filter: { fields: { sourceName: { eq: "blog" } } }
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       edges {
@@ -270,7 +270,6 @@ export const pageQuery = graphql`
             date
             title
             tags
-            status
             featured_image {
               childImageSharp {
                 fluid {
@@ -283,7 +282,7 @@ export const pageQuery = graphql`
       }
     }
     drafts: allMdx(
-      filter: { fields: { sourceName: { eq: "blog" } }, frontmatter: { status: { eq: "draft" } } }
+      filter: { fields: { sourceName: { eq: "blog" } } }
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       edges {
@@ -296,7 +295,6 @@ export const pageQuery = graphql`
             date
             title
             tags
-            status
             featured_image {
               childImageSharp {
                 fluid {
