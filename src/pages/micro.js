@@ -22,8 +22,19 @@ const MicroIndex = ({ data, location }) => {
       <NavBar />
       <CenterColumn>
         {posts.map(({ node }, index, p) => {
-          const currentYear = DateTime.fromSQL(node.frontmatter.date).year;
-          const prevYear = index > 0 ? DateTime.fromSQL(p[index - 1].node.frontmatter.date).year : null;
+          // TODO date search/replace to remove quotes from `date` field
+          const currentDate = node.frontmatter.date.includes(' ')
+            ? DateTime.fromSQL(node.frontmatter.date)
+            : DateTime.fromISO(node.frontmatter.date);
+          const prevDate =
+            index > 0
+              ? p[index - 1].node.frontmatter.date.includes(' ')
+                ? DateTime.fromSQL(p[index - 1].node.frontmatter.date)
+                : DateTime.fromISO(p[index - 1].node.frontmatter.date)
+              : null;
+
+          const currentYear = currentDate.year;
+          const prevYear = index > 0 ? prevDate.year : null;
 
           let year = null;
           if (currentYear !== prevYear) {
@@ -54,7 +65,7 @@ const MicroIndex = ({ data, location }) => {
                     right: 2,
                   }}
                 >
-                  {DateTime.fromSQL(node.frontmatter.date).toFormat('LLLL d, yyyy')}
+                  {currentDate.toFormat('LLLL d, yyyy')}
                 </Text>
               </Box>
             </article>
