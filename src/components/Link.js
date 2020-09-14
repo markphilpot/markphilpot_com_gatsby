@@ -1,27 +1,13 @@
-import React from 'react';
-import { Link } from 'theme-ui';
-// import { Link } from 'gatsby';
+/** @jsx jsx */
+import { jsx } from 'theme-ui';
+import { Link } from 'gatsby';
 import _ from 'lodash';
-import { navigate } from '@reach/router';
 
 export default props => {
-  const { to, ...rest } = props;
-
-  let mixin = {};
-
-  if (to != null) {
-    mixin = {
-      onClick: e => {
-        e.preventDefault();
-        navigate(to);
-      },
-    };
-  }
-
   return (
     <Link
-      {...rest}
-      {...mixin}
+      {...props}
+      activeClassName="active"
       sx={{
         color: 'inherit',
         '&.active': {
