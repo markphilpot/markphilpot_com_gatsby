@@ -5,6 +5,7 @@ label: studio_rebuild
 path: used_for_slug
 date: 2020-05-20 20:44:27
 slug: 20200520-204400
+hero: omid-armin-0cbloquyz28-unsplash.jpg
 featured_image: omid-armin-0cbloquyz28-unsplash.jpg
 ---
 What with the whole SIP COVID situation, I decided I wanted to be able to noodle on some music ideas and wanted to get my home studio functioning again. Easier said than done.
