@@ -13,7 +13,9 @@ import Link from '../components/Link';
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.mdx;
   const siteTitle = data.site.siteMetadata.title;
-  const { previous, next } = pageContext;
+  const { previous, next, slug } = pageContext;
+
+  console.log('FUCK', { previous, next, slug });
 
   const date = post.frontmatter.date.includes(' ')
     ? DateTime.fromSQL(post.frontmatter.date)
@@ -54,14 +56,14 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
           >
             {previous != null ? (
               <Link sx={{ variant: 'styles.navlink', fontSize: 3 }} to={previous.fields.slug} rel="prev">
-                {previous.frontmatter.title}
+                {previous.frontmatter.title || 'Previous Thought...'}
               </Link>
             ) : (
               <Box />
             )}
             {next != null ? (
               <Link sx={{ variant: 'styles.navlink', fontSize: 3 }} to={next.fields.slug} rel="next">
-                {next.frontmatter.title}
+                {next.frontmatter.title || 'Next Thought...'}
               </Link>
             ) : (
               <Box />

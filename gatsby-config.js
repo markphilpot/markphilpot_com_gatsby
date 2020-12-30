@@ -116,7 +116,7 @@ module.exports = {
             query: `
             {
               allMdx(
-                filter: { fields: { sourceName: { eq: "blog" } } }
+                filter: { fields: { sourceName: { in: ["blog", "micro"] } } }
                 sort: { fields: [frontmatter___date], order: DESC }
                 limit: 20
               ) {
@@ -146,39 +146,39 @@ module.exports = {
               });
             },
           },
-          {
-            name: 'micro',
-            query: `
-            {
-              allMdx(
-                filter: { fields: { sourceName: { eq: "micro" } } }
-                sort: { fields: [frontmatter___date], order: DESC }
-                limit: 20
-              ) {
-                edges {
-                  node {
-                    html
-                    fields {
-                      slug
-                    }
-                    frontmatter {
-                      date
-                    }
-                  }
-                }
-              }
-            }
-            `,
-            normalize: ({ query: { site, allMdx } }) => {
-              return allMdx.edges.map(edge => {
-                return {
-                  date: edge.node.frontmatter.date,
-                  url: site.siteMetadata.siteUrl + edge.node.fields.slug,
-                  html: edge.node.html,
-                };
-              });
-            },
-          },
+          // {
+          //   name: 'micro',
+          //   query: `
+          //   {
+          //     allMdx(
+          //       filter: { fields: { sourceName: { eq: "micro" } } }
+          //       sort: { fields: [frontmatter___date], order: DESC }
+          //       limit: 20
+          //     ) {
+          //       edges {
+          //         node {
+          //           html
+          //           fields {
+          //             slug
+          //           }
+          //           frontmatter {
+          //             date
+          //           }
+          //         }
+          //       }
+          //     }
+          //   }
+          //   `,
+          //   normalize: ({ query: { site, allMdx } }) => {
+          //     return allMdx.edges.map(edge => {
+          //       return {
+          //         date: edge.node.frontmatter.date,
+          //         url: site.siteMetadata.siteUrl + edge.node.fields.slug,
+          //         html: edge.node.html,
+          //       };
+          //     });
+          //   },
+          // },
         ],
       },
     },

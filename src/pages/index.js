@@ -3,6 +3,8 @@ import { graphql } from 'gatsby';
 import { useColorMode, Box, Flex, Text } from 'theme-ui';
 import { DateTime } from 'luxon';
 import Image from 'gatsby-image';
+import { pathOr } from 'ramda';
+import { MDXRenderer } from 'gatsby-plugin-mdx';
 
 import Layout, { CenterColumn } from '../components/layout';
 import Hero from '../components/Hero';
@@ -88,7 +90,7 @@ const FeaturedImagePost = props => {
               textAlign: 'right',
             }}
           >
-            {node.frontmatter.tags.join(', ')}
+            {pathOr([], ['frontmatter', 'tags'], node).join(', ')}
           </Text>
         </Flex>
       </Flex>
@@ -145,7 +147,7 @@ const SimpleTitlePost = props => {
             textAlign: 'right',
           }}
         >
-          {node.frontmatter.tags.join(', ')}
+          {pathOr([], ['frontmatter', 'tags'], node).join(', ')}
         </Text>
       </Flex>
     </Flex>
@@ -165,33 +167,33 @@ const BlogIndex = ({ data, location }) => {
       <Hero hero={colorMode === 'default' ? heroLight : heroDark} />
       <NavBar />
       <CenterColumn>
-        {process.env.NODE_ENV === 'development'
-          ? drafts.map(({ node }, index, p) => {
-              let year = null;
-              if (index === 0) {
-                year = <Year>Drafts</Year>;
-              }
+        {/*{process.env.NODE_ENV === 'development'*/}
+        {/*  ? drafts.map(({ node }, index, p) => {*/}
+        {/*      let year = null;*/}
+        {/*      if (index === 0) {*/}
+        {/*        year = <Year>Drafts</Year>;*/}
+        {/*      }*/}
 
-              const title = node.frontmatter.title || node.fields.slug;
-              const isDraft = node.frontmatter.status === 'draft';
-              const hasFeaturedImage =
-                node.frontmatter.featured_image != null && node.frontmatter.featured_image !== '';
-              return (
-                <article style={{ position: 'relative' }} key={node.fields.slug}>
-                  {year}
-                  <Link sx={{ textDecoration: 'none' }} to={node.fields.slug}>
-                    {/*<a href={node.fields.slug}>*/}
-                    {hasFeaturedImage ? (
-                      <FeaturedImagePost node={node} title={title} isDraft={isDraft} />
-                    ) : (
-                      <SimpleTitlePost title={title} node={node} isDraft={isDraft} />
-                    )}
-                    {/*</a>*/}
-                  </Link>
-                </article>
-              );
-            })
-          : null}
+        {/*      const title = node.frontmatter.title || node.fields.slug;*/}
+        {/*      const isDraft = node.frontmatter.status === 'draft';*/}
+        {/*      const hasFeaturedImage =*/}
+        {/*        node.frontmatter.featured_image != null && node.frontmatter.featured_image !== '';*/}
+        {/*      return (*/}
+        {/*        <article style={{ position: 'relative' }} key={node.fields.slug}>*/}
+        {/*          {year}*/}
+        {/*          <Link sx={{ textDecoration: 'none' }} to={node.fields.slug}>*/}
+        {/*            /!*<a href={node.fields.slug}>*!/*/}
+        {/*            {hasFeaturedImage ? (*/}
+        {/*              <FeaturedImagePost node={node} title={title} isDraft={isDraft} />*/}
+        {/*            ) : (*/}
+        {/*              <SimpleTitlePost title={title} node={node} isDraft={isDraft} />*/}
+        {/*            )}*/}
+        {/*            /!*</a>*!/*/}
+        {/*          </Link>*/}
+        {/*        </article>*/}
+        {/*      );*/}
+        {/*    })*/}
+        {/*  : null}*/}
         {posts
           .filter(({ node }) => {
             if (process.env.NODE_ENV !== 'development') {
@@ -218,23 +220,57 @@ const BlogIndex = ({ data, location }) => {
               year = <Year>{currentYear}</Year>;
             }
 
-            const title = node.frontmatter.title || node.fields.slug;
+            const title = node.frontmatter.title;
             const isDraft = node.frontmatter.status === 'draft';
             const hasFeaturedImage = node.frontmatter.featured_image != null && node.frontmatter.featured_image !== '';
-            return (
-              <article style={{ position: 'relative' }} key={node.fields.slug}>
-                {year}
-                <Link sx={{ textDecoration: 'none' }} to={node.fields.slug}>
-                  {/*<a href={node.fields.slug}>*/}
-                  {hasFeaturedImage ? (
-                    <FeaturedImagePost node={node} title={title} isDraft={isDraft} />
-                  ) : (
-                    <SimpleTitlePost title={title} node={node} isDraft={isDraft} />
-                  )}
-                  {/*</a>*/}
-                </Link>
-              </article>
-            );
+
+            if (title) {
+              return (
+                <article style={{ position: 'relative' }} key={node.fields.slug}>
+                  {year}
+                  <Link sx={{ textDecoration: 'none' }} to={node.fields.slug}>
+                    {/*<a href={node.fields.slug}>*/}
+                    {hasFeaturedImage ? (
+                      <FeaturedImagePost node={node} title={title} isDraft={isDraft} />
+                    ) : (
+                      <SimpleTitlePost title={title} node={node} isDraft={isDraft} />
+                    )}
+                    {/*</a>*/}
+                  </Link>
+                </article>
+              );
+            } else {
+              return (
+                <Box
+                  sx={{
+                    position: 'relative',
+                    backgroundColor: 'microBg',
+                    boxShadow: theme => `0px 0px 8px 12px ${theme.colors.microBg}`,
+                    pt: 10,
+                    mb: 64,
+                    borderRadius: 8,
+                  }}
+                >
+                  <Text
+                    sx={{
+                      position: 'absolute',
+                      variant: 'text.caps',
+                      fontSize: 0,
+                      fontWeight: 'bold',
+                      color: 'body',
+                      top: 2,
+                      right: 2,
+                    }}
+                  >
+                    <Link sx={{ textDecoration: 'none' }} to={node.fields.slug}>
+                      {currentDate.toFormat('LLLL d, yyyy')}
+                    </Link>
+                  </Text>
+                  <MDXRenderer>{node.body}</MDXRenderer>
+                </Box>
+              )
+            }
+
           })}
       </CenterColumn>
     </Layout>
@@ -257,12 +293,13 @@ export const pageQuery = graphql`
       publicURL
     }
     posts: allMdx(
-      filter: { fields: { sourceName: { eq: "blog" } } }
+      filter: { fields: { sourceName: { in: ["blog", "micro"] } } }
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       edges {
         node {
           excerpt
+          body
           fields {
             slug
           }
