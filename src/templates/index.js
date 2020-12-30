@@ -154,10 +154,10 @@ const SimpleTitlePost = props => {
   );
 };
 
-const BlogIndex = ({ data, location }) => {
+const BlogIndex = ({ data, location, pageContext }) => {
+  const { previousPagePath, nextPagePath, humanPageNumber, numberOfPages } = pageContext;
   const siteTitle = data.site.siteMetadata.title;
   const posts = data.posts.edges;
-  const drafts = data.drafts.edges;
   const { heroLight, heroDark } = data;
 
   const [colorMode] = useColorMode();
@@ -167,33 +167,6 @@ const BlogIndex = ({ data, location }) => {
       <Hero hero={colorMode === 'default' ? heroLight : heroDark} />
       <NavBar />
       <CenterColumn>
-        {/*{process.env.NODE_ENV === 'development'*/}
-        {/*  ? drafts.map(({ node }, index, p) => {*/}
-        {/*      let year = null;*/}
-        {/*      if (index === 0) {*/}
-        {/*        year = <Year>Drafts</Year>;*/}
-        {/*      }*/}
-
-        {/*      const title = node.frontmatter.title || node.fields.slug;*/}
-        {/*      const isDraft = node.frontmatter.status === 'draft';*/}
-        {/*      const hasFeaturedImage =*/}
-        {/*        node.frontmatter.featured_image != null && node.frontmatter.featured_image !== '';*/}
-        {/*      return (*/}
-        {/*        <article style={{ position: 'relative' }} key={node.fields.slug}>*/}
-        {/*          {year}*/}
-        {/*          <Link sx={{ textDecoration: 'none' }} to={node.fields.slug}>*/}
-        {/*            /!*<a href={node.fields.slug}>*!/*/}
-        {/*            {hasFeaturedImage ? (*/}
-        {/*              <FeaturedImagePost node={node} title={title} isDraft={isDraft} />*/}
-        {/*            ) : (*/}
-        {/*              <SimpleTitlePost title={title} node={node} isDraft={isDraft} />*/}
-        {/*            )}*/}
-        {/*            /!*</a>*!/*/}
-        {/*          </Link>*/}
-        {/*        </article>*/}
-        {/*      );*/}
-        {/*    })*/}
-        {/*  : null}*/}
         {posts
           .filter(({ node }) => {
             if (process.env.NODE_ENV !== 'development') {
@@ -268,10 +241,44 @@ const BlogIndex = ({ data, location }) => {
                   </Text>
                   <MDXRenderer>{node.body}</MDXRenderer>
                 </Box>
-              )
+              );
             }
-
           })}
+        <Flex
+          sx={{
+            flexDirection: 'row',
+          }}
+        >
+          <Box
+            sx={{
+              marginRight: 'auto',
+            }}
+          >
+            {nextPagePath ? (
+              <Link sx={{ textDecoration: 'none' }} to={nextPagePath}>
+                Older Posts
+              </Link>
+            ) : (
+              <Box sx={{ visibility: 'hidden' }}>Older Posts</Box>
+            )}
+          </Box>
+          <Box>
+            {humanPageNumber} of {numberOfPages}
+          </Box>
+          <Box
+            sx={{
+              marginLeft: 'auto',
+            }}
+          >
+            {previousPagePath ? (
+              <Link sx={{ textDecoration: 'none' }} to={previousPagePath}>
+                Newer Posts
+              </Link>
+            ) : (
+              <Box sx={{ visibility: 'hidden' }}>Newer Posts</Box>
+            )}
+          </Box>
+        </Flex>
       </CenterColumn>
     </Layout>
   );
@@ -280,7 +287,7 @@ const BlogIndex = ({ data, location }) => {
 export default BlogIndex;
 
 export const pageQuery = graphql`
-  query {
+  query($skip: Int!, $limit: Int!) {
     site {
       siteMetadata {
         title
@@ -295,6 +302,8 @@ export const pageQuery = graphql`
     posts: allMdx(
       filter: { fields: { sourceName: { in: ["blog", "micro"] } } }
       sort: { fields: [frontmatter___date], order: DESC }
+      skip: $skip
+      limit: $limit
     ) {
       edges {
         node {

@@ -85,10 +85,10 @@ const authLink = setContext((_, { headers }) => {
   return {
     headers: {
       ...headers,
-      authorization: token ? `Bearer ${token}` : "",
+      authorization: token ? `Bearer ${token}` : '',
       'x-protocol-version': 2,
-    }
-  }
+    },
+  };
 });
 
 const client = new ApolloClient({
@@ -102,7 +102,6 @@ const journalClient = new ApolloClient({
 
 const year = process.env.YEAR || 2020;
 const season = process.env.SEASON || 'fall';
-
 
 const fetchAnilistData = async () => {
   const { data } = await client.query({
@@ -123,7 +122,8 @@ const fetchAnilistData = async () => {
     const description = _.get(show, 'description', '');
     const tags = _.get(show, 'tags', []);
 
-    const trailer = path(['trailer', 'site'], show) === 'youtube' ? `https://www.youtube.com/watch?v=${show.trailer.id}` : null;
+    const trailer =
+      path(['trailer', 'site'], show) === 'youtube' ? `https://www.youtube.com/watch?v=${show.trailer.id}` : null;
 
     return {
       ...show,
@@ -146,9 +146,9 @@ const build = async () => {
       mutation: createSpace,
       variables: {
         input: {
-          name: 'Fall 2020 Anime Sampling'
-        }
-      }
+          name: 'Fall 2020 Anime Sampling',
+        },
+      },
     });
 
     const spaceUrn = 'journal:space:project';
@@ -159,7 +159,7 @@ const build = async () => {
       const show = shows[i];
 
       const title = show.title.romaji;
-      const coverUrl = show.coverImage.large
+      const coverUrl = show.coverImage.large;
       const bannerUrl = show.bannerImage;
       const trailerUrl = show['__trailer'];
       const externalLinks = show.externalLinks;
@@ -193,7 +193,7 @@ const build = async () => {
       //   })
       // }
 
-      if(coverUrl) {
+      if (coverUrl) {
         await journalClient.mutate({
           mutation: createLink,
           variables: {
@@ -201,12 +201,12 @@ const build = async () => {
               url: coverUrl,
               spaceUrn,
               spaceId,
-            }
-          }
-        })
+            },
+          },
+        });
       }
 
-      if(bannerUrl) {
+      if (bannerUrl) {
         await journalClient.mutate({
           mutation: createLink,
           variables: {
@@ -214,9 +214,9 @@ const build = async () => {
               url: bannerUrl,
               spaceUrn,
               spaceId,
-            }
-          }
-        })
+            },
+          },
+        });
       }
 
       await journalClient.mutate({
@@ -229,13 +229,13 @@ const build = async () => {
             spaceUrn,
             annotationType: 'journal:space:annotation:header',
             index: 0,
-          }
-        }
+          },
+        },
       });
     }
 
     // fs.writeFileSync("output.json", JSON.stringify(shows, null, 2));
-  } catch(e) {
+  } catch (e) {
     console.error(e);
   }
 };

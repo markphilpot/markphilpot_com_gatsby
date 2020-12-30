@@ -1,11 +1,13 @@
 const path = require(`path`);
 const { DateTime } = require('luxon');
 const { createFilePath } = require(`gatsby-source-filesystem`);
+const { paginate } = require('gatsby-awesome-pagination');
 
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions;
 
   const blogPost = path.resolve(`./src/templates/post.js`);
+  const blogIndex = path.resolve('./src/templates/index.js');
   const result = await graphql(
     `
       {
@@ -35,6 +37,16 @@ exports.createPages = async ({ graphql, actions }) => {
   // Create blog posts pages.
   const posts = result.data.allMdx.edges;
 
+  paginate({
+    createPage,
+    items: posts,
+    component: blogIndex,
+    itemsPerPage: 20,
+    itemsPerFirstPage: 10,
+    // pathPrefix: ({ pageNumber, numberOfPages }) => pageNumber === 0 ? '' : '/blog/page'
+    pathPrefix: '/',
+  });
+
   posts.forEach((post, index) => {
     const previous = index === posts.length - 1 ? null : posts[index + 1].node;
     const next = index === 0 ? null : posts[index - 1].node;
@@ -50,50 +62,6 @@ exports.createPages = async ({ graphql, actions }) => {
       },
     });
   });
-
-  // Generate drafts
-  // if (process.env.NODE_ENV === 'development') {
-  //   const result = await graphql(
-  //     `
-  //       {
-  //         allMdx(
-  //           filter: { fields: { sourceName: { eq: "blog" } } }
-  //           sort: { fields: [frontmatter___date], order: DESC }
-  //         ) {
-  //           edges {
-  //             node {
-  //               fields {
-  //                 slug
-  //               }
-  //               frontmatter {
-  //                 title
-  //               }
-  //             }
-  //           }
-  //         }
-  //       }
-  //     `
-  //   );
-  //
-  //   if (result.errors) {
-  //     throw result.errors;
-  //   }
-  //
-  //   // Create blog posts pages.
-  //   const posts = result.data.allMdx.edges;
-  //
-  //   posts.forEach((post, index) => {
-  //     createPage({
-  //       path: post.node.fields.slug,
-  //       component: blogPost,
-  //       context: {
-  //         slug: post.node.fields.slug,
-  //         previous: null,
-  //         next: null,
-  //       },
-  //     });
-  //   });
-  // }
 };
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
