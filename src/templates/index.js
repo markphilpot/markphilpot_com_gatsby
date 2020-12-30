@@ -217,13 +217,23 @@ const BlogIndex = ({ data, location, pageContext }) => {
                 <Box
                   sx={{
                     position: 'relative',
-                    backgroundColor: 'microBg',
-                    boxShadow: theme => `0px 0px 8px 12px ${theme.colors.microBg}`,
                     pt: 10,
-                    mb: 64,
+                    my: 64,
                     borderRadius: 8,
                   }}
                 >
+                  <Box
+                    sx={{
+                      position: 'absolute',
+                      backgroundColor: 'microBg',
+                      boxShadow: theme => `0px 0px 8px 12px ${theme.colors.microBg}`,
+                      top: 0,
+                      left: '-10%',
+                      width: '120%',
+                      height: '100%',
+                      zIndex: -10,
+                    }}
+                  />
                   <Text
                     sx={{
                       position: 'absolute',
