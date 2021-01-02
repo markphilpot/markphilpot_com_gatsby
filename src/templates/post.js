@@ -9,13 +9,12 @@ import Layout, { CenterColumn } from '../components/layout';
 import Hero from '../components/Hero';
 import NavBar from '../components/NavBar';
 import Link from '../components/Link';
+import SEO from '../components/SEO';
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.mdx;
   const siteTitle = data.site.siteMetadata.title;
   const { previous, next, slug } = pageContext;
-
-  console.log('FUCK', { previous, next, slug });
 
   const date = post.frontmatter.date.includes(' ')
     ? DateTime.fromSQL(post.frontmatter.date)
@@ -23,6 +22,11 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
+      <SEO
+        title={post.frontmatter.title}
+        description={post.frontmatter.summary}
+        image={post.frontmatter.featured_image ? post.frontmatter.featured_image.childImageSharp.resize : null}
+      />
       <Hero hero={post.frontmatter.hero} />
       <NavBar />
       <CenterColumn>
@@ -92,6 +96,15 @@ export const pageQuery = graphql`
         date
         hero {
           publicURL
+        }
+        featured_image {
+          childImageSharp {
+            resize(width: 1200) {
+              src
+              height
+              width
+            }
+          }
         }
       }
     }

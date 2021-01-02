@@ -2,6 +2,7 @@
 title: "Writing Reflection"
 date: 2021-01-02 09:58:00
 tags: [thoughts, writing]
+summary: "Looking back at writing in 2020"
 category: blog
 slug: writing_reflection
 hero: hero.jpg

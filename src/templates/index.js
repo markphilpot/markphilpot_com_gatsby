@@ -11,6 +11,7 @@ import Hero from '../components/Hero';
 import NavBar from '../components/NavBar';
 import { Year } from '../components/typography';
 import Link from '../components/Link';
+import SEO from '../components/SEO';
 
 const FeaturedImagePost = props => {
   const { node, title, isDraft } = props;
@@ -164,6 +165,7 @@ const BlogIndex = ({ data, location, pageContext }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
+      <SEO title={'markphilpot.com'} />
       <Hero hero={colorMode === 'default' ? heroLight : heroDark} />
       <NavBar />
       <CenterColumn>
