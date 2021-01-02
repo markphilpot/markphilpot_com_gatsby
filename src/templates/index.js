@@ -230,8 +230,8 @@ const BlogIndex = ({ data, location, pageContext }) => {
                         backgroundColor: 'microBg',
                         boxShadow: theme => `0px 0px 8px 12px ${theme.colors.microBg}`,
                         top: 0,
-                        left: '-10%',
-                        width: '120%',
+                        left: ['0%', '0%', '0%', '-10%'],
+                        width: ['100%', '100%', '100%', '120%'],
                         height: '100%',
                         zIndex: -10,
                       }}
