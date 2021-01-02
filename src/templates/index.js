@@ -214,43 +214,46 @@ const BlogIndex = ({ data, location, pageContext }) => {
               );
             } else {
               return (
-                <Box
-                  sx={{
-                    position: 'relative',
-                    pt: 10,
-                    my: 64,
-                    borderRadius: 8,
-                  }}
-                >
+                <article style={{ position: 'relative' }} key={node.fields.slug}>
+                  {year}
                   <Box
                     sx={{
-                      position: 'absolute',
-                      backgroundColor: 'microBg',
-                      boxShadow: theme => `0px 0px 8px 12px ${theme.colors.microBg}`,
-                      top: 0,
-                      left: '-10%',
-                      width: '120%',
-                      height: '100%',
-                      zIndex: -10,
-                    }}
-                  />
-                  <Text
-                    sx={{
-                      position: 'absolute',
-                      variant: 'text.caps',
-                      fontSize: 0,
-                      fontWeight: 'bold',
-                      color: 'body',
-                      top: 2,
-                      right: 2,
+                      position: 'relative',
+                      pt: 10,
+                      my: 64,
+                      borderRadius: 8,
                     }}
                   >
-                    <Link sx={{ textDecoration: 'none' }} to={node.fields.slug}>
-                      {currentDate.toFormat('LLLL d, yyyy')}
-                    </Link>
-                  </Text>
-                  <MDXRenderer>{node.body}</MDXRenderer>
-                </Box>
+                    <Box
+                      sx={{
+                        position: 'absolute',
+                        backgroundColor: 'microBg',
+                        boxShadow: theme => `0px 0px 8px 12px ${theme.colors.microBg}`,
+                        top: 0,
+                        left: '-10%',
+                        width: '120%',
+                        height: '100%',
+                        zIndex: -10,
+                      }}
+                    />
+                    <Text
+                      sx={{
+                        position: 'absolute',
+                        variant: 'text.caps',
+                        fontSize: 0,
+                        fontWeight: 'bold',
+                        color: 'body',
+                        top: 2,
+                        right: 2,
+                      }}
+                    >
+                      <Link sx={{ textDecoration: 'none' }} to={node.fields.slug}>
+                        {currentDate.toFormat('LLLL d, yyyy')}
+                      </Link>
+                    </Text>
+                    <MDXRenderer>{node.body}</MDXRenderer>
+                  </Box>
+                </article>
               );
             }
           })}

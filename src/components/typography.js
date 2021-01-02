@@ -38,6 +38,9 @@ export const Year = props => {
   return (
     <Box
       sx={{
+        bg: 'background',
+        boxShadow: theme => `0px 0px 22px 22px ${theme.colors.background}`,
+        borderRadius: '16px',
         position: ['static', 'static', 'static', 'absolute'],
         width: '150px',
         left: [0, 0, 0, '-190px'],
