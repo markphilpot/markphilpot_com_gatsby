@@ -20,4 +20,4 @@ git push
 
 Doesn't seem too bad for now. I think I'm going to start a new app that allows me to do all those things from a single form in the menu bar. The more I can treat the entire process as atomic, the more I think I'll use it.
 
-Event better, generate a twitter compatible summary, add a back link and post to twitter.
+Even better, generate a twitter compatible summary, add a back link and post to twitter.
