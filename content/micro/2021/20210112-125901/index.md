@@ -21,3 +21,7 @@ git push
 Doesn't seem too bad for now. I think I'm going to start a new app that allows me to do all those things from a single form in the menu bar. The more I can treat the entire process as atomic, the more I think I'll use it.
 
 Even better, generate a twitter compatible summary, add a back link and post to twitter.
+
+**Update** -- [iSH.app](https://ish.app) now supports node! I can at least now edit markdown files via the command line on an iPad now. Going to see if I can get gatsby to actually run and connect to localhost...
+
+Note to self: I do need to update my vim configuration
