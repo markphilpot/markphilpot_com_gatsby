@@ -24,4 +24,4 @@ Even better, generate a twitter compatible summary, add a back link and post to 
 
 **Update** -- [iSH.app](https://ish.app) now supports node! I can at least now edit markdown files via the command line on an iPad now. Going to see if I can get gatsby to actually run and connect to localhost...
 
-Note to self: I do need to update my vim configuration
+Note to self: I do need to update my vim configuration, but for the moment I can actually edit the markdown files in Byword on the iPad since iSH exposes it's filesystem to the Files system.
