@@ -1,8 +1,8 @@
 import React from 'react';
 import { graphql } from 'gatsby';
-import Layout, { CenterColumn } from '../components/layout';
-import Hero from '../components/Hero';
-import NavBar from '../components/NavBar';
+import Layout, { CenterColumn } from '../../components/layout';
+import Hero from '../../components/Hero';
+import NavBar from '../../components/NavBar';
 import { Heading } from 'theme-ui';
 
 import { MDXRenderer } from 'gatsby-plugin-mdx';
