@@ -73,7 +73,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "anime_season": "YEAR=2020 SEASON=winter node -r esm scripts/anime_season.js",
+    "anime_season": "YEAR=2021 SEASON=winter node -r esm scripts/anime_season.js",
     "jas": "YEAR=2020 SEASON=fall node -r esm scripts/journal_anime_season.js",
     "preinstall": "cd plugins/gatsby-remark-images-custom && yarn install",
     "newMicro": "node ./scripts/new_post.js micro",
