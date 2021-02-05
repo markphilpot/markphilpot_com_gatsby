@@ -8,7 +8,9 @@ summary: First Impressions of the Anime Winter 2021 Season
 hero: wonder_egg_hero.jpg
 featured_image: wonder_egg_hero.jpg
 ---
-After taking a hiatus for 2020 (*woof*) wanted to get back to writing about the shows I'm going to be following (or try to follow) this season.
+After taking a hiatus for 2020 (*woof*) wanted to get back to writing about the shows I'm going to be following (or try to follow) this season. 
+
+*Update: So much for that line of thinking...*
 
 Winter 2021 is definitely the season of sequels, though I'm still not caught up with [*Attack on Titan*](https://anilist.co/anime/110277/Shingeki-no-Kyojin-The-Final-Season/) and [*Beastars 2*](https://anilist.co/anime/114194/BEASTARS-2/) will be in Netflix Jail for a while. I will probably watch [*Slime*](https://anilist.co/anime/108511/Tensei-Shitara-Slime-Datta-Ken-2nd-Season/) and [*Quintuplets*](https://anilist.co/anime/109261/5Toubun-no-Hanayome-/) but they are not quite a must watches for me.
 
@@ -16,39 +18,36 @@ Winter 2021 is definitely the season of sequels, though I'm still not caught up 
 
 ![Yakusoku no Neverland 2](banners/neverland.jpg "ew1920")
 
-> The second season of &lt;i&gt;Yakusoku no Neverland&lt;/i&gt;.&lt;br&gt;&lt;br/&gt;&lt;br&gt;
-Fifteen children escape Grace Field House, a false paradise, hoping for a chance at freedom. Instead, they encounter plants and animals they have never before seen, and are chased by demons. The outside world is so beautiful, and yet is almost too cruel to face.&lt;br&gt;&lt;br&gt;
+Wow, I wasn't expecting this...
 
-Even so, the children refuse to give up. They are guided in their search for better lives only by a message from Minerva and a pen Norman left behind in order to fulfill their promise to return to the House to save those of their family who are still trapped within.&lt;/br&gt;&lt;br&gt;
+No, I'm not referring to any unexpected plot twist (or maybe I am...).  It seems that a very popular arc of the manga is being skipped by the anime and has everyone up in arms. I haven't yet had the chance to do my season one catch up with the manga, but suddenly I'm feeling more pressure to.
 
-(Source: Aniplex of America)
-&lt;br&gt;&lt;br&gt;
-&lt;i&gt;Note: Episode 1 streamed early on Amazon Prime on Jan 7, 2021. The regular TV broadcast started on Jan 8, 2021.&lt;/i&gt;
+It's usually (if not always) the case that an anime adaptation will **adapt** it's source material, and that usually means there are some things that don't make it in. It's why I usually watch an anime first and then read the source material (if I haven't already been following the manga).
+
+Definitely not giving up on it, but definitely curious to find out what arc they ended up skipping.
 
 
 ### [Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season Part 2](https://anilist.co/anime/119661)
 
 ![Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season Part 2](banners/re_zero.jpg "ew1920")
 
-> The second cour of the second season of &lt;i&gt;Re:Zero kara Hajimeru Isekai Seikatsu&lt;/i&gt;.
+More backstory! And the heavy hits keep on coming. Bring on the rollercoaster!
 
 
 ### [Horimiya](https://anilist.co/anime/124080)
 
 ![Horimiya](banners/horimiya.jpg "ew1920")
 
-> A secret life is the one thing they have in common. At school, Hori is a prim and perfect social butterfly, but the truth is she&#x27;s a brash homebody. Meanwhile, under a gloomy facade, Miyamura hides a gentle heart, along with piercings and tattoos. In a chance meeting, they both reveal a side they&#x27;ve never shown. Could this blossom into something new?&lt;br&gt;&lt;br/&gt;&lt;br&gt;
-(Source: Funimation)
+Huge fan of the manga and I definitely had a *squeeeee* moment when I saw it was getting an anime adaptation. So far it doesn't disappoint (though again, it's worth treating the anime and manga almost as separate (but related) stories).  Pick up the manga when the show is done. You won't be disappointed.
 
 
 ### [Mushoku Tensei: Isekai Ittara Honki Dasu](https://anilist.co/anime/108465)
 
 ![Mushoku Tensei: Isekai Ittara Honki Dasu](banners/mushoku.jpg "ew1920")
 
-> When a 34-year-old underachiever gets run over by a bus, his story doesn’t end there. Reincarnated in a new world as an infant, Rudy will seize every opportunity to live the life he’s always wanted. Armed with new friends, some freshly acquired magical abilities, and the courage to do the things he’s always dreamed of, he’s embarking on an epic adventure—with all of his past experience intact!&lt;br&gt;&lt;br/&gt;&lt;br&gt;
-(Source: Funimation)
-&lt;br&gt;&lt;br&gt;
-&lt;i&gt;Note: The anime pre-screened its 1st and 2nd episode starting on the 27th of December on the Nico Nico Live Broadcasting and D Anime Store services&lt;i/&gt;
+I find this one hard to recommend, but I can't deny it's *really* good. There is a level of base perversion that will definitely turn off a lot of people, and there is a constant worry in my mind while that they will at some point cross a line that is just unacceptable.
+
+However, if you can handle that, the art on display and the world building is absolutely top notch. Apparently, the original light novel is really the isekai progenitor -- I'm actually interested to check out how the manga adapted the story.  A second cour has already been announced, so as long as they manage to only approach the line and not cross it, this show has a chance to be really great.
 
 
 
@@ -56,25 +55,25 @@ Even so, the children refuse to give up. They are guided in their search for bet
 
 ![Yuru Camp△ SEASON 2](banners/lbc.jpg "ew1920")
 
-> The second season of &lt;i&gt;Yuru Camp△&lt;/i&gt;.
+Oh my heart! Where have you been? It's been *so* long!
+
+I have to say, with this season having so many **heavy** shows, I *really* need *Yuru Camp* to relax to. Mandatory watching whenever a new episode drops.
 
 
 ### [Tatoeba Last Dungeon Mae no Mura no Shounen ga Joban no Machi de Kurasu Youna Monogatari](https://anilist.co/anime/112649)
 
 ![Tatoeba Last Dungeon Mae no Mura no Shounen ga Joban no Machi de Kurasu Youna Monogatari](banners/last_dungeon.jpg "ew1920")
 
-> The story follows Lloyd, a budding adventurer who just wants to get stronger. His plan? Head to the capital and discover his true power, even though he grew up being considered a weakling. So Lloyd heads out from his hometown, which interestingly exists directly next to the most dangerous dungeon. He might not think of himself as strong, but he’ll soon learn that there’s even more of a difference between him and other starting adventurers.&lt;br&gt;&lt;br/&gt;&lt;br&gt;
-You know, because he grew up next to a deadly dungeon. He’s much stronger than he realizes.&lt;br&gt;
-&lt;br&gt;
-(Source: Funimation)
+Fun with a humorous hook, but the definite potential to get old fast. Of all the shows this season, this is probably the first that gets put on hold if I'm being realistic.
 
 
 ### [Ura Sekai Picnic](https://anilist.co/anime/116287)
 
 ![Ura Sekai Picnic](banners/op.jpg "ew1920")
 
-> Moments from death, Sorawo is saved by the mysterious Toriko in the Otherside. Attracted to its beauty, she soon discovers that this dimension is inhabited by monsters once thought imaginary. Joining with Toriko in her search for a missing friend, they set out to explore this nightmare-realm and maybe make a little money. What they encounter could bring enlightenment—or drive them mad!&lt;br&gt;&lt;br/&gt;&lt;br&gt;
-(Source: Funimation)
+Yuri with a touch of horror or horror with a touch of yuri? Fingers crossed it's the former and not the latter.
+
+So far I like the characters and can excuse the not-so-good CG. I also enjoy that these aren't high school students. More stories need to be told centered around university. Incorporating the maturity of that respective age group really helps in character development (or at least I enjoy it more).
 
 
 
@@ -82,21 +81,23 @@ You know, because he grew up next to a deadly dungeon. He’s much stronger than
 
 ![Wonder Egg](banners/wonder_egg.jpg "ew1920")
 
-> This is the story of Ai, an introverted girl whose fate is forever changed when she acquires a mysterious “Wonder Egg” from a deserted arcade. That night, her dreams blend into reality, and as other girls obtain their own Wonder Eggs, Ai discovers new friends—and the magic within herself.&lt;br/&gt;&lt;br&gt;&lt;br&gt;
-(Source: Funimation)
+I'm going to call it now, this show is quite possibly anime of the year. That being said... **TRIGGER WARNING!!** This show deals with situations and themes that may be too much for many. Take care when watching.
+
+But if you can, *please* watch this show. The level of craft on display here is breathtaking.
 
 
 ### [IDOLY PRIDE](https://anilist.co/anime/113814)
 
 ![IDOLY PRIDE](banners/idoly_pride.jpg "ew1920")
 
-> After a successful audition, high school student Kotono Nagase and her best friend move into a dorm with eight other aspiring idols. They quickly realize it takes more than cute choreography and cute outfits to reach the top—it will take blood, sweat, and tears to advance in the idol-ranking VENUS program, where the top spot is held by superstar Mana Nagase…who happens to be Kotono’s older sister.&lt;br/&gt;&lt;br&gt;&lt;br&gt;(Source: Funimation)
+I'm not sure why most idol shows feel the need to pack their cast. It really is too many characters to give any shred of development to. Given the additional focus on the Manager for this series, that development is probably going to be spread even thinner than usual. I'm going to give it a few more episodes, but this also might be destined for the *hold* or *dropped* list.
 
 ### [Gekidol](https://anilist.co/anime/124131)
 
 ![Gekidol](banners/gekidol.jpg "ew1920")
 
 
-> Five years after a mystifying disaster decimates cities across the globe, Seria Morino receives an invitation from a mysterious woman to join Alice in Theater, a small stage troupe that takes it upon themselves to brighten the world through their performances using 3D hologram technology. As Seria settles in, she begins to uncover unexpected truths about herself and the world around her…&lt;br&gt;&lt;br/&gt;&lt;br&gt;
-(Source: Funimation)
+Despite the title, this isn't your traditional idol show. I'm not exactly sure what it is, but early on it's hooked me sufficiently that I'm going to stick around to find out.
+
+There is an OVA (*Alice in Deadly School*) which seems to be a "sidecar" story to this main series.  I haven't watched it yet and I can't tell if it is supposed to be viewed before or after the main series.  Just something to keep in mind.
 
