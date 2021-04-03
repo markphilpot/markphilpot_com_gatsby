@@ -1,6 +1,6 @@
 ---
 title: 'Anime Summer 2020 First Impressions - Retcon Edition'
-date: '2021-04-03 12:03:00'
+date: '2020-07-03 12:03:00'
 tags: [anime, first impressions, retcon]
 category: anime
 slug: anime_2020_summer_first
