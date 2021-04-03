@@ -12,13 +12,9 @@ status: draft
 
 {{#each shows}}
 
-### [{{ title.userPreferred }}]({{ siteUrl }})
+### [{{ title.romaji }} ({{ title.english }})]({{ siteUrl }})
 
 ![{{ title.userPreferred }}](covers/{{ coverFile }})
-
-![{{ __studios }}](studios/half/.png)
-
-<div class="studio">{{ __studios }}</div>
 
 > {{ __description }}
 
