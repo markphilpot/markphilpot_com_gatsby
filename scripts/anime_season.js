@@ -20,6 +20,8 @@ const seasonQuery = gql`
         description
         title {
           userPreferred
+          english
+          romaji
         }
         coverImage {
           large
