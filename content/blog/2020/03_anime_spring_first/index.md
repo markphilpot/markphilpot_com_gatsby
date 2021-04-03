@@ -1,6 +1,6 @@
 ---
 title: 'Anime Spring 2020 First Impressions'
-date: '21:12:03.808 -07:00'
+date: '2020-04-03 11:42:00'
 tags: [anime, first impressions, retcon]
 category: anime
 slug: anime_2020_spring_first
@@ -8,6 +8,8 @@ summary: First Impressions of the Anime Spring 2020 Season
 hero:
 featured_image:
 ---
+
+*April 3, 2021 - I didn't get to post this in real time, but wanted to have a record of my thoughts on the season.*
 
 
 ### [Kaguya-sama wa Kokurasetai?: Tensai-tachi no Renai Zunousen (Kaguya-sama: Love is War?)](https://anilist.co/anime/112641)
@@ -28,15 +30,6 @@ Twenty-Fifth Bam is a boy who had only known a dark cave, a dirty cloth, and an 
 &lt;br&gt;
 Thus begins the journey of Bam, a young boy who was not chosen by the Tower but opened its gates by himself. They call his kind &quot;Irregulars&quot;—beings that have shaken the very foundation of the Tower each time they set foot inside it.
 
-
-### [GREAT PRETENDER (Great Pretender)](https://anilist.co/anime/110349)
-
-![GREAT PRETENDER](covers/bx110349-59hhZ9CNHVdk.png)
-
-> Only BADs are our targets! Trick you! Deceive you! Cheat all fortunes of you! You can hear our stories in LA, Singapore, London, Shanghai and Tokyo, Why? Our &quot;CON GAMEs&quot; stage, is the whole WORLD!&lt;br&gt;&lt;br/&gt;&lt;br&gt;
-Edamura Makoto is supposedly Japan&#x27;s greatest swindler. Together with his partner Kudo, they try to trick a Frenchman in Asakusa but unexpectedly get tricked instead. The Frenchman, whom they tried to swindle, turns out to be Laurent Thierry—a much higher-level &quot;confidence man,&quot; in control of the mafia. Edamura is yet to find out what fate awaits him, after having engaged in the Frenchman&#x27;s dirty jobs...!&lt;br&gt;
-&lt;br&gt;
-(Source: Official Website)
 
 
 
