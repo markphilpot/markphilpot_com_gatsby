@@ -8,7 +8,7 @@ exports.createPages = async ({ graphql, actions }) => {
 
   const blogPost = path.resolve(`./src/templates/post.js`);
   const blogIndex = path.resolve('./src/templates/index.js');
-  const limit = process.env.NODE_ENV !== 'development' ? '' : 'limit: 10';
+  const limit = process.env.NODE_ENV !== 'development' ? '' : 'limit: 20';
   const result = await graphql(
     `
       {
