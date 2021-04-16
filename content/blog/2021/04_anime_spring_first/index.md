@@ -1,6 +1,6 @@
 ---
 title: 'Anime Spring 2021 First Impressions'
-date: '2021-04-14 22:02:00'
+date: '2021-04-16 08:03:00'
 tags: [anime, first impressions]
 category: anime
 slug: anime_2021_spring_first
@@ -16,35 +16,35 @@ And here I thought Winter 2021 was a packed season. It seems like all the pent u
 
 ![](banners/eternity.jpg "ew1920")
 
-From the mangaka that gave us [Koe no Katachi (A Silent Voice)]() (one of my favorite manga of all time with a fantastic film adaption) comes a story a bit more out of this world but with a lot of the same emotional gut punches. This was my most anticipated of the season and the opening episode didn't disappoint. I'm not caught up on the manga and it's been long enough since I read it that I believe most of this season will be full of great surprises.
+From the mangaka that gave us [Koe no Katachi (A Silent Voice)](https://anilist.co/manga/85135/Koe-no-Katachi/) (one of my favorite manga of all time with a fantastic [film](https://anilist.co/anime/20954/Koe-no-Katachi/) adaption) comes a story a bit more out of this world but with a lot of the same emotional gut punches. This was my most anticipated of the season and the opening episode didn't disappoint. I'm not caught up on the manga and it's been long enough since I read it that I believe most of this season will be full of great surprises.
 
 
 ### [Ijiranaide, Nagatoro-san (Don't Toy With Me, Miss Nagatoro)](https://anilist.co/anime/120697)
 
 ![](banners/nagatoro1.jpg "ew1920")
 
-As an adaption of the manga, the first episode was really good -- the expressions of Nagatoro are really epic and I can see them supplying a lot of memes this season. That being said, I'm not sure I'll stick around for the entire season. The issue I have with this sort of story is there rarely is any room for evolution -- essentially replaying the same joke over and over. [Uzaki-chan]() from a few seasons ago had the same issue (and there are a lot of similarities *senpai*). 
+As an adaption of the manga, the first episode was really good -- the expressions of Nagatoro are really epic and I can see them supplying a lot of memes this season. That being said, I'm not sure I'll stick around for the entire season. The issue I have with this sort of story is there rarely is any room for evolution -- essentially replaying the same joke over and over. [Uzaki-chan](https://anilist.co/anime/115113/Uzakichan-wa-Asobitai/) from a few seasons ago had the same issue (and there are a lot of similarities *senpai*). 
 
 
 ### [Tokyo Revengers](https://anilist.co/anime/120120)
 
 ![](banners/tokyo.jpg "ew1920")
 
-Deliquents meets [Erased](). The first episode doesn't give us enough of the time travel ground rules to figure out what kind of show it will be, but my interest is definitely piqued. I do have to ask however -- why middle school? It's going to be a bit hard to take it seriously if they really dive hard into the delinquent angle.  
+Delinquents meets [Erased](https://anilist.co/anime/21234/Boku-dake-ga-Inai-Machi/). The first episode doesn't give us enough of the time travel ground rules to figure out what kind of show it will be, but my interest is definitely piqued. I do have to ask however -- why middle school? It's going to be a bit hard to take it seriously if they really dive hard into the delinquent angle.  
 
 
 ### [Hige wo Soru. Soshite Joshikousei wo Hirou. (Higehiro: After Being Rejected, I Shaved and Took in a High School Runaway)](https://anilist.co/anime/114232)
 
 ![](banners/higehiro.jpg "ew1920")
 
-On the outset, I worry that this is another "weird but seemingly wholesome" on the outside but then goes into *must drop now* [Usagi Drop]() territory.  However, looking around at posts from manga readers, it looks like it remains "wholesome" just with some drama thrown in. Hopefully that remains true (can never be 100% sure but I think I will give it chance).
+On the outset, I worry that this is another "weird but seemingly wholesome" on the outside but then goes into *must drop now* [Usagi Drop](https://anilist.co/anime/10162/Usagi-Drop/) territory.  However, looking around at posts from manga readers, it looks like it remains "wholesome" just with some drama thrown in. Hopefully that remains true (can never be 100% sure but I think I will give it chance).
 
 
 ### [Zombie Land Saga: Revenge](https://anilist.co/anime/110733)
 
 ![](banners/revenge.jpg "ew1920")
 
-The [first season]() was my gateway drug into the world of idol shows. I love the music and the wackiness of being zombies was a fantastic twist on the genre. I was really looking forward to *Revenge* when it was announced.  Would we get the backstories we missed in the first season?
+The [first season](https://anilist.co/anime/103871/Zombie-Land-Saga/) was my gateway drug into the world of idol shows. I love the music and the wackiness of being zombies was a fantastic twist on the genre. I was really looking forward to *Revenge* when it was announced.  Would we get the backstories we missed in the first season?
 
 Unfortunately, the first episode left me with a very lackluster impression. I don't know if it was the focus on the manager (though that probably contributed significantly), but I was just so-so on this episode on start to finish. Hopefully the music hooks me like the first season and there is more focus on the girls' backstories going forward.
 
@@ -54,7 +54,7 @@ Unfortunately, the first episode left me with a very lackluster impression. I do
 
 ![](banners/slime.jpg "ew1920")
 
-This is a repackaged [Kuma Kuma Kuma Bear]() and I'm perfectly OK with that (to be fair, I'm not sure which came first but not sure it really matters). OP protagonist isekai is nothing new, so if you're tired of the premise I'm not sure you will find anything original here. This one will just be a guilty pleasure for me this season.
+This is a repackaged [Kuma Kuma Kuma Bear](https://anilist.co/anime/114340/Kuma-Kuma-Kuma-Bear/) and I'm perfectly OK with that (to be fair, I'm not sure which came first but not sure it really matters). OP protagonist isekai is nothing new, so if you're tired of the premise I'm not sure you will find anything original here. This one will just be a guilty pleasure for me this season.
 
 
 
@@ -69,7 +69,7 @@ I didn't know anything going into the show and when the first episode ended I *r
 
 ![](banners/nomad.jpg "ew1920")
 
-Despite not being a huge boxing fan (let alone anime boxing fan), I loved the aesthetic of the first [Megalobox]() season. This season's opening has that "fighter down in the depths" vibe dialed to 11. *Nomad* is a fitting description of where we restart the story of "Gearless" Joe -- wandering between underground fights, a crippling pain-killer addiction -- he is obviously at rock bottom.
+Despite not being a huge boxing fan (let alone anime boxing fan), I loved the aesthetic of the first [Megalobox](https://anilist.co/anime/100298/Megalo-Box/) season. This season's opening has that "fighter down in the depths" vibe dialed to 11. *Nomad* is a fitting description of where we restart the story of "Gearless" Joe -- wandering between underground fights, a crippling pain-killer addiction -- he is obviously at rock bottom.
 
 The first season had a dystopian urban setting, where as now we're dropped in a wasteland evoking plenty of "old west," immigrant feelings (the use of acoustic guitar really drives this home).
 
@@ -103,7 +103,7 @@ For a CG anime, this was surprisingly well done. However, I haven't yet played t
 
 ![](banners/ssss1.jpg "ew1920")
 
-Trigger is back with a spiritual successor [SSSS.GRIDMAN]().  It's not a sequel so you don't need to see *Gridman* first (at least from what I understand you don't), but I would still recommend it.  You don't need to be a huge fan of Kaiju shows to enjoy these homages to the genre. I personally love the Trigger character designs and can't wait to see what "... in space!" twists await us.
+Trigger is back with a spiritual successor [SSSS.GRIDMAN](https://anilist.co/anime/99424/SSSSGRIDMAN/).  It's not a sequel so you don't need to see *Gridman* first (at least from what I understand you don't), but I would still recommend it.  You don't need to be a huge fan of Kaiju shows to enjoy these homages to the genre. I personally love the Trigger character designs and can't wait to see what "... in space!" twists await us.
 
 There is a fantastic wrinkle in the second episode -- the main theme is playing during a kaiju battle and whenever the camera pulls in to the characters inside the mech, it sounds like the song is coming from the outside! It's a brilliant twist if the music is diegetic in this world.
 
@@ -130,7 +130,7 @@ This show is *really* over the top ("I'm intoxicated... by the lights...", "My s
 
 ![](banners/cramer.jpg "ew1920")
 
-From the creator of [Your Lie in April]() comes a soccer anime! I think I've read the first volume of the manga so I'm a little oriented to the characters -- but both the manga and the anime share the same disorienting character introductions, so if you struggle with that, you're not alone.
+From the creator of [Shigatsu wa Kimi no Uso (Your Lie in April)](https://anilist.co/anime/20665/Shigatsu-wa-Kimi-no-Uso/) comes a soccer anime! I think I've read the first volume of the manga so I'm a little oriented to the characters -- but both the manga and the anime share the same disorienting character introductions, so if you struggle with that, you're not alone.
 
 I'm not going to lie (*no pun intended I swear*) -- the character designs invoked a deep visceral reaction from me (it's the eyes... the eye's will haunt me forever!)
 
@@ -139,7 +139,7 @@ I'm not going to lie (*no pun intended I swear*) -- the character designs invoke
 
 ![](banners/cub.jpg "ew1920")
 
-Another slow paced slice-of-life show and I'm absolutely not complaining. Take a simple premise (lonely girl deciding to make a change in her life by buying a scooter) and tell a story around what that experience brings. Unfortunately this won't be able to take the place of [Yuru Camp]() every week, but there are enough similarities from the outset that I think I'll enjoy this one.
+Another slow paced slice-of-life show and I'm absolutely not complaining. Take a simple premise (lonely girl deciding to make a change in her life by buying a scooter) and tell a story around what that experience brings. Unfortunately this won't be able to take the place of [Yuru Camp](https://anilist.co/anime/98444/Yuru-Camp/) every week, but there are enough similarities from the outset that I think I'll enjoy this one.
 
 
 
@@ -162,7 +162,7 @@ Essentially a travel brochure in the form of cute-girls-doing-things. As anime s
 
 ![](banners/ray.jpg "ew1920")
 
-I'm not sure what I was expecting, but this wasn't it. A two cour show (!) with heavy [Madoka Magica]() crossed with [Yuki Yuna]() vibes on what appears to be a shoestring budget. There wasn't a lot revealed in the opening episode and there was no investment in getting to know the characters (I can guess at the two main protagonists from the OP/ED but I would it would have been week without that assistance).
+I'm not sure what I was expecting, but this wasn't it. A two cour show (!) with heavy [Madoka Magica](https://anilist.co/anime/9756/Mahou-Shoujo-MadokaMagica/) crossed with [Yuki Yuna](https://anilist.co/anime/20800/Yuuki-Yuuna-wa-Yuusha-de-Aru/) vibes on what appears to be a shoestring budget. There wasn't a lot revealed in the opening episode and there was no investment in getting to know the characters (I can guess at the two main protagonists from the OP/ED but I would it would have been week without that assistance).
 
 I can't help but think that this may have been better turning the 24-episode budget into a 12-episode show. We'll see if they can get me invested over the next few episodes, but at this point I have my reservations.
 
