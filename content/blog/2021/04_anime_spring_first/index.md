@@ -48,6 +48,7 @@ The [first season](https://anilist.co/anime/103871/Zombie-Land-Saga/) was my gat
 
 Unfortunately, the first episode left me with a very lackluster impression. I don't know if it was the focus on the manager (though that probably contributed significantly), but I was just so-so on this episode on start to finish. Hopefully the music hooks me like the first season and there is more focus on the girls' backstories going forward.
 
+*Update* -- Episode 2 was much better than the first, so I'm relieved about that. Unfortunately I'm mentally comparing the songs this season with my favorites from the first, which is definitely not fair. I'll need to calibrate that better.
 
 
 ### [Slime Taoshite 300-nen, Shiranai Uchi ni Level Max ni Nattemashita (I've Been Killing Slimes for 300 Years and Maxed Out My Level)](https://anilist.co/anime/112608)
