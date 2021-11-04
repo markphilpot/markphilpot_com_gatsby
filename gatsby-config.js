@@ -81,6 +81,14 @@ module.exports = {
         icon: `content/assets/heros/gg_bridge_ico.png`,
       },
     },
+    {
+      resolve: `gatsby-source-graphql`,
+      options: {
+        fieldName: `anilist`,
+        url: `https://graphql.anilist.co`,
+        typeName: `Anilist`,
+      },
+    },
     `gatsby-plugin-react-helmet`,
     // {
     //   resolve: `gatsby-plugin-typography`,
