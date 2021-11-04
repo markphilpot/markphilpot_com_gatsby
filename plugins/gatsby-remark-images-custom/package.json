@@ -10,7 +10,7 @@
     "@babel/runtime": "^7.7.6",
     "chalk": "^2.4.2",
     "cheerio": "^1.0.0-rc.3",
-    "gatsby-core-utils": "^1.0.28",
+    "gatsby-core-utils": "^3.1.0",
     "is-relative-url": "^3.0.0",
     "lodash": "^4.17.15",
     "mdast-util-definitions": "^1.2.5",
@@ -39,8 +39,8 @@
   "license": "MIT",
   "main": "index.js",
   "peerDependencies": {
-    "gatsby": "^2.0.0",
-    "gatsby-plugin-sharp": "^2.0.0-beta.5"
+    "gatsby": "^4.1.0",
+    "gatsby-plugin-sharp": "^4.1.0"
   },
   "repository": {
     "type": "git",
