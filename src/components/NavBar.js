@@ -32,6 +32,9 @@ const NavBar = props => {
         <Link to={`${__PATH_PREFIX__}/projects`} sx={{ variant: 'styles.navlink' }}>
           ~/projects
         </Link>
+        <Link to={`${__PATH_PREFIX__}/anime/watching`} sx={{ variant: 'styles.navlink' }}>
+          anime
+        </Link>
       </Flex>
     </CenterColumn>
   );
