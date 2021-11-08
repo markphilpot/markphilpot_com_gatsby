@@ -1,6 +1,7 @@
 import React from 'react';
 import { graphql } from 'gatsby';
-import { Box, Text, Image, Heading, Grid, Link, Progress } from 'theme-ui';
+import { Box, Text, Heading, Grid, Link, Progress } from 'theme-ui';
+import Image from 'gatsby-image';
 import Hero from '../../components/Hero';
 import NavBar from '../../components/NavBar';
 import Layout, { CenterColumn } from '../../components/layout';
@@ -13,6 +14,8 @@ const Show = props => {
 
   const episodes = media.episodes;
 
+  console.log('FUCK', media);
+
   return (
     <Link href={media.siteUrl} target="_blank">
       <Box
@@ -22,8 +25,9 @@ const Show = props => {
         }}
       >
         <Image
-          sx={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '4px' }}
-          src={media.coverImage.large}
+          style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '4px' }}
+          // src={media.coverImage.large}
+          fluid={media.coverImage.largeFile.childImageSharp.fluid}
         />
         {episodes && progress && (
           <Progress
@@ -150,6 +154,13 @@ export const pageQuery = graphql`
               coverImage {
                 medium
                 large
+                largeFile {
+                  childImageSharp {
+                    fluid {
+                      ...GatsbyImageSharpFluid
+                    }
+                  }
+                }
               }
               bannerImage
               nextAiringEpisode {

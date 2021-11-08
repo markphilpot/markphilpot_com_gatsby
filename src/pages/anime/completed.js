@@ -9,8 +9,8 @@ import { shuffle } from '../../utils/ramda';
 
 const skipEnglish = true;
 
-const buildTitle = (title) => {
-  if(skipEnglish || title.romaji.toLowerCase() === title.english?.toLowerCase()) {
+const buildTitle = title => {
+  if (skipEnglish || title.romaji.toLowerCase() === title.english?.toLowerCase()) {
     return (
       <Heading
         as={'h5'}
@@ -18,7 +18,9 @@ const buildTitle = (title) => {
           marginTop: 4,
           minHeight: 40,
         }}
-      >{title.romaji}</Heading>
+      >
+        {title.romaji}
+      </Heading>
     );
   } else {
     return (
@@ -28,17 +30,21 @@ const buildTitle = (title) => {
           sx={{
             marginTop: 4,
           }}
-        >{title.romaji}</Heading>
+        >
+          {title.romaji}
+        </Heading>
         <Heading
           as={'h5'}
           sx={{
             marginTop: 2,
           }}
-        >({title.english})</Heading>
+        >
+          ({title.english})
+        </Heading>
       </>
     );
   }
-}
+};
 
 const Show = props => {
   const { media } = props;
@@ -54,7 +60,7 @@ const Show = props => {
         <Image
           sx={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '4px' }}
           src={media.coverImage.large}
-          loading={"lazy"}
+          loading={'lazy'}
         />
       </Box>
 
@@ -74,22 +80,24 @@ const Show = props => {
 const AnimeYear = ({ year, shows }) => {
   return (
     <>
-    <Box
-      sx={{
-        textAlign: 'center',
-        marginBottom: 4,
-      }}
-    >
-      <Heading><Link id={year}>{year}</Link></Heading>
-    </Box>
-    <Grid gap={6} columns={['1fr 1fr 1fr']}>
-      {shows.map(show => (
-        <Show key={show.id} media={show.media}/>
-      ))}
-    </Grid>
+      <Box
+        sx={{
+          textAlign: 'center',
+          marginBottom: 4,
+        }}
+      >
+        <Heading>
+          <Link id={year}>{year}</Link>
+        </Heading>
+      </Box>
+      <Grid gap={6} columns={['1fr 1fr 1fr']}>
+        {shows.map(show => (
+          <Show key={show.id} media={show.media} />
+        ))}
+      </Grid>
     </>
-  )
-}
+  );
+};
 
 const AnimeCompleted = ({ data, location }) => {
   // console.log(data);
@@ -103,20 +111,21 @@ const AnimeCompleted = ({ data, location }) => {
     head // TODO would be nice to do a runtime random image
   )(shows);
 
-  const byYear = reduce((acc, show) => {
-    const year = show.media.startDate.year;
-    return {
-      ...acc,
-      [year]: [
-        ...(acc[year] || []),
-        show
-      ]
-    }
-  }, {}, shows)
+  const byYear = reduce(
+    (acc, show) => {
+      const year = show.media.startDate.year;
+      return {
+        ...acc,
+        [year]: [...(acc[year] || []), show],
+      };
+    },
+    {},
+    shows
+  );
 
   const years = pipe(
     keys,
-    sort((a, b) => b.localeCompare(a, undefined, { numeric: true })),
+    sort((a, b) => b.localeCompare(a, undefined, { numeric: true }))
   )(byYear);
 
   return (
@@ -130,7 +139,7 @@ const AnimeCompleted = ({ data, location }) => {
           ))}
         </Box>
         {years.map(year => (
-          <AnimeYear key={year} year={year} shows={byYear[year]}/>
+          <AnimeYear key={year} year={year} shows={byYear[year]} />
         ))}
       </CenterColumn>
     </Layout>
