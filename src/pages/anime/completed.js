@@ -1,17 +1,47 @@
 import React from 'react';
 import { graphql } from 'gatsby';
-import { Box, Text, Image, Heading, Grid, Link, Progress } from 'theme-ui';
+import { Box, Image, Heading, Grid, Link } from 'theme-ui';
 import Hero from '../../components/Hero';
 import NavBar from '../../components/NavBar';
 import Layout, { CenterColumn } from '../../components/layout';
-import { pathOr, pipe, filter, map, head, take, replace, toUpper } from 'ramda';
-import { DateTime } from 'luxon';
+import { pathOr, pipe, filter, map, head, reduce, sort, keys } from 'ramda';
 import { shuffle } from '../../utils/ramda';
 
-const Show = props => {
-  const { media, progress } = props;
+const skipEnglish = true;
 
-  const episodes = media.episodes;
+const buildTitle = (title) => {
+  if(skipEnglish || title.romaji.toLowerCase() === title.english?.toLowerCase()) {
+    return (
+      <Heading
+        as={'h5'}
+        sx={{
+          marginTop: 4,
+          minHeight: 40,
+        }}
+      >{title.romaji}</Heading>
+    );
+  } else {
+    return (
+      <>
+        <Heading
+          as={'h5'}
+          sx={{
+            marginTop: 4,
+          }}
+        >{title.romaji}</Heading>
+        <Heading
+          as={'h5'}
+          sx={{
+            marginTop: 2,
+          }}
+        >({title.english})</Heading>
+      </>
+    );
+  }
+}
+
+const Show = props => {
+  const { media } = props;
 
   return (
     <Link href={media.siteUrl} target="_blank">
@@ -24,14 +54,8 @@ const Show = props => {
         <Image
           sx={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '4px' }}
           src={media.coverImage.large}
+          loading={"lazy"}
         />
-        {episodes && progress && (
-          <Progress
-            sx={{ width: '100%', height: '6px', position: 'absolute', bottom: 0, left: 0, color: 'pink' }}
-            value={progress}
-            max={episodes}
-          />
-        )}
       </Box>
 
       <Heading
@@ -41,85 +65,84 @@ const Show = props => {
           minHeight: 40,
         }}
       >
-        {media.title.userPreferred}
+        {buildTitle(media.title)}
       </Heading>
     </Link>
   );
 };
 
-const AnimeWatching = ({ data, location }) => {
-  const shows = pathOr([], ['anilist', 'MediaListCollection', 'lists', 0, 'entries'], data);
+const AnimeYear = ({ year, shows }) => {
+  return (
+    <>
+    <Box
+      sx={{
+        textAlign: 'center',
+        marginBottom: 4,
+      }}
+    >
+      <Heading><Link id={year}>{year}</Link></Heading>
+    </Box>
+    <Grid gap={6} columns={['1fr 1fr 1fr']}>
+      {shows.map(show => (
+        <Show key={show.id} media={show.media}/>
+      ))}
+    </Grid>
+    </>
+  )
+}
 
-  const airing = shows.filter(show => show.media.status === 'RELEASING');
-  const backlog = shows.filter(show => show.media.status !== 'RELEASING');
+const AnimeCompleted = ({ data, location }) => {
+  // console.log(data);
+
+  const shows = pathOr([], ['anilist', 'MediaListCollection', 'lists', 0, 'entries'], data);
 
   const heroUrl = pipe(
     filter(show => show.media.bannerImage != null),
     map(show => show.media.bannerImage),
     shuffle,
     head // TODO would be nice to do a runtime random image
-  )(airing);
+  )(shows);
 
-  const seasonText = pipe(
-    take(1),
-    map(show => `${show.media.season.toLowerCase()} ${show.media.startDate.year}`),
-    head,
-    replace(/^./, toUpper)
-  )(airing);
+  const byYear = reduce((acc, show) => {
+    const year = show.media.startDate.year;
+    return {
+      ...acc,
+      [year]: [
+        ...(acc[year] || []),
+        show
+      ]
+    }
+  }, {}, shows)
+
+  const years = pipe(
+    keys,
+    sort((a, b) => b.localeCompare(a, undefined, { numeric: true })),
+  )(byYear);
 
   return (
     <Layout location={location} title={"What I'm Watching"}>
       <Hero heroUrl={heroUrl} includeDoubleSpacing={false} />
       <NavBar />
       <CenterColumn>
-        <Box
-          sx={{
-            textAlign: 'center',
-            marginBottom: 4,
-          }}
-        >
-          <Heading>Seasonal - {seasonText}</Heading>
-          <Text
-            sx={{
-              fontStyle: 'italic',
-              fontSize: 1,
-            }}
-          >
-            Updated {DateTime.local().toFormat('LLLL d, yyyy')}
-          </Text>
-        </Box>
-
-        <Grid gap={6} columns={['1fr 1fr 1fr']}>
-          {airing.map(show => (
-            <Show key={show.id} media={show.media} progress={show.progress} />
+        <Box sx={{ marginBottom: 6 }}>
+          {years.map(year => (
+            <Link href={`#${year}`}>{year} </Link>
           ))}
-        </Grid>
-
-        <Box
-          sx={{
-            textAlign: 'center',
-            marginBottom: 4,
-            marginTop: 8,
-          }}
-        >
-          <Heading>Backlog</Heading>
         </Box>
-        <Grid gap={6} columns={['1fr 1fr 1fr']}>
-          {backlog.map(show => (
-            <Show key={show.id} media={show.media} progress={show.progress} />
-          ))}
-        </Grid>
+        {years.map(year => (
+          <AnimeYear key={year} year={year} shows={byYear[year]}/>
+        ))}
       </CenterColumn>
     </Layout>
   );
 };
 
-export default AnimeWatching;
+export default AnimeCompleted;
 
 export const pageQuery = graphql`
   query {
     anilist {
-      MediaListCollection(userId: 85236, type: ANIME, status: CURRENT) {
+      MediaListCollection(userId: 85236, type: ANIME, status: COMPLETED) {
         lists {
           name
           status
