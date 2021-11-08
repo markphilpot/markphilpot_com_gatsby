@@ -104,9 +104,7 @@ export const pageQuery = graphql`
             tags
             featured_image {
               childImageSharp {
-                fluid {
-                  ...GatsbyImageSharpFluid
-                }
+                gatsbyImageData(layout: CONSTRAINED)
               }
             }
           }

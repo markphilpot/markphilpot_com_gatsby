@@ -1,6 +1,7 @@
 import React from 'react';
 import { graphql } from 'gatsby';
-import { Box, Image, Heading, Grid, Link } from 'theme-ui';
+import { GatsbyImage } from 'gatsby-plugin-image';
+import { Box, Heading, Grid, Link } from 'theme-ui';
 import Hero from '../../components/Hero';
 import NavBar from '../../components/NavBar';
 import Layout, { CenterColumn } from '../../components/layout';
@@ -57,10 +58,9 @@ const Show = props => {
           position: 'relative',
         }}
       >
-        <Image
-          sx={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '4px' }}
-          src={media.coverImage.large}
-          loading={'lazy'}
+        <GatsbyImage
+          style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '4px' }}
+          image={media.coverImage.largeFile.childImageSharp.gatsbyImageData}
         />
       </Box>
 
@@ -182,6 +182,11 @@ export const pageQuery = graphql`
               coverImage {
                 medium
                 large
+                largeFile {
+                  childImageSharp {
+                    gatsbyImageData(layout: CONSTRAINED)
+                  }
+                }
               }
               bannerImage
               nextAiringEpisode {

@@ -20,6 +20,7 @@
     "gatsby-image": "^3.11.0",
     "gatsby-plugin-feed-generator": "^2.0.5",
     "gatsby-source-graphql": "^4.1.0",
+    "gatsby-plugin-image": "^2.1.0",
     "gatsby-plugin-manifest": "^4.1.0",
     "gatsby-plugin-mdx": "^3.1.0",
     "gatsby-plugin-offline": "^5.1.0",

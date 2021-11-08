@@ -1,7 +1,7 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import { Box, Text, Heading, Grid, Link, Progress } from 'theme-ui';
-import Image from 'gatsby-image';
+import { GatsbyImage } from 'gatsby-plugin-image';
 import Hero from '../../components/Hero';
 import NavBar from '../../components/NavBar';
 import Layout, { CenterColumn } from '../../components/layout';
@@ -14,8 +14,6 @@ const Show = props => {
 
   const episodes = media.episodes;
 
-  console.log('FUCK', media);
-
   return (
     <Link href={media.siteUrl} target="_blank">
       <Box
@@ -24,18 +22,18 @@ const Show = props => {
           position: 'relative',
         }}
       >
-        <Image
+        <GatsbyImage
           style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '4px' }}
           // src={media.coverImage.large}
-          fluid={media.coverImage.largeFile.childImageSharp.fluid}
+          image={media.coverImage.largeFile.childImageSharp.gatsbyImageData}
         />
-        {episodes && progress && (
+        {episodes && progress ? (
           <Progress
             sx={{ width: '100%', height: '6px', position: 'absolute', bottom: 0, left: 0, color: 'pink' }}
             value={progress}
             max={episodes}
           />
-        )}
+        ) : null}
       </Box>
 
       <Heading
@@ -156,9 +154,7 @@ export const pageQuery = graphql`
                 large
                 largeFile {
                   childImageSharp {
-                    fluid {
-                      ...GatsbyImageSharpFluid
-                    }
+                    gatsbyImageData(layout: CONSTRAINED)
                   }
                 }
               }
