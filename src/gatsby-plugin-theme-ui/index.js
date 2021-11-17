@@ -121,6 +121,9 @@ export default {
       code: {
         color: 'inherit',
       },
+      bg: 'microBg',
+      padding: 6,
+      borderRadius: 6,
     },
     code: {
       fontFamily: 'monospace',

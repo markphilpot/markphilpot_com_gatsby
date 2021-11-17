@@ -1,5 +1,5 @@
-const fs = require('fs')
-const { DateTime } = require("luxon");
+const fs = require('fs');
+const { DateTime } = require('luxon');
 const { path } = require('ramda');
 
 const isMicro = process.argv[2] === 'micro'; // post, micro
@@ -10,16 +10,16 @@ const now = DateTime.local();
 const dir = `./content/${isMicro ? 'micro' : 'blog'}/2021/${isMicro ? now.toFormat('yyyyLLdd-HHmmss') : title}`;
 
 if (!fs.existsSync(dir)) {
-  fs.mkdirSync(dir)
+  fs.mkdirSync(dir);
 } else {
-  throw 'That post already exists!'
+  throw 'That post already exists!';
 }
 
 fs.writeFileSync(
   `${dir}/index.md`,
   `---
 category: ${isMicro ? 'micro' : 'blog'}
-title: ${isMicro ? "\"\"" : title}
+title: ${isMicro ? '""' : title}
 ${isMicro ? 'path: used_for_slug' : ''}
 ${!isMicro ? 'tags: []' : ''}
 ${!isMicro ? 'summary: ' : ''}
@@ -30,8 +30,8 @@ featured_image:
 ---`,
   function(err) {
     if (err) {
-      return console.log(err)
+      return console.log(err);
     }
-    console.log(`${title} was created!`)
-  },
-)
+    console.log(`${title} was created!`);
+  }
+);

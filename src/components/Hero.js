@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMoon, faSun, faTextHeight } from '@fortawesome/free-solid-svg-icons';
 
 function removeElement(element) {
-    element && element.parentNode && element.parentNode.removeChild(element);
+  element && element.parentNode && element.parentNode.removeChild(element);
 }
 
 const Hero = props => {
@@ -22,7 +22,7 @@ const Hero = props => {
   }, [useDoubleSpace]);
 
   useEffect(() => {
-    if(useDoubleSpace) {
+    if (useDoubleSpace) {
       const style = document.createElement('style');
       style.type = 'text/css';
       const css = 'section > p { line-height: 2.8 !important; }';
@@ -31,9 +31,9 @@ const Hero = props => {
 
       return () => {
         removeElement(style);
-      }
+      };
     }
-  }, [useDoubleSpace])
+  }, [useDoubleSpace]);
 
   if (hero == null) {
     return null;
@@ -69,7 +69,7 @@ const Hero = props => {
         }}
         onClick={handleDoubleSpace}
       >
-        <FontAwesomeIcon icon={faTextHeight} color={useDoubleSpace ? '#ffffff' : '#000000'}/>
+        <FontAwesomeIcon icon={faTextHeight} color={useDoubleSpace ? '#ffffff' : '#000000'} />
       </IconButton>
       <IconButton
         aria-label={'Toggle Dark Mode'}

@@ -26,8 +26,8 @@ const NavBar = props => {
         <Link to={`${__PATH_PREFIX__}/about`} sx={{ variant: 'styles.navlink' }}>
           about
         </Link>
-        <Link to={`${__PATH_PREFIX__}/spaces`} sx={{ variant: 'styles.navlink' }}>
-          spaces
+        <Link to={`${__PATH_PREFIX__}/notes`} sx={{ variant: 'styles.navlink' }}>
+          notes
         </Link>
         <Link to={`${__PATH_PREFIX__}/projects`} sx={{ variant: 'styles.navlink' }}>
           ~/projects

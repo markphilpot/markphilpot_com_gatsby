@@ -3,9 +3,7 @@ const { DateTime } = require('luxon');
 const { createFilePath } = require(`gatsby-source-filesystem`);
 const { paginate } = require('gatsby-awesome-pagination');
 
-exports.createPages = async ({ graphql, actions }) => {
-  const { createPage } = actions;
-
+const blogPages = async (createPage, graphql) => {
   const blogPost = path.resolve(`./src/templates/post.js`);
   const blogIndex = path.resolve('./src/templates/index.js');
   const limit = process.env.NODE_ENV !== 'development' ? '' : 'limit: 20';
@@ -64,6 +62,57 @@ exports.createPages = async ({ graphql, actions }) => {
       },
     });
   });
+};
+
+const notePages = async (createPage, graphql) => {
+  const notePage = path.resolve(`./src/templates/note.js`);
+  const result = await graphql(
+    `
+      {
+        allMdx(
+          filter: { fields: { sourceName: { in: ["notes"] } } }
+          sort: { fields: [frontmatter___modified], order: DESC }
+        ) {
+          edges {
+            node {
+              fields {
+                slug
+              }
+              frontmatter {
+                title
+              }
+            }
+          }
+        }
+      }
+    `
+  );
+
+  if (result.errors) {
+    throw result.errors;
+  }
+
+  // Create blog posts pages.
+  const posts = result.data.allMdx.edges;
+
+  posts.forEach((post, index) => {
+    const slug = post.node.fields.slug;
+
+    createPage({
+      path: slug,
+      component: notePage,
+      context: {
+        slug,
+      },
+    });
+  });
+};
+
+exports.createPages = async ({ graphql, actions }) => {
+  const { createPage } = actions;
+
+  await blogPages(createPage, graphql);
+  await notePages(createPage, graphql);
 };
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
