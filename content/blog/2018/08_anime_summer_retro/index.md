@@ -79,6 +79,6 @@ As far as mech shows go, I think it's very digestible for anyone (like myself) t
 
 Enjoyable, but fails to deliver the one thing we were waiting for:
 
-![Ship It](http://i.imgur.com/zzTu84u.jpg)
+![Ship It](https://i.imgur.com/zzTu84u.jpg)
 
 The animation is budget level and the "Sherlock Holmes deductions" don't feel earned (which is going to be a problem for any show that tries to evoke _Sherlock_).
