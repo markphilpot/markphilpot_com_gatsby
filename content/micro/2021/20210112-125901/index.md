@@ -4,8 +4,6 @@ title: ""
 path: used_for_slug
 date: 2021-01-12 12:59:01
 slug: 20210112-125901
-hero: 
-featured_image: 
 ---
 Steps to write a new static micro post:
 
