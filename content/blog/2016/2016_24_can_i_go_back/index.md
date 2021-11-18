@@ -5,8 +5,8 @@ tags: [mac, linux]
 category: blog
 slug: can_i_go_back
 summary: Can I go back to linux full time?
-hero: "hero.jpg"
-featured_image: "hero.jpg"
+hero: hero.jpg
+featured_image: hero.jpg
 ---
 
 For many years I rocked an old IBM [Thinkpad](https://www.thinkwiki.org/wiki/Category:X61) running Ubuntu and my own blend of [AwesomeWM](https://awesome.naquadah.org/). This laptop was underpowered, but it extremely small and had no trackpad -- instead the famous/infamous red nub in the middle of the keyboard. It was perfect for me and I loved it. At home or work I was using a huge desktop workstation (with as much RAM as I could afford/get work to pay for), so I only needed the laptop for light usage.

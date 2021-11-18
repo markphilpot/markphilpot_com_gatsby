@@ -5,8 +5,8 @@ tags: [anime, retrospective]
 category: blog
 slug: anime_2016_fall_retrospective
 summary: Retrospective of the Anime Fall 2016 Season
-hero: "fall/hero.jpg"
-featured_image: "fall/hero.jpg"
+hero: fall/hero.jpg
+featured_image: fall/hero.jpg
 ---
 
 

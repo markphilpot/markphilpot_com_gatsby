@@ -6,8 +6,8 @@ tags: [anime, first impressions]
 category: blog
 slug: anime_2016_winter_first
 summary: First Impressions of the Anime Winter 2016 Season
-hero: "winter/hero.jpg"
-featured_image: "winter/hero.jpg"
+hero: winter/hero.jpg
+featured_image: winter/hero.jpg
 ---
 
 

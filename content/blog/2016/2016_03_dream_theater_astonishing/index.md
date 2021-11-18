@@ -5,8 +5,8 @@ tags: [music, review]
 category: blog
 slug: dream_theater_astonishing
 summary: Review of Dream Theater's "The Astonishing"
-hero: "hero.jpg"
-featured_image: "hero.jpg"
+hero: hero.jpg
+featured_image: hero.jpg
 ---
 
 ![The Astonishing](dream_theater_astonishing.jpg)

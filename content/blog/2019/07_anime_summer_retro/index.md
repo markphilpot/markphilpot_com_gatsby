@@ -5,8 +5,8 @@ tags: [anime, retro]
 category: anime
 slug: anime_2019_summer_retro
 summary: First Impressions of the Anime Summer 2019 Season
-hero: "hero.jpg"
-featured_image: "hero.jpg"
+hero: hero.jpg
+featured_image: hero.jpg
 ---
 
 In what will be a running gag, I'm posting this retroactively as if I had composed it when it was timely.

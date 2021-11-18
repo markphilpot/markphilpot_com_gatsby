@@ -5,8 +5,8 @@ tags: [anime, retrospective]
 category: anime
 slug: anime_2019_spring_retro
 summary: Retrospective of the Anime Spring 2019 Season
-hero: "cards/hero.jpg"
-featured_image: "cards/hero.jpg"
+hero: cards/hero.jpg
+featured_image: cards/hero.jpg
 ---
 
 

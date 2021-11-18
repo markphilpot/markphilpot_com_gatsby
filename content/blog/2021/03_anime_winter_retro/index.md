@@ -5,8 +5,8 @@ tags: [anime, retrospective]
 category: anime
 slug: anime_2021_winter_retro
 summary: Retrospective of the Anime Winter 2021 Season
-hero: "hero_banner.jpg"
-featured_image: "hero_banner.jpg"
+hero: hero_banner.jpg
+featured_image: hero_banner.jpg
 ---
 
 Been a while since I've used this format.  I had *thoughts* for Winter 2021 so I figured I'd revive the format (slightly modified):

@@ -5,8 +5,8 @@ tags: [anime, review]
 category: blog
 slug: review_grimgar
 summary: Review of Hai to Gensou no Grimgar (Grimgar of Fantasy and Ash)
-hero: "hero.jpg"
-featured_image: "hero.jpg"
+hero: hero.jpg
+featured_image: hero.jpg
 ---
 
 ![Grimgar](title.jpg)

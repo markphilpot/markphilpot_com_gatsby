@@ -5,8 +5,8 @@ tags: [anime, first impressions]
 category: blog
 slug: anime_2017_spring_first
 summary: First Impressions of the Anime Spring 2017 Season
-hero: "covers/hero.jpg"
-featured_image: "covers/hero.jpg"
+hero: covers/hero.jpg
+featured_image: covers/hero.jpg
 ---
 
 

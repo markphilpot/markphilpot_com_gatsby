@@ -5,8 +5,8 @@ tags: [anime, first impressions]
 category: blog
 slug: anime_2017_fall_first
 summary: First Impressions of the Anime Fall 2017 Season
-hero: "fall/hero.jpg"
-featured_image: "fall/hero.jpg"
+hero: fall/hero.jpg
+featured_image: fall/hero.jpg
 ---
 
 

@@ -5,8 +5,8 @@ tags: [s3, travis, pelican]
 category: blog
 slug: static_blog_publishing
 summary: How to publish a static blog
-hero: "hero.jpg"
-featured_image: "hero.jpg"
+hero: hero.jpg
+featured_image: hero.jpg
 ---
 
 

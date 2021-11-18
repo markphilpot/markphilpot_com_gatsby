@@ -12,7 +12,6 @@ const blogPages = async (createPage, graphql) => {
         allMdx(
           filter: { fields: { sourceName: { in: ["blog", "micro"] } } }
           sort: { fields: [frontmatter___date], order: DESC }
-          limit: 20
         ) {
           edges {
             node {

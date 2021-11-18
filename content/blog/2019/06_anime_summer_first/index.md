@@ -5,8 +5,8 @@ tags: [anime, first impressions]
 category: anime
 slug: anime_2019_summer_first
 summary: First Impressions of the Anime Summer 2019 Season
-hero: "hero.jpg"
-featured_image: "hero.jpg"
+hero: hero.jpg
+featured_image: hero.jpg
 ---
 
 So... much... isekai...

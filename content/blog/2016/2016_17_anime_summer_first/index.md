@@ -5,8 +5,8 @@ tags: [anime, first impressions]
 category: blog
 slug: anime_2016_summer_first
 summary: First Impressions of the Anime Summer 2016 Season
-hero: "summer/hero.jpg"
-featured_image: "summer/hero.jpg"
+hero: summer/hero.jpg
+featured_image: summer/hero.jpg
 ---
 
 
