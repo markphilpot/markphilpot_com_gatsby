@@ -6,14 +6,13 @@ const { paginate } = require('gatsby-awesome-pagination');
 const blogPages = async (createPage, graphql) => {
   const blogPost = path.resolve(`./src/templates/post.js`);
   const blogIndex = path.resolve('./src/templates/index.js');
-  const limit = process.env.NODE_ENV !== 'development' ? '' : 'limit: 20';
   const result = await graphql(
     `
       {
         allMdx(
           filter: { fields: { sourceName: { in: ["blog", "micro"] } } }
           sort: { fields: [frontmatter___date], order: DESC }
-          ${limit}
+          limit: 20
         ) {
           edges {
             node {

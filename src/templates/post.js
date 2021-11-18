@@ -94,6 +94,9 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date
+        hero {
+          publicURL
+        }
         featured_image {
           childImageSharp {
             resize(width: 1200) {
