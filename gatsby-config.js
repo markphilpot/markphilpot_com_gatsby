@@ -54,6 +54,14 @@ module.exports = {
       },
     },
     `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-source-graphql`,
+      options: {
+        fieldName: `anilist`,
+        url: `https://graphql.anilist.co`,
+        typeName: `Anilist`,
+      },
+    },
     // {
     //   resolve: `gatsby-plugin-typography`,
     //   options: {

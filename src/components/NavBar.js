@@ -1,5 +1,6 @@
 import React from 'react';
-// import { Link } from 'gatsby';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEye } from '@fortawesome/free-solid-svg-icons';
 import { Flex } from 'theme-ui';
 import { CenterColumn } from './layout';
 import Link from './Link';
@@ -25,6 +26,9 @@ const NavBar = props => {
         {/*</Link>*/}
         <Link to={`${__PATH_PREFIX__}/about`} sx={{ variant: 'styles.navlink' }}>
           about
+        </Link>
+        <Link to={`${__PATH_PREFIX__}/anime/watching`} sx={{ variant: 'styles.navlink' }}>
+          <FontAwesomeIcon icon={faEye} />
         </Link>
         <Link to={`${__PATH_PREFIX__}/notes`} sx={{ variant: 'styles.navlink' }}>
           notes

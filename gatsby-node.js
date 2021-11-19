@@ -1,6 +1,6 @@
 const path = require(`path`);
 const { DateTime } = require('luxon');
-const { createFilePath } = require(`gatsby-source-filesystem`);
+const { createFilePath, createRemoteFileNode } = require(`gatsby-source-filesystem`);
 const { paginate } = require('gatsby-awesome-pagination');
 
 const blogPages = async (createPage, graphql) => {
@@ -134,4 +134,26 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       value: fileNode.sourceInstanceName,
     });
   }
+};
+
+exports.createResolvers = async ({ actions, cache, createNodeId, createResolvers, store, reporter }) => {
+  const { createNode } = actions;
+
+  await createResolvers({
+    Anilist_MediaCoverImage: {
+      largeFile: {
+        type: 'File',
+        async resolve(source) {
+          return await createRemoteFileNode({
+            url: encodeURI(source.large),
+            store,
+            cache,
+            createNode,
+            createNodeId,
+            reporter,
+          });
+        },
+      },
+    },
+  });
 };

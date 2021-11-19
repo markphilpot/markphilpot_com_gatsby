@@ -1,0 +1,36 @@
+import React from 'react';
+import Hero from '../../components/Hero';
+import NavBar from '../../components/NavBar';
+import Link from '../../components/Link';
+import Layout, { CenterColumn } from '../../components/layout';
+import { Flex } from 'theme-ui';
+
+const AnimeIndex = ({ data, location }) => {
+  return (
+    <Layout location={location} title={"What I'm Watching"}>
+      {/*<Hero heroUrl={heroUrl} includeDoubleSpacing={false} />*/}
+      <NavBar />
+      <CenterColumn>
+        <Flex sx={{
+          flexDirection: 'row',
+          justifyContent: 'space-around',
+        }}>
+          <Link to={`${__PATH_PREFIX__}/anime/watching`} sx={{ variant: 'styles.navlink',
+            border: '2px solid #000000',
+            borderRadius: 8,
+            padding: 6
+          }}>
+            Currently Watching
+          </Link>
+          <Link to={`${__PATH_PREFIX__}/anime/completed`} sx={{ variant: 'styles.navlink', border: '2px solid #000000',
+            borderRadius: 8,
+            padding: 6 }}>
+            Completed
+          </Link>
+        </Flex>
+      </CenterColumn>
+    </Layout>
+  );
+};
+
+export default AnimeIndex;
