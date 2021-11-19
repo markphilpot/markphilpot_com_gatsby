@@ -1,11 +1,11 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
-import { Link } from 'gatsby';
+import { Link as GatsbyLink } from 'gatsby';
 import _ from 'lodash';
 
-export default props => {
+const Link = props => {
   return (
-    <Link
+    <GatsbyLink
       {...props}
       activeClassName="active"
       sx={{
@@ -23,3 +23,5 @@ export default props => {
     />
   );
 };
+
+export default Link;

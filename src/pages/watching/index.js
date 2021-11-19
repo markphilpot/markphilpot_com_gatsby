@@ -1,7 +1,7 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import { Box, Text, Heading, Grid, Link, Progress } from 'theme-ui';
-import { GatsbyImage } from 'gatsby-plugin-image';
+import { GatsbyImage, StaticImage } from 'gatsby-plugin-image';
 import Hero from '../../components/Hero';
 import NavBar from '../../components/NavBar';
 import Layout, { CenterColumn } from '../../components/layout';
@@ -24,7 +24,7 @@ const Show = props => {
       >
         <GatsbyImage
           style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '4px' }}
-          // src={media.coverImage.large}
+          alt={media.title.userPreferred}
           image={media.coverImage.largeFile.childImageSharp.gatsbyImageData}
         />
         {episodes && progress ? (
@@ -49,7 +49,7 @@ const Show = props => {
   );
 };
 
-const AnimeWatching = ({ data, location }) => {
+const Watching = ({ data, location }) => {
   const shows = pathOr([], ['anilist', 'MediaListCollection', 'lists', 0, 'entries'], data);
 
   const airing = shows.filter(show => show.media.status === 'RELEASING');
@@ -80,7 +80,7 @@ const AnimeWatching = ({ data, location }) => {
             marginBottom: 4,
           }}
         >
-          <Heading>Seasonal - {seasonText}</Heading>
+          <Heading>Seasonal Anime - {seasonText}</Heading>
           <Text
             sx={{
               fontStyle: 'italic',
@@ -104,7 +104,62 @@ const AnimeWatching = ({ data, location }) => {
             marginTop: 8,
           }}
         >
-          <Heading>Backlog</Heading>
+          <Heading>Also...</Heading>
+        </Box>
+
+        <Grid gap={6} columns={['1fr 1fr 1fr']}>
+          <Box
+            sx={{
+              height: '300px',
+              position: 'relative',
+            }}
+          >
+            <StaticImage
+              style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '4px' }}
+              src={'https://m.media-amazon.com/images/M/MV5BYmU5OWM5ZTAtNjUzOC00NmUyLTgyOWMtMjlkNjdlMDAzMzU1XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_FMjpg_UX1000_.jpg'}
+              alt={'Arcane: League of Legends'}
+            />
+            <Heading
+              as={'h5'}
+              sx={{
+                marginTop: 4,
+                minHeight: 40,
+              }}
+            >
+              Arcane: League of Legends
+            </Heading>
+          </Box>
+          <Box
+            sx={{
+              height: '300px',
+              position: 'relative',
+            }}
+          >
+            <StaticImage
+              style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '4px' }}
+              src={'https://static.wikia.nocookie.net/the-owl-house/images/b/b1/The-Owl-House-key-art.jpg/revision/latest?cb=20210517172042'}
+              alt={'Owl House Season 2'}
+            />
+            <Heading
+              as={'h5'}
+              sx={{
+                marginTop: 4,
+                minHeight: 40,
+              }}
+            >
+              Owl House Season 2
+            </Heading>
+          </Box>
+        </Grid>
+
+        <Box
+          sx={{
+            textAlign: 'center',
+            marginBottom: 4,
+            marginTop: 16,
+          }}
+        >
+          <Heading>Anime Backlog</Heading>
         </Box>
         <Grid gap={6} columns={['1fr 1fr 1fr']}>
           {backlog.map(show => (
@@ -116,7 +171,7 @@ const AnimeWatching = ({ data, location }) => {
   );
 };
 
-export default AnimeWatching;
+export default Watching;
 
 export const pageQuery = graphql`
   query {

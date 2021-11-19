@@ -29,6 +29,7 @@ const FeaturedImagePost = props => {
       <GatsbyImage
         style={{ borderRadius: 4, height: '180px', objectFit: 'cover' }}
         image={node.frontmatter.featured_image.childImageSharp.gatsbyImageData}
+        alt={title}
       />
       {isDraft ? (
         <Text

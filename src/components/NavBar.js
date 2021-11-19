@@ -27,7 +27,7 @@ const NavBar = props => {
         <Link to={`${__PATH_PREFIX__}/about`} sx={{ variant: 'styles.navlink' }}>
           about
         </Link>
-        <Link to={`${__PATH_PREFIX__}/anime/watching`} sx={{ variant: 'styles.navlink' }}>
+        <Link to={`${__PATH_PREFIX__}/watching`} sx={{ variant: 'styles.navlink' }}>
           <FontAwesomeIcon icon={faEye} />
         </Link>
         <Link to={`${__PATH_PREFIX__}/notes`} sx={{ variant: 'styles.navlink' }}>
