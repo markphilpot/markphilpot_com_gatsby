@@ -2,7 +2,7 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import { useColorMode, Box, Flex, Text } from 'theme-ui';
 import { DateTime } from 'luxon';
-import Image from 'gatsby-image';
+import { GatsbyImage } from 'gatsby-plugin-image';
 import { pathOr } from 'ramda';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
 
@@ -26,9 +26,9 @@ const FeaturedImagePost = props => {
         mb: 10,
       }}
     >
-      <Image
+      <GatsbyImage
         style={{ borderRadius: 4, height: '180px', objectFit: 'cover' }}
-        fluid={node.frontmatter.featured_image.childImageSharp.fluid}
+        image={node.frontmatter.featured_image.childImageSharp.gatsbyImageData}
       />
       {isDraft ? (
         <Text
@@ -333,9 +333,7 @@ export const pageQuery = graphql`
             tags
             featured_image {
               childImageSharp {
-                fluid {
-                  ...GatsbyImageSharpFluid
-                }
+                gatsbyImageData(layout: CONSTRAINED)
               }
             }
           }
@@ -358,9 +356,7 @@ export const pageQuery = graphql`
             tags
             featured_image {
               childImageSharp {
-                fluid {
-                  ...GatsbyImageSharpFluid
-                }
+                gatsbyImageData(layout: CONSTRAINED)
               }
             }
           }

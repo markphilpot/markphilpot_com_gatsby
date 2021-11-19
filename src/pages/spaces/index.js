@@ -4,7 +4,7 @@ import Layout, { CenterColumn } from '../../components/layout';
 import Hero from '../../components/Hero';
 import NavBar from '../../components/NavBar';
 import { Flex, Heading, Text } from 'theme-ui';
-import Image from 'gatsby-image';
+import { GatsbyImage } from 'gatsby-plugin-image';
 
 import Link from '../../components/Link';
 
@@ -59,9 +59,9 @@ const SpacesPage = ({ data, location }) => {
                   alignItems: 'center',
                 }}
               >
-                <Image
+                <GatsbyImage
                   style={{ borderRadius: 4, height: '100%', width: '100%', objectFit: 'cover' }}
-                  fluid={software.childImageSharp.fluid}
+                  image={software.childImageSharp.gatsbyImageData}
                 />
                 <Text>software matrix</Text>
               </Flex>
@@ -88,9 +88,7 @@ export const pageQuery = graphql`
     }
     software: file(absolutePath: { regex: "/spaces/software/hero.jpg/" }) {
       childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid
-        }
+        gatsbyImageData(layout: CONSTRAINED)
       }
     }
   }

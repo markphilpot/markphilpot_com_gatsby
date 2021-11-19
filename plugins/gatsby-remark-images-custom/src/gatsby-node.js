@@ -1,6 +1,6 @@
-const { Potrace } = require(`potrace`)
+const { Potrace } = require(`potrace`);
 
-exports.pluginOptionsSchema = function ({ Joi }) {
+exports.pluginOptionsSchema = function({ Joi }) {
   return Joi.object({
     maxWidth: Joi.number()
       .default(650)
@@ -13,27 +13,15 @@ exports.pluginOptionsSchema = function ({ Joi }) {
         `Add a link to each image to the original image. Sometimes people want to see a full-sized version of an image e.g. to see extra detail on a part of the image and this is a convenient and common pattern for enabling this. Set this option to false to disable this behavior.`
       ),
     showCaptions: Joi.alternatives()
-      .try(
-        Joi.boolean(),
-        Joi.array().items(
-          Joi.string().valid(`title`),
-          Joi.string().valid(`alt`)
-        )
-      )
+      .try(Joi.boolean(), Joi.array().items(Joi.string().valid(`title`), Joi.string().valid(`alt`)))
       .default(false)
       .description(
         `Add a caption to each image with the contents of the title attribute, when this is not empty. If the title attribute is empty but the alt attribute is not, it will be used instead. Set this option to true to enable this behavior. You can also pass an array instead to specify which value should be used for the caption — for example, passing ['alt', 'title'] would use the alt attribute first, and then the title. When this is set to true it is the same as passing ['title', 'alt']. If you just want to use the title (and omit captions for images that have alt attributes but no title), pass ['title'].`
       ),
     markdownCaptions: Joi.boolean()
       .default(false)
-      .description(
-        `Parse the caption as markdown instead of raw text. Ignored if showCaptions is false.`
-      ),
-    wrapperStyle: Joi.alternatives().try(
-      Joi.object({}).unknown(true),
-      Joi.function().maxArity(1),
-      Joi.string()
-    ),
+      .description(`Parse the caption as markdown instead of raw text. Ignored if showCaptions is false.`),
+    wrapperStyle: Joi.alternatives().try(Joi.object({}).unknown(true), Joi.function().maxArity(1), Joi.string()),
     backgroundColor: Joi.string().default(`white`)
       .description(`Set the background color of the image to match the background image of your design.
       Note:
@@ -82,7 +70,9 @@ exports.pluginOptionsSchema = function ({ Joi }) {
           optTolerance: Joi.number().default(0.4),
           threshold: Joi.alternatives()
             .try(
-              Joi.number().min(0).max(255),
+              Joi.number()
+                .min(0)
+                .max(255),
               Joi.number().valid(Potrace.THRESHOLD_AUTO)
             )
             .default(Potrace.THRESHOLD_AUTO),
@@ -98,15 +88,11 @@ exports.pluginOptionsSchema = function ({ Joi }) {
     loading: Joi.string()
       .valid(`lazy`, `eager`, `auto`)
       .default(`lazy`)
-      .description(
-        `Set the browser’s native lazy loading attribute. One of lazy, eager or auto.`
-      ),
+      .description(`Set the browser’s native lazy loading attribute. One of lazy, eager or auto.`),
     decoding: Joi.string()
       .valid(`async`, `sync`, `auto`)
       .default(`async`)
-      .description(
-        `Set the browser’s native decoding attribute. One of async, sync or auto.`
-      ),
+      .description(`Set the browser’s native decoding attribute. One of async, sync or auto.`),
     disableBgImageOnAlpha: Joi.boolean()
       .default(false)
       .description(
@@ -122,5 +108,5 @@ exports.pluginOptionsSchema = function ({ Joi }) {
       .description(
         `By default gatsby generates 0.25x, 0.5x, 1x, 1.5x, 2x, and 3x sizes of thumbnails. If you want more control over which sizes are output you can use the srcSetBreakpoints parameter. For example, if you want images that are 200, 340, 520, and 890 wide you can add srcSetBreakpoints: [ 200, 340, 520, 890 ] as a parameter. You will also get maxWidth as a breakpoint (which is 650 by default), so you will actually get [ 200, 340, 520, 650, 890 ] as breakpoints.`
       ),
-  })
-}
+  });
+};
