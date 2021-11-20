@@ -91,7 +91,7 @@ const Watching = ({ data, location }) => {
           </Text>
         </Box>
 
-        <Grid gap={6} columns={['1fr 1fr 1fr']}>
+        <Grid gap={6} columns={['1fr', '1fr 1fr', '1fr 1fr', '1fr 1fr 1fr']}>
           {airing.map(show => (
             <Show key={show.id} media={show.media} progress={show.progress} />
           ))}
@@ -107,7 +107,7 @@ const Watching = ({ data, location }) => {
           <Heading>Also...</Heading>
         </Box>
 
-        <Grid gap={6} columns={['1fr 1fr 1fr']}>
+        <Grid gap={6} columns={['1fr', '1fr 1fr', '1fr 1fr', '1fr 1fr 1fr']}>
           <Box
             sx={{
               height: '300px',
@@ -182,7 +182,7 @@ const Watching = ({ data, location }) => {
         >
           <Heading>Anime Backlog</Heading>
         </Box>
-        <Grid gap={6} columns={['1fr 1fr 1fr']}>
+        <Grid gap={6} columns={['1fr', '1fr 1fr', '1fr 1fr', '1fr 1fr 1fr']}>
           {backlog.map(show => (
             <Show key={show.id} media={show.media} progress={show.progress} />
           ))}
