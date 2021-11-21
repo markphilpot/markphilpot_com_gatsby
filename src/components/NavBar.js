@@ -16,6 +16,7 @@ const NavBar = props => {
           py: 6,
           px: [0, 0, 10],
           mb: 10,
+          maxHeight: 72,
         }}
       >
         <Link to={`${__PATH_PREFIX__}/`} sx={{ variant: 'styles.navlink' }}>
