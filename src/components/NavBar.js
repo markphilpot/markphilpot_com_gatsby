@@ -16,7 +16,10 @@ const NavBar = props => {
           py: 6,
           px: [0, 0, 10],
           mb: 10,
+
+          // On firefox, the fontawesome icon starts huge then shrinks, but you only see it in prod builds *sigh*
           maxHeight: 72,
+          overflow: 'hidden',
         }}
       >
         <Link to={`${__PATH_PREFIX__}/`} sx={{ variant: 'styles.navlink' }}>
