@@ -4,6 +4,8 @@ title: ""
 path: used_for_slug
 date: 2021-11-21 18:46:00
 slug: 20211121-184500
+hero: arcane.jpg
+featured_image: arcane.jpg
 ---
 *Arcane: League of Legends* is the surprise hit of the season and [season 2 has just been confirmed](https://twitter.com/arcaneshow/status/1462214285300432897).
 
