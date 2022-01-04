@@ -7,7 +7,7 @@ const title = process.argv[2];
 
 const now = DateTime.local();
 
-const dir = `./content/${isMicro ? 'micro' : 'blog'}/2021/${isMicro ? now.toFormat('yyyyLLdd-HHmmss') : title}`;
+const dir = `./content/${isMicro ? 'micro' : 'blog'}/2022/${isMicro ? now.toFormat('yyyyLLdd-HHmmss') : title}`;
 
 if (!fs.existsSync(dir)) {
   fs.mkdirSync(dir);
