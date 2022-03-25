@@ -2,6 +2,59 @@ const path = require(`path`);
 const { DateTime } = require('luxon');
 const { createFilePath, createRemoteFileNode } = require(`gatsby-source-filesystem`);
 const { paginate } = require('gatsby-awesome-pagination');
+const axios = require('axios');
+
+const microBlogToken = process.env.MICROBLOG_TOKEN
+
+exports.sourceNodes = async ({
+  actions,
+  createContentDigest,
+  createNodeId,
+  getNodesByType,
+}) => {
+  const { createNode } = actions
+
+  if(!microBlogToken) return;
+
+  const POST_NODE_TYPE = 'microblog';
+
+  const response = await axios.get('https://micro.blog/micropub', {
+    params: {
+      q: 'source'
+    },
+    headers: {
+      authorization: `Bearer ${microBlogToken}`
+    }
+  });
+
+  const posts = response.data.items.map(({ type, properties }) => {
+    const { uid, name, content, published, url, category } = properties;
+
+    return {
+      uid: uid[0],
+      name: name[0],
+      content: content[0],
+      published: published[0],
+      url: url[0],
+      category,
+    }
+  });
+
+  // loop through data and create Gatsby nodes
+  posts.forEach(post =>
+    createNode({
+      ...post,
+      id: createNodeId(`${POST_NODE_TYPE}-${post.uid}`),
+      parent: null,
+      children: [],
+      internal: {
+        type: POST_NODE_TYPE,
+        content: JSON.stringify(post),
+        contentDigest: createContentDigest(post),
+      },
+    })
+  );
+}
 
 const blogPages = async (createPage, graphql) => {
   const blogPost = path.resolve(`./src/templates/post.js`);
@@ -111,6 +164,8 @@ exports.createPages = async ({ graphql, actions }) => {
 
   await blogPages(createPage, graphql);
   await notePages(createPage, graphql);
+
+  // TODO microblog page
 };
 
 exports.onCreateNode = ({ node, actions, getNode }) => {

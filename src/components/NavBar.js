@@ -25,9 +25,9 @@ const NavBar = props => {
         <Link to={`${__PATH_PREFIX__}/`} sx={{ variant: 'styles.navlink' }}>
           posts
         </Link>
-        {/*<Link to={`${__PATH_PREFIX__}/micro`} sx={{ variant: 'styles.navlink' }}>*/}
-        {/*  &micro;&beta;*/}
-        {/*</Link>*/}
+        <Link to={`https://micro.markphilpot.com`} sx={{ variant: 'styles.navlink' }}>
+          &micro;&beta;
+        </Link>
         <Link to={`${__PATH_PREFIX__}/about`} sx={{ variant: 'styles.navlink' }}>
           about
         </Link>
