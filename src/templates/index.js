@@ -2,8 +2,6 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import { useColorMode, Box, Flex, Text } from 'theme-ui';
 import { DateTime } from 'luxon';
-import { GatsbyImage } from 'gatsby-plugin-image';
-import { pathOr } from 'ramda';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
 
 import Layout, { CenterColumn } from '../components/layout';
@@ -12,149 +10,8 @@ import NavBar from '../components/NavBar';
 import { Year } from '../components/typography';
 import Link from '../components/Link';
 import SEO from '../components/SEO';
-
-const FeaturedImagePost = props => {
-  const { node, title, isDraft } = props;
-  // Woof -- TODO do a date search and replace to remove quotes from `date` fields
-  const date = node.frontmatter.date.includes(' ')
-    ? DateTime.fromSQL(node.frontmatter.date)
-    : DateTime.fromISO(node.frontmatter.date);
-  return (
-    <Box
-      sx={{
-        position: 'relative',
-        mb: 10,
-      }}
-    >
-      <GatsbyImage
-        style={{ borderRadius: 4, height: '180px', objectFit: 'cover' }}
-        image={node.frontmatter.featured_image.childImageSharp.gatsbyImageData}
-        alt={title}
-      />
-      {isDraft ? (
-        <Text
-          sx={{
-            variant: 'text.caps',
-            position: 'absolute',
-            top: '50%',
-            left: '50%',
-            transform: 'translate(-50%, -50%) rotate(-10deg)',
-            fontSize: '120px',
-            color: 'red',
-            opacity: '0.8',
-          }}
-        >
-          draft
-        </Text>
-      ) : null}
-      <Flex
-        sx={{
-          alignItems: 'center',
-          justifyContent: 'space-between',
-          position: 'absolute',
-          bottom: 0,
-          width: '100%',
-          px: 2,
-          backgroundColor: 'rgba(255, 255, 255, 0.75)',
-        }}
-      >
-        <Text
-          sx={{
-            color: '#2E3440',
-            fontSize: 4,
-          }}
-        >
-          {title}
-        </Text>
-        <Flex
-          sx={{
-            flexDirection: 'column',
-            alignItems: 'flex-end',
-          }}
-        >
-          <Text
-            sx={{
-              variant: 'text.caps',
-              fontSize: 0,
-              fontWeight: 'bold',
-              color: '#2E3440',
-              display: ['none', 'none', 'block', 'block'],
-              textAlign: 'right',
-            }}
-          >
-            {date.toFormat('LLLL d, yyyy')}
-          </Text>
-          <Text
-            sx={{
-              fontSize: 0,
-              color: '#2E3440',
-              display: ['none', 'none', 'none', 'block'],
-              textAlign: 'right',
-            }}
-          >
-            {pathOr([], ['frontmatter', 'tags'], node).join(', ')}
-          </Text>
-        </Flex>
-      </Flex>
-    </Box>
-  );
-};
-
-const SimpleTitlePost = props => {
-  const { title, node, isDraft } = props;
-
-  const date = node.frontmatter.date.includes(' ')
-    ? DateTime.fromSQL(node.frontmatter.date)
-    : DateTime.fromISO(node.frontmatter.date);
-
-  return (
-    <Flex
-      sx={{
-        mb: 10,
-        justifyContent: 'space-between',
-        alignItems: 'center',
-      }}
-    >
-      <Text
-        sx={{
-          fontSize: 4,
-        }}
-      >
-        {isDraft ? 'DRAFT :: ' : ''}
-        {title}
-      </Text>
-      <Flex
-        sx={{
-          flexDirection: 'column',
-          alignItems: 'flex-end',
-          display: ['none', 'none', 'block', 'block'],
-        }}
-      >
-        <Text
-          sx={{
-            variant: 'text.caps',
-            fontSize: 0,
-            fontWeight: 'bold',
-            color: 'muted',
-            textAlign: 'right',
-          }}
-        >
-          {date.toFormat('LLLL d, yyyy')}
-        </Text>
-        <Text
-          sx={{
-            fontSize: 0,
-            color: 'muted',
-            display: ['none', 'none', 'none', 'block'],
-            textAlign: 'right',
-          }}
-        >
-          {pathOr([], ['frontmatter', 'tags'], node).join(', ')}
-        </Text>
-      </Flex>
-    </Flex>
-  );
-};
+import FeaturedImagePost from '../components/posts/FeaturedImagePost';
+import SimpleTitlePost from '../components/posts/SimpleTitlePost';
 
 const BlogIndex = ({ data, location, pageContext }) => {
   const { previousPagePath, nextPagePath, humanPageNumber, numberOfPages } = pageContext;
@@ -207,7 +64,7 @@ const BlogIndex = ({ data, location, pageContext }) => {
                   <Link sx={{ textDecoration: 'none' }} to={node.fields.slug}>
                     {/*<a href={node.fields.slug}>*/}
                     {hasFeaturedImage ? (
-                      <FeaturedImagePost node={node} title={title} isDraft={isDraft} />
+                      <FeaturedImagePost title={title} node={node} isDraft={isDraft} />
                     ) : (
                       <SimpleTitlePost title={title} node={node} isDraft={isDraft} />
                     )}
@@ -325,29 +182,6 @@ export const pageQuery = graphql`
         node {
           excerpt
           body
-          fields {
-            slug
-          }
-          frontmatter {
-            date
-            title
-            tags
-            featured_image {
-              childImageSharp {
-                gatsbyImageData(layout: CONSTRAINED)
-              }
-            }
-          }
-        }
-      }
-    }
-    drafts: allMdx(
-      filter: { fields: { sourceName: { eq: "blog" } } }
-      sort: { fields: [frontmatter___date], order: DESC }
-    ) {
-      edges {
-        node {
-          excerpt
           fields {
             slug
           }
