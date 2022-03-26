@@ -14,9 +14,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
   const siteTitle = data.site.siteMetadata.title;
   const { slug } = pageContext;
 
-  const date = post.published.includes(' ')
-    ? DateTime.fromSQL(post.published)
-    : DateTime.fromISO(post.published);
+  const date = post.published.includes(' ') ? DateTime.fromSQL(post.published) : DateTime.fromISO(post.published);
 
   return (
     <Layout location={location} title={siteTitle}>

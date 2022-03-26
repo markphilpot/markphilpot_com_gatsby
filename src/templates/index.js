@@ -23,23 +23,20 @@ const BlogIndex = ({ data, location, pageContext }) => {
       return {
         node: {
           ...edge.node,
-          ...edge.node.childMdx
-        }
-      }
+          ...edge.node.childMdx,
+        },
+      };
     });
 
-  const posts = [
-    ...microPosts,
-    ...mdxPosts,
-  ].sort((a, b) => {
+  const posts = [...microPosts, ...mdxPosts].sort((a, b) => {
     const aDate = a.node.frontmatter.date.includes(' ')
       ? DateTime.fromSQL(a.node.frontmatter.date)
       : DateTime.fromISO(a.node.frontmatter.date);
     const bDate = b.node.frontmatter.date.includes(' ')
       ? DateTime.fromSQL(b.node.frontmatter.date)
       : DateTime.fromISO(b.node.frontmatter.date);
-    return aDate > bDate ? -1 : aDate < bDate ? 1 : 0 ;
-  })
+    return aDate > bDate ? -1 : aDate < bDate ? 1 : 0;
+  });
 
   const { heroLight, heroDark } = data;
 

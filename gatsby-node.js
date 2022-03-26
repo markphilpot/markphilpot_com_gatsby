@@ -3,28 +3,23 @@ const { DateTime } = require('luxon');
 const { createRemoteFileNode } = require(`gatsby-source-filesystem`);
 const axios = require('axios');
 
-const microBlogToken = process.env.MICROBLOG_TOKEN
+const microBlogToken = process.env.MICROBLOG_TOKEN;
 
 const MICROBLOG_NODE_TYPE = 'microblog';
 
 // https://www.christopherbiscardi.com/post/creating-mdx-nodes-from-raw-strings-and-nodes
-exports.sourceNodes = async ({
-  actions,
-  createContentDigest,
-  createNodeId,
-  getNodesByType,
-}) => {
-  const { createNode } = actions
+exports.sourceNodes = async ({ actions, createContentDigest, createNodeId, getNodesByType }) => {
+  const { createNode } = actions;
 
-  if(!microBlogToken) return;
+  if (!microBlogToken) return;
 
   const response = await axios.get('https://micro.blog/micropub', {
     params: {
-      q: 'source'
+      q: 'source',
     },
     headers: {
-      authorization: `Bearer ${microBlogToken}`
-    }
+      authorization: `Bearer ${microBlogToken}`,
+    },
   });
 
   const mdxPosts = response.data.items.map(({ type, properties }) => {
@@ -45,7 +40,7 @@ url: ${url[0]}
 category: ${category}
 ---
 ${content}
-`
+`,
     };
   });
 
@@ -64,7 +59,7 @@ ${content}
       },
     })
   );
-}
+};
 
 const indexPage = async (createPage, graphql) => {
   const blogIndex = path.resolve('./src/templates/index.js');
@@ -112,7 +107,7 @@ const indexPage = async (createPage, graphql) => {
   //   // pathPrefix: ({ pageNumber, numberOfPages }) => pageNumber === 0 ? '' : '/blog/page'
   //   pathPrefix: '/',
   // });
-}
+};
 
 const blogPages = async (createPage, graphql) => {
   const blogPost = path.resolve(`./src/templates/post.js`);
@@ -211,7 +206,7 @@ const microblogPages = async (createPage, graphql) => {
   const result = await graphql(
     `
       {
-        allMicroblog(sort: {fields: published, order: DESC}) {
+        allMicroblog(sort: { fields: published, order: DESC }) {
           edges {
             node {
               id
@@ -238,7 +233,7 @@ const microblogPages = async (createPage, graphql) => {
   const posts = result.data.allMicroblog.edges;
 
   posts.forEach((post, index) => {
-    const slug = post.node.fields.slug
+    const slug = post.node.fields.slug;
 
     createPage({
       path: slug,
@@ -265,7 +260,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
   if (node.internal.type === `Mdx`) {
     const { date, slug } = node.frontmatter;
 
-    if(!date) return;
+    if (!date) return;
 
     const d = date.includes(' ') ? DateTime.fromSQL(date) : DateTime.fromISO(date);
     const fullSlug = `/posts/${d.year}/${d.toFormat('LL')}/${d.toFormat('dd')}/${slug}`;
@@ -282,7 +277,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       name: 'sourceName',
       value: fileNode.sourceInstanceName,
     });
-  } else if(node.internal.type === MICROBLOG_NODE_TYPE) {
+  } else if (node.internal.type === MICROBLOG_NODE_TYPE) {
     const { published, uid } = node;
 
     const d = published.includes(' ') ? DateTime.fromSQL(published) : DateTime.fromISO(published);
