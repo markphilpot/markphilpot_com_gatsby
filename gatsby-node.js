@@ -6,6 +6,9 @@ const axios = require('axios');
 
 const microBlogToken = process.env.MICROBLOG_TOKEN
 
+const MICROBLOG_NODE_TYPE = 'microblog';
+
+// https://www.christopherbiscardi.com/post/creating-mdx-nodes-from-raw-strings-and-nodes
 exports.sourceNodes = async ({
   actions,
   createContentDigest,
@@ -16,8 +19,6 @@ exports.sourceNodes = async ({
 
   if(!microBlogToken) return;
 
-  const POST_NODE_TYPE = 'microblog';
-
   const response = await axios.get('https://micro.blog/micropub', {
     params: {
       q: 'source'
@@ -27,7 +28,7 @@ exports.sourceNodes = async ({
     }
   });
 
-  const posts = response.data.items.map(({ type, properties }) => {
+  const mdxPosts = response.data.items.map(({ type, properties }) => {
     const { uid, name, content, published, url, category } = properties;
 
     return {
@@ -37,28 +38,38 @@ exports.sourceNodes = async ({
       published: published[0],
       url: url[0],
       category,
-    }
+      mdx: `---
+uid: ${uid[0]}
+published: ${published[0]}
+name: ${name[0]}
+url: ${url[0]}
+category: ${category}
+---
+${content}
+`
+    };
   });
 
   // loop through data and create Gatsby nodes
-  posts.forEach(post =>
+  mdxPosts.forEach(post =>
     createNode({
       ...post,
-      id: createNodeId(`${POST_NODE_TYPE}-${post.uid}`),
+      id: createNodeId(`${MICROBLOG_NODE_TYPE}-${post.uid}`),
       parent: null,
       children: [],
       internal: {
-        type: POST_NODE_TYPE,
-        content: JSON.stringify(post),
+        type: MICROBLOG_NODE_TYPE,
+        mediaType: 'text/markdown',
+        content: post.mdx,
         contentDigest: createContentDigest(post),
       },
     })
   );
 }
 
-const blogPages = async (createPage, graphql) => {
-  const blogPost = path.resolve(`./src/templates/post.js`);
+const indexPage = async (createPage, graphql) => {
   const blogIndex = path.resolve('./src/templates/index.js');
+
   const result = await graphql(
     `
       {
@@ -97,6 +108,38 @@ const blogPages = async (createPage, graphql) => {
     // pathPrefix: ({ pageNumber, numberOfPages }) => pageNumber === 0 ? '' : '/blog/page'
     pathPrefix: '/',
   });
+}
+
+const blogPages = async (createPage, graphql) => {
+  const blogPost = path.resolve(`./src/templates/post.js`);
+  const result = await graphql(
+    `
+      {
+        allMdx(
+          filter: { fields: { sourceName: { in: ["blog", "micro"] } } }
+          sort: { fields: [frontmatter___date], order: DESC }
+        ) {
+          edges {
+            node {
+              fields {
+                slug
+              }
+              frontmatter {
+                title
+              }
+            }
+          }
+        }
+      }
+    `
+  );
+
+  if (result.errors) {
+    throw result.errors;
+  }
+
+  // Create blog posts pages.
+  const posts = result.data.allMdx.edges;
 
   posts.forEach((post, index) => {
     const previous = index === posts.length - 1 ? null : posts[index + 1].node;
@@ -159,13 +202,57 @@ const notePages = async (createPage, graphql) => {
   });
 };
 
+const microblogPages = async (createPage, graphql) => {
+  const microblogPage = path.resolve(`./src/templates/microblogPost.js`);
+  const result = await graphql(
+    `
+      {
+        allMicroblog(sort: {fields: published, order: DESC}) {
+          edges {
+            node {
+              id
+              name
+              url
+              content
+              published
+              uid
+              fields {
+                slug
+              }
+            }
+          }
+        }
+      }
+    `
+  );
+
+  if (result.errors) {
+    throw result.errors;
+  }
+
+  // Create blog posts pages.
+  const posts = result.data.allMicroblog.edges;
+
+  posts.forEach((post, index) => {
+    const slug = post.node.fields.slug
+
+    createPage({
+      path: slug,
+      component: microblogPage,
+      context: {
+        slug,
+      },
+    });
+  });
+};
+
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions;
 
+  await indexPage(createPage, graphql);
   await blogPages(createPage, graphql);
   await notePages(createPage, graphql);
-
-  // TODO microblog page
+  await microblogPages(createPage, graphql);
 };
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
@@ -173,6 +260,9 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 
   if (node.internal.type === `Mdx`) {
     const { date, slug } = node.frontmatter;
+
+    if(!date) return;
+
     const d = date.includes(' ') ? DateTime.fromSQL(date) : DateTime.fromISO(date);
     const fullSlug = `/posts/${d.year}/${d.toFormat('LL')}/${d.toFormat('dd')}/${slug}`;
 
@@ -187,6 +277,17 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       node,
       name: 'sourceName',
       value: fileNode.sourceInstanceName,
+    });
+  } else if(node.internal.type === MICROBLOG_NODE_TYPE) {
+    const { published, uid } = node;
+
+    const d = published.includes(' ') ? DateTime.fromSQL(published) : DateTime.fromISO(published);
+    const fullSlug = `/micro/${d.year}/${d.toFormat('LL')}/${d.toFormat('dd')}/${uid}`;
+
+    createNodeField({
+      name: `slug`,
+      node,
+      value: fullSlug,
     });
   }
 };
