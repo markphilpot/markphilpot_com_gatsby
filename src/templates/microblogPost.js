@@ -3,12 +3,10 @@ import { graphql } from 'gatsby';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
 import { DateTime } from 'luxon';
 
-import { Box, Flex, Text, Heading } from 'theme-ui';
+import { Text } from 'theme-ui';
 
 import Layout, { CenterColumn } from '../components/layout';
-import Hero from '../components/Hero';
 import NavBar from '../components/NavBar';
-import Link from '../components/Link';
 import SEO from '../components/SEO';
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {

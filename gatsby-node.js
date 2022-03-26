@@ -1,7 +1,6 @@
 const path = require(`path`);
 const { DateTime } = require('luxon');
-const { createFilePath, createRemoteFileNode } = require(`gatsby-source-filesystem`);
-const { paginate } = require('gatsby-awesome-pagination');
+const { createRemoteFileNode } = require(`gatsby-source-filesystem`);
 const axios = require('axios');
 
 const microBlogToken = process.env.MICROBLOG_TOKEN
@@ -99,15 +98,20 @@ const indexPage = async (createPage, graphql) => {
   // Create blog posts pages.
   const posts = result.data.allMdx.edges;
 
-  paginate({
-    createPage,
-    items: posts,
+  createPage({
+    path: '/',
     component: blogIndex,
-    itemsPerPage: 20,
-    itemsPerFirstPage: 10,
-    // pathPrefix: ({ pageNumber, numberOfPages }) => pageNumber === 0 ? '' : '/blog/page'
-    pathPrefix: '/',
   });
+
+  // paginate({
+  //   createPage,
+  //   items: posts,
+  //   component: blogIndex,
+  //   itemsPerPage: 20,
+  //   itemsPerFirstPage: 10,
+  //   // pathPrefix: ({ pageNumber, numberOfPages }) => pageNumber === 0 ? '' : '/blog/page'
+  //   pathPrefix: '/',
+  // });
 }
 
 const blogPages = async (createPage, graphql) => {

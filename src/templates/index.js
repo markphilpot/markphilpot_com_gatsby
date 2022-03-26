@@ -1,6 +1,6 @@
 import React from 'react';
 import { graphql } from 'gatsby';
-import { useColorMode, Box, Flex, Text } from 'theme-ui';
+import { useColorMode, Box, Text } from 'theme-ui';
 import { DateTime } from 'luxon';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
 
@@ -14,9 +14,33 @@ import FeaturedImagePost from '../components/posts/FeaturedImagePost';
 import SimpleTitlePost from '../components/posts/SimpleTitlePost';
 
 const BlogIndex = ({ data, location, pageContext }) => {
-  const { previousPagePath, nextPagePath, humanPageNumber, numberOfPages } = pageContext;
   const siteTitle = data.site.siteMetadata.title;
-  const posts = data.posts.edges;
+  const mdxPosts = data.posts.edges;
+
+  const microPosts = data.microPosts.edges
+    .filter(edge => edge.node.uid !== 1532342) // Filter out the initial "experiment" post
+    .map(edge => {
+      return {
+        node: {
+          ...edge.node,
+          ...edge.node.childMdx
+        }
+      }
+    });
+
+  const posts = [
+    ...microPosts,
+    ...mdxPosts,
+  ].sort((a, b) => {
+    const aDate = a.node.frontmatter.date.includes(' ')
+      ? DateTime.fromSQL(a.node.frontmatter.date)
+      : DateTime.fromISO(a.node.frontmatter.date);
+    const bDate = b.node.frontmatter.date.includes(' ')
+      ? DateTime.fromSQL(b.node.frontmatter.date)
+      : DateTime.fromISO(b.node.frontmatter.date);
+    return aDate > bDate ? -1 : aDate < bDate ? 1 : 0 ;
+  })
+
   const { heroLight, heroDark } = data;
 
   const [colorMode] = useColorMode();
@@ -117,41 +141,6 @@ const BlogIndex = ({ data, location, pageContext }) => {
               );
             }
           })}
-        <Flex
-          sx={{
-            flexDirection: 'row',
-          }}
-        >
-          <Box
-            sx={{
-              marginRight: 'auto',
-            }}
-          >
-            {nextPagePath ? (
-              <Link sx={{ textDecoration: 'none' }} to={nextPagePath}>
-                Older Posts
-              </Link>
-            ) : (
-              <Box sx={{ visibility: 'hidden' }}>Older Posts</Box>
-            )}
-          </Box>
-          <Box>
-            {humanPageNumber} of {numberOfPages}
-          </Box>
-          <Box
-            sx={{
-              marginLeft: 'auto',
-            }}
-          >
-            {previousPagePath ? (
-              <Link sx={{ textDecoration: 'none' }} to={previousPagePath}>
-                Newer Posts
-              </Link>
-            ) : (
-              <Box sx={{ visibility: 'hidden' }}>Newer Posts</Box>
-            )}
-          </Box>
-        </Flex>
       </CenterColumn>
     </Layout>
   );
@@ -160,7 +149,7 @@ const BlogIndex = ({ data, location, pageContext }) => {
 export default BlogIndex;
 
 export const pageQuery = graphql`
-  query($skip: Int!, $limit: Int!) {
+  query {
     site {
       siteMetadata {
         title
@@ -172,11 +161,25 @@ export const pageQuery = graphql`
     heroDark: file(absolutePath: { regex: "/gg_bridge_dark.jpg/" }) {
       publicURL
     }
+    microPosts: allMicroblog {
+      edges {
+        node {
+          uid
+          fields {
+            slug
+          }
+          childMdx {
+            body
+            frontmatter {
+              date: published
+            }
+          }
+        }
+      }
+    }
     posts: allMdx(
       filter: { fields: { sourceName: { in: ["blog", "micro"] } } }
       sort: { fields: [frontmatter___date], order: DESC }
-      skip: $skip
-      limit: $limit
     ) {
       edges {
         node {
