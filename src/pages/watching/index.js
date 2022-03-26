@@ -65,8 +65,8 @@ const Watching = ({ data, location }) => {
   const seasonText = pipe(
     take(1),
     map(show => `${show.media.season.toLowerCase()} ${show.media.startDate.year}`),
-    head,
-    replace(/^./, toUpper)
+    // head,
+    // replace(/^./, toUpper)
   )(airing);
 
   return (
