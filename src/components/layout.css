@@ -23,6 +23,10 @@ body {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+span[data-title="hidden"] {
+  display: none !important;
+}
+
 span[data-title="ew1920"] {
   max-width: 1920px !important;
   margin-left: calc((1920px - 680px) / -2) !important;

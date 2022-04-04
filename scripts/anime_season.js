@@ -13,8 +13,8 @@ import download from 'download';
 const ANILIST_API = 'https://graphql.anilist.co';
 
 const seasonQuery = gql`
-  query seasonQuery($year: Int, $season: MediaSeason) {
-    Page(page: 1, perPage: 100) {
+  query seasonQuery($year: Int, $season: MediaSeason, $page: Int) {
+    Page(page: $page, perPage: 50) {
       media(seasonYear: $year, season: $season, sort: [POPULARITY_DESC]) {
         id
         description
@@ -33,6 +33,9 @@ const seasonQuery = gql`
           }
         }
       }
+      pageInfo {
+        hasNextPage
+      }
     }
   }
 `;
@@ -47,26 +50,45 @@ const client = new ApolloClient({
 const year = process.env.YEAR || 2019;
 const season = process.env.SEASON || 'fall';
 const root = process.env.ROOT || 'content/blog';
-const targetDir = `${root}/${year}/anime_${season.toLowerCase()}_first`;
+const targetDir = `${root}/${year}/anime_${season.toLowerCase()}_first.textbundle`;
 
 fs.mkdirSync(targetDir, { recursive: true });
-fs.mkdirSync(`${targetDir}/covers`);
+fs.mkdirSync(`${targetDir}/assets`);
+
+const info = {
+  version: 2,
+  type: "net.daringfireball.markdown",
+  transient: false,
+}
+
+fs.writeFileSync(`${targetDir}/info.json`, JSON.stringify(info));
 
 const fetchData = async () => {
-  const { data } = await client.query({
-    query: seasonQuery,
-    variables: {
-      year,
-      season: season.toUpperCase(),
-    },
-  });
+  const pageLimit = 1;
+  let page = 1;
+  let shows = [];
+  let hasNextPage;
 
-  const shows = data.Page.media;
+  do {
+    console.log(`Retrieving page ${page}...`);
+    const { data } = await client.query({
+      query: seasonQuery,
+      variables: {
+        year,
+        season: season.toUpperCase(),
+        page
+      },
+    });
+
+    hasNextPage = data.Page.pageInfo.hasNextPage;
+    shows = shows.concat(data.Page.media);
+    page++;
+  } while(hasNextPage && page < pageLimit)
 
   console.log(`${shows.length} shows found...`);
 
   for (const show of shows) {
-    await download(show.coverImage.large, `${targetDir}/covers`);
+    await download(show.coverImage.large, `${targetDir}/assets`);
   }
 
   return shows.map(show => {
@@ -99,7 +121,7 @@ const build = async () => {
 
   const output = template(view);
 
-  fs.writeFileSync(`${targetDir}/index.md`, output);
+  fs.writeFileSync(`${targetDir}/text.md`, output);
 };
 
 build();

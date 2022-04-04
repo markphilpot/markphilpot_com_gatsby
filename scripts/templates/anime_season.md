@@ -14,7 +14,7 @@ status: draft
 
 ### [{{ title.romaji }} ({{ title.english }})]({{ siteUrl }})
 
-![{{ title.userPreferred }}](covers/{{ coverFile }})
+![{{ title.userPreferred }}](assets/{{ coverFile }})
 
 > {{ __description }}
 
