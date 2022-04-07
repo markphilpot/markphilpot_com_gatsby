@@ -3,9 +3,9 @@ export default {
   breakpoints: ['375px', '768px', '960px', '1920px'],
   fonts: {
     body:
-      '-apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;',
-    heading: 'inherit',
-    monospace: 'Monaco, Menlo, Consolas, "Courier New", monospace',
+      '"Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;',
+    heading: '"Inter"',
+    monospace: '"Source Code Pro", Monaco, Menlo, Consolas, "Courier New", monospace',
   },
   fontWeights: {
     body: 400,
@@ -105,7 +105,10 @@ export default {
       fontSize: 4,
     },
     a: {
-      textDecoration: 'none',
+      textDecoration: 'underline',
+      textDecorationThickness: '1px',
+      textDecorationColor: 'link',
+      textUnderlineOffset: '1px',
       color: 'link',
       '&.active': {
         color: 'linkHover',

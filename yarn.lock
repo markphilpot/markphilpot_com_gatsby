@@ -1273,6 +1273,26 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@fontsource/inter@^4.5.7":
+  version "4.5.7"
+  resolved "https://registry.yarnpkg.com/@fontsource/inter/-/inter-4.5.7.tgz#f0657c52105ed51e04ac636a25d6016896c5ee9d"
+  integrity sha512-25k3thupaOEBexuU+jAkGqieKPbuhSuA+sinDwp1iBNhqQPiJ9QHDvsXgoCgCbZ4sGlE8aCwZmSlDJrPdJHNkw==
+
+"@fontsource/lato@^4.5.5":
+  version "4.5.5"
+  resolved "https://registry.yarnpkg.com/@fontsource/lato/-/lato-4.5.5.tgz#d7371e29600528a44f5076a1604cf223168d1579"
+  integrity sha512-0KVmVCq3wZnriKVdbY+n/ZLf7Vy+dQcqpcm8kaVX4QGd6uBTgH6YWLnM1L051TtjKlal2FiE6xc/BLw116a0gQ==
+
+"@fontsource/source-code-pro@^4.5.6":
+  version "4.5.6"
+  resolved "https://registry.yarnpkg.com/@fontsource/source-code-pro/-/source-code-pro-4.5.6.tgz#f11e6dc9f0e4db8ff2c6cf5f6e294f18b16433ef"
+  integrity sha512-idYGw+8gEyec58O5LFkJecscaQDJmTMrrRBcmrYTbS2fhSyEuaq1xtTpG8QOQCvW5CA0XrSpWVfA/1HwJjm6Fw==
+
+"@fontsource/source-sans-pro@^4.5.6":
+  version "4.5.6"
+  resolved "https://registry.yarnpkg.com/@fontsource/source-sans-pro/-/source-sans-pro-4.5.6.tgz#1c74aa0168f0ad851e7c69a5ff25914c7691b6cb"
+  integrity sha512-MPv0Ye2OmcRD4wQ/7lOkysQpXpWkDSqZ2QHdNNLj7CQVtG03BScLMYQXZbYNhNMbH518tdMFewqDSu+/ikAMTg==
+
 "@fortawesome/fontawesome-common-types@^0.2.27":
   version "0.2.27"
   resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-0.2.27.tgz#19706345859fc46adf3684ed01d11b40903b87e9"
