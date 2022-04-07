@@ -6,7 +6,7 @@ category: anime
 slug: anime_2020_fall_first
 summary: First Impressions of the Anime Fall 2020 Season
 hero: hero.jpg
-featured_image: hero.jpg
+featuredImage: hero.jpg
 ---
 
 

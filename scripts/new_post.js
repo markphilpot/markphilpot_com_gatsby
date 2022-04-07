@@ -26,7 +26,7 @@ ${!isMicro ? 'summary: ' : ''}
 date: ${now.toFormat('yyyy-LL-dd HH:mm:ss')}
 slug: ${isMicro ? now.toFormat('yyyyLLdd-HHmmss') : title}
 hero: 
-featured_image: 
+featuredImage: 
 ---`,
   function(err) {
     if (err) {

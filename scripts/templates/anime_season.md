@@ -3,10 +3,10 @@ title: 'Anime {{ __season }} {{ year }} First Impressions'
 date: '{{ timestamp }}'
 tags: [anime, first impressions]
 category: anime
-slug: anime_{{ year }}_{{ season }}_first
+slug: anime-{{ year }}-{{ season }}-first
 summary: First Impressions of the Anime {{ __season}} {{ year }} Season
 hero:
-featured_image:
+featuredImage:
 status: draft
 ---
 

@@ -6,7 +6,7 @@ category: blog
 slug: anime_2017_spring_retro
 summary: Anime Spring 2017 Season Retrospective
 hero: cards/worldsend.jpg
-featured_image: cards/worldsend.jpg
+featuredImage: cards/worldsend.jpg
 ---
 
 

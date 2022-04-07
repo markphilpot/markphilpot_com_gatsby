@@ -5,7 +5,7 @@ label: Pen to Chocolate Review
 path: used_for_slug
 date: '2019-03-27 10:40:09'
 slug: '2019-03-27T10:40:09'
-featured_image: 'pen_to_chocolate.jpg'
+featuredImage: 'pen_to_chocolate.jpg'
 ---
 ![Pen to Chocolate](pen_to_chocolate.jpg)
 

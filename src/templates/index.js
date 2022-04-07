@@ -76,7 +76,7 @@ const BlogIndex = ({ data, location, pageContext }) => {
 
             const title = node.frontmatter.title;
             const isDraft = node.frontmatter.status === 'draft';
-            const hasFeaturedImage = node.frontmatter.featured_image != null && node.frontmatter.featured_image !== '';
+            const hasFeaturedImage = node.frontmatter.featuredImage != null && node.frontmatter.featuredImage !== '';
 
             if (title) {
               return (
@@ -189,7 +189,7 @@ export const pageQuery = graphql`
             date
             title
             tags
-            featured_image {
+            featuredImage {
               childImageSharp {
                 gatsbyImageData(layout: CONSTRAINED)
               }

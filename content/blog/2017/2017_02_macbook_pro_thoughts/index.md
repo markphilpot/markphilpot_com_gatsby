@@ -6,7 +6,7 @@ category: blog
 slug: mbp_thoughts
 summary: Some thoughts on Apple's new MacBook Pro
 hero: hero.jpg
-featured_image: hero.jpg
+featuredImage: hero.jpg
 ---
 
 Needed a bit more than 120 characters for this.

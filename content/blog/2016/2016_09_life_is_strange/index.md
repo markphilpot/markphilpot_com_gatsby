@@ -6,7 +6,7 @@ category: blog
 slug: life_is_strange
 summary: Review of Dontnod's "Life is Strange"
 hero: hero.jpg
-featured_image: hero.jpg
+featuredImage: hero.jpg
 ---
 
 ![Life is Strange](title.jpg)

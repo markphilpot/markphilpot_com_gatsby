@@ -6,7 +6,7 @@ category: blog
 slug: static_blog_publishing
 summary: How to publish a static blog
 hero: hero.jpg
-featured_image: hero.jpg
+featuredImage: hero.jpg
 ---
 
 

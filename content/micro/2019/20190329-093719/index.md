@@ -5,7 +5,7 @@ label: Fragtime Review
 path: used_for_slug
 date: '2019-03-29 09:37:00'
 slug: '2019-03-29T09:37:00'
-featured_image: 'fragtime.jpg'
+featuredImage: 'fragtime.jpg'
 ---
 ![Fragtime](fragtime.jpg)
 

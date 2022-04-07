@@ -5,7 +5,7 @@ label: Love Comedy Season 3 Announcement
 path: used_for_slug
 date: '2019-03-21 16:36:50'
 slug: '2019-03-21T16:36:50'
-featured_image: 'oregairu.jpg'
+featuredImage: 'oregairu.jpg'
 ---
 ![Yahari Ore no Seishun Love Comedy wa Machigatteiru. 3rd Season](oregairu.jpg)
 

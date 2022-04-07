@@ -6,7 +6,7 @@ category: blog
 slug: anime_2017_summer_retro
 summary: Retrospective of the Anime Summer 2017 Season
 hero: cards/hero.jpg
-featured_image: cards/hero.jpg
+featuredImage: cards/hero.jpg
 ---
 
 

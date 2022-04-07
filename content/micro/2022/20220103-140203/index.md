@@ -5,7 +5,7 @@ path: used_for_slug
 date: 2022-01-03 14:02:03
 slug: 20220103-140203
 hero: witcher2.jpg
-featured_image: witcher2.jpg
+featuredImage: witcher2.jpg
 ---
 The new season of The Witcher dropped and I waited for the holidays to binge it.
 

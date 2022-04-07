@@ -22,7 +22,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         title={''}
         // title={post.frontmatter.title}
         // description={post.frontmatter.summary}
-        // image={post.frontmatter.featured_image ? post.frontmatter.featured_image.childImageSharp.resize : null}
+        // image={post.frontmatter.featuredImage ? post.frontmatter.featuredImage.childImageSharp.resize : null}
       />
       {/*<Hero hero={post.frontmatter.hero} />*/}
       <NavBar />

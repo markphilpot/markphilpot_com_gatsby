@@ -5,7 +5,7 @@ label: Final Fantasy XII on Switch
 path: used_for_slug
 date: '2019-05-18 13:25:50'
 slug: '2019-05-18T13:25:50'
-featured_image: 'ffxii.jpg'
+featuredImage: 'ffxii.jpg'
 ---
 ![Final Fantasy XII](ffxii.jpg)
 

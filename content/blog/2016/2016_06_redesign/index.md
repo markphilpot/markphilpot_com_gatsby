@@ -5,7 +5,7 @@ tags: [thoughts]
 category: blog
 slug: redesign
 hero: hero.jpg
-featured_image: hero.jpg
+featuredImage: hero.jpg
 ---
 
 It's been quite a while since I manually built a blog theme from scratch. I had definitely forgot how painful it is to build up all your CSS from scratch. I never quite got my workflow perfected, mostly because [pelican](https://blog.getpelican.com/) (my static blogging engine) takes a full 20 seconds to regenerate the site. Additionally, I actually spent a bit of time going back over old posts and optimizing them for the new layout (mostly to do with image handling). One stylistic difference that I'm still debating is justified or ragged-right. I think sans serif fonts looks better ragged-right, so that's what I'm starting with, but I've definitely flip-flopped a few times.

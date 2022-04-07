@@ -6,7 +6,7 @@ category: thoughts
 slug: initial_wot_thoughts
 summary: My initial thoughts on The Wheel of Time premier
 hero: hero.jpg
-featured_image: hero.jpg
+featuredImage: hero.jpg
 ---
 Let's get a few brief thoughts out of the way (these are quick initial impressions based on the first three episodes)
 

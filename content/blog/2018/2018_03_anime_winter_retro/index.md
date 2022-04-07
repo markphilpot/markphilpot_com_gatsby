@@ -6,7 +6,7 @@ category: blog
 slug: anime_2018_winter_retro
 summary: Retrospective of the Anime Winter 2018 Season
 hero: cards/evergarden.jpg
-featured_image: cards/evergarden.jpg
+featuredImage: cards/evergarden.jpg
 ---
 
 

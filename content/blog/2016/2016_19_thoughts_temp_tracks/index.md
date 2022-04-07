@@ -6,7 +6,7 @@ category: blog
 slug: thoughts_on_temp_tracks
 summary: Collection of random thoughts on temp tracks
 hero: hero.jpg
-featured_image: hero.jpg
+featuredImage: hero.jpg
 ---
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">The new Transformer&#39;s cartoon that my son has discovered has a theme that is **this** close to the new Star Trek theme... driving me nuts!</p>&mdash; Mark Philpot (@mark_philpot) <a href="https://twitter.com/mark_philpot/status/782053795379294208">October 1, 2016</a></blockquote>

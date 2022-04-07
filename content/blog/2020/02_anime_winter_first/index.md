@@ -6,7 +6,7 @@ category: anime
 slug: anime_2020_winter_first
 summary: First Impressions of the Anime Winter 2020 Season
 hero: hero.jpg
-featured_image: hero.jpg
+featuredImage: hero.jpg
 ---
 
 *April 3, 2021 - I didn't get to post this in real time, but wanted to have a record of my thoughts on the season.*
