@@ -6,7 +6,7 @@ category: blog
 slug: roland_jv_1080
 summary: ROMs from Roland's JV-1080
 hero: hero.jpg
-featured_image: hero.jpg
+featuredImage: hero.jpg
 ---
 
 A while back I posted the ROMs from my [Roland JV-35 keyboard]({static}/2010/781_roland_jv_35_roms.md). For posterity, I thought I would do the same for the ROMs from my JV-1080 synth.

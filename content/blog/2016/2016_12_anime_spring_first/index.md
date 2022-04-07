@@ -6,7 +6,7 @@ category: blog
 slug: anime_2016_spring_first
 summary: First Impressions of the Anime Spring 2016 Season
 hero: spring/hero.jpg
-featured_image: spring/hero.jpg
+featuredImage: spring/hero.jpg
 ---
 
 

@@ -6,7 +6,7 @@ category: anime
 slug: anime_2021_spring_first
 summary: First Impressions of the Anime Spring 2021 Season
 hero: ssss2.jpg
-featured_image: ssss2.jpg
+featuredImage: ssss2.jpg
 ---
 
 And here I thought Winter 2021 was a packed season. It seems like all the pent up production from the pandemic is going to overwhelm us this season as well.

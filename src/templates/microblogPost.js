@@ -14,9 +14,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
   const siteTitle = data.site.siteMetadata.title;
   const { slug } = pageContext;
 
-  const date = post.published.includes(' ')
-    ? DateTime.fromSQL(post.published)
-    : DateTime.fromISO(post.published);
+  const date = post.published.includes(' ') ? DateTime.fromSQL(post.published) : DateTime.fromISO(post.published);
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -24,7 +22,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         title={''}
         // title={post.frontmatter.title}
         // description={post.frontmatter.summary}
-        // image={post.frontmatter.featured_image ? post.frontmatter.featured_image.childImageSharp.resize : null}
+        // image={post.frontmatter.featuredImage ? post.frontmatter.featuredImage.childImageSharp.resize : null}
       />
       {/*<Hero hero={post.frontmatter.hero} />*/}
       <NavBar />

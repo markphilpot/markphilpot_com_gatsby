@@ -6,7 +6,7 @@ category: blog
 slug: firewatch
 summary: Review of Panic's Firewatch
 hero: hero.jpg
-featured_image: hero.jpg
+featuredImage: hero.jpg
 ---
 
 ![Firewatch](title.jpg)

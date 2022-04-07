@@ -6,7 +6,7 @@ category: anime
 slug: anime_2018_summer_first
 summary: First Impressions of the Anime Summer 2018 Season
 hero: covers/hero.jpg
-featured_image: covers/hero.jpg
+featuredImage: covers/hero.jpg
 ---
 
 

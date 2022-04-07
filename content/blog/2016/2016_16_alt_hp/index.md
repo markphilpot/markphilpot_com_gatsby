@@ -6,7 +6,7 @@ category: blog
 slug: alt_harry_potter
 summary: Alternate plots in the world of Harry Potter
 hero: hero.jpg
-featured_image: hero.jpg
+featuredImage: hero.jpg
 ---
 
 Now that JK Rowling's _Harry Potter_ has finally made it to Audible, I'm re-enjoying the great performance by Jim Dale.

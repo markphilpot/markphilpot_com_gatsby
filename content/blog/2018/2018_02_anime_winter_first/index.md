@@ -6,7 +6,7 @@ category: blog
 slug: anime_2018_winter_first
 summary: First Impressions of the Anime Winter 2018 Season
 hero: covers/hero.jpg
-featured_image: covers/hero.jpg
+featuredImage: covers/hero.jpg
 ---
 
 

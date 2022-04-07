@@ -23,23 +23,20 @@ const BlogIndex = ({ data, location, pageContext }) => {
       return {
         node: {
           ...edge.node,
-          ...edge.node.childMdx
-        }
-      }
+          ...edge.node.childMdx,
+        },
+      };
     });
 
-  const posts = [
-    ...microPosts,
-    ...mdxPosts,
-  ].sort((a, b) => {
+  const posts = [...microPosts, ...mdxPosts].sort((a, b) => {
     const aDate = a.node.frontmatter.date.includes(' ')
       ? DateTime.fromSQL(a.node.frontmatter.date)
       : DateTime.fromISO(a.node.frontmatter.date);
     const bDate = b.node.frontmatter.date.includes(' ')
       ? DateTime.fromSQL(b.node.frontmatter.date)
       : DateTime.fromISO(b.node.frontmatter.date);
-    return aDate > bDate ? -1 : aDate < bDate ? 1 : 0 ;
-  })
+    return aDate > bDate ? -1 : aDate < bDate ? 1 : 0;
+  });
 
   const { heroLight, heroDark } = data;
 
@@ -79,7 +76,7 @@ const BlogIndex = ({ data, location, pageContext }) => {
 
             const title = node.frontmatter.title;
             const isDraft = node.frontmatter.status === 'draft';
-            const hasFeaturedImage = node.frontmatter.featured_image != null && node.frontmatter.featured_image !== '';
+            const hasFeaturedImage = node.frontmatter.featuredImage != null && node.frontmatter.featuredImage !== '';
 
             if (title) {
               return (
@@ -192,7 +189,7 @@ export const pageQuery = graphql`
             date
             title
             tags
-            featured_image {
+            featuredImage {
               childImageSharp {
                 gatsbyImageData(layout: CONSTRAINED)
               }

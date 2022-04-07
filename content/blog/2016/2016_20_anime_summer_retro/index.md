@@ -6,7 +6,7 @@ category: blog
 slug: anime_2016_summer_retro
 summary: Retrospective of the Anime Summer 2016 Season
 hero: summer/hero.jpg
-featured_image: summer/hero.jpg
+featuredImage: summer/hero.jpg
 ---
 
 

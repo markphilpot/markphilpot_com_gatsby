@@ -6,7 +6,7 @@ category: blog
 slug: anime_2017_winter_retro
 summary: Anime Winter 2017 Season Retrospective
 hero: winter/hero.jpg
-featured_image: winter/hero.jpg
+featuredImage: winter/hero.jpg
 ---
 
 

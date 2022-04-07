@@ -6,7 +6,7 @@ category: blog
 slug: macpro_thoughts
 summary: No longer?
 hero: hero.jpg
-featured_image: hero.jpg
+featuredImage: hero.jpg
 ---
 
 tl;dr - The new Mac Pro is not for me

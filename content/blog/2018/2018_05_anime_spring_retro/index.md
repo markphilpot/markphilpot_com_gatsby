@@ -6,7 +6,7 @@ category: anime
 slug: anime_2018_spring_retro
 summary: Retrospective of the Anime Spring 2018 Season
 hero: cards/hero.jpg
-featured_image: cards/hero.jpg
+featuredImage: cards/hero.jpg
 ---
 
 

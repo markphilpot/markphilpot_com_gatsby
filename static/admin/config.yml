@@ -38,7 +38,7 @@ collections:
       - {label: "slug", name: "slug", widget: "string"}
       - {label: "summary", name: "summary", widget: "string"}
       - {label: "hero", name: "hero", widget: "string", default: "", required: false}
-      - {label: "featured_image", name: "featured_image", widget: "string", default: "", required: false}
+      - {label: "featuredImage", name: "featuredImage", widget: "string", default: "", required: false}
       - {label: "body", name: "body", widget: "markdown"}
       #- {label: "Status", name: "status", widget: "string", required: false }
   - name: "micro"
@@ -58,6 +58,6 @@ collections:
       - {label: "title", name: "title", widget: "hidden", default: ""}
       - {label: "date", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss" }
       - {label: "slug", name: "slug", widget: "string", hint: "This will be the folder name (YYYYMMDD-HHmmss)" }
-      - {label: "featured_image", name: "featured_image", widget: "string", required: false }
+      - {label: "featuredImage", name: "featuredImage", widget: "string", required: false }
       - {label: "body", name: "body", widget: "markdown"}
       #- {label: "Status", name: "status", widget: "string", required: false }

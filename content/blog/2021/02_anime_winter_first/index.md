@@ -6,7 +6,7 @@ category: anime
 slug: anime_2021_winter_first
 summary: First Impressions of the Anime Winter 2021 Season
 hero: wonder_egg_hero.jpg
-featured_image: wonder_egg_hero.jpg
+featuredImage: wonder_egg_hero.jpg
 ---
 After taking a hiatus for 2020 (*woof*) wanted to get back to writing about the shows I'm going to be following (or try to follow) this season. 
 

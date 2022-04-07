@@ -62,51 +62,57 @@ const Watching = ({ data, location }) => {
     head // TODO would be nice to do a runtime random image
   )(airing);
 
-  const seasonText = pipe(
-    take(1),
-    map(show => `${show.media.season.toLowerCase()} ${show.media.startDate.year}`),
-    // head,
-    // replace(/^./, toUpper)
-  )(airing);
+  const seasonText =
+    airing.length > 0
+      ? pipe(
+          take(1),
+          map(show => `${show.media.season.toLowerCase()} ${show.media.startDate.year}`),
+          head,
+          replace(/^./, toUpper)
+        )(airing)
+      : null;
 
   return (
     <Layout location={location} title={"What I'm Watching"}>
       <Hero heroUrl={heroUrl} includeDoubleSpacing={false} />
       <NavBar />
       <CenterColumn>
-        <Box
-          sx={{
-            textAlign: 'center',
-            marginBottom: 4,
-          }}
-        >
-          <Heading>Seasonal Anime - {seasonText}</Heading>
-          <Text
-            sx={{
-              fontStyle: 'italic',
-              fontSize: 1,
-            }}
-          >
-            Updated {DateTime.local().toFormat('LLLL d, yyyy')}
-          </Text>
-        </Box>
+        {airing.length > 0 && (
+          <>
+            <Box
+              sx={{
+                textAlign: 'center',
+                marginBottom: 4,
+              }}
+            >
+              <Heading>Seasonal Anime - {seasonText}</Heading>
+              <Text
+                sx={{
+                  fontStyle: 'italic',
+                  fontSize: 1,
+                }}
+              >
+                Updated {DateTime.local().toFormat('LLLL d, yyyy')}
+              </Text>
+            </Box>
 
-        <Grid gap={6} columns={['1fr', '1fr 1fr', '1fr 1fr', '1fr 1fr 1fr']}>
-          {airing.map(show => (
-            <Show key={show.id} media={show.media} progress={show.progress} />
-          ))}
-        </Grid>
+            <Grid gap={6} columns={['1fr', '1fr 1fr', '1fr 1fr', '1fr 1fr 1fr']}>
+              {airing.map(show => (
+                <Show key={show.id} media={show.media} progress={show.progress} />
+              ))}
+            </Grid>
 
-        <Box
-          sx={{
-            textAlign: 'center',
-            marginBottom: 4,
-            marginTop: 8,
-          }}
-        >
-          <Heading>Also...</Heading>
-        </Box>
-
+            <Box
+              sx={{
+                textAlign: 'center',
+                marginBottom: 4,
+                marginTop: 8,
+              }}
+            >
+              <Heading>Also...</Heading>
+            </Box>
+          </>
+        )}
         <Grid gap={6} columns={['1fr', '1fr 1fr', '1fr 1fr', '1fr 1fr 1fr']}>
           <Box
             sx={{
@@ -116,7 +122,9 @@ const Watching = ({ data, location }) => {
           >
             <StaticImage
               style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '4px' }}
-              src={'https://m.media-amazon.com/images/M/MV5BYmU5OWM5ZTAtNjUzOC00NmUyLTgyOWMtMjlkNjdlMDAzMzU1XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_FMjpg_UX1000_.jpg'}
+              src={
+                'https://m.media-amazon.com/images/M/MV5BYmU5OWM5ZTAtNjUzOC00NmUyLTgyOWMtMjlkNjdlMDAzMzU1XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_FMjpg_UX1000_.jpg'
+              }
               alt={'Arcane: League of Legends'}
             />
             <Heading
@@ -137,7 +145,9 @@ const Watching = ({ data, location }) => {
           >
             <StaticImage
               style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '4px' }}
-              src={'https://static.wikia.nocookie.net/the-owl-house/images/b/b1/The-Owl-House-key-art.jpg/revision/latest?cb=20210517172042'}
+              src={
+                'https://static.wikia.nocookie.net/the-owl-house/images/b/b1/The-Owl-House-key-art.jpg/revision/latest?cb=20210517172042'
+              }
               alt={'Owl House Season 2'}
             />
             <Heading
@@ -158,7 +168,9 @@ const Watching = ({ data, location }) => {
           >
             <StaticImage
               style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '4px' }}
-              src={'https://nerdist.com/wp-content/uploads/2021/10/WOFT_S1_OneSheet_HeroesVillains_PRE_27x40_THA_FINAL_en-US.jpg'}
+              src={
+                'https://nerdist.com/wp-content/uploads/2021/10/WOFT_S1_OneSheet_HeroesVillains_PRE_27x40_THA_FINAL_en-US.jpg'
+              }
               alt={'Wheel of Time'}
             />
             <Heading

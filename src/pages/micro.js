@@ -102,7 +102,7 @@ export const pageQuery = graphql`
             date
             title
             tags
-            featured_image {
+            featuredImage {
               childImageSharp {
                 fluid {
                   ...GatsbyImageSharpFluid

@@ -6,7 +6,7 @@ category: blog
 slug: review_yamada_kun
 summary: Review of Yamada-kun to 7-nin no Majo
 hero: hero.jpg
-featured_image: hero.jpg
+featuredImage: hero.jpg
 ---
 
 ![Yamada-kun to 7-nin no Majo (TV)](pv.jpg "Yamada-kun to 7-nin no Majo (TV)")

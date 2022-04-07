@@ -6,7 +6,7 @@ summary: "Looking back at writing in 2020"
 category: blog
 slug: writing_reflection
 hero: hero.jpg
-featured_image: hero.jpg
+featuredImage: hero.jpg
 ---
 
 Somehow I've managed to go the majority of 2020 without writing anything. As far as 2020 itself is concerned, this isn't that surprising given the spectacular dumpster fire this year as turned out to be. However, I'd like to reflect and not use that as a complete excuse.

@@ -26,7 +26,7 @@ const NoteTemplate = ({ data, pageContext, location }) => {
       <SEO
         title={post.frontmatter.title}
         description={post.frontmatter.summary}
-        image={post.frontmatter.featured_image ? post.frontmatter.featured_image.childImageSharp.resize : null}
+        image={post.frontmatter.featuredImage ? post.frontmatter.featuredImage.childImageSharp.resize : null}
       />
       <Hero hero={colorMode === 'default' ? heroLight : heroDark} />
       <NavBar />

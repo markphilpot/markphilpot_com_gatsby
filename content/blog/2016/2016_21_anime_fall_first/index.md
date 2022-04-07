@@ -6,7 +6,7 @@ category: blog
 slug: anime_2016_fall_first
 summary: First Impressions of the Anime Fall 2016 Season
 hero: fall/hero.jpg
-featured_image: fall/hero.jpg
+featuredImage: fall/hero.jpg
 ---
 
 

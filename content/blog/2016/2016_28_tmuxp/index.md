@@ -6,7 +6,7 @@ category: blog
 slug: cli_tmuxp
 summary: Where have you been all my life?!
 hero: hero.jpg
-featured_image: hero.jpg
+featuredImage: hero.jpg
 ---
 
 Every once in a while you should take a step back and evaluate all the common things you do on a regular basis and investigate to see if you can make anything more efficient. For example, in the latest update, Apple removed the battery "Estimated Time Remaining" from the battery menu. Until it was removed, I didn't realize how much I used that to gauge how aggressive my current usage was while on battery. By removing it, it forced me to dive into the _Battery_ section of [iStat Menus](https://bjango.com/mac/istatmenus/) (an app I _highly_ recommend) which I had always hidden because I thought the default one provided by Apple was sufficient. Boy was I wrong. Not only is the iStat Menu's battery status icon much better, I also ended up swapping out the builtin time item with iStats and was able to get quick access to a UTC time as well.
