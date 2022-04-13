@@ -1,6 +1,6 @@
 ---
 title: 'Anime Spring 2022 First Impressions'
-date: '20:24:49.205 -07:00'
+date: '2022-04-13 10:25:00'
 tags: [anime, first impressions]
 category: anime
 slug: anime-2022-spring-first
