@@ -57,9 +57,9 @@ fs.mkdirSync(`${targetDir}/assets`);
 
 const info = {
   version: 2,
-  type: "net.daringfireball.markdown",
+  type: 'net.daringfireball.markdown',
   transient: false,
-}
+};
 
 fs.writeFileSync(`${targetDir}/info.json`, JSON.stringify(info));
 
@@ -76,14 +76,14 @@ const fetchData = async () => {
       variables: {
         year,
         season: season.toUpperCase(),
-        page
+        page,
       },
     });
 
     hasNextPage = data.Page.pageInfo.hasNextPage;
     shows = shows.concat(data.Page.media);
     page++;
-  } while(hasNextPage && page < pageLimit)
+  } while (hasNextPage && page < pageLimit);
 
   console.log(`${shows.length} shows found...`);
 

@@ -45,7 +45,7 @@ const BlogIndex = ({ data, location, pageContext }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title={'markphilpot.com'} />
-      <Hero hero={colorMode === 'default' ? heroLight : heroDark} />
+      <Hero hero={colorMode !== 'dark' ? heroLight : heroDark} showDoubleSpace={false} />
       <NavBar />
       <CenterColumn>
         {posts
