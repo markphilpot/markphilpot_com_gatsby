@@ -4,7 +4,20 @@ date: '2016-03-02 22:23:00'
 slug: projects
 summary: My Projects
 ---
+
+## Anime Utilities
+
+![weeklyanime.info](weeklyanime.jpg)
+
+[weeklyanime.info](https://weeklyanime.info) -- A simple site that shows the current seasonal anime airing during the week.  You can enter your Anilist username and the week will be your shows
+
+![naninani.info](nani.jpg)
+
+[naninani.info](https://naninani.info) -- An anime and manga search engine that lets you programmatically query it through the `?q=` search parameter.
+
 ## anilime
+
+![anilime](anilime.png)
 
 <a href="https://itunes.apple.com/us/app/anilime/id1358133029?mt=8" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/assets/shared/badges/en-us/appstore-lrg.svg) no-repeat;width:135px;height:40px;background-size:contain;border:0;"></a>
 
