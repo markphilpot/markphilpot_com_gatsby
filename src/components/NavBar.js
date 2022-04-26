@@ -1,6 +1,5 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEye } from '@fortawesome/free-solid-svg-icons';
+import { IoEyeOutline } from 'react-icons/io5';
 import { Flex } from 'theme-ui';
 import { CenterColumn } from './layout';
 import Link from './Link';
@@ -31,8 +30,8 @@ const NavBar = props => {
         <Link to={`${__PATH_PREFIX__}/about`} sx={{ variant: 'styles.navlink' }}>
           about
         </Link>
-        <Link to={`${__PATH_PREFIX__}/watching`} sx={{ variant: 'styles.navlink' }}>
-          <FontAwesomeIcon style={{ fontSize: '20px' }} icon={faEye} />
+        <Link to={`${__PATH_PREFIX__}/watching`} sx={{ variant: 'styles.navlink', paddingTop: 2 }}>
+          <IoEyeOutline/>
         </Link>
         <Link to={`${__PATH_PREFIX__}/notes`} sx={{ variant: 'styles.navlink' }}>
           notes

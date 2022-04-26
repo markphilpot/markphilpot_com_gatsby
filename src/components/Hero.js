@@ -1,7 +1,6 @@
 import React, { useState, useCallback, useEffect } from 'react';
 import { Box, IconButton, useColorMode } from 'theme-ui';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMoon, faSun, faTextHeight } from '@fortawesome/free-solid-svg-icons';
+import { IoSunnyOutline, IoMoonOutline, IoTextOutline } from 'react-icons/io5';
 
 function removeElement(element) {
   element && element.parentNode && element.parentNode.removeChild(element);
@@ -70,7 +69,7 @@ const Hero = props => {
           }}
           onClick={handleDoubleSpace}
         >
-          <FontAwesomeIcon icon={faTextHeight} color={useDoubleSpace ? '#ffffff' : '#000000'} />
+          <IoTextOutline/>
         </IconButton>
       )}
       <IconButton
@@ -93,7 +92,7 @@ const Hero = props => {
         }}
         onClick={handleThemeChange}
       >
-        <FontAwesomeIcon icon={colorMode === 'default' ? faMoon : faSun} />
+        {colorMode === 'default' ? <IoSunnyOutline/> : <IoMoonOutline/>}
       </IconButton>
     </Box>
   );
