@@ -1,15 +1,16 @@
 import React, { useState, useCallback, useEffect } from 'react';
 import { Box, IconButton, useColorMode } from 'theme-ui';
-import { IoSunnyOutline, IoMoonOutline, IoTextOutline } from 'react-icons/io5';
+import { IoSunnyOutline, IoMoonOutline, IoTextOutline, IoFilterCircleOutline, IoFilterCircle } from 'react-icons/io5';
 
 function removeElement(element) {
   element && element.parentNode && element.parentNode.removeChild(element);
 }
 
 const Hero = props => {
-  const { hero, showDoubleSpace = true } = props;
+  const { hero, showDoubleSpace = true, showFilterMicro = false } = props;
 
   const [useDoubleSpace, setUseDoubleSpace] = useState(false);
+  const [filterMicro, setFilterMicro] = useState(false);
   const [colorMode, setColorMode] = useColorMode();
 
   const handleThemeChange = useCallback(() => {
@@ -17,8 +18,12 @@ const Hero = props => {
   }, [colorMode, setColorMode]);
 
   const handleDoubleSpace = useCallback(() => {
-    setUseDoubleSpace(!useDoubleSpace);
+    setUseDoubleSpace(x => !x);
   }, [useDoubleSpace]);
+
+  const handleFilterMicro = useCallback(() => {
+    setFilterMicro(x => !x);
+  }, []);
 
   useEffect(() => {
     if (useDoubleSpace) {
@@ -33,6 +38,20 @@ const Hero = props => {
       };
     }
   }, [useDoubleSpace]);
+
+  useEffect(() => {
+    if (filterMicro) {
+      const style = document.createElement('style');
+      style.type = 'text/css';
+      const css = 'article[datatype="micro"] { display: none; }';
+      style.appendChild(document.createTextNode(css));
+      document.head.appendChild(style);
+
+      return () => {
+        removeElement(style);
+      };
+    }
+  }, [filterMicro]);
 
   if (hero == null) {
     return null;
@@ -70,6 +89,30 @@ const Hero = props => {
           onClick={handleDoubleSpace}
         >
           <IoTextOutline/>
+        </IconButton>
+      )}
+      {showFilterMicro && (
+        <IconButton
+          aria-label={'Filter micro posts'}
+          sx={{
+            position: 'absolute',
+            bottom: 6,
+            right: 64,
+            cursor: 'pointer',
+            '&:focus': {
+              outline: 'none',
+            },
+            '&:hover': {
+              opacity: 1,
+            },
+            fontSize: 3,
+            bg: 'accent',
+            opacity: 0.8,
+            transition: 'opacity 0.2s ease',
+          }}
+          onClick={handleFilterMicro}
+        >
+          {filterMicro ? <IoFilterCircle size={'1.8rem'}/> : <IoFilterCircleOutline size={'1.8rem'}/> }
         </IconButton>
       )}
       <IconButton

@@ -45,7 +45,7 @@ const BlogIndex = ({ data, location, pageContext }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title={'markphilpot.com'} />
-      <Hero hero={colorMode !== 'dark' ? heroLight : heroDark} showDoubleSpace={false} />
+      <Hero hero={colorMode !== 'dark' ? heroLight : heroDark} showDoubleSpace={false} showFilterMicro={true}/>
       <NavBar />
       <CenterColumn>
         {posts
@@ -95,7 +95,7 @@ const BlogIndex = ({ data, location, pageContext }) => {
               );
             } else {
               return (
-                <article style={{ position: 'relative' }} key={node.fields.slug}>
+                <article style={{ position: 'relative' }} key={node.fields.slug} datatype={'micro'}>
                   {year}
                   <Box
                     sx={{
