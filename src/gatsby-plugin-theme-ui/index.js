@@ -1,5 +1,8 @@
 export default {
-  // useColorSchemeMediaQuery: true,
+  config: {
+    initialColorModeName: 'light',
+    useColorSchemeMediaQuery: 'system'
+  },
   breakpoints: ['375px', '768px', '960px', '1920px'],
   fonts: {
     body:

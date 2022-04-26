@@ -13,7 +13,7 @@ const Hero = props => {
   const [colorMode, setColorMode] = useColorMode();
 
   const handleThemeChange = useCallback(() => {
-    setColorMode(colorMode === 'default' ? 'dark' : 'default');
+    setColorMode(colorMode === 'light' ? 'dark' : 'light');
   }, [colorMode, setColorMode]);
 
   const handleDoubleSpace = useCallback(() => {
@@ -92,7 +92,7 @@ const Hero = props => {
         }}
         onClick={handleThemeChange}
       >
-        {colorMode === 'default' ? <IoSunnyOutline/> : <IoMoonOutline/>}
+        {colorMode === 'light' ? <IoSunnyOutline/> : <IoMoonOutline/>}
       </IconButton>
     </Box>
   );
