@@ -13,6 +13,8 @@ summary: About Mark Philpot
 
 Let's take this in reverse chronological order:
 
+![Heyday](heyday.png)
+
 ![Journal](journal.png)
 
 ![Mattermark](mattermark.png)
