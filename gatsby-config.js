@@ -118,10 +118,29 @@ module.exports = {
                   }
                 }
               }
+              allMicroblog(
+                sort: { fields: [childMdx___frontmatter___date], order: DESC }
+                limit: 40
+              ) {
+                edges {
+                  node {
+                    uid
+                    fields {
+                      slug
+                    }
+                    childMdx {
+                      html
+                      frontmatter {
+                        date: published
+                      }
+                    }
+                  }
+                }
+              }
             }
             `,
-            normalize: ({ query: { site, allMdx } }) => {
-              return allMdx.edges.map(edge => {
+            normalize: ({ query: { site, allMdx, allMicroblog } }) => {
+              const mdx = allMdx.edges.map(edge => {
                 return {
                   title: edge.node.frontmatter.title,
                   date: edge.node.frontmatter.date,
@@ -129,41 +148,22 @@ module.exports = {
                   html: edge.node.html,
                 };
               });
+
+              const mb = allMicroblog.edges.map(edge => {
+                return {
+                  title: '',
+                  date: edge.node.childMdx.frontmatter.date,
+                  url: site.siteMetadata.siteUrl + edge.node.fields.slug,
+                  html: edge.node.childMdx.html,
+                }
+              })
+
+              return [
+                ...mdx,
+                ...mb,
+              ].sort((a, b) => b.date.localeCompare(a.date))
             },
           },
-          // {
-          //   name: 'micro',
-          //   query: `
-          //   {
-          //     allMdx(
-          //       filter: { fields: { sourceName: { eq: "micro" } } }
-          //       sort: { fields: [frontmatter___date], order: DESC }
-          //       limit: 20
-          //     ) {
-          //       edges {
-          //         node {
-          //           html
-          //           fields {
-          //             slug
-          //           }
-          //           frontmatter {
-          //             date
-          //           }
-          //         }
-          //       }
-          //     }
-          //   }
-          //   `,
-          //   normalize: ({ query: { site, allMdx } }) => {
-          //     return allMdx.edges.map(edge => {
-          //       return {
-          //         date: edge.node.frontmatter.date,
-          //         url: site.siteMetadata.siteUrl + edge.node.fields.slug,
-          //         html: edge.node.html,
-          //       };
-          //     });
-          //   },
-          // },
         ],
       },
     },
