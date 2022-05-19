@@ -7,7 +7,7 @@ import { Flex, Link, Heading, Text } from 'theme-ui';
 
 import { MDXRenderer } from 'gatsby-plugin-mdx';
 
-import { IoLogoGithub, IoLogoTwitter, IoLogoFlickr, IoLogoBandcamp} from 'react-icons/io5';
+import { IoLogoGithub, IoLogoTwitter, IoLogoFlickr } from 'react-icons/io5';
 import { SiBandcamp, SiAnilist } from 'react-icons/si';
 
 const InternetPresence = props => {
@@ -65,11 +65,15 @@ const AboutPage = ({ data, location }) => {
             my: 5,
           }}
         >
-          <InternetPresence link={'https://twitter.com/mark_philpot'} icon={<IoLogoTwitter/>} text={'Twitter'} />
-          <InternetPresence link={'https://github.com/markphilpot'} icon={<IoLogoGithub/>} text={'Github'} />
-          <InternetPresence link={'https://www.flickr.com/photos/markphilpot'} icon={<IoLogoFlickr/>} text={'Flickr'} />
-          <InternetPresence link={'https://anilist.co/user/mphilpot'} icon={<SiAnilist/>} text={'AniList'} />
-          <InternetPresence link={'https://markphilpot.bandcamp.com/'} icon={<SiBandcamp/>} text={'Bandcamp'} />
+          <InternetPresence link={'https://twitter.com/mark_philpot'} icon={<IoLogoTwitter />} text={'Twitter'} />
+          <InternetPresence link={'https://github.com/markphilpot'} icon={<IoLogoGithub />} text={'Github'} />
+          <InternetPresence
+            link={'https://www.flickr.com/photos/markphilpot'}
+            icon={<IoLogoFlickr />}
+            text={'Flickr'}
+          />
+          <InternetPresence link={'https://anilist.co/user/mphilpot'} icon={<SiAnilist />} text={'AniList'} />
+          <InternetPresence link={'https://markphilpot.bandcamp.com/'} icon={<SiBandcamp />} text={'Bandcamp'} />
         </Flex>
 
         <MDXRenderer>{about.body}</MDXRenderer>

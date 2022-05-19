@@ -31,7 +31,7 @@ const NavBar = props => {
           about
         </Link>
         <Link to={`${__PATH_PREFIX__}/watching`} sx={{ variant: 'styles.navlink', paddingTop: 2 }}>
-          <IoEyeOutline/>
+          <IoEyeOutline />
         </Link>
         <Link to={`${__PATH_PREFIX__}/notes`} sx={{ variant: 'styles.navlink' }}>
           notes

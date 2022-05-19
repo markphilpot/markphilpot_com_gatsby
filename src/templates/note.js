@@ -8,7 +8,7 @@ import { Text, useColorMode } from 'theme-ui';
 import Layout, { CenterColumn } from '../components/layout';
 import Hero from '../components/Hero';
 import NavBar from '../components/NavBar';
-import SEO from '../components/SEO';
+import Seo from '../components/SEO';
 
 const NoteTemplate = ({ data, pageContext, location }) => {
   const post = data.mdx;
@@ -23,7 +23,7 @@ const NoteTemplate = ({ data, pageContext, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO
+      <Seo
         title={post.frontmatter.title}
         description={post.frontmatter.summary}
         image={post.frontmatter.featuredImage ? post.frontmatter.featuredImage.childImageSharp.resize : null}

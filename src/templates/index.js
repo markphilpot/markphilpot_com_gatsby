@@ -9,7 +9,7 @@ import Hero from '../components/Hero';
 import NavBar from '../components/NavBar';
 import { Year } from '../components/typography';
 import Link from '../components/Link';
-import SEO from '../components/SEO';
+import Seo from '../components/SEO';
 import FeaturedImagePost from '../components/posts/FeaturedImagePost';
 import SimpleTitlePost from '../components/posts/SimpleTitlePost';
 
@@ -44,8 +44,8 @@ const BlogIndex = ({ data, location, pageContext }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title={'markphilpot.com'} />
-      <Hero hero={colorMode !== 'dark' ? heroLight : heroDark} showDoubleSpace={false} showFilterMicro={true}/>
+      <Seo title={'markphilpot.com'} />
+      <Hero hero={colorMode !== 'dark' ? heroLight : heroDark} showDoubleSpace={false} showFilterMicro={true} />
       <NavBar />
       <CenterColumn>
         {posts
@@ -83,13 +83,11 @@ const BlogIndex = ({ data, location, pageContext }) => {
                 <article style={{ position: 'relative' }} key={node.fields.slug}>
                   {year}
                   <Link sx={{ textDecoration: 'none' }} to={node.fields.slug}>
-                    {/*<a href={node.fields.slug}>*/}
                     {hasFeaturedImage ? (
                       <FeaturedImagePost title={title} node={node} isDraft={isDraft} />
                     ) : (
                       <SimpleTitlePost title={title} node={node} isDraft={isDraft} />
                     )}
-                    {/*</a>*/}
                   </Link>
                 </article>
               );
@@ -101,6 +99,7 @@ const BlogIndex = ({ data, location, pageContext }) => {
                     sx={{
                       position: 'relative',
                       pt: 10,
+                      pb: 6,
                       my: 64,
                       borderRadius: 8,
                     }}
@@ -121,10 +120,10 @@ const BlogIndex = ({ data, location, pageContext }) => {
                       sx={{
                         position: 'absolute',
                         variant: 'text.caps',
-                        fontSize: 0,
+                        fontSize: 1,
                         fontWeight: 'bold',
                         color: 'body',
-                        top: 2,
+                        top: 4,
                         right: 2,
                       }}
                     >

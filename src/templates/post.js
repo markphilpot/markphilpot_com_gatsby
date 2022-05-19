@@ -9,12 +9,12 @@ import Layout, { CenterColumn } from '../components/layout';
 import Hero from '../components/Hero';
 import NavBar from '../components/NavBar';
 import Link from '../components/Link';
-import SEO from '../components/SEO';
+import Seo from '../components/SEO';
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.mdx;
   const siteTitle = data.site.siteMetadata.title;
-  const { previous, next, slug } = pageContext;
+  const { previous, next } = pageContext;
 
   const date = post.frontmatter.date.includes(' ')
     ? DateTime.fromSQL(post.frontmatter.date)
@@ -22,7 +22,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO
+      <Seo
         title={post.frontmatter.title}
         description={post.frontmatter.summary}
         image={post.frontmatter.featuredImage ? post.frontmatter.featuredImage.childImageSharp.resize : null}

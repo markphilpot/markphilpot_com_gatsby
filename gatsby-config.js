@@ -155,13 +155,10 @@ module.exports = {
                   date: edge.node.childMdx.frontmatter.date,
                   url: site.siteMetadata.siteUrl + edge.node.fields.slug,
                   html: edge.node.childMdx.html,
-                }
-              })
+                };
+              });
 
-              return [
-                ...mdx,
-                ...mb,
-              ].sort((a, b) => b.date.localeCompare(a.date))
+              return [...mdx, ...mb].sort((a, b) => b.date.localeCompare(a.date));
             },
           },
         ],

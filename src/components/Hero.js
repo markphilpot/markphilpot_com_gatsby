@@ -19,7 +19,7 @@ const Hero = props => {
 
   const handleDoubleSpace = useCallback(() => {
     setUseDoubleSpace(x => !x);
-  }, [useDoubleSpace]);
+  }, []);
 
   const handleFilterMicro = useCallback(() => {
     setFilterMicro(x => !x);
@@ -88,7 +88,7 @@ const Hero = props => {
           }}
           onClick={handleDoubleSpace}
         >
-          <IoTextOutline/>
+          <IoTextOutline />
         </IconButton>
       )}
       {showFilterMicro && (
@@ -107,12 +107,12 @@ const Hero = props => {
             },
             fontSize: 3,
             bg: 'accent',
-            opacity: 0.8,
+            opacity: 0.6,
             transition: 'opacity 0.2s ease',
           }}
           onClick={handleFilterMicro}
         >
-          {filterMicro ? <IoFilterCircle size={'1.8rem'}/> : <IoFilterCircleOutline size={'1.8rem'}/> }
+          {filterMicro ? <IoFilterCircle size={'1.8rem'} /> : <IoFilterCircleOutline size={'1.8rem'} />}
         </IconButton>
       )}
       <IconButton
@@ -135,7 +135,7 @@ const Hero = props => {
         }}
         onClick={handleThemeChange}
       >
-        {colorMode === 'light' ? <IoSunnyOutline/> : <IoMoonOutline/>}
+        {colorMode === 'light' ? <IoSunnyOutline /> : <IoMoonOutline />}
       </IconButton>
     </Box>
   );

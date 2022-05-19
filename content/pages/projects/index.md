@@ -5,11 +5,19 @@ slug: projects
 summary: My Projects
 ---
 
-## Anime Utilities
+## Aviary (Twitter Favorite Gallery)
+
+![aviary.gallery](aviary.jpg)
+
+[aviary.gallery](https://aviary.gallery) -- If you frequently like twitter posts from artists posting their latest creations, this site displays all that art in a dedicated gallery without all the twitter chrome around it.
+
+## Weekly Anime
 
 ![weeklyanime.info](weeklyanime.jpg)
 
 [weeklyanime.info](https://weeklyanime.info) -- A simple site that shows the current seasonal anime airing during the week.  You can enter your Anilist username and the week will be your shows
+
+## 何 Nani
 
 ![naninani.info](nani.jpg)
 
@@ -19,7 +27,9 @@ summary: My Projects
 
 ![anilime](anilime.png)
 
+<div style="text-align: center;">
 <a href="https://itunes.apple.com/us/app/anilime/id1358133029?mt=8" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/assets/shared/badges/en-us/appstore-lrg.svg) no-repeat;width:135px;height:40px;background-size:contain;border:0;"></a>
+</div>
 
 Manage your AniList anime & manga on iOS
 

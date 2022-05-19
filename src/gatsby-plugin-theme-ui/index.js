@@ -1,7 +1,7 @@
-export default {
+const theme = {
   config: {
     initialColorModeName: 'light',
-    useColorSchemeMediaQuery: 'system'
+    useColorSchemeMediaQuery: 'system',
   },
   breakpoints: ['375px', '768px', '960px', '1920px'],
   fonts: {
@@ -168,5 +168,13 @@ export default {
       },
       transition: 'color 0.2s ease',
     },
+    blockquote: {
+      borderLeftWidth: 2,
+      borderColor: 'accent',
+      borderLeftStyle: 'solid',
+      paddingLeft: 6,
+    },
   },
 };
+
+export default theme;
