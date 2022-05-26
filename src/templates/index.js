@@ -53,7 +53,7 @@ const BlogIndex = ({ data, location, pageContext }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <Seo title={'markphilpot.com'} />
-      <Hero hero={hero} showDoubleSpace={false} showFilterMicro={true} />
+      <Hero key={hero ? hero.publicURL : 'empty'} hero={hero} showDoubleSpace={false} showFilterMicro={true} />
       <NavBar />
       <CenterColumn>
         {posts
