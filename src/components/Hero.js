@@ -71,7 +71,7 @@ const Hero = props => {
     >
       {!hero && (
         <StaticImage
-          style={{ width: '100%', height: '250px', objectFit: 'cover' }}
+          style={{ width: '100%', height: '250px', objectFit: 'cover', objectPosition: '65% center' }}
           src={'../images/sutro_vignette.jpg'}
           alt={'Sutro Tower'}
         />
