@@ -63,8 +63,10 @@ const Hero = props => {
         position: 'relative',
         height: '250px',
         backgroundPosition: 'center center',
-        backgroundImage: `url(${hero.publicURL})`,
         backgroundSize: 'cover',
+      }}
+      style={{
+        backgroundImage: `url(${hero.publicURL})`
       }}
     >
       {showDoubleSpace && (
