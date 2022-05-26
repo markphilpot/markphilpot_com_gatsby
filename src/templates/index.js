@@ -42,10 +42,18 @@ const BlogIndex = ({ data, location, pageContext }) => {
 
   const [colorMode] = useColorMode();
 
+  // https://github.com/system-ui/theme-ui/issues/1602
+  let hero = null;
+  if(colorMode === 'dark') {
+    hero = heroDark;
+  } else if(colorMode === 'light') {
+    hero = heroLight;
+  }
+
   return (
     <Layout location={location} title={siteTitle}>
       <Seo title={'markphilpot.com'} />
-      <Hero hero={colorMode !== 'dark' ? heroLight : heroDark} showDoubleSpace={false} showFilterMicro={true} />
+      <Hero hero={hero} showDoubleSpace={false} showFilterMicro={true} />
       <NavBar />
       <CenterColumn>
         {posts
