@@ -1,6 +1,7 @@
 import React, { useState, useCallback, useEffect } from 'react';
 import { Box, IconButton, useColorMode } from 'theme-ui';
 import { IoSunnyOutline, IoMoonOutline, IoTextOutline, IoFilterCircleOutline, IoFilterCircle } from 'react-icons/io5';
+import { StaticImage } from 'gatsby-plugin-image';
 
 function removeElement(element) {
   element && element.parentNode && element.parentNode.removeChild(element);
@@ -53,22 +54,28 @@ const Hero = props => {
     }
   }, [filterMicro]);
 
-  if (hero == null) {
-    return null;
-  }
-
   return (
     <Box
       css={{
         position: 'relative',
         height: '250px',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
         backgroundPosition: 'center center',
         backgroundSize: 'cover',
       }}
       style={{
-        backgroundImage: `url(${hero.publicURL})`
+        backgroundImage: hero ? `url(${hero.publicURL})` : 'undefined',
       }}
     >
+      {!hero && (
+        <StaticImage
+          style={{ width: '100%', height: '250px', objectFit: 'cover' }}
+          src={'../images/sutro_vignette.jpg'}
+          alt={'Sutro Tower'}
+        />
+      )}
       {showDoubleSpace && (
         <IconButton
           aria-label={'Toggle Double Spaced'}

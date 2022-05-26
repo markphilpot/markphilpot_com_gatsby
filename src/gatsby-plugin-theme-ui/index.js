@@ -34,7 +34,7 @@ const theme = {
     modes: {
       dark: {
         text: '#BEBEBE',
-        background: '#1A1A1A',
+        background: '#100c11',
         accent: '#5f7782',
         muted: 'rgba(255, 255, 255, 0.6)',
         microBg: 'rgba(46,52,64,0.4)',

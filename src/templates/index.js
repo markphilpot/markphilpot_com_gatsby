@@ -38,22 +38,10 @@ const BlogIndex = ({ data, location, pageContext }) => {
     return aDate > bDate ? -1 : aDate < bDate ? 1 : 0;
   });
 
-  const { heroLight, heroDark } = data;
-
-  const [colorMode] = useColorMode();
-
-  // https://github.com/system-ui/theme-ui/issues/1602
-  let hero = null;
-  if(colorMode === 'dark') {
-    hero = heroDark;
-  } else if(colorMode === 'light') {
-    hero = heroLight;
-  }
-
   return (
     <Layout location={location} title={siteTitle}>
       <Seo title={'markphilpot.com'} />
-      <Hero key={hero ? hero.publicURL : 'empty'} hero={hero} showDoubleSpace={false} showFilterMicro={true} />
+      <Hero hero={null} showDoubleSpace={false} showFilterMicro={true} />
       <NavBar />
       <CenterColumn>
         {posts
@@ -158,12 +146,6 @@ export const pageQuery = graphql`
       siteMetadata {
         title
       }
-    }
-    heroLight: file(absolutePath: { regex: "/gg_bridge_light.jpg/" }) {
-      publicURL
-    }
-    heroDark: file(absolutePath: { regex: "/gg_bridge_dark.jpg/" }) {
-      publicURL
     }
     microPosts: allMicroblog {
       edges {
