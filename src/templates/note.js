@@ -3,7 +3,7 @@ import { graphql } from 'gatsby';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
 import { DateTime } from 'luxon';
 
-import { Text, useColorMode } from 'theme-ui';
+import { Text } from 'theme-ui';
 
 import Layout, { CenterColumn } from '../components/layout';
 import Hero from '../components/Hero';
@@ -13,9 +13,6 @@ import Seo from '../components/SEO';
 const NoteTemplate = ({ data, pageContext, location }) => {
   const post = data.mdx;
   const siteTitle = data.site.siteMetadata.title;
-  const { heroLight, heroDark } = data;
-
-  const [colorMode] = useColorMode();
 
   const date = post.frontmatter.modified.includes(' ')
     ? DateTime.fromSQL(post.frontmatter.modified)
@@ -28,7 +25,7 @@ const NoteTemplate = ({ data, pageContext, location }) => {
         description={post.frontmatter.summary}
         image={post.frontmatter.featuredImage ? post.frontmatter.featuredImage.childImageSharp.resize : null}
       />
-      <Hero hero={colorMode === 'default' ? heroLight : heroDark} />
+      <Hero/>
       <NavBar />
       <CenterColumn>
         <article>
@@ -54,12 +51,6 @@ export const pageQuery = graphql`
       siteMetadata {
         title
       }
-    }
-    heroLight: file(absolutePath: { regex: "/gg_bridge_light.jpg/" }) {
-      publicURL
-    }
-    heroDark: file(absolutePath: { regex: "/gg_bridge_dark.jpg/" }) {
-      publicURL
     }
     mdx(fields: { slug: { eq: $slug } }) {
       id

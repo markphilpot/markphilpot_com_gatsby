@@ -1,6 +1,6 @@
 import React from 'react';
 import { graphql } from 'gatsby';
-import { useColorMode, Box, Text } from 'theme-ui';
+import { Box, Text } from 'theme-ui';
 import { DateTime } from 'luxon';
 
 import Layout, { CenterColumn } from '../components/layout';
@@ -12,13 +12,10 @@ import { Year } from '../components/typography';
 const MicroIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title;
   const posts = data.allMdx.edges;
-  const { heroLight, heroDark } = data;
-
-  const [colorMode] = useColorMode();
 
   return (
     <Layout location={location} title={siteTitle}>
-      <Hero hero={colorMode === 'default' ? heroLight : heroDark} />
+      <Hero/>
       <NavBar />
       <CenterColumn>
         {posts.map(({ node }, index, p) => {
@@ -84,12 +81,6 @@ export const pageQuery = graphql`
       siteMetadata {
         title
       }
-    }
-    heroLight: file(absolutePath: { regex: "/gg_bridge_light.jpg/" }) {
-      publicURL
-    }
-    heroDark: file(absolutePath: { regex: "/gg_bridge_dark.jpg/" }) {
-      publicURL
     }
     allMdx(filter: { fields: { sourceName: { eq: "micro" } } }, sort: { fields: [frontmatter___date], order: DESC }) {
       edges {

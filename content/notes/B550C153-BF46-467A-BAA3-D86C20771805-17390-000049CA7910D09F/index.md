@@ -1,14 +1,14 @@
 ---
 category: notes
 title: Yuri Manga/Manhwa/Manhua Recommendations
-tags: [digitalGarden]
+tags: [digitalGarden, recommendations]
 date: 2021-09-08 09:16:44
-modified: 2021-11-15 18:22:37
+modified: 2022-02-15 07:54:26
 slug: B550C153-BF46-467A-BAA3-D86C20771805-17390-000049CA7910D09F
 ---
 
 # Yuri Manga/Manhwa/Manhua Recommendations
-#digitalGarden
+#digitalGarden #recommendations
 
 https://twitter.com/bloomintoleyla/status/1434889017166688256
 
