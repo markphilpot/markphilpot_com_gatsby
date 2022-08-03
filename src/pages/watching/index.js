@@ -160,29 +160,6 @@ const Watching = ({ data, location }) => {
               Owl House Season 2
             </Heading>
           </Box>
-          <Box
-            sx={{
-              height: '300px',
-              position: 'relative',
-            }}
-          >
-            <StaticImage
-              style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '4px' }}
-              src={
-                'https://nerdist.com/wp-content/uploads/2021/10/WOFT_S1_OneSheet_HeroesVillains_PRE_27x40_THA_FINAL_en-US.jpg'
-              }
-              alt={'Wheel of Time'}
-            />
-            <Heading
-              as={'h5'}
-              sx={{
-                marginTop: 4,
-                minHeight: 40,
-              }}
-            >
-              Wheel of Time
-            </Heading>
-          </Box>
         </Grid>
 
         <Box
