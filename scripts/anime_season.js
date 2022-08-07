@@ -12,6 +12,21 @@ import download from 'download';
 
 const ANILIST_API = 'https://graphql.anilist.co';
 
+const listQuery = gql`
+  query listQuery($page: Int) {
+    Page(page: $page, perPage: 50) {
+      mediaList(userName: "mphilpot", status_in: [PLANNING, CURRENT]) {
+        media {
+          id
+        }
+      }
+      pageInfo {
+        hasNextPage
+      }
+    }
+  }
+`;
+
 const seasonQuery = gql`
   query seasonQuery($year: Int, $season: MediaSeason, $page: Int) {
     Page(page: $page, perPage: 50) {
@@ -63,7 +78,29 @@ const info = {
 
 fs.writeFileSync(`${targetDir}/info.json`, JSON.stringify(info));
 
-const fetchData = async () => {
+const fetchPlanningIds = async () => {
+  let page = 1;
+  let ids = [];
+  let hasNextPage;
+
+  do {
+    const { data } = await client.query({
+      query: listQuery,
+      variables: {
+        page,
+      },
+    });
+    hasNextPage = data.Page.pageInfo.hasNextPage;
+    ids = ids.concat(data.Page.mediaList.map(m => m.media.id));
+    page++;
+  } while (hasNextPage)
+
+  console.log(`Found ${ids.length} shows in PLANNING/CURRENT`);
+
+  return new Set(ids);
+};
+
+const fetchData = async (filteredIds) => {
   const pageLimit = 1;
   let page = 1;
   let shows = [];
@@ -87,6 +124,10 @@ const fetchData = async () => {
 
   console.log(`${shows.length} shows found...`);
 
+  shows = shows.filter(show => filteredIds.has(show.id));
+
+  console.log(`${shows.length} shows found in PLANNING/CURRENT...`);
+
   for (const show of shows) {
     await download(show.coverImage.large, `${targetDir}/assets`);
   }
@@ -109,8 +150,9 @@ const fetchData = async () => {
 };
 
 const build = async () => {
+  const planningIds = await fetchPlanningIds();
   const view = {
-    shows: await fetchData(),
+    shows: await fetchData(planningIds),
     timestamp: DateTime.local().toSQLTime(),
     season,
     __season: _.capitalize(season),

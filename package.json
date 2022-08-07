@@ -77,8 +77,7 @@
     "clean": "gatsby clean",
     "bear": "node ./scripts/bear_export.js",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "anime_season": "YEAR=2022 SEASON=spring node -r esm scripts/anime_season.js",
-    "jas": "YEAR=2021 SEASON=spring node -r esm scripts/journal_anime_season.js",
+    "anime_season": "YEAR=2022 SEASON=summer node -r esm scripts/anime_season.js",
     "preinstall": "cd plugins/gatsby-remark-images-custom && yarn install",
     "newMicro": "node ./scripts/new_post.js micro",
     "newPost": "node ./scripts/new_post.js"

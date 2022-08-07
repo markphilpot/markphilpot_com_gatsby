@@ -7,7 +7,6 @@ slug: anime-{{ year }}-{{ season }}-first
 summary: First Impressions of the Anime {{ __season}} {{ year }} Season
 hero:
 featuredImage:
-status: draft
 ---
 
 {{#each shows}}
