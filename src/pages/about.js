@@ -3,30 +3,23 @@ import { graphql } from 'gatsby';
 import Layout, { CenterColumn } from '../components/layout';
 import Hero from '../components/Hero';
 import NavBar from '../components/NavBar';
-import { Flex, Link, Heading, Text } from 'theme-ui';
 
 import { MDXRenderer } from 'gatsby-plugin-mdx';
 
 import { IoLogoGithub, IoLogoTwitter, IoLogoFlickr } from 'react-icons/io5';
 import { SiBandcamp, SiAnilist } from 'react-icons/si';
+import MarkdownProse from '../components/MarkdownProse';
 
-const InternetPresence = props => {
+const InternetPresence = (props) => {
   const { link, text, icon } = props;
 
   return (
-    <Link href={link}>
-      <Flex
-        sx={{
-          alignItems: 'center',
-          justifyContent: 'center',
-          flexDirection: 'column',
-          fontSize: 7,
-        }}
-      >
+    <a href={link}>
+      <div className="flex flex-col items-center justify-center text-4xl text-slate-500 hover:text-indigo-700 hover:dark:text-indigo-200">
         {icon}
-        <Text sx={{ fontSize: 3 }}>{text}</Text>
-      </Flex>
-    </Link>
+        <div className="text-lg">{text}</div>
+      </div>
+    </a>
   );
 };
 
@@ -40,31 +33,10 @@ const AboutPage = ({ data, location }) => {
       <Hero hero={hero} />
       <NavBar />
       <CenterColumn>
-        <Heading
-          as="h1"
-          sx={{
-            textAlign: 'center',
-            fontSize: 5,
-            pb: 6,
-          }}
-        >
-          about
-        </Heading>
+        <h1 className="pb-6 text-center text-4xl">about</h1>
 
-        <Text
-          sx={{
-            variant: 'styles.p',
-            textAlign: 'center',
-          }}
-        >
-          Some places you can find me on the Internet
-        </Text>
-        <Flex
-          sx={{
-            justifyContent: 'space-around',
-            my: 5,
-          }}
-        >
+        <p className="font-center text-lg">Some places you can find me on the Internet</p>
+        <div className="my-5 flex justify-around">
           <InternetPresence link={'https://twitter.com/mark_philpot'} icon={<IoLogoTwitter />} text={'Twitter'} />
           <InternetPresence link={'https://github.com/markphilpot'} icon={<IoLogoGithub />} text={'Github'} />
           <InternetPresence
@@ -74,9 +46,9 @@ const AboutPage = ({ data, location }) => {
           />
           <InternetPresence link={'https://anilist.co/user/mphilpot'} icon={<SiAnilist />} text={'AniList'} />
           <InternetPresence link={'https://markphilpot.bandcamp.com/'} icon={<SiBandcamp />} text={'Bandcamp'} />
-        </Flex>
+        </div>
 
-        <MDXRenderer>{about.body}</MDXRenderer>
+        <MarkdownProse markdown={about.body} />
       </CenterColumn>
     </Layout>
   );

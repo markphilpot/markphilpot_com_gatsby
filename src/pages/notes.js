@@ -1,6 +1,5 @@
 import React from 'react';
 import { graphql } from 'gatsby';
-import { Box, Flex, Text, Heading } from 'theme-ui';
 import { DateTime } from 'luxon';
 
 import Layout, { CenterColumn } from '../components/layout';
@@ -14,7 +13,7 @@ const NotesIndex = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <Hero/>
+      <Hero />
       <NavBar />
       <CenterColumn>
         {posts.map(({ node }, index, p) => {
@@ -24,16 +23,14 @@ const NotesIndex = ({ data, location }) => {
 
           return (
             <article style={{ position: 'relative' }} key={node.fields.slug}>
-              <Box>
+              <div>
                 <Link to={node.fields.slug}>
-                  <Flex sx={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', my: 6 }}>
-                    <Heading sx={{ fontSize: 4 }}>{node.frontmatter.title}</Heading>
-                    <Text sx={{ fontSize: 0, fontWeight: 'bold', color: 'accent' }} variant={'caps'}>
-                      {date.toFormat('MMMM d, yyyy')}
-                    </Text>
-                  </Flex>
+                  <div className="my-6 flex flex-row items-center justify-between">
+                    <h1 className="text-lg">{node.frontmatter.title}</h1>
+                    <div className="text-xs font-bold uppercase">{date.toFormat('MMMM d, yyyy')}</div>
+                  </div>
                 </Link>
-              </Box>
+              </div>
             </article>
           );
         })}

@@ -5,6 +5,7 @@ import Hero from '../../../components/Hero';
 import NavBar from '../../../components/NavBar';
 
 import { MDXRenderer } from 'gatsby-plugin-mdx';
+import MarkdownProse from '../../../components/MarkdownProse';
 
 const AboutPage = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title;
@@ -16,7 +17,7 @@ const AboutPage = ({ data, location }) => {
       <Hero hero={hero} />
       <NavBar />
       <CenterColumn>
-        <MDXRenderer>{og.body}</MDXRenderer>
+        <MarkdownProse markdown={og.body} />
       </CenterColumn>
     </Layout>
   );

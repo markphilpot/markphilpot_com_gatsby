@@ -5,8 +5,7 @@ const theme = {
   },
   breakpoints: ['375px', '768px', '960px', '1920px'],
   fonts: {
-    body:
-      '"Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;',
+    body: '"Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;',
     heading: '"Inter"',
     monospace: '"Source Code Pro", Monaco, Menlo, Consolas, "Courier New", monospace',
   },

@@ -28,7 +28,7 @@ slug: ${isMicro ? now.toFormat('yyyyLLdd-HHmmss') : title}
 hero: 
 featuredImage: 
 ---`,
-  function(err) {
+  function (err) {
     if (err) {
       return console.log(err);
     }

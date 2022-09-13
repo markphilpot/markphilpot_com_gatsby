@@ -1,9 +1,8 @@
 import { DateTime } from 'luxon';
-import { Flex, Text } from 'theme-ui';
 import { pathOr } from 'ramda';
 import React from 'react';
 
-const SimpleTitlePost = props => {
+const SimpleTitlePost = (props) => {
   const { title, node, isDraft } = props;
 
   const date = node.frontmatter.date.includes(' ')
@@ -11,51 +10,18 @@ const SimpleTitlePost = props => {
     : DateTime.fromISO(node.frontmatter.date);
 
   return (
-    <Flex
-      sx={{
-        mb: 10,
-        justifyContent: 'space-between',
-        alignItems: 'center',
-      }}
-    >
-      <Text
-        sx={{
-          fontSize: 4,
-        }}
-      >
+    <div className={'mb-4 flex content-between items-center'}>
+      <div className={'text-sm'}>
         {isDraft ? 'DRAFT :: ' : ''}
         {title}
-      </Text>
-      <Flex
-        sx={{
-          flexDirection: 'column',
-          alignItems: 'flex-end',
-          display: ['none', 'none', 'block', 'block'],
-        }}
-      >
-        <Text
-          sx={{
-            variant: 'text.caps',
-            fontSize: 0,
-            fontWeight: 'bold',
-            color: 'muted',
-            textAlign: 'right',
-          }}
-        >
-          {date.toFormat('LLLL d, yyyy')}
-        </Text>
-        <Text
-          sx={{
-            fontSize: 0,
-            color: 'muted',
-            display: ['none', 'none', 'none', 'block'],
-            textAlign: 'right',
-          }}
-        >
+      </div>
+      <div className={'flex-column hidden items-end lg:block lg:flex'}>
+        <div className={'text-right text-xs font-bold uppercase'}>{date.toFormat('LLLL d, yyyy')}</div>
+        <div className={'hidden text-right text-xs lg:block'}>
           {pathOr([], ['frontmatter', 'tags'], node).join(', ')}
-        </Text>
-      </Flex>
-    </Flex>
+        </div>
+      </div>
+    </div>
   );
 };
 

@@ -1,62 +1,27 @@
+import classNames from 'classnames';
 import React from 'react';
 
-import { Box, Heading, Text } from 'theme-ui';
-
-export const Caption = props => {
+export const Caption = (props) => {
   return (
-    <Text
-      sx={{
-        textAlign: 'center',
-        fontStyle: 'italic',
-        color: 'muted',
-        fontSize: 2,
-        pt: 2,
-        ...props.sx,
-      }}
-    >
+    <div className={classNames('pt-2 text-center text-sm italic', { [props.className]: props.className })}>
       {props.children}
-    </Text>
+    </div>
   );
 };
 
-export const CaptionedImage = props => {
+export const CaptionedImage = (props) => {
   return (
     <>
       {props.children}
-      <Caption
-        sx={{
-          mb: 6,
-        }}
-      >
-        {props.caption}
-      </Caption>
+      <Caption className={'mb-6'}>{props.caption}</Caption>
     </>
   );
 };
 
-export const Year = props => {
+export const Year = (props) => {
   return (
-    <Box
-      sx={{
-        bg: 'background',
-        boxShadow: theme => `0px 0px 22px 22px ${theme.colors.background}`,
-        borderRadius: '16px',
-        position: ['static', 'static', 'static', 'absolute'],
-        width: '150px',
-        left: [0, 0, 0, '-190px'],
-        textAlign: ['left', 'left', 'left', 'right'],
-        mb: [10, 10, 10, 0],
-        color: 'dateHighlight',
-      }}
-    >
-      <Heading
-        as={'h2'}
-        sx={{
-          fontSize: 6,
-        }}
-      >
-        {props.children}
-      </Heading>
-    </Box>
+    <div className={classNames('rounded text-4xl', 'lg:absolute lg:top-0 lg:-left-[140px]')}>
+      <h2>{props.children}</h2>
+    </div>
   );
 };

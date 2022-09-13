@@ -1,6 +1,5 @@
 import React from 'react';
 import { graphql } from 'gatsby';
-import { Box, Text, Heading, Grid, Link, Progress } from 'theme-ui';
 import { GatsbyImage, StaticImage } from 'gatsby-plugin-image';
 import Hero from '../../components/Hero';
 import NavBar from '../../components/NavBar';
@@ -16,35 +15,36 @@ const Show = props => {
 
   return (
     <Link href={media.siteUrl} target="_blank">
-      <Box
-        sx={{
-          height: '300px',
-          position: 'relative',
-        }}
+      <div
+        className='h-[300px] relative'
+        // sx={{
+        //   height: '300px',
+        //   position: 'relative',
+        // }}
       >
         <GatsbyImage
           style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '4px' }}
           alt={media.title.userPreferred}
           image={media.coverImage.largeFile.childImageSharp.gatsbyImageData}
         />
-        {episodes && progress ? (
+        {/* {episodes && progress ? (
           <Progress
             sx={{ width: '100%', height: '6px', position: 'absolute', bottom: 0, left: 0, color: '#9932CC' }}
             value={progress}
             max={episodes}
           />
-        ) : null}
-      </Box>
+        ) : null} */}
+      </div>
 
-      <Heading
-        as={'h5'}
-        sx={{
-          marginTop: 4,
-          minHeight: 40,
-        }}
+      <h5
+        className='mt-4 min-h-[40px]'
+        // sx={{
+        //   marginTop: 4,
+        //   minHeight: 40,
+        // }}
       >
         {media.title.userPreferred}
-      </Heading>
+      </h5>
     </Link>
   );
 };
@@ -79,22 +79,22 @@ const Watching = ({ data, location }) => {
       <CenterColumn>
         {airing.length > 0 && (
           <>
-            <Box
-              sx={{
-                textAlign: 'center',
-                marginBottom: 4,
-              }}
+            <div
+              // sx={{
+              //   textAlign: 'center',
+              //   marginBottom: 4,
+              // }}
             >
               <Heading>Seasonal Anime - {seasonText}</Heading>
-              <Text
-                sx={{
-                  fontStyle: 'italic',
-                  fontSize: 1,
-                }}
+              <p
+                // sx={{
+                //   fontStyle: 'italic',
+                //   fontSize: 1,
+                // }}
               >
                 Updated {DateTime.local().toFormat('LLLL d, yyyy')}
-              </Text>
-            </Box>
+              </p>
+            </div>
 
             <Grid gap={6} columns={['1fr', '1fr 1fr', '1fr 1fr', '1fr 1fr 1fr']}>
               {airing.map(show => (

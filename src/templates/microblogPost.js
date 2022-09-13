@@ -3,11 +3,10 @@ import { graphql } from 'gatsby';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
 import { DateTime } from 'luxon';
 
-import { Text } from 'theme-ui';
-
 import Layout, { CenterColumn } from '../components/layout';
 import NavBar from '../components/NavBar';
 import Seo from '../components/SEO';
+import MarkdownProse from '../components/MarkdownProse';
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.microblog;
@@ -28,13 +27,9 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
       <CenterColumn>
         <article>
           <header>
-            <Text sx={{ fontSize: 0, fontWeight: 'bold', color: 'accent' }} variant={'caps'}>
-              {date.toFormat('MMMM d, yyyy')}
-            </Text>
+            <div>{date.toFormat('MMMM d, yyyy')}</div>
           </header>
-          <section>
-            <MDXRenderer>{post.childMdx.body}</MDXRenderer>
-          </section>
+          <MarkdownProse markdown={post.childMdx.body} />
           <hr />
         </article>
       </CenterColumn>

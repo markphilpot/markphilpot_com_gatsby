@@ -91,9 +91,9 @@ const fetchPlanningIds = async () => {
       },
     });
     hasNextPage = data.Page.pageInfo.hasNextPage;
-    ids = ids.concat(data.Page.mediaList.map(m => m.media.id));
+    ids = ids.concat(data.Page.mediaList.map((m) => m.media.id));
     page++;
-  } while (hasNextPage)
+  } while (hasNextPage);
 
   console.log(`Found ${ids.length} shows in PLANNING/CURRENT`);
 
@@ -124,7 +124,7 @@ const fetchData = async (filteredIds) => {
 
   console.log(`${shows.length} shows found...`);
 
-  shows = shows.filter(show => filteredIds.has(show.id));
+  shows = shows.filter((show) => filteredIds.has(show.id));
 
   console.log(`${shows.length} shows found in PLANNING/CURRENT...`);
 
@@ -132,7 +132,7 @@ const fetchData = async (filteredIds) => {
     await download(show.coverImage.large, `${targetDir}/assets`);
   }
 
-  return shows.map(show => {
+  return shows.map((show) => {
     const coverUrl = show.coverImage.large;
     const coverFile = coverUrl.split('/').slice(-1)[0];
 
@@ -141,7 +141,7 @@ const fetchData = async (filteredIds) => {
     return {
       ...show,
       __studios: _.get(show, 'studios.nodes', [])
-        .map(s => s.name)
+        .map((s) => s.name)
         .join(', '),
       __description: description != null ? description.replace('\r\n', '<br/>').replace('\n', '<br/>') : '',
       coverFile,

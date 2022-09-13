@@ -45,7 +45,7 @@ ${content}
   });
 
   // loop through data and create Gatsby nodes
-  mdxPosts.forEach(post =>
+  mdxPosts.forEach((post) =>
     createNode({
       ...post,
       id: createNodeId(`${MICROBLOG_NODE_TYPE}-${post.uid}`),

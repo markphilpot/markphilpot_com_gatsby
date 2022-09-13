@@ -3,25 +3,12 @@ import { graphql } from 'gatsby';
 import Layout, { CenterColumn } from '../../components/layout';
 import Hero from '../../components/Hero';
 import NavBar from '../../components/NavBar';
-import { Flex, Heading, Text } from 'theme-ui';
 import { GatsbyImage } from 'gatsby-plugin-image';
 
 import Link from '../../components/Link';
 
-const Cell = props => {
-  return (
-    <Flex
-      sx={{
-        minWidth: '50%',
-        alignItems: 'center',
-        justifyContent: 'center',
-        flexDirection: 'column',
-        padding: 2,
-      }}
-    >
-      {props.children}
-    </Flex>
-  );
+const Cell = (props) => {
+  return <div className="flex min-w-[50%] flex-col items-center justify-center p-2">{props.children}</div>;
 };
 
 const SpacesPage = ({ data, location }) => {
@@ -34,41 +21,22 @@ const SpacesPage = ({ data, location }) => {
       <Hero hero={hero} />
       <NavBar />
       <CenterColumn>
-        <Heading
-          as="h1"
-          sx={{
-            textAlign: 'center',
-            fontSize: 5,
-            pb: 6,
-          }}
-        >
-          spaces
-        </Heading>
+        <h1 className="pb-6 text-center text-lg">spaces</h1>
 
-        <Flex
-          sx={{
-            flexWrap: 'wrap',
-          }}
-        >
+        <div className="flex flex-wrap">
           <Cell>
-            <Link to={`${__PATH_PREFIX__}/spaces/software`} sx={{ width: '100%' }}>
-              <Flex
-                sx={{
-                  flexDirection: 'column',
-                  justifyContent: 'center',
-                  alignItems: 'center',
-                }}
-              >
+            <Link to={`${__PATH_PREFIX__}/spaces/software`}>
+              <div className="flex flex-col items-center justify-center">
                 <GatsbyImage
                   style={{ borderRadius: 4, height: '100%', width: '100%', objectFit: 'cover' }}
                   image={software.childImageSharp.gatsbyImageData}
                 />
-                <Text>software matrix</Text>
-              </Flex>
+                <p>software matrix</p>
+              </div>
             </Link>
           </Cell>
           <Cell></Cell>
-        </Flex>
+        </div>
       </CenterColumn>
     </Layout>
   );

@@ -37,7 +37,7 @@ const targetDirectory = path.join(HOME, 'projects/markphilpot_com_gatsby/content
 
 const db = new sqlite3.Database(bearDb, sqlite3.OPEN_READONLY);
 
-const cleanTitle = title => {
+const cleanTitle = (title) => {
   let workingTitle = title.substr(0, 256).trim();
   if (!workingTitle) {
     workingTitle = 'untitled';
@@ -50,16 +50,16 @@ const cleanTitle = title => {
 const tagPattern1 = new RegExp(/(?<!\S)\#([.\w\/\-<>]+)[ \n]?(?!([\/ \w]+\w[#]))/g);
 const tagPattern2 = new RegExp(/(?<![\S])\#([^ \d][.\w\/ ]+?)\#([ \n]|$)/g);
 
-const extractTags = mdText => {
+const extractTags = (mdText) => {
   return [
-    ...Array.from(mdText.matchAll(tagPattern1), m => m[1]),
-    ...Array.from(mdText.matchAll(tagPattern2), m => m[1]),
+    ...Array.from(mdText.matchAll(tagPattern1), (m) => m[1]),
+    ...Array.from(mdText.matchAll(tagPattern2), (m) => m[1]),
   ];
 };
 
-const processImageLinks = mdText => {
-  const sourceImages = Array.from(mdText.matchAll(/\[image:(.+?)\]/g), m => m[1]);
-  const targetImages = sourceImages.map(i => i.replace(/ /g, '_'));
+const processImageLinks = (mdText) => {
+  const sourceImages = Array.from(mdText.matchAll(/\[image:(.+?)\]/g), (m) => m[1]);
+  const targetImages = sourceImages.map((i) => i.replace(/ /g, '_'));
 
   const md = mdText.replace(/\[image:(.+?)\]/g, (match, p1) => `![Bear Image](${p1.replace(/ /g, '_')})`);
   return {
@@ -69,7 +69,7 @@ const processImageLinks = mdText => {
   };
 };
 
-const dtConv = num => {
+const dtConv = (num) => {
   const hour = 3600; // seconds
   const year = 365.25 * 24 * hour;
   const offset = year * 31 + hour * 6;
@@ -96,9 +96,9 @@ const exportNotes = () => {
       'SELECT * FROM ZSFNOTETAG tag, Z_7TAGS tags where tags.Z_7NOTES = ? and tag.Z_PK = tags.Z_14TAGS',
       [id],
       (err2, tagRows) => {
-        const tags = tagRows.map(r => r['ZTITLE']);
+        const tags = tagRows.map((r) => r['ZTITLE']);
 
-        const includeRow = onlyExportTheseTags.filter(x => tags.includes(x)).length > 0;
+        const includeRow = onlyExportTheseTags.filter((x) => tags.includes(x)).length > 0;
 
         if (includeRow) {
           const { md, sourceImages, targetImages } = processImageLinks(mdText);

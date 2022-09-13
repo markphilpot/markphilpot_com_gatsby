@@ -1,6 +1,5 @@
 import React from 'react';
 import { graphql } from 'gatsby';
-import { Box, Text } from 'theme-ui';
 import { DateTime } from 'luxon';
 
 import Layout, { CenterColumn } from '../components/layout';
@@ -8,6 +7,7 @@ import Hero from '../components/Hero';
 import NavBar from '../components/NavBar';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
 import { Year } from '../components/typography';
+import MarkdownProse from '../components/MarkdownProse';
 
 const MicroIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title;
@@ -15,7 +15,7 @@ const MicroIndex = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <Hero/>
+      <Hero />
       <NavBar />
       <CenterColumn>
         {posts.map(({ node }, index, p) => {
@@ -40,31 +40,12 @@ const MicroIndex = ({ data, location }) => {
           return (
             <article style={{ position: 'relative' }} key={node.fields.slug}>
               {year}
-              <Box
-                sx={{
-                  position: 'relative',
-                  backgroundColor: 'microBg',
-                  boxShadow: theme => `0px 0px 8px 12px ${theme.colors.microBg}`,
-                  pb: 10,
-                  mb: 64,
-                  borderRadius: 8,
-                }}
-              >
-                <MDXRenderer>{node.body}</MDXRenderer>
-                <Text
-                  sx={{
-                    position: 'absolute',
-                    variant: 'text.caps',
-                    fontSize: 0,
-                    fontWeight: 'bold',
-                    color: 'body',
-                    bottom: 2,
-                    right: 2,
-                  }}
-                >
+              <div className="relative mb-16 rounded pb-12">
+                <MarkdownProse markdown={node.body} />
+                <div className="absolute bottom-1 right-1 text-xs font-bold uppercase">
                   {currentDate.toFormat('LLLL d, yyyy')}
-                </Text>
-              </Box>
+                </div>
+              </div>
             </article>
           );
         })}

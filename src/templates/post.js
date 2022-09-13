@@ -3,13 +3,12 @@ import { graphql } from 'gatsby';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
 import { DateTime } from 'luxon';
 
-import { Box, Flex, Text, Heading } from 'theme-ui';
-
 import Layout, { CenterColumn } from '../components/layout';
 import Hero from '../components/Hero';
 import NavBar from '../components/NavBar';
 import Link from '../components/Link';
 import Seo from '../components/SEO';
+import MarkdownProse from '../components/MarkdownProse';
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.mdx;
@@ -30,49 +29,31 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
       <Hero hero={post.frontmatter.hero} />
       <NavBar />
       <CenterColumn>
-        <article>
+        <article className="prose prose-xl max-w-none dark:prose-invert">
           <header>
-            <Text sx={{ fontSize: 0, fontWeight: 'bold', color: 'accent' }} variant={'caps'}>
-              {date.toFormat('MMMM d, yyyy')}
-            </Text>
-            <Heading
-              as="h1"
-              sx={{
-                mb: 10,
-                mt: 6,
-                fontSize: 6,
-              }}
-              css={{ textAlign: 'center' }}
-            >
-              {post.frontmatter.title}
-            </Heading>
+            <div className="text-xs font-bold uppercase">{date.toFormat('MMMM d, yyyy')}</div>
+            <h1 className="mb-6 mt-4 text-center text-4xl">{post.frontmatter.title}</h1>
           </header>
-          <section>
-            <MDXRenderer>{post.body}</MDXRenderer>
-          </section>
+          <MarkdownProse markdown={post.body} />
           <hr />
         </article>
         <nav>
-          <Flex
-            sx={{
-              justifyContent: 'space-between',
-            }}
-          >
+          <div className="flex justify-between">
             {previous != null ? (
-              <Link sx={{ variant: 'styles.navlink', fontSize: 3 }} to={previous.fields.slug} rel="prev">
+              <Link to={previous.fields.slug} rel="prev">
                 {previous.frontmatter.title || 'Previous Thought...'}
               </Link>
             ) : (
-              <Box />
+              <div />
             )}
             {next != null ? (
-              <Link sx={{ variant: 'styles.navlink', fontSize: 3 }} to={next.fields.slug} rel="next">
+              <Link to={next.fields.slug} rel="next">
                 {next.frontmatter.title || 'Next Thought...'}
               </Link>
             ) : (
-              <Box />
+              <div />
             )}
-          </Flex>
+          </div>
         </nav>
       </CenterColumn>
     </Layout>

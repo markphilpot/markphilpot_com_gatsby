@@ -1,8 +1,6 @@
 import React from 'react';
 import { graphql } from 'gatsby';
-import { useColorMode, Box, Text } from 'theme-ui';
 import { DateTime } from 'luxon';
-import { MDXRenderer } from 'gatsby-plugin-mdx';
 
 import Layout, { CenterColumn } from '../components/layout';
 import Hero from '../components/Hero';
@@ -12,14 +10,16 @@ import Link from '../components/Link';
 import Seo from '../components/SEO';
 import FeaturedImagePost from '../components/posts/FeaturedImagePost';
 import SimpleTitlePost from '../components/posts/SimpleTitlePost';
+import MarkdownProse from '../components/MarkdownProse';
+import classNames from 'classnames';
 
 const BlogIndex = ({ data, location, pageContext }) => {
   const siteTitle = data.site.siteMetadata.title;
   const mdxPosts = data.posts.edges;
 
   const microPosts = data.microPosts.edges
-    .filter(edge => edge.node.uid !== 1532342) // Filter out the initial "experiment" post
-    .map(edge => {
+    .filter((edge) => edge.node.uid !== 1532342) // Filter out the initial "experiment" post
+    .map((edge) => {
       return {
         node: {
           ...edge.node,
@@ -76,60 +76,38 @@ const BlogIndex = ({ data, location, pageContext }) => {
 
             if (title) {
               return (
-                <article style={{ position: 'relative' }} key={node.fields.slug}>
+                <div className={'relative'} key={node.fields.slug}>
                   {year}
-                  <Link sx={{ textDecoration: 'none' }} to={node.fields.slug}>
-                    {hasFeaturedImage ? (
-                      <FeaturedImagePost title={title} node={node} isDraft={isDraft} />
-                    ) : (
-                      <SimpleTitlePost title={title} node={node} isDraft={isDraft} />
-                    )}
-                  </Link>
-                </article>
+                  <article className={'relative'}>
+                    <Link to={node.fields.slug}>
+                      {hasFeaturedImage ? (
+                        <FeaturedImagePost title={title} node={node} isDraft={isDraft} />
+                      ) : (
+                        <SimpleTitlePost title={title} node={node} isDraft={isDraft} />
+                      )}
+                    </Link>
+                  </article>
+                </div>
               );
             } else {
               return (
-                <article style={{ position: 'relative' }} key={node.fields.slug} datatype={'micro'}>
+                <div className="relative" key={node.fields.slug}>
                   {year}
-                  <Box
-                    sx={{
-                      position: 'relative',
-                      pt: 10,
-                      pb: 6,
-                      my: 64,
-                      borderRadius: 8,
-                    }}
-                  >
-                    <Box
-                      sx={{
-                        position: 'absolute',
-                        backgroundColor: 'microBg',
-                        boxShadow: theme => `0px 0px 8px 12px ${theme.colors.microBg}`,
-                        top: 0,
-                        left: ['0%', '0%', '0%', '-10%'],
-                        width: ['100%', '100%', '100%', '120%'],
-                        height: '100%',
-                        zIndex: -10,
-                      }}
+                  <div className={'relative'} datatype={'micro'}>
+                    <div
+                      className={classNames(
+                        'absolute top-0 left-0 -left-8 h-full w-full w-[100vw] bg-slate-200',
+                        'lg:-left-[2rem] lg:w-[calc(100%+4rem)] lg:rounded-3xl'
+                      )}
                     />
-                    <Text
-                      sx={{
-                        position: 'absolute',
-                        variant: 'text.caps',
-                        fontSize: 1,
-                        fontWeight: 'bold',
-                        color: 'body',
-                        top: 4,
-                        right: 2,
-                      }}
-                    >
-                      <Link sx={{ textDecoration: 'none' }} to={node.fields.slug}>
-                        {currentDate.toFormat('LLLL d, yyyy')}
-                      </Link>
-                    </Text>
-                    <MDXRenderer>{node.body}</MDXRenderer>
-                  </Box>
-                </article>
+                    <div className="relative my-16 py-8">
+                      <div className="mb-4 w-full text-right text-sm font-bold uppercase">
+                        <Link to={node.fields.slug}>{currentDate.toFormat('LLLL d, yyyy')}</Link>
+                      </div>
+                      <MarkdownProse markdown={node.body} />
+                    </div>
+                  </div>
+                </div>
               );
             }
           })}

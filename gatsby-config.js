@@ -13,6 +13,7 @@ module.exports = {
     },
   },
   plugins: [
+    'gatsby-plugin-postcss',
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
@@ -76,7 +77,7 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
-    `gatsby-plugin-theme-ui`,
+    // `gatsby-plugin-theme-ui`,
     {
       resolve: `gatsby-plugin-feed-generator`,
       options: {
@@ -140,7 +141,7 @@ module.exports = {
             }
             `,
             normalize: ({ query: { site, allMdx, allMicroblog } }) => {
-              const mdx = allMdx.edges.map(edge => {
+              const mdx = allMdx.edges.map((edge) => {
                 return {
                   title: edge.node.frontmatter.title,
                   date: edge.node.frontmatter.date,
@@ -149,7 +150,7 @@ module.exports = {
                 };
               });
 
-              const mb = allMicroblog.edges.map(edge => {
+              const mb = allMicroblog.edges.map((edge) => {
                 return {
                   title: '',
                   date: edge.node.childMdx.frontmatter.date,

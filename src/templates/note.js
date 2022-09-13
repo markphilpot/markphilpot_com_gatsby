@@ -3,12 +3,11 @@ import { graphql } from 'gatsby';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
 import { DateTime } from 'luxon';
 
-import { Text } from 'theme-ui';
-
 import Layout, { CenterColumn } from '../components/layout';
 import Hero from '../components/Hero';
 import NavBar from '../components/NavBar';
 import Seo from '../components/SEO';
+import MarkdownProse from '../components/MarkdownProse';
 
 const NoteTemplate = ({ data, pageContext, location }) => {
   const post = data.mdx;
@@ -25,18 +24,14 @@ const NoteTemplate = ({ data, pageContext, location }) => {
         description={post.frontmatter.summary}
         image={post.frontmatter.featuredImage ? post.frontmatter.featuredImage.childImageSharp.resize : null}
       />
-      <Hero/>
+      <Hero />
       <NavBar />
       <CenterColumn>
         <article>
           <header>
-            <Text sx={{ fontSize: 0, fontWeight: 'bold', color: 'accent' }} variant={'caps'}>
-              Updated {date.toFormat('MMMM d, yyyy')}
-            </Text>
+            <div>Updated {date.toFormat('MMMM d, yyyy')}</div>
           </header>
-          <section>
-            <MDXRenderer>{post.body}</MDXRenderer>
-          </section>
+          <MarkdownProse markdown={post.body} />
         </article>
       </CenterColumn>
     </Layout>
