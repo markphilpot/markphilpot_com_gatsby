@@ -97,7 +97,7 @@ const BlogIndex = ({ data, location, pageContext }) => {
                     <div
                       className={classNames(
                         'absolute top-0 left-0 -left-8 h-full w-full w-[100vw] bg-slate-200',
-                        'lg:-left-[2rem] lg:w-[calc(100%+4rem)] lg:rounded-3xl'
+                        'lg:-left-[2rem] lg:w-[calc(100%+4rem)] lg:rounded-3xl lg:drop-shadow-lg'
                       )}
                     />
                     <div className="relative my-16 py-8">

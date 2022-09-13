@@ -10,16 +10,14 @@ const SimpleTitlePost = (props) => {
     : DateTime.fromISO(node.frontmatter.date);
 
   return (
-    <div className={'mb-4 flex content-between items-center'}>
-      <div className={'text-sm'}>
+    <div className={'mb-8 flex items-center justify-between'}>
+      <div className={'text-xl'}>
         {isDraft ? 'DRAFT :: ' : ''}
         {title}
       </div>
-      <div className={'flex-column hidden items-end lg:block lg:flex'}>
+      <div className={'hidden lg:flex lg:flex-col lg:items-end'}>
         <div className={'text-right text-xs font-bold uppercase'}>{date.toFormat('LLLL d, yyyy')}</div>
-        <div className={'hidden text-right text-xs lg:block'}>
-          {pathOr([], ['frontmatter', 'tags'], node).join(', ')}
-        </div>
+        <div className={'text-right text-xs'}>{pathOr([], ['frontmatter', 'tags'], node).join(', ')}</div>
       </div>
     </div>
   );
