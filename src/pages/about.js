@@ -7,7 +7,7 @@ import NavBar from '../components/NavBar';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
 
 import { IoLogoGithub, IoLogoTwitter, IoLogoFlickr } from 'react-icons/io5';
-import { SiBandcamp, SiAnilist } from 'react-icons/si';
+import { SiBandcamp, SiAnilist, SiMastodon } from 'react-icons/si';
 import MarkdownProse from '../components/MarkdownProse';
 
 const InternetPresence = (props) => {
@@ -38,6 +38,7 @@ const AboutPage = ({ data, location }) => {
         <p className="font-center text-lg">Some places you can find me on the Internet</p>
         <div className="my-5 flex justify-around">
           <InternetPresence link={'https://twitter.com/mark_philpot'} icon={<IoLogoTwitter />} text={'Twitter'} />
+          <InternetPresence link={'https://mastodon.social/@markphilpot'} icon={<SiMastodon />} text={'Mastodon'} />
           <InternetPresence link={'https://github.com/markphilpot'} icon={<IoLogoGithub />} text={'Github'} />
           <InternetPresence
             link={'https://www.flickr.com/photos/markphilpot'}
