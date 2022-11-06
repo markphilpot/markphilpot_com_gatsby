@@ -2,3 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 @tailwindcss/typography;
+
+/* TODO move this into tailwind.config.js */
+.prose-xl ul > li {
+  margin: 0 !important;
+}
