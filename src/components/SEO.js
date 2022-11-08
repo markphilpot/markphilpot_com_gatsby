@@ -23,22 +23,18 @@ function SEO({ description, lang, meta, image: metaImage, title, pathname }) {
   const image = metaImage && metaImage.src ? `${site.siteMetadata.siteUrl}${metaImage.src}` : null;
   const canonical = pathname ? `${site.siteMetadata.siteUrl}${pathname}` : null;
 
+  const link = [
+    ...(canonical ? [{ rel: 'canonical', href: canonical }] : []),
+    { rel: 'me', href: 'https://mastodon.social/@markphilpot' },
+  ];
+
   return (
     <Helmet
       htmlAttributes={{
         lang,
       }}
       title={title}
-      link={
-        canonical
-          ? [
-              {
-                rel: 'canonical',
-                href: canonical,
-              },
-            ]
-          : []
-      }
+      link={link}
       meta={[
         {
           name: `description`,
