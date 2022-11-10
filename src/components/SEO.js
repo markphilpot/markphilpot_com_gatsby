@@ -26,6 +26,7 @@ function SEO({ description, lang, meta, image: metaImage, title, pathname }) {
   const link = [
     ...(canonical ? [{ rel: 'canonical', href: canonical }] : []),
     { rel: 'me', href: 'https://mastodon.social/@markphilpot' },
+    { rel: 'me', href: 'https://philpot.org/@mark' },
   ];
 
   return (
