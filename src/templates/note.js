@@ -28,7 +28,7 @@ const NoteTemplate = ({ data, pageContext, location }) => {
       <NavBar />
       <CenterColumn>
         <article>
-          <header>
+          <header className='mb-6'>
             <div>Updated {date.toFormat('MMMM d, yyyy')}</div>
           </header>
           <MarkdownProse markdown={post.body} />

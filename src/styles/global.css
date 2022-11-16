@@ -4,6 +4,8 @@
 @tailwindcss/typography;
 
 /* TODO move this into tailwind.config.js */
-.prose-xl ul > li {
+.prose-xl :where(li):not(:where([class~="not-prose"] *)), 
+.prose-xl :where(.prose > ul > li > :last-child):not(:where([class~="not-prose"] *)),
+.prose-xl :where(.prose > ul > li > *:first-child):not(:where([class~="not-prose"] *)) {
   margin: 0 !important;
 }

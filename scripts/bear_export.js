@@ -33,7 +33,8 @@ const bearImagePath = path.join(
   'Library/Group Containers/9K33E3U3T4.net.shinyfrog.bear/Application Data/Local Files/Note Images'
 );
 
-const targetDirectory = path.join(HOME, 'projects/markphilpot_com_gatsby/content/notes');
+// TODO this should be computed from the working dir
+const targetDirectory = path.join(HOME, 'projects/github.com/markphilpot/markphilpot_com_gatsby/content/notes');
 
 const db = new sqlite3.Database(bearDb, sqlite3.OPEN_READONLY);
 
@@ -101,6 +102,7 @@ const exportNotes = () => {
         const includeRow = onlyExportTheseTags.filter((x) => tags.includes(x)).length > 0;
 
         if (includeRow) {
+          console.log('Found row', title, uuid);
           const { md, sourceImages, targetImages } = processImageLinks(mdText);
 
           sourceImages.forEach((sourceImage, index) => {
