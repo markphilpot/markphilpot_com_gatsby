@@ -160,13 +160,13 @@ module.exports = {
         name: `assets`,
       },
     },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/content/micro`,
-        name: `micro`,
-      },
-    },
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     path: `${__dirname}/content/micro`,
+    //     name: `micro`,
+    //   },
+    // },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
