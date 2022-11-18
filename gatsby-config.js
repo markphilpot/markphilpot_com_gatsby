@@ -119,25 +119,6 @@ module.exports = {
                   }
                 }
               }
-              allMicroblog(
-                sort: { fields: [childMdx___frontmatter___date], order: DESC }
-                limit: 40
-              ) {
-                edges {
-                  node {
-                    uid
-                    fields {
-                      slug
-                    }
-                    childMdx {
-                      html
-                      frontmatter {
-                        date: published
-                      }
-                    }
-                  }
-                }
-              }
             }
             `,
             normalize: ({ query: { site, allMdx, allMicroblog } }) => {
@@ -150,16 +131,16 @@ module.exports = {
                 };
               });
 
-              const mb = allMicroblog.edges.map((edge) => {
-                return {
-                  title: '',
-                  date: edge.node.childMdx.frontmatter.date,
-                  url: site.siteMetadata.siteUrl + edge.node.fields.slug,
-                  html: edge.node.childMdx.html,
-                };
-              });
+              // const mb = allMicroblog.edges.map((edge) => {
+              //   return {
+              //     title: '',
+              //     date: edge.node.childMdx.frontmatter.date,
+              //     url: site.siteMetadata.siteUrl + edge.node.fields.slug,
+              //     html: edge.node.childMdx.html,
+              //   };
+              // });
 
-              return [...mdx, ...mb].sort((a, b) => b.date.localeCompare(a.date));
+              return [...mdx].sort((a, b) => b.date.localeCompare(a.date));
             },
           },
         ],

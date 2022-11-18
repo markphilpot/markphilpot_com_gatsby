@@ -18,16 +18,17 @@ const BlogIndex = ({ data, location, pageContext }) => {
   const siteTitle = data.site.siteMetadata.title;
   const mdxPosts = data.posts.edges;
 
-  const microPosts = data.microPosts.edges
-    .filter((edge) => edge.node.uid !== 1532342) // Filter out the initial "experiment" post
-    .map((edge) => {
-      return {
-        node: {
-          ...edge.node,
-          ...edge.node.childMdx,
-        },
-      };
-    });
+  // const microPosts = data.microPosts.edges
+  //   .filter((edge) => edge.node.uid !== 1532342) // Filter out the initial "experiment" post
+  //   .map((edge) => {
+  //     return {
+  //       node: {
+  //         ...edge.node,
+  //         ...edge.node.childMdx,
+  //       },
+  //     };
+  //   });
+  const microPosts = [];
 
   const posts = [...microPosts, ...mdxPosts].sort((a, b) => {
     const aDate = a.node.frontmatter.date.includes(' ')
@@ -125,22 +126,6 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
-      }
-    }
-    microPosts: allMicroblog {
-      edges {
-        node {
-          uid
-          fields {
-            slug
-          }
-          childMdx {
-            body
-            frontmatter {
-              date: published
-            }
-          }
-        }
       }
     }
     posts: allMdx(

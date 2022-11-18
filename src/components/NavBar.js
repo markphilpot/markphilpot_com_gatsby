@@ -8,6 +8,7 @@ const NavBar = (props) => {
     <CenterColumn>
       <div className="mb-4 flex max-h-16 justify-around overflow-hidden border-b py-3 text-xl">
         <Link to={`${__PATH_PREFIX__}/`}>posts</Link>
+        <Link href={`https://micro.markphilpot.com`}>µposts</Link>
         <Link to={`${__PATH_PREFIX__}/about`}>about</Link>
         {/* <Link to={`${__PATH_PREFIX__}/watching`}>
           <IoEyeOutline />

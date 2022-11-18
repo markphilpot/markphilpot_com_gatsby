@@ -8,58 +8,58 @@ const microBlogToken = process.env.MICROBLOG_TOKEN;
 const MICROBLOG_NODE_TYPE = 'microblog';
 
 // https://www.christopherbiscardi.com/post/creating-mdx-nodes-from-raw-strings-and-nodes
-exports.sourceNodes = async ({ actions, createContentDigest, createNodeId, getNodesByType }) => {
-  const { createNode } = actions;
+// exports.sourceNodes = async ({ actions, createContentDigest, createNodeId, getNodesByType }) => {
+//   const { createNode } = actions;
 
-  if (!microBlogToken) return;
+//   if (!microBlogToken) return;
 
-  const response = await axios.get('https://micro.blog/micropub', {
-    params: {
-      q: 'source',
-    },
-    headers: {
-      authorization: `Bearer ${microBlogToken}`,
-    },
-  });
+//   const response = await axios.get('https://micro.blog/micropub', {
+//     params: {
+//       q: 'source',
+//     },
+//     headers: {
+//       authorization: `Bearer ${microBlogToken}`,
+//     },
+//   });
 
-  const mdxPosts = response.data.items.map(({ type, properties }) => {
-    const { uid, name, content, published, url, category } = properties;
+//   const mdxPosts = response.data.items.map(({ type, properties }) => {
+//     const { uid, name, content, published, url, category } = properties;
 
-    return {
-      uid: uid[0],
-      name: name[0],
-      content: content[0],
-      published: published[0],
-      url: url[0],
-      category,
-      mdx: `---
-uid: ${uid[0]}
-published: ${published[0]}
-name: ${name[0]}
-url: ${url[0]}
-category: ${category}
----
-${content}
-`,
-    };
-  });
+//     return {
+//       uid: uid[0],
+//       name: name[0],
+//       content: content[0],
+//       published: published[0],
+//       url: url[0],
+//       category,
+//       mdx: `---
+// uid: ${uid[0]}
+// published: ${published[0]}
+// name: ${name[0]}
+// url: ${url[0]}
+// category: ${category}
+// ---
+// ${content}
+// `,
+//     };
+//   });
 
-  // loop through data and create Gatsby nodes
-  mdxPosts.forEach((post) =>
-    createNode({
-      ...post,
-      id: createNodeId(`${MICROBLOG_NODE_TYPE}-${post.uid}`),
-      parent: null,
-      children: [],
-      internal: {
-        type: MICROBLOG_NODE_TYPE,
-        mediaType: 'text/markdown',
-        content: post.mdx,
-        contentDigest: createContentDigest(post),
-      },
-    })
-  );
-};
+//   // loop through data and create Gatsby nodes
+//   mdxPosts.forEach((post) =>
+//     createNode({
+//       ...post,
+//       id: createNodeId(`${MICROBLOG_NODE_TYPE}-${post.uid}`),
+//       parent: null,
+//       children: [],
+//       internal: {
+//         type: MICROBLOG_NODE_TYPE,
+//         mediaType: 'text/markdown',
+//         content: post.mdx,
+//         contentDigest: createContentDigest(post),
+//       },
+//     })
+//   );
+// };
 
 const indexPage = async (createPage, graphql) => {
   const blogIndex = path.resolve('./src/templates/index.js');
@@ -251,7 +251,7 @@ exports.createPages = async ({ graphql, actions }) => {
   await indexPage(createPage, graphql);
   await blogPages(createPage, graphql);
   await notePages(createPage, graphql);
-  await microblogPages(createPage, graphql);
+  // await microblogPages(createPage, graphql);
 };
 
 exports.onCreateNode = ({ node, actions, getNode }) => {

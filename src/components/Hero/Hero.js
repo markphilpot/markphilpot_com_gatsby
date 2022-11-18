@@ -64,7 +64,7 @@ const Hero = (props) => {
           alt={'Sutro Tower'}
         />
       )}
-      {showDoubleSpace && (
+      {/* {showDoubleSpace && (
         <IconButton
           aria-label={'Toggle Double Spaced'}
           className={'absolute bottom-2 right-16'}
@@ -72,8 +72,8 @@ const Hero = (props) => {
         >
           <IoTextOutline size={'1.8rem'} />
         </IconButton>
-      )}
-      {showFilterMicro && (
+      )} */}
+      {/* {showFilterMicro && (
         <IconButton
           aria-label={'Filter micro posts'}
           className={'absolute bottom-2 right-16'}
@@ -81,7 +81,7 @@ const Hero = (props) => {
         >
           {filterMicro ? <IoFilterCircle size={'1.8rem'} /> : <IoFilterCircleOutline size={'1.8rem'} />}
         </IconButton>
-      )}
+      )} */}
     </div>
   );
 };
