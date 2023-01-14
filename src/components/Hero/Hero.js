@@ -59,9 +59,9 @@ const Hero = (props) => {
       {!hero && (
         <StaticImage
           style={{ width: '100%', height: '250px' }}
-          imgStyle={{ objectFit: 'cover', objectPosition: '65% center' }}
-          src={'../../images/sutro_vignette.jpg'}
-          alt={'Sutro Tower'}
+          imgStyle={{ objectFit: 'cover' }}
+          src={'../../images/deck_sunrise.jpg'}
+          alt={'Bay Area Sunrise'}
         />
       )}
       {/* {showDoubleSpace && (
