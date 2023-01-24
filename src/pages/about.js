@@ -37,7 +37,6 @@ const AboutPage = ({ data, location }) => {
 
         <p className="font-center text-lg">Some places you can find me on the Internet</p>
         <div className="my-5 flex justify-around">
-          <InternetPresence link={'https://twitter.com/mark_philpot'} icon={<IoLogoTwitter />} text={'Twitter'} />
           <InternetPresence link={'https://philpot.org/@mark'} icon={<SiMastodon />} text={'Mastodon'} />
           <InternetPresence link={'https://github.com/markphilpot'} icon={<IoLogoGithub />} text={'Github'} />
           <InternetPresence

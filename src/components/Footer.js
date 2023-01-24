@@ -7,7 +7,7 @@ const Footer = (props) => {
       <CenterColumn>
         <div className="my-10 text-center">
           <div className="text-sm font-bold uppercase">
-            By <a href={'https://twitter.com/mark_philpot'}>@mark_philpot</a>
+            By <a href={'https://philpot.org/@mark'}>@mark@philpot.org</a>
           </div>
           <div className="text-sm">&copy; 2003-{new Date().getFullYear()}</div>
         </div>
