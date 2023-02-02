@@ -1,6 +1,6 @@
 ---
 title: 'Anime Winter 2023 First Impressions'
-date: '19:36:54.664 -08:00'
+date: '2023-01-18 00:00:00'
 tags: [anime, first impressions]
 category: anime
 slug: anime-2023-winter-first
