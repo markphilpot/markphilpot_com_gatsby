@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>defaultPathExtensions</key>
-	<string>md</string>
+	<string>textbundle</string>
 	<key>enforceFencedCodeBlocks</key>
 	<true/>
 	<key>sheetFormat</key>
