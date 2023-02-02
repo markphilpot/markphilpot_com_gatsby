@@ -28,10 +28,12 @@ Ulysses supports external files, so I can clone the repository in Working Copy a
 
 Once I create the initial post, I start a new branch, push up a commit and create a new pull request in Github. This causes Neflify to create a new preview site where I can see what the post will ultimately look like.
 
-It’s not exactly a “quick” turnaround — my blog takes about 2 minutes to generate.  However, it’s absolutely doable and I didn’t have to leave my iPad to do it.
+It’s not exactly a “quick” turnaround — my blog takes about 2 minutes to generate.  However, it’s absolutely doable and I didn’t have to leave my iPad to do it. A few more editing rounds and I can merge the PR into the main branch and the post will appear on this site a few minutes later.
 
 ## what could be better
 
 A basic command line environment (that isn’t done via emulation like [iSH.app](https://ish.app)) and package system would be the ultimate proverbial “multiple birds, one stone.”
+
+Having to push a commit to see the built output adds quite a bit of overhead. A full development environment (with node support) would go a long way. Github Codespaces is an option when I have to do “under the hood” maintenance on the site.  However, both scenarios require an internet connection to fully iterate — it would be nice to have a local option.
 
 I miss my TextExpander shortcuts. Definitely one of those things you don’t notice how much you actually rely on it until it’s not available.
